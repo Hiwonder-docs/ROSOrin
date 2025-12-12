@@ -135,7 +135,7 @@ Follow the **Preparation** section below to complete the setup for this feature,
 >
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [7.2 AP Mode Connection Steps](1.ROSOrin使用手册.md#AP-Mode-Connection-Steps) in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [7.2 AP Mode Connection Steps](1_ROSOrin_User_Manual.html#development-environment-setup) in the user manual.
 2. Click the terminal icon <img src="../_static/media/chapter_13\section_1/media/image18.png" class="common_img"  /> in the system desktop to open a command-line window.
 3. Enter the command to disable the app auto-start service.
 
@@ -508,9 +508,9 @@ Follow the **Preparation** section below to complete the setup for this feature,
 > 
 > * **Ensure that no objects with similar or identical colors to the target block appear in the background, as this may cause interference during recognition.**
 > 
-> * **If the color detection is inaccurate, the color thresholds can be adjusted. For more details, refer to the tutorials in file [6. ROS+OpenCV Course](6_ROS+OpenCV课程.md#ROS+OpenCV-Course).**
+> * **If the color detection is inaccurate, the color thresholds can be adjusted. For more details, refer to the tutorials in file [6. ROS+OpenCV Course](6_ROS%2BOpenCV_Course.html#ros-opencv-course).**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [7.2 AP Mode Connection Steps](1.ROSOrin使用手册.md#AP-Mode-Connection-Steps) in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [7.2 AP Mode Connection Steps](1_ROSOrin_User_Manual.html#development-environment-setup) in the user manual.
 
 2. The system uses the English wake word **Hello Hiwonder** by default. Refer to Section [8.2 Switching Wake Words](#anther8.2) in this document for instructions on changing the language or flashing the command phrases.
 
@@ -829,7 +829,7 @@ Follow the **Preparation** section below to complete the setup for this feature,
 
 3. The system uses the English wake word **Hello Hiwonder** by default. If using a WonderEcho Pro as a voice module, the voice interaction command phrases must be flashed. Refer to Section [8.2 Switching Wake Words](#anther8.2) for instructions on changing the language or flashing the command phrases.
 
-4. Before starting this feature, a map must be prepared in advance. Refer to the file [5. Mapping \& Navigation Course](5_建图导航教程.md#Mapping-\& Navigation-Course) for guidance.
+4. Before starting this feature, a map must be prepared in advance. Refer to the file [5. Mapping \& Navigation Course](5_Mapping_%26_Navigation_Course.html#mapping-navigation-course) for guidance.
 
 5. It is recommended to place the robot on an open platform, ensuring at least a 3-meter radius around the robot is free for safe movement.
 
@@ -841,7 +841,7 @@ Follow the **Preparation** section below to complete the setup for this feature,
 >
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [7.2 AP Mode Connection Steps](1.ROSOrin使用手册.md#AP-Mode-Connection-Steps) in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [7.2 AP Mode Connection Steps](1_ROSOrin_User_Manual.html#development-environment-setup) in the user manual.
 2. Click the terminal icon <img src="../_static/media/chapter_13\section_1/media/image18.png" class="common_img"  /> in the system desktop to open a command-line window.
 3. Enter the command to disable the app auto-start service.
 

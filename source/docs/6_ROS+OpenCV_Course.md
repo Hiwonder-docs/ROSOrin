@@ -13,7 +13,7 @@ The input command should be case sensitive, and the keywords can be complemented
 
 1. Please strictly follow the steps below to open the LAB TOOL. Otherwise, the tool cannot be opened.
 
-2. Power on the robot and connect it to the remote control software NoMachine. For instructions on setting up the remote desktop connection, refer to the section [7.2 AP Mode Connection Steps](1.ROSOrin使用手册.md#AP-Mode-Connection-Steps) in the user manual.
+2. Power on the robot and connect it to the remote control software NoMachine. For instructions on setting up the remote desktop connection, refer to the section [7.2 AP Mode Connection Steps](1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 3. Click the terminal icon <img src="../_static/media/chapter_7\section_1/media/image2.png"  class="common_img" /> in the system desktop to open a command-line window.
 
@@ -172,7 +172,7 @@ Finally, the recognition results are overlaid on the return image.
 >
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [7.2 AP Mode Connection Steps](1.ROSOrin使用手册.md#AP-Mode-Connection-Steps) in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [7.2 AP Mode Connection Steps](1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_7\section_1/media/image30.png"  class="common_img" /> in the system desktop to open a command-line window.
 
@@ -439,7 +439,7 @@ Finally, generate a QR code image based on the data, display it in a window, and
 >
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [7.2 AP Mode Connection Steps](1.ROSOrin使用手册.md#AP-Mode-Connection-Steps) in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [7.2 AP Mode Connection Steps](1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_7\section_1/media/image30.png"  class="common_img" /> in the system desktop to open a command-line window.
 
@@ -609,7 +609,7 @@ Finally, when a QR code is detected, it will be highlighted with a bounding box,
 >
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to remote desktop, please refer to section [7.2 AP Mode Connection Steps](1.ROSOrin使用手册.md#AP-Mode-Connection-Steps) in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to remote desktop, please refer to section [7.2 AP Mode Connection Steps](1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_7\section_1/media/image30.png"  class="common_img" /> in the system desktop to open a command-line window.
 
@@ -830,7 +830,7 @@ Finally, the recognition results are overlaid on the return image.
 >
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [7.2 AP Mode Connection Steps](1.ROSOrin使用手册.md#AP-Mode-Connection-Steps) in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [7.2 AP Mode Connection Steps](1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_7\section_1/media/image30.png"  class="common_img" /> in the system desktop to open a command-line window.
 

@@ -10,7 +10,7 @@
 
 1) Prepare at least two robots.
 
-2) Refer to the section [7. Development Environment Setup](1.ROSOrin使用手册.md#Development-Environment-Setup) in the user manual for instructions on downloading and installing the remote connection tool, NoMachine.
+2) Refer to the section [7. Development Environment Setup](1_ROSOrin_User_Manual.html#development-environment-setup) in the user manual for instructions on downloading and installing the remote connection tool, NoMachine.
 
 ### 11.1.2 Working Principle
 
@@ -134,7 +134,7 @@ source ~/.zshrc
 
 * **For Follower Device**
 
-1) First, connect to the Wi-Fi network created by the leader device on the app. Once connected, search for the follower device. The vehicle icon will appear in the app, and by long-pressing the screen, the follower device’s IP address will be displayed. Refer to the section [5.2.2 LAN Mode Connection (Optional)](1.ROSOrin使用手册.md#LAN-Mode-Connection-(Optional))  in the user manual for guidance to use this IP address.
+1) First, connect to the Wi-Fi network created by the leader device on the app. Once connected, search for the follower device. The vehicle icon will appear in the app, and by long-pressing the screen, the follower device’s IP address will be displayed. Refer to the section [5.2.2 LAN Mode Connection (Optional)](1_ROSOrin_User_Manual.html#lan-mode-connection-optional)  in the user manual for guidance to use this IP address.
 
 2) Click the terminal icon <img class="common_img" src="../_static/media/chapter_20/section_1/media/image7.png"  /> on the system desktop to open a command-line window.
 

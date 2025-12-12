@@ -2343,7 +2343,7 @@ Wiring Instructions:
 11.6 Microphone Array Module
 ---
 
-This is an optional hardware module that enables voice wake-up and voice control functions on the robot. For related tutorials, please refer to the document [8. Voice Interaction Applications](8_语音交互应用.md#Voice-Interaction-Applications).
+This is an optional hardware module that enables voice wake-up and voice control functions on the robot. For related tutorials, please refer to the document [8. Voice Interaction Applications](8_Voice_Control_Course.html#voice-interaction-applications).
 
 The robot is equipped with an R818 noise reduction board and a circular six-microphone array. The microphones are arranged in a planar layout to capture and process the spatial characteristics of the sound field. The system supports sound source localization, background noise suppression, interference and echo reduction, enabling 360° effective audio capture.
 
@@ -2454,7 +2454,7 @@ Mecanum wheels enable full 360° omnidirectional movement, allowing the robot no
 
 Ackerman chassis operates like a car, with front-wheel steering controlled by servos.
 
-For detailed explanations of the kinematics models for each chassis type, refer to the documents and video tutorials under [2. Chassis Motion Control Course / 1. Kinematics Analysis](#anther5.2.2) and [2. Motion Control](2_底盘运动控制课程.md#Motion-Control).
+For detailed explanations of the kinematics models for each chassis type, refer to the documents and video tutorials under [2. Chassis Motion Control Course / 1. Kinematics Analysis](#anther5.2.2) and [2. Motion Control](2_Chassis_Motion_Control_Course.html#motion-control).
 
 13.6 Project Compilation
 ---
