@@ -2733,7 +2733,7 @@ There are many optimization methods for deep learning models, such as weight qua
 
 #### 7.3.2.2 Optimization Methods
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image2.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image2.png"  style="width:600px"  class="common_img" />
 
 TensorRT employs the following optimization strategies:
 
@@ -2819,7 +2819,7 @@ Convolution is the process where an entity at multiple past time points does or 
 
 **Convolution** can be understood as flipping the data, and **multiplication** as the accumulation of the influence that past data has on the current data. The data flipping is done to establish relationships between data points, facilitating the calculation of accumulated influence with a proper reference.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image3.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image3.png"  style="width:600px"  class="common_img" />
 
 In YOLOv11, the data to be processed are images, which are two-dimensional in computer vision. Accordingly, the convolution is a two-dimensional convolution. The purpose of 2D convolution is to extract features from images. To perform a 2D convolution, it is necessary to understand the convolution kernel.
 
@@ -2827,9 +2827,9 @@ The convolution kernel is the unit region over which the convolution calculation
 
 When performing convolution, depending on the desired effect, the image borders may be padded with zeros or extended by a certain number of pixels, then the convolution results are placed back into the corresponding positions in the image. For example, a 6×6 image is first expanded to 7×7, then convolved with the kernel, and finally the results are filled back into a blank 6×6 image.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image4.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image4.png"  style="width:600px"  class="common_img" />
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image5.png"   style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image5.png"   style="width:600px"  class="common_img" />
 
 2. Pooling Layer: Feature Amplification
 
@@ -2837,11 +2837,11 @@ The pooling layer, also called the downsampling layer, is usually used together 
 
 To make it easier to understand, max pooling is used here as an example. Before understanding max pooling, it is important to know about the filter, which is like the convolution kernel—a manually set region that slides over the image and selects pixels within the area.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image6.png"   style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image6.png"   style="width:600px"  class="common_img" />
 
 Max pooling keeps the most prominent features and discards others. For example, starting with a 6×6 image, applying a 2×2 filter for max pooling produces a new image with reduced size.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image7.png"   style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image7.png"   style="width:600px"  class="common_img" />
 
 3. Upsampling Layer: Restoring Image Size
 
@@ -2849,7 +2849,7 @@ Upsampling can be understood as “reverse pooling.” After pooling, the image 
 
 For example, starting with a 6×6 image, applying a 3×3 filter for upsampling produces a new image.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image8.png"   style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image8.png"   style="width:600px"  class="common_img" />
 
 4. Batch Normalization Layer: Data Regularization
 
@@ -2857,7 +2857,7 @@ Batch normalization means rearranging the data neatly, which reduces the computa
 
 Batch normalization reduces the loss rate of features during each calculation, retaining more features for the next computation. After multiple computations, the model’s sensitivity to the data increases.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image9.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image9.png"  style="width:600px"  class="common_img" />
 
 5. ReLU Layer: Activation Function
 
@@ -2865,21 +2865,21 @@ Activation functions are added during model construction to introduce non-linear
 
 There are many activation functions, commonly ReLU, Tanh, Sigmoid, etc. Here, ReLU is used as an example. ReLU is a piecewise function that replaces all values less than 0 with 0 and keeps positive values unchanged.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image10.GIF"   style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image10.GIF"   style="width:600px"  class="common_img" />
 
 6. ADD Layer: Tensor Addition
 
 Features can be significant or insignificant. The ADD layer adds feature tensors together to enhance the significant features.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image11.png"   style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image11.png"   style="width:600px"  class="common_img" />
 
 7. Concat Layer: Tensor Concatenation
 
 The Concat layer concatenates feature tensors to combine features extracted by different methods, thereby preserving more features.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image12.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image12.png"  style="width:600px"  class="common_img" />
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image12.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image12.png"  style="width:600px"  class="common_img" />
 
 * **Composite Elements**
 
@@ -2889,7 +2889,7 @@ When building a model, using only the basic layers mentioned earlier can lead to
 
 A convolutional block consists of a convolutional layer, a batch normalization layer, and an activation function. The process follows this order: convolution → batch normalization → activation.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image13.png"   style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image13.png"   style="width:600px"  class="common_img" />
 
 1. Strided Sampling and Concatenation Unit（Focus）
 
@@ -2900,7 +2900,7 @@ As shown in the figure below, for a 6×6 image, if each large region is defined 
 By taking the small patches at position 1 from each large region and concatenating them, a 3×3 image can be formed. The patches at other positions are concatenated in the same way.  
 Ultimately, the original 6×6 image is decomposed into four 3×3 images.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image14.png"   style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image14.png"   style="width:600px"  class="common_img" />
 
 2. Residual Block
 
@@ -2908,9 +2908,9 @@ The residual block enables the model to learn subtle variations in the image. It
 
 In the first path, two convolutional blocks are used to extract features from the image. In the second path, the original image is passed through directly without convolution. Finally, the outputs from both paths are added together to enhance learning.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image15.png"   style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image15.png"   style="width:600px"  class="common_img" />
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image16.png"   style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image16.png"   style="width:600px"  class="common_img" />
 
 3. Composite Convolutional Block
 
@@ -2918,20 +2918,20 @@ In YOLOv11, a key feature of the composite convolutional block is its customizab
 
 The first path contains a single convolutional layer for feature extraction, while the second path includes 2𝑥+1 convolutional blocks followed by an additional convolutional layer. After sampling and concatenation, batch normalization is applied to standardize the data, followed by an activation function. Finally, a convolutional block is used to process the combined features.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image17.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image17.png"  style="width:600px"  class="common_img" />
 
 4. Composite Residual Convolutional Block
 
 The composite residual convolutional block modifies the composite convolutional block by replacing the 2𝑥 convolutional blocks with   
 𝑥 residual blocks. In YOLOv11, this block is also customizable, allowing residual blocks to be tailored according to specific requirements.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image19.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image19.png"  style="width:600px"  class="common_img" />
 
 5. Composite Pooling Block
 
 The output from a convolutional block is simultaneously passed through three separate max pooling layers, while an additional unprocessed copy is preserved. The resulting four feature maps are then concatenated and passed through a convolutional block. By processing data with the composite pooling block, the original features can be significantly enhanced and emphasized.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image20.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image20.png"  style="width:600px"  class="common_img" />
 
 ### 7.3.4 YOLOv11 Workflow
 
@@ -2941,13 +2941,13 @@ This section explains the model’s processing flow using the concepts of prior 
 
 When an image is fed into the model, predefined regions of interest must be specified. These regions are marked using prior boxes, which serve as initial bounding box templates indicating potential object locations in the image.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image25.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image25.png"  style="width:600px"  class="common_img" />
 
 #### 7.3.4.2 Prediction Box
 
 Prediction boxes are generated by the model as output and do not require manual input. When the first batch of training data is fed into the model, the prediction boxes are automatically created. The center points of prediction boxes tend to be located in areas where similar objects frequently appear.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image26.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image26.png"  style="width:600px"  class="common_img" />
 
 #### 7.3.4.3 Anchor Box
 
@@ -2955,7 +2955,7 @@ Since predicted boxes may have deviations in size and location, anchor boxes are
 
 Anchor boxes are positioned based on the predicted boxes. By influencing the generation of subsequent predicted boxes, anchor boxes are placed around their relative centers to guide future predictions.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image27.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image27.png"  style="width:600px"  class="common_img" />
 
 #### 7.3.4.4 Project Process
 
@@ -2975,7 +2975,7 @@ In this example, the demonstration uses traffic signs as target objects.
 
 1. Power on the robot and connect it via the NoMachine remote control software.
 
-2. Click the terminal icon <img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image29.png"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_10/section_1/media/image29.png"  /> in the system desktop to open a command-line window.
 
 3. Stop the app auto-start service by entering the following command:
 
@@ -3001,21 +3001,21 @@ mkdir -p ~/my_data
 cd ~/software/collect_picture && python3 main.py
 ```
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image34.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image34.png"  style="width:600px"  class="common_img" />
 
 The **save number** in the top-left corner of the tool interface shows the ID of the saved image. The **existing** shows how many images have already been saved.
 
 7. Click `Select` to change the save path to the **my_data** folder created before.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image35.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image35.png"  style="width:600px"  class="common_img" />
 
 8. After selecting the target directory, click `Choose`.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image36.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image36.png"  style="width:600px"  class="common_img" />
 
 9. Click the `Save(Space)` button or press the `space` key to save the current camera frame. A `JPEGImages` folder will be automatically created under the directory **/home/ubuntu/my_data** to store the images.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image37.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image37.png"  style="width:600px"  class="common_img" />
 
 > [!NOTE]
 >
@@ -3023,11 +3023,11 @@ The **save number** in the top-left corner of the tool interface shows the ID of
 
 10. After collecting images, click the `Quit` button to close the tool.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image38.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image38.png"  style="width:600px"  class="common_img" />
 
-11. Click on the icon <img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image39.png"  style="width:70px"  class="common_img" /> in the system status bar to open the file manager, where the saved images can be viewed.
+11. Click on the icon <img src="../_static/media/chapter_10/section_1/media/image39.png"  style="width:70px"  class="common_img" /> in the system status bar to open the file manager, where the saved images can be viewed.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image40.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image40.png"  style="width:600px"  class="common_img" />
 
 12. Then press **Ctrl+C** in all open terminal windows to exit—this completes the image collection process.
 
@@ -3056,37 +3056,37 @@ Below is a table of common shortcut keys:
 | <img src="../_static/media/chapter_10\section_1/media/image46.png"  style="width:70px"  class="common_img" /> | A                | Switch to the previous image.              |
 | <img src="../_static/media/chapter_10\section_1/media/image47.png"  style="width:70px"  class="common_img" /> | D                | Switch to the next image.                  |
 
-2. Click the button <img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image48.png"  style="width:70px"  class="common_img" /> to open the folder where your images are stored. In this tutorial, select the directory used for image collection.
+2. Click the button <img src="../_static/media/chapter_10/section_1/media/image48.png"  style="width:70px"  class="common_img" /> to open the folder where your images are stored. In this tutorial, select the directory used for image collection.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image49.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image49.png"  style="width:600px"  class="common_img" />
 
-3. Click Open <img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image50.png"  style="width:70px"  class="common_img" /> to open the folder.
+3. Click Open <img src="../_static/media/chapter_10/section_1/media/image50.png"  style="width:70px"  class="common_img" /> to open the folder.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image51.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image51.png"  style="width:600px"  class="common_img" />
 
-4. Then click the **Change Save Dir** button <img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image52.png"  style="width:70px"  class="common_img" /> and select the annotation save folder, which is the **Annotations** directory located under the same path as the image collection.
+4. Then click the **Change Save Dir** button <img src="../_static/media/chapter_10/section_1/media/image52.png"  style="width:70px"  class="common_img" /> and select the annotation save folder, which is the **Annotations** directory located under the same path as the image collection.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image53.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image53.png"  style="width:600px"  class="common_img" />
 
-5. Click **Open** <img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image54.png"  style="width:70px"  class="common_img" /> to return to the annotation interface.
+5. Click **Open** <img src="../_static/media/chapter_10/section_1/media/image54.png"  style="width:70px"  class="common_img" /> to return to the annotation interface.
 
 6. Press the **W** key to begin creating a bounding box.
 
 7. Move the mouse to the desired location and hold the left mouse button to draw a box that covers the entire object. Release the left mouse button to finish drawing the box.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image55.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image55.png"  style="width:600px"  class="common_img" />
 
 8. In the pop-up window, name the category of the object, e.g., **left**. After naming, click **OK** or press **Enter** to save the label.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image56.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image56.png"  style="width:600px"  class="common_img" />
 
 9. Press **Ctrl+S** to save the annotation for the current image.
 
-10. Press the **D** key to move to the next image, then repeat steps 7 to 9 to complete all annotations. Click the close button <img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image57.png"   /> at the top-right corner of the tool to exit.
+10. Press the **D** key to move to the next image, then repeat steps 7 to 9 to complete all annotations. Click the close button <img src="../_static/media/chapter_10/section_1/media/image57.png"   /> at the top-right corner of the tool to exit.
 
-11. Click the icon <img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image39.png"   /> in the system status bar  to open the file manager and navigate to the directory **/home/ubuntu/my_data/**. The annotation files for each image will be available in this folder.
+11. Click the icon <img src="../_static/media/chapter_10/section_1/media/image39.png"   /> in the system status bar  to open the file manager and navigate to the directory **/home/ubuntu/my_data/**. The annotation files for each image will be available in this folder.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image58.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image58.png"  style="width:600px"  class="common_img" />
 
 <p id ="anther7.3.6"></p>
 
@@ -3114,7 +3114,7 @@ gedit ~/my_data/classes.names
 
 2. Write the labeled category **left** into the text file. If there are multiple categories, each one should be listed on a new line.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image60.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image60.png"  style="width:600px"  class="common_img" />
 
 > [!NOTE]
 >
@@ -3128,7 +3128,7 @@ gedit ~/my_data/classes.names
 python3 ~/software/xml2yolo.py --data ~/my_data --yaml ~/my_data/data.yaml
 ```
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image61.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image61.png"  style="width:600px"  class="common_img" />
 
 > [!NOTE]
 >
@@ -3144,7 +3144,7 @@ This command uses three main parameters:
 
 The following image shows the generated **data.yaml** file.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image62.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image62.png"  style="width:600px"  class="common_img" />
 
 The items listed after the `names` represent the types of labels. The `nc` field specifies the total number of label categories. The `train` refers to the training set—a commonly used term in deep learning that indicates the data used for model training. The parameter following it is the path to the training images. Similarly, the `val` refers to the validation set, which is used to verify the model’s performance during the training process, and the path that follows indicates where the validation data is located. It is important to note that the paths need to be filled in or updated according to their actual locations. For example, during the training process, if there is a need to speed up training by moving the dataset from the robot to a local PC or cloud server, the paths corresponding to `train` and `val` should be updated accordingly.
 
@@ -3164,7 +3164,7 @@ After converting the model format, the next step is to proceed with model traini
 
 1. Power on the robot and connect it via the **NoMachine** remote control software.
 
-2. Click the terminal icon <img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image29.png" /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_10/section_1/media/image29.png" /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press Enter to go to the specific directory.
 
@@ -3189,11 +3189,11 @@ You can modify the parameters above based on your specific needs. To improve mod
 
 If the following content appears, it indicates that the training is in progress.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image65.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image65.png"  style="width:600px"  class="common_img" />
 
 After training is complete, the terminal will display the path where the trained model files are saved. The training results are stored in the directory of **yolov11/runs/train/exp**.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image66.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image66.png"  style="width:600px"  class="common_img" />
 
 > [!NOTE]
 >
@@ -3211,17 +3211,17 @@ The following steps outline how to import the trained model into the robot's con
 >
 > **The screenshot below shows the robot’s remote desktop. The interface may look slightly different depending on the robot type, but the file transfer process remains the same.**
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image67.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image67.png"  style="width:600px"  class="common_img" />
 
 After dragging the file, the model will be successfully imported and visible on the desktop.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image68.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image68.png"  style="width:600px"  class="common_img" />
 
 Next, copy the trained model file, for example, **best.pt**, to the **/third_party/yolo/yolov11** directory.
 
 2. Right-click on the desktop and select **Open Terminal**.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image69.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image69.png"  style="width:600px"  class="common_img" />
 
 3. In the terminal, input the command to copy the model to the **yolov5** folder.
 
@@ -3245,7 +3245,7 @@ After extensive training, the new model needs to be converted into a TensorRT-ac
 
 1. Power on the robot and connect it via the NoMachine remote control software.
 
-2. Click the terminal icon <img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image29.png" /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_10/section_1/media/image29.png" /> in the system desktop to open a command-line window.
 
 3. Enter the command to navigate to the specified folder path.
 
@@ -3261,7 +3261,7 @@ python3 export.py --weights best.pt --include engine --device 0 --half --imgsz 4
 
 If the generated `best.engine` file is locked and not readable, as shown in the image below:
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image84.jpeg"   style="width:200px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image84.jpeg"   style="width:200px"  class="common_img" />
 
 To add permissions to the **best.engine** file, open a terminal in the folder containing the best.engine file, then input the following command:
 
@@ -3273,7 +3273,7 @@ sudo chmod +x+w+r best.engine
 
 * **Operation Steps**
 
-1. Click the icon <img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image29.png" /> in the desktop to open the terminal, enter the following command and press **Enter** to disable the app auto-start service.
+1. Click the icon <img src="../_static/media/chapter_10/section_1/media/image29.png" /> in the desktop to open the terminal, enter the following command and press **Enter** to disable the app auto-start service.
 
 ```bash
 sudo systemctl stop start_app_node.service
@@ -3293,7 +3293,7 @@ gedit ~/ros2_ws/src/example/example/yolov11_detect/yolov11_detect_demo.py
 
 4. Change the `MODEL_DEFAULT_NAME` parameter to `best`.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image89.png"   style="width:1200px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image89.png"   style="width:1200px"  class="common_img" />
 
 5. Run the object detection using the corresponding command.
 
@@ -3305,7 +3305,7 @@ ros2 launch example yolov11_detect_demo.launch.py
 
 Place a traffic sign within the camera’s field of view. Once the sign is detected, a bounding box will appear in the camera feed, highlighting the sign along with its class name and detection confidence.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image94.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image94.png"  style="width:600px"  class="common_img" />
 
 ### 7.3.9 Traffic Sign Model Training
 
@@ -3329,7 +3329,7 @@ In the following instructions, screenshots may show different robot hostnames, a
 
 1. Power on the robot and connect it via the NoMachine remote control software.
 
-2. Click the terminal icon <img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image29.png"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_10/section_1/media/image29.png"  /> in the system desktop to open a command-line window.
 
 3. Execute the following command to stop the app auto-start service:
 
@@ -3349,21 +3349,21 @@ ros2 launch peripherals depth_camera.launch.py
 cd ~/software/collect_picture && python3 main.py
 ```
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image98.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image98.png"  style="width:600px"  class="common_img" />
 
 The **save number** in the top-left corner of the tool interface shows the ID of the saved image. The **existing** shows how many images have already been saved.
 
 6. Change the `Save path` to **/home/ubuntu/my_data**, which will also be used in later steps.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image99.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image99.png"  style="width:600px"  class="common_img" />
 
 7. Place the target object within the camera's view. Press the `Save (space)` button or the `space` bar on the keyboard to save the current camera frame. After pressing it, both the **save number** and the **existing** counters will increase by 1. This helps track the current image ID and total image count in the folder.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image100.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image100.png"  style="width:600px"  class="common_img" />
 
 8. After clicking `Save (space)`, a folder named **JPEGImages** will be automatically created under the path **/home/ubuntu/my_data** to store the images.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image99.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image99.png"  style="width:600px"  class="common_img" />
 
 > [!NOTE]
 >
@@ -3373,11 +3373,11 @@ The **save number** in the top-left corner of the tool interface shows the ID of
 
 9. After collecting images, click the **Quit** button to close the tool.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image101.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image101.png"  style="width:600px"  class="common_img" />
 
-10. Click on the icon <img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image102.png"  /> in the system status bar to open the file manager. Navigate to the directory as shown in the image below to view the saved images.
+10. Click on the icon <img src="../_static/media/chapter_10/section_1/media/image102.png"  /> in the system status bar to open the file manager. Navigate to the directory as shown in the image below to view the saved images.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image103.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image103.png"  style="width:600px"  class="common_img" />
 
 * **Image Annotation**
 
@@ -3387,7 +3387,7 @@ The **save number** in the top-left corner of the tool interface shows the ID of
 
 1. Power on the robot and connect it via the **NoMachine** remote control software.
 
-2. Click the terminal icon <img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image29.png" /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_10/section_1/media/image29.png" /> in the system desktop to open a command-line window.
 
 3. Execute the following command to stop the app service:
 
@@ -3414,31 +3414,31 @@ python3 software/labelImg/labelImg.py
 
 6. Use the shortcut **Ctrl+U** and set the image directory to `/home/ubuntu/my\_data/JPEGImages/`, then click the `Open` button.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image106.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image106.png"  style="width:600px"  class="common_img" />
 
 7. Use the shortcut **Ctrl+R**, set the annotation data storage directory to `/home/ubuntu/my\_data/Annotations/`, and click `Open`. The **Annotations** folder will be automatically generated when collecting images.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image107.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image107.png"  style="width:600px"  class="common_img" />
 
 8. Press the `w` key to begin creating a bounding box.
 
 Move the mouse to the desired location and hold the left mouse button to draw a box that covers the entire object. Release the left mouse button to finish drawing the box.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image108.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image108.png"  style="width:600px"  class="common_img" />
 
 9. In the pop-up window, name the category of the object, e.g., **right**. After naming, click **`OK`** or press `Enter` to save the label.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image109.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image109.png"  style="width:600px"  class="common_img" />
 
 10. Press **Ctrl+S** to save the annotation for the current image.
 
 11. Refer to Step 9 to complete the annotation of the remaining images.
 
-12. Click the icon <img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image110.png" /> in the system status bar to open the file manager and navigate to the directory `/home/ubuntu/my\_data/Annotations/` to view the image annotation files. This is the same dataset path where the images were saved during data collection.
+12. Click the icon <img src="../_static/media/chapter_10/section_1/media/image110.png" /> in the system status bar to open the file manager and navigate to the directory `/home/ubuntu/my\_data/Annotations/` to view the image annotation files. This is the same dataset path where the images were saved during data collection.
 
 * **Generating Related Files**
 
-1. Click the terminal icon <img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image29.png" /> in the system desktop to open a command-line window.
+1. Click the terminal icon <img src="../_static/media/chapter_10/section_1/media/image29.png" /> in the system desktop to open a command-line window.
 
 2. Enter the following command to open the file for editing:
 
@@ -3448,7 +3448,7 @@ vim ~/my_data/classes.names
 
 3. Press the **i** key to enter edit mode and add the class names for the target recognition objects. When adding multiple class names, each class name should be listed on a separate line.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image112.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image112.png"  style="width:600px"  class="common_img" />
 
 > [!NOTE]
 >
@@ -3456,7 +3456,7 @@ vim ~/my_data/classes.names
 
 4. After editing, press **Esc**, then type `:wq` to save and close the file.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image113.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image113.png"  style="width:600px"  class="common_img" />
 
 5. Next, enter the command to convert the data format and press **Enter**:
 
@@ -3468,13 +3468,13 @@ In this command, the **xml2yolo.py** file is used to convert the annotated files
 
 If the prompt shown in the figure below appears, the conversion was successful.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image115.png"  style="width:1000px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image115.png"  style="width:1000px"  class="common_img" />
 
 The output paths depend on the actual storage location of the folders in your robot’s file system. Paths may vary across devices, but the generated **data.yaml** file will correspond to your annotated dataset.
 
 * **Model Training**
 
-1. Click the terminal icon <img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image29.png" /> in the system desktop to open a command-line window.
+1. Click the terminal icon <img src="../_static/media/chapter_10/section_1/media/image29.png" /> in the system desktop to open a command-line window.
 
 2. Then enter the command to navigate to the specific directory.
 
@@ -3494,11 +3494,11 @@ The above parameters can be adjusted according to the specific setup. To improve
 
 If you see the following output, it means the training process is running successfully.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image117.png"  style="width:600px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image117.png"  style="width:600px"  class="common_img" />
 
 Once training is complete, the terminal will display the path where the training data is saved, as shown below.
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image118.png"  style="width:400px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image118.png"  style="width:400px"  class="common_img" />
 
 > [!NOTE]
 >
@@ -3508,7 +3508,7 @@ Once training is complete, the terminal will display the path where the training
 
 1. Power on the robot and connect it via the **NoMachine** remote control software.
 
-2. Click the terminal icon <img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image29.png" /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_10/section_1/media/image29.png" /> in the system desktop to open a command-line window.
 
 3. Enter the command to navigate to the specified folder path.
 
@@ -3530,7 +3530,7 @@ python3 export.py --weights best.pt --include engine --device 0 --half --imgsz 4
 
 If the generated `best.engine` file is locked and not readable, as shown in the image below:
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image84.jpeg"   style="width:200px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image84.jpeg"   style="width:200px"  class="common_img" />
 
 To add permissions to the `best.engine` file, open a terminal in the folder containing the best.engine file, then input the following command:
 
@@ -3558,7 +3558,7 @@ sudo systemctl stop start_app_node.service
 gedit ~/ros2_ws/src/example/example/self_driving/self_driving.launch.py
 ```
 
-<img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image145.png"  style="width:1200px"  class="common_img" />
+<img src="../_static/media/chapter_10/section_1/media/image145.png"  style="width:1200px"  class="common_img" />
 
 4. Entering the following command to start the autonomous driving feature.
 
@@ -3576,7 +3576,7 @@ ros2 launch example self_driving.launch.py
 
    **A:** Try the following steps:
 
-(1) Open the terminal by clicking the system desktop icon <img src="D:/翻译文件/12 ROSOrin/Orin 更新source/_static/media/chapter_10/section_1/media/image29.png" />, then enter the commands below to increase the swap space.
+(1) Open the terminal by clicking the system desktop icon <img src="../_static/media/chapter_10/section_1/media/image29.png" />, then enter the commands below to increase the swap space.
 
 ```bash
 sudo swapoff /swapfile
@@ -4379,31 +4379,31 @@ Initialize parameters.
         self.have_turn_right = False
         self.detect_turn_right = False
         self.detect_far_lane = False
-        self.park_x = -1  # 停车标识的x像素坐标(obtain the x-pixel coordinate of a parking sign)
-        self.park_y = -1  # 停车标识的y像素坐标(obtain the y-pixel coordinate of a parking sign)
+        self.park_x = -1  # Obtain the x-pixel coordinate of a parking sign
+        self.park_y = -1  # Obtain the y-pixel coordinate of a parking sign
 
         self.start_turn_time_stamp = 0
         self.count_turn = 0
-        self.start_turn = False  # 开始转弯(start to turn)
+        self.start_turn = False  # Start to turn
 
         self.count_right = 0
         self.count_right_miss = 0
-        self.turn_right = False  # 右转标志(right turning sign)
+        self.turn_right = False  # Right turning sign
 
         self.last_park_detect = False
         self.count_park = 0
-        self.stop = False  # 停下标识(stopping sign)
-        self.start_park = False  # 开始泊车标识(start parking sign)
+        self.stop = False  # Stopping sign
+        self.start_park = False  # Start parking sign
 
         self.count_crosswalk = 0
-        self.crosswalk_distance = 0  # 离斑马线距离(distance to the zebra crossing)
-        self.crosswalk_length = 0.1 + 0.3  # 斑马线长度 + 车长(the length of zebra crossing and the robot)
+        self.crosswalk_distance = 0  # Distance to the zebra crossing
+        self.crosswalk_length = 0.1 + 0.3  # The length of zebra crossing and the robot
 
-        self.start_slow_down = False  # 减速标识(slowing down sign)
-        self.normal_speed = 0.15  # 正常前进速度(normal driving speed)
-        self.slow_down_speed = 0.1  # 减速行驶的速度(slowing down speed)
+        self.start_slow_down = False  # Slowing down sign
+        self.normal_speed = 0.15  # Normal driving speed
+        self.slow_down_speed = 0.1  # Slowing down speed
 
-        self.traffic_signs_status = None  # 记录红绿灯状态(record the state of the traffic lights)
+        self.traffic_signs_status = None  # Record the state of the traffic lights
         self.red_loss_count = 0
 
         self.object_sub = None
@@ -4424,10 +4424,10 @@ Enter autonomous driving mode. Stop current motion, select and subscribe to the 
             self.start = False
             if self.get_parameter('use_depth_cam').value:
                 self.camera = 'depth_cam'
-                self.image_sub = self.create_subscription(Image, '/%s/rgb0/image_raw' % self.camera, self.image_callback, 1)  # 摄像头订阅(subscribe to the camera)
+                self.image_sub = self.create_subscription(Image, '/%s/rgb0/image_raw' % self.camera, self.image_callback, 1)  # Subscribe to the camera
             else:
                 self.camera = 'usb_cam'
-                self.image_sub = self.create_subscription(Image, '/%s/image_raw' % self.camera, self.image_callback, 1)  # 摄像头订阅(subscribe to the camera)
+                self.image_sub = self.create_subscription(Image, '/%s/image_raw' % self.camera, self.image_callback, 1)  # Subscribe to the camera
             self.create_subscription(ObjectsInfo, '/yolo/object_detect', self.get_object_callback, 1)
             self.mecanum_pub.publish(Twist())
             self.enter = True
@@ -4485,13 +4485,13 @@ Stop: `request.data` = `false` → set `self.start` = `false`.
 Process camera topic callback data. Convert ROS image messages to OpenCV format, ensure data type is uint8, manage the image queue by discarding the oldest image when full, and place images in the queue for processing threads.
 
 ```python
-    def image_callback(self, ros_image):  # 目标检查回调(callback target checking)
+    def image_callback(self, ros_image):  # Callback target checking
         cv_image = self.bridge.imgmsg_to_cv2(ros_image, "rgb8")
         rgb_image = np.array(cv_image, dtype=np.uint8)
         if self.image_queue.full():
-            # 如果队列已满，丢弃最旧的图像(if the queue is full, remove the oldest image)
+            # If the queue is full, remove the oldest image
             self.image_queue.get()
-        # 将图像放入队列(put the image into the queue)
+        # Put the image into the queue
         self.image_queue.put(rgb_image)
 ```
 
@@ -4627,7 +4627,7 @@ Angle calibration logic when `park_y` falls within the range 92–132.
 Increment `debug_count`, display the red text `'Hold the Camera Angle'`, and draw a red horizontal line indicating the park_y position.
 
 ```python
-                    if  abs(self.park_y - debug_y_thre) < 20: # 在范围内
+                    if  abs(self.park_y - debug_y_thre) < 20: # In the range
                         debug_count += 1
                         cv2.putText(result_image,
                                     'Hold the Camera Angle'
@@ -4701,8 +4701,8 @@ Image preprocessing:
 
 ```python
                 h, w = image.shape[:2]
-                # self.get_logger().info('\033[1;32m%d,%d\033[0m' %(h, w))  # 输出图像的高和宽(output the height and width, w)
-                # 获取车道线的二值化图(obtain the binary image of the lane)
+                # self.get_logger().info('\033[1;32m%d,%d\033[0m' %(h, w))  # Output the height and width, w
+                # Obtain the binary image of the lane
                 binary_image = self.lane_detect.get_binary(image)
                 # cv2.imshow('binary', binary_image)
 ```
@@ -4712,14 +4712,14 @@ Crosswalk and deceleration logic handling:
 If `self.crosswalk_distance` > 300 and deceleration has not started, deceleration is triggered after three consecutive detections, and the start timestamp is recorded. Otherwise, the detection count is reset.
 
 ```python
-                # 检测到斑马线,开启减速标志(if detecting the zebra crossing, start to slow down)
-                if 300 < self.crosswalk_distance and not self.start_slow_down:  # 只有离斑马线足够近时才开始减速，通过判断斑马线的y轴像素距离(The robot starts to slow down only when it is close enough to the zebra crossing, which is determined by judging the y-axis pixel distance of the zebra crossing)
+                # If detecting the zebra crossing, start to slow down
+                if 300 < self.crosswalk_distance and not self.start_slow_down:  # The robot starts to slow down only when it is close enough to the zebra crossing, which is determined by judging the y-axis pixel distance of the zebra crossing
                     self.count_crosswalk += 1
-                    if self.count_crosswalk == 3:  # 多次判断，防止误检测(judge multiple times to prevent false detection)
+                    if self.count_crosswalk == 3:  # Judge multiple times to prevent false detection
                         self.count_crosswalk = 0
-                        self.start_slow_down = True  # 减速标识(sign for slowing down)
-                        self.count_slow_down = time.time()  # 减速开始时间戳(start timestamp for slowing down)
-                else:  # 需要连续检测，否则重置(need to detect continuously, otherwise reset)
+                        self.start_slow_down = True  # Sign for slowing down
+                        self.count_slow_down = time.time()  # Start timestamp for slowing down
+                else:  # Need to detect continuously, otherwise reset
                     self.count_crosswalk = 0
 ```
 
@@ -4731,24 +4731,24 @@ Normal mode: maintain standard speed.
 
 ```python
                 twist = Twist()
-                # 减速行驶处理(deceleration processing)
+                # Deceleration processing
                 if self.start_slow_down:
                     if self.traffic_signs_status is not None:
-                        # 通过面积判断离灯灯远近，如果太近那么即使是红灯也不会停(Determine the distance to the traffic lights through the area; if the distance is too close, the robot will not stop even if the traffic light is red)
+                        # Determine the distance to the traffic lights through the area; if the distance is too close, the robot will not stop even if the traffic light is red
                         area = abs(self.traffic_signs_status.box[0] - self.traffic_signs_status.box[2])*abs(self.traffic_signs_status.box[1] - self.traffic_signs_status.box[3])
                         # self.get_logger().info('\033[1;32m red light area %d\033[0m' %area)
-                        if self.traffic_signs_status.class_name == 'red' and area > 700:  # 如果遇到红灯就停车, 如果太近不停(If the robot detects a red traffic light, it will stop; if the distance is too close, it will not stop)
+                        if self.traffic_signs_status.class_name == 'red' and area > 700:  # If the robot detects a red traffic light, it will stop; if the distance is too close, it will not stop
                             self.mecanum_pub.publish(Twist())
                             self.stop = True
-                        elif self.traffic_signs_status.class_name == 'green':  # 遇到绿灯，速度放缓通过(If the traffic light is green, the robot will slow down and pass through)
+                        elif self.traffic_signs_status.class_name == 'green':  # If the traffic light is green, the robot will slow down and pass through
                             twist.linear.x = self.slow_down_speed
                             self.stop = False
-                    if not self.stop:  # 其他非停止的情况速度放缓， 同时计时，时间=斑马线的长度/行驶速度(In other cases where the robot is not stopped, slow down the speed and calculate the time needed to pass through the crosswalk. The time needed is equal to the length of the crosswalk divided by the driving speed)
+                    if not self.stop:  # In other cases where the robot is not stopped, slow down the speed and calculate the time needed to pass through the crosswalk. The time needed is equal to the length of the crosswalk divided by the driving speed
                         twist.linear.x = self.slow_down_speed
                         if time.time() - self.count_slow_down > self.crosswalk_length/twist.linear.x:
                             self.start_slow_down = False
                 else:
-                    twist.linear.x = self.normal_speed  # 正常速度(normal speed)
+                    twist.linear.x = self.normal_speed  # Normal speed
 ```
 
 Parking sign handling:
@@ -4756,15 +4756,15 @@ Parking sign handling:
 When a parking sign is detected and `park_x` > 0 and the distance to the crosswalk, `self.crosswalk_distance`, is greater than 160, deceleration is applied. When the distance to the crosswalk, `self.crosswalk_distance`, is less than 225, the parking thread is started.
 
 ```python
-                # 检测到 停车标识+斑马线 就减速, 让识别稳定(If the robot detects a stop sign and a crosswalk, it will slow down to ensure stable recognition)
+                # If the robot detects a stop sign and a crosswalk, it will slow down to ensure stable recognition
                 # self.get_logger().info('crosswalk_distance: ' + str(self.crosswalk_distance))
                 if 0 < self.park_x and 160 < self.crosswalk_distance:
                     twist.linear.x = self.slow_down_speed
-                    if not self.start_park and 225 < self.crosswalk_distance:  # 离斑马线足够近时就开启停车(When the robot is close enough to the crosswalk, it will start parking)
+                    if not self.start_park and 225 < self.crosswalk_distance:  # When the robot is close enough to the crosswalk, it will start parking
                         self.mecanum_pub.publish(Twist())
                         self.start_park = True
                         self.stop = True
-                        threading.Thread(target=self.park_action).start() #开启停车线程(start the parking thread)
+                        threading.Thread(target=self.park_action).start() # Start the parking thread
 ```
 
 Right-turn strategy:
@@ -4772,21 +4772,21 @@ Right-turn strategy:
 When a right-turn sign is detected and `self.crosswalk_distance` > 365, set the ROI, detect the horizontal line, and draw virtual lane lines to guide the turn.
 
 ```python
-                # 右转及停车补线策略(turning right and parking line correction strategy)
-                if self.detect_turn_right: #检测到右转标识且离斑马线足够近，就开启右转策略(If the robot detects a right turn sign and is close enough to the crosswalk, it will activate the right turn strategy)
+                # Turning right and parking line correction strategy
+                if self.detect_turn_right: # If the robot detects a right turn sign and is close enough to the crosswalk, it will activate the right turn strategy
                     if 365 < self.crosswalk_distance:
                         self.detect_turn_right = False
                         self.turn_right = True
                 # self.get_logger().info(str(self.turn_right))
                 if self.turn_right:
-                    #设置检测线的roi(set the ROI of the dectecion line)
+                    # Set the ROI of the dectecion line
                     self.lane_detect.set_roi(((370, 400, 0, 320, 0.7), (310, 340, 0, 320, 0.2), (250, 280, 0, 320, 0.1)))
                     y = self.lane_detect.add_horizontal_line(binary_image)
                     if 0 < y < 350 :
                         roi = [(0, y), (w, y), (w, 0), (0, 0)]
-                        cv2.fillPoly(binary_image, [np.array(roi)], [0, 0, 0])  # 将上面填充为黑色，防干扰(fill the above area with black to prevent interference)
-                        min_x = cv2.minMaxLoc(binary_image)[-1][0]  #获取最左边的点坐标(get the coordinates of the leftmost point)
-                        cv2.line(binary_image, (min_x, y - 60), (w, y - 60), (255, 255, 255), 50)  # 画虚拟线来驱使转弯, 可以通过调整y的大小来控制转弯的时机(Draw a virtual line to drive the turn, the timing of the turn can be controlled by adjusting the value of y)
+                        cv2.fillPoly(binary_image, [np.array(roi)], [0, 0, 0])  # Fill the above area with black to prevent interference
+                        min_x = cv2.minMaxLoc(binary_image)[-1][0]  # Get the coordinates of the leftmost point
+                        cv2.line(binary_image, (min_x, y - 60), (w, y - 60), (255, 255, 255), 50)  # Draw a virtual line to drive the turn, the timing of the turn can be controlled by adjusting the value of y
                         # cv2.imshow('bin_image_turn_right',binary_image)
                     self.lane_detect.set_roi(((320, 350, 0, 320, 0.7), (260, 290, 0, 320, 0.2), (200, 230, 0, 320, 0.1)))
 ```
@@ -4796,25 +4796,25 @@ Lane line supplementation strategy:
 If a parking sign is detected or a right turn has occurred and turning has not started, detect near or far lane lines and draw virtual lane lines on the binary image.
 
 ```python
-                elif (0 < self.park_x or self.have_turn_right) and not self.start_turn:  # 检测到停车标识需要填补线，使其保持直走(If the robot detects a stop sign and needs to fill in the line to keep going straight, it will do so)
+                elif (0 < self.park_x or self.have_turn_right) and not self.start_turn:  # If the robot detects a stop sign and needs to fill in the line to keep going straight, it will do so
                     if not self.detect_far_lane:
                         up, down, center = self.lane_detect.add_vertical_line_near(binary_image)
                         self.get_logger().info('detect far lane' + str([center]))
-                        binary_image[:, :] = 0  # 全置黑，防止干扰(set all to black to prevent interference)
-                        if 100 < center < 150:  # 当将要看不到车道线时切换到识别较远车道线(When the lane is about to be out of sight, switch to detecting the far lane)
+                        binary_image[:, :] = 0  # Set all to black to prevent interference
+                        if 100 < center < 150:  # When the lane is about to be out of sight, switch to detecting the far lane
                             self.detect_far_lane = True
                     else:
                         up, down = self.lane_detect.add_vertical_line_far(binary_image)
                         binary_image[:, :] = 0
                     # self.get_logger().info('up,down' + str(up) + str(down))
                     if up != down:
-                        cv2.line(binary_image, up, down, (255, 255, 255), 20)  # 手动画车道线(manually draw the lane)
+                        cv2.line(binary_image, up, down, (255, 255, 255), 20)  # Manually draw the lane
 ```
 
 Lane line detection:
 
 ```python
-                result_image, lane_angle, lane_x, max_area = self.lane_detect(binary_image, image.copy())  # 在处理后的图上提取车道线中心(Obtain the center of the lane on the processed image)
+                result_image, lane_angle, lane_x, max_area = self.lane_detect(binary_image, image.copy())  # Obtain the center of the lane on the processed image
 ```
 
 Line-following control logic:
@@ -4828,7 +4828,7 @@ Normal mode: if `lane_x` > 115, initiate turn. Otherwise, adjust it using PID.
 - Stop state: reset PID.
 
 ```python
-                # 巡线处理(line following processing)
+                # Line following processing
                 if not self.stop:
                     if self.turn_right:
                         # self.get_logger().info('lane_x,max_area' + str([lane_x, max_area]))
@@ -4836,13 +4836,13 @@ Normal mode: if `lane_x` > 115, initiate turn. Otherwise, adjust it using PID.
                             if self.count_turn == 1:
                                 self.lane_detect.set_roi(((370, 400, 0, 320, 0.7), (320, 350, 0, 320, 0.2), (270, 290, 0, 320, 0.1)))
                             self.count_turn += 1
-                            if self.count_turn > 1 and not self.start_turn:  # 稳定转弯(stable turning)
+                            if self.count_turn > 1 and not self.start_turn:  # Stable turning
                                 self.start_turn = True
                                 self.turn_right = False
                                 self.count_turn = 0
                                 self.start_turn_time_stamp = time.time()
-                            twist.angular.z = -0.60  # 转弯速度(turning speed)
-                        else:  # 直道由pid计算转弯修正(use PID algorithm to correct turns on a straight road)
+                            twist.angular.z = -0.60  # Turning speed
+                        else:  # Use PID algorithm to correct turns on a straight road
                             self.count_turn = 0
                             if time.time() - self.start_turn_time_stamp > 2 and self.start_turn:
                                 if 'Acker' in self.machine_type:
@@ -4853,7 +4853,7 @@ Normal mode: if `lane_x` > 115, initiate turn. Otherwise, adjust it using PID.
                                     self.turn_right = False
                                     self.start_turn = False
                             if not self.start_turn:
-                                self.pid.SetPoint = 90  # 在车道中间时线的坐标(the coordinate of the line while the robot is in the middle of the lane)
+                                self.pid.SetPoint = 90  # The coordinate of the line while the robot is in the middle of the lane
                                 if abs(lane_x - 90) < 20:
                                     lane_x = 90
                                 self.pid.update(lane_x)
@@ -4862,17 +4862,17 @@ Normal mode: if `lane_x` > 115, initiate turn. Otherwise, adjust it using PID.
                         # self.get_logger().info('lane_x' + str(lane_x))
                         if lane_x > 115:
                             self.count_turn += 1
-                            if self.count_turn > 5 and not self.start_turn:  # 稳定转弯(stable turning)
+                            if self.count_turn > 5 and not self.start_turn:  # Stable turning
                                 self.start_turn = True
                                 self.count_turn = 0
                                 self.start_turn_time_stamp = time.time()
-                            twist.angular.z = -0.50  # 转弯速度(turning speed)
-                        else:  # 直道由pid计算转弯修正(use PID algorithm to correct turns on a straight road)
+                            twist.angular.z = -0.50  # Turning speed
+                        else:  # Use PID algorithm to correct turns on a straight road
                             self.count_turn = 0
                             if time.time() - self.start_turn_time_stamp > 2 and self.start_turn:
                                 self.start_turn = False
                             if not self.start_turn:
-                                self.pid.SetPoint = 90  # 在车道中间时线的坐标(the coordinate of the line while the robot is in the middle of the lane)
+                                self.pid.SetPoint = 90  # The coordinate of the line while the robot is in the middle of the lane
                                 if abs(lane_x - 90) < 20:
                                     lane_x = 90
                                 self.pid.update(lane_x)
@@ -4889,7 +4889,7 @@ Object detection and visualization:
 Iterate through detected objects and draw bounding boxes and labels on the output image.
 
 ```python
-                # 绘制识别的物体，由于物体检测的速度小于线检测的速度，所以绘制的框会有所偏离(When drawing the recognized object, the drawn box may deviate from the actual position due to the slower speed of object detection compared to line detection)
+                # When drawing the recognized object, the drawn box may deviate from the actual position due to the slower speed of object detection compared to line detection
                 if self.objects_info != []:
                     for i in self.objects_info:
                         box = i.box
@@ -4912,7 +4912,7 @@ Image display and publishing:
             if self.display:
                 cv2.imshow('result', bgr_image)
                 key = cv2.waitKey(1)
-                if key == ord('q') or key == 27:  # 按q或者esc退出(press Q or Esc to quit)
+                if key == ord('q') or key == 27:  # Ppress Q or Esc to quit
                     self.is_running = False
             self.result_publisher.publish(self.bridge.cv2_to_imgmsg(bgr_image, "bgr8"))
 ```
@@ -4936,7 +4936,7 @@ Retrieve object detection results.
 Handling empty detection results: set `traffic_signs_status` to None to clear traffic light status, set `crosswalk_distance` to 0 to reset crosswalk distance, and set `park_y` to -1 to reset the parking sign Y coordinate.
 
 ```python
-        if self.objects_info == []:  # 没有识别到时重置变量(If it is not recognized, reset the variable)
+        if self.objects_info == []:  # If it is not recognized, reset the variable
             self.traffic_signs_status = None
             self.crosswalk_distance = 0
             self.park_y = -1
@@ -4962,7 +4962,7 @@ Crosswalk handling: when a crosswalk is detected, update `min_distance` to the l
 
 ```python
                 if class_name == 'crosswalk':  
-                    if center[1] > min_distance:  # 获取最近的人行道y轴像素坐标(Obtain recent y-axis pixel coordinate of the crosswalk)
+                    if center[1] > min_distance:  # Obtain recent y-axis pixel coordinate of the crosswalk
                         min_distance = center[1]
 ```
 
@@ -4971,7 +4971,7 @@ Right-turn sign handling:
 Calculate the bounding box area: `area` = width × height.
 
 ```python
-            elif class_name == 'right':  # 获取右转标识(obtain the right turning sign)
+            elif class_name == 'right':  # Obtain the right turning sign
                 area = abs(i.box[0] - i.box[2])*abs(i.box[1] - i.box[3])
 ```
 
@@ -4982,7 +4982,7 @@ If `area` > 200 and the right-turn state is not active, increment the counter. W
                     if not self.turn_right:
                         self.count_right += 1
                         self.count_right_miss = 0
-                        if self.count_right >= 1:  # 检测到多次就将右转标志至真(If it is detected multiple times, take the right turning sign to true)
+                        if self.count_right >= 1:  # If it is detected multiple times, take the right turning sign to true
                             self.have_turn_right = True
                             self.detect_turn_right = True
                             self.count_right = 0
@@ -4998,7 +4998,7 @@ If area ≤ 200, log `'right tag too far'`.
 Parking sign handling: If the bounding box `area` > 150, save the image X coordinate to `park_x`. Regardless of area, always save the Y coordinate to `park_y`.
 
 ```python
-                elif class_name == 'park':  # 获取停车标识中心坐标(obtain the center coordinate of the parking sign)
+                elif class_name == 'park':  # Obtain the center coordinate of the parking sign
                     area = abs(i.box[0] - i.box[2])*abs(i.box[1] - i.box[3])
                     if area > 150:
                         self.park_x = center[0]
@@ -5008,7 +5008,7 @@ Parking sign handling: If the bounding box `area` > 150, save the image X coordi
 Traffic light handling: When a red or green light is detected, save the entire detected object to `self.traffic_signs_status`.
 
 ```python
-                elif class_name == 'red' or class_name == 'green':  # 获取红绿灯状态(obtain the status of the traffic light)
+                elif class_name == 'red' or class_name == 'green':  # Obtain the status of the traffic light
                     self.traffic_signs_status = i
 ```
 
