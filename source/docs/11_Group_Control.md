@@ -10,7 +10,7 @@
 
 1) Prepare at least two robots.
 
-2) Refer to the section [7. Development Environment Setup](1_ROSOrin_User_Manual.html#development-environment-setup) in the user manual for instructions on downloading and installing the remote connection tool, NoMachine.
+2) Refer to the section [7. Development Environment Setup](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#development-environment-setup) in the user manual for instructions on downloading and installing the remote connection tool, NoMachine.
 
 ### 11.1.2 Working Principle
 
