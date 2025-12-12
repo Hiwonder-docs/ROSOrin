@@ -19,9 +19,7 @@ ROSOrin
    docs/7_ROS+Machine_Learning_Course.md
    docs/8_Voice_Control_Course.md
    docs/9_Gazebo_Simulation.md
-   docs/10.1_Large_Models_Basic_Courses.md
-   docs/10.2_Multimodal_Large_Model_Applications.md
-   docs/10.3_Embodied_AI_Applications.md
+   docs/10_Large_AI_Model_Courses.md
    docs/11_Group_Control.md
 
 
