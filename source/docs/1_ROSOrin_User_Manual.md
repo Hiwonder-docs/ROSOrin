@@ -1,5 +1,5 @@
 # 1\. ROSOrin User Manual
-## 1\. ROSOrin User Manual
+## 1.1\. ROSOrin User Manual
 
 [TOC]
 
@@ -23,7 +23,7 @@ The included components of the ROSOrin robot are listed in the table below.
 
 
 
-## 2\. Accessories Installation and Startup Preparation
+## 1.2\. Accessories Installation and Startup Preparation
 
 ### 2.1 Camera Installation
 
@@ -328,7 +328,7 @@ The included components of the ROSOrin robot are listed in the table below.
 
 
 
-## 3\. Initial Setup and Power-On
+## 1.3\. Initial Setup and Power-On
 
 In this section, you will learn about the startup sequence of the robotic arm and verify the functionality of each module. After completing this step, you can proceed to the following chapters to explore app control and wireless controller control.
 
@@ -442,7 +442,7 @@ The following table outlines how to test each hardware module.
 
 
 
-## 4\. Battery Usage and Charging Instructions
+## 1.4\. Battery Usage and Charging Instructions
 
 Since the robot must be powered off during transportation and the battery cannot be fully charged, you need to connect the battery cable to charge the battery before first use. Charging the battery from 10 V to about 12.3 V takes approximately three hours.
 
@@ -498,7 +498,7 @@ Important Notice: Hiwonder is not responsible for any damage, economic loss, or 
 
 
 
-## 5\. App Installation and Connection
+## 1.5\. App Installation and Connection
 
 > [!NOTE]
 > 
@@ -986,7 +986,7 @@ Click the **Start** button to begin the autonomous driving feature. The robot wi
 
 
 
-## 6\. Wireless Controller Control
+## 1.6\. Wireless Controller Control
 
 ### 6.1 Notes
 
@@ -1034,7 +1034,7 @@ The following table describes the functions of the controller buttons and joysti
 
 
 
-## 7\. Development Environment Setup
+## 1.7\. Development Environment Setup
 
 ### 7.1 Remote Control Tool Introduction and Installation
 ---
@@ -1368,7 +1368,7 @@ Steps:
 
 
 
-## 8\. Manual Mapping
+## 1.8\. Manual Mapping
 
 This section demonstrates how to quickly experience manual mapping. No complex operations are required, simply tap the corresponding icon on the touchscreen to begin.
 
@@ -1544,7 +1544,7 @@ When pressing **W** or **S**, the robot will continuously move forward or backwa
 
 
 
-## 9\. Autonomous Mapping
+## 1.9\. Autonomous Mapping
 
 > [!NOTE]
 > 
@@ -1566,7 +1566,7 @@ When pressing **W** or **S**, the robot will continuously move forward or backwa
 
 
 
-## 10\. Autonomous Navigation
+## 1.10\. Autonomous Navigation
 ===
 
 > [!NOTE]
@@ -1659,7 +1659,7 @@ Clicking **Clear Goals** will remove all set target points.
 
 
 
-## 11\. Hardware Introduction
+## 1.11\. Hardware Introduction
 ===
 
 This section introduces the robot’s hardware, including the electronic control system, ROS controller, LiDAR, depth camera, and other sensors.
@@ -2388,7 +2388,7 @@ The R818 board is a multi-microphone voice front-end solution. It features a qua
 </table>
 
 
-## 12. ROS Introduction
+## 1.12. ROS Introduction
 =============
 
 The ROS robot’s core system consists of two main parts. The first is chassis control, driven by the STM32 controller, responsible for robot motion control and sensor data acquisition. The second is ROS control, centered on the ROS main controller, which runs the ROS system and associated functional algorithms.
@@ -2411,7 +2411,7 @@ For detailed information on the communication protocol and its parsing, refer to
 
 
 
-## 13\. STM32 Source Code
+## 1.13\. STM32 Source Code
 ===
 
 ### 13.1 Introduction
@@ -2557,7 +2557,7 @@ Once complete, a confirmation message will appear in the sidebar as shown in the
 
 
 
-## 14\. System Software Architecture
+## 1.14\. System Software Architecture
 ===
 
 ### 14.1 Introduction to ROS1 File Directory
@@ -2736,7 +2736,7 @@ cd ros2_ws/src/app
 
 
 
-## 15\. Image Flashing
+## 1.15\. Image Flashing
 
 ### 15.1 Preparation
 
