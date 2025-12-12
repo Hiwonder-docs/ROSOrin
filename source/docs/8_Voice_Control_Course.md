@@ -15,19 +15,20 @@
 <img src="../_static/media/chapter_13\section_1/media/image72.png" class="common_img"  />
 
 <p id ="anther8.2"></p>
-##  8.2 Switching Wake Words
+
+## 8.2 Switching Wake Words
 
 The system uses the English wake-up phrase **Hello Hiwonder** by default. To use a different wake-up phrase or command, follow the steps below.
 
 1) For robots with the WonderEcho Pro:  
 Make sure the corresponding language firmware is flashed first. Refer to the tutorial [02 Firmware Flashing](https://drive.google.com/file/d/1XtuwoW_uThCRtbv3N6VAJxLYsg6ay4ZC/view?usp=sharing) under the folder [Voice Control Basic Lesson](https://drive.google.com/drive/folders/1fkwPu-bMrJMNwK8cjsaG5n_buIFx0WhU) for detailed instructions.
 
-<img src="Z:\课程部对接资料\12 ROSOrin\Markdown\Orin Nano\Markdown版本\ROSOrin\source\_static\media\chapter_13\section_1\media\image73.png" style="width:400px" class="common_img"  />
+<img src="../_static/media/chapter_13/section_1/media/image73.png" style="width:400px" class="common_img"  />
 
-<img src="Z:\课程部对接资料\12 ROSOrin\Markdown\Orin Nano\Markdown版本\ROSOrin\source\_static\media\chapter_13\section_1\media\image74.png" style="width:400px" class="common_img"  />
+<img src="../_static/media/chapter_13/section_1/media/image74.png" style="width:400px" class="common_img"  />
 
 2) For robots using the 6-Microphone Array:  
-Set the recognition language via the desktop configuration tool. Double-click the Tool icon <img src="Z:\课程部对接资料\12 ROSOrin\Markdown\Orin Nano\Markdown版本\ROSOrin\source\_static\media\chapter_13\section_1\media\image75.png"  class="common_img"  /> on the system desktop.
+Set the recognition language via the desktop configuration tool. Double-click the Tool icon <img src="../_static/media/chapter_13/section_1/media/image75.png"  class="common_img"  /> on the system desktop.
 
 3) In the Tool interface, switch the language, then click **Save** → **Apply** → **Quit**. The default language is **English**.
 
@@ -35,7 +36,7 @@ Set the recognition language via the desktop configuration tool. Double-click th
 
 <p id ="anther8.3"></p>
 
-8.3 Six-Microphone Array Configuration (Must Read)
+## 8.3 Six-Microphone Array Configuration (Must Read)
 ---
 
 ### 8.3.1 Offline Speech Package \& ID
@@ -78,9 +79,9 @@ Since offline speech recognition is used in this section, an offline speech reso
    
    <img src="../_static/media/chapter_13\section_1/media/image9.png" class="common_img"  />
    
-   > [!NOTE]
-   >
-   > **Locate the extracted files according to the chosen download path.**
+> [!NOTE]
+>
+> **Locate the extracted files according to the chosen download path.**
    
    Open the folder named **Linux_aitalk_exp1227_01997b6c**. The version ID, such as **1227_01997b6c**, may vary depending on the official release. Navigate to the **bin/msc/res/asr** directory and locate the **common.jet** file. Drag this file onto the desktop of the robot’s system image.
 
@@ -110,7 +111,7 @@ vim ./ros2_ws/src/xf_mic_asr_offline/launch/mic_init.launch.py
 
 
 
-8.4 Voice-Controlled Robot Movement
+## 8.4 Voice-Controlled Robot Movement
 ---
 
 ### 8.4.1 Program Overview
@@ -485,7 +486,7 @@ The configuration will take effect after about 30 seconds. On the next startup, 
 
 
 
-8.5 Voice-Controlled Color Recognition
+## 8.5 Voice-Controlled Color Recognition
 ---
 
 ### 8.5.1 Program Overview
@@ -810,7 +811,7 @@ Based on the recognized color, it announces the corresponding color name.
 
 
 
-8.6 Voice-Controlled Multi-Point Navigation
+## 8.6 Voice-Controlled Multi-Point Navigation
 ---
 
 ### 8.6.1 Program Overview
