@@ -136,7 +136,7 @@ Follow the **Preparation** section below to complete the setup for this feature,
 >
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 2. Click the terminal icon <img src="../_static/media/chapter_13\section_1/media/image18.png" class="common_img"  /> in the system desktop to open a command-line window.
 3. Enter the command to disable the app auto-start service.
 
@@ -511,7 +511,7 @@ Follow the **Preparation** section below to complete the setup for this feature,
 > 
 > * **If the color detection is inaccurate, the color thresholds can be adjusted. For more details, refer to the tutorials in file [6. ROS+OpenCV Course](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/6_ROS%2BOpenCV_Course.html#ros-opencv-course).**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. The system uses the English wake word **Hello Hiwonder** by default. Refer to Section [8.2 Switching Wake Words](#anther8.2) in this document for instructions on changing the language or flashing the command phrases.
 
@@ -842,7 +842,7 @@ Follow the **Preparation** section below to complete the setup for this feature,
 >
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 2. Click the terminal icon <img src="../_static/media/chapter_13\section_1/media/image18.png" class="common_img"  /> in the system desktop to open a command-line window.
 3. Enter the command to disable the app auto-start service.
 

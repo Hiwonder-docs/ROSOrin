@@ -42,7 +42,7 @@ The figure below shows how to use MediaPipe. The solid line represents the part 
 
 MediaPipe relies on OpenCV for video processing and FFMPEG for audio data processing. It also has other dependencies, such as OpenGL/Metal, TensorFlow, Eigen, and others.
 
-It is recommended to gain a basic understanding of OpenCV before starting with MediaPipe. Information about OpenCV can be found in the folder: Basic Course / OpenCV Computer Vision Lesson.
+It is recommended to gain a basic understanding of OpenCV before starting with MediaPipe. Information about OpenCV can be found in the folder: [Basic Course / OpenCV Computer Vision Lesson](https://drive.google.com/drive/folders/1UBsPV79gPzK0EXmAq-k5Wz_2r1vk55od?usp=sharing).
 
 * **MediaPipe Solutions**
 
@@ -74,7 +74,7 @@ Finally, the background is replaced with a virtual one.
 
 #### 7.1.2.2 Operation Steps
 
-Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section 7.2 AP Mode Connection Steps in the user manual.
+Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 1. Click the terminal icon <img src="../_static/media/chapter_8/section_1/media/image4.png"  /> in the system desktop to open a command-line window.
 
@@ -246,7 +246,7 @@ Finally, draw 3D bounding boxes on the detected objects in the image. In this se
 
 #### 7.1.3.2 Operation Steps
 
-Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [[1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps)](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 1. Click the terminal icon <img src="../_static/media/chapter_8/section_1/media/image4.png"  /> in the system desktop to open a command-line window.
 
@@ -418,7 +418,7 @@ Finally, the face will be outlined with a bounding box, and the six key landmark
 
 #### 7.1.4.2 Operation Steps
 
-Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [[1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps)](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 1. Click the terminal icon <img src="../_static/media/chapter_8/section_1/media/image4.png"  /> in the system desktop to open a command-line window.
 
@@ -582,7 +582,7 @@ Finally, a 3D mesh is rendered over the detected face in the video feed.
 
 #### 7.1.5.2 Operation Steps
 
-Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [[1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps)](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 1. Click the terminal icon <img src="../_static/media/chapter_8/section_1/media/image4.png" /> in the system desktop to open a command-line window.
 
@@ -744,7 +744,7 @@ Finally, it detects and draws the hand keypoints on the output image.
 
 #### 7.1.6.2 Operation Steps
 
-Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [[1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps)](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 1. Click the terminal icon <img src="../_static/media/chapter_8/section_1/media/image4.png" /> in the system desktop to open a command-line window.
 
@@ -916,7 +916,7 @@ Finally, it identifies and draws the body landmarks on the image.
 
 #### 7.1.7.2 Operation Steps
 
-Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [[1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps)](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 1. Click the terminal icon <img src="../_static/media/chapter_8/section_1/media/image4.png"  /> in the system desktop to open a command-line window.
 
@@ -1077,7 +1077,7 @@ Finally, once the designated gesture is recognized, the robot starts tracking an
 >
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [[1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps)](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 1. Click the terminal icon <img src="../_static/media/chapter_8/section_1/media/image4.png"  /> in the system desktop to open a command-line window.
 
@@ -1373,7 +1373,7 @@ Finally, if the user performs a specific action, the robot responds accordingly.
 >
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [[1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps)](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 1. Click the terminal icon <img src="../_static/media/chapter_8/section_1/media/image4.png" /> in the system desktop to open a command-line window.
 
@@ -1705,7 +1705,7 @@ Finally, update the PID controller based on the coordinates of the human's cente
 >
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [[1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps)](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_8/section_1/media/image4.png" /> in the system desktop to open a command-line window.
 
@@ -1946,7 +1946,7 @@ Finally, if the detected posture is “hands on hips,” the system uses the clo
 >
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [[1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps)](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_8/section_1/media/image4.png" /> in the system desktop to open a command-line window.
 
@@ -2345,7 +2345,7 @@ Finally, if a fall is detected, the robot will trigger an alert and move forward
 >
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [[1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps)](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_8/section_1/media/image4.png" /> in the system desktop to open a command-line window.
 
@@ -2615,7 +2615,7 @@ Since its inception, AI has seen rapid development in both theory and technology
 
 Machine Learning is the core of AI and the fundamental approach to enabling machine intelligence. It is an interdisciplinary field involving probability theory, statistics, approximation theory, convex analysis, algorithmic complexity, and more.
 
-<img src="D:\翻译文件\12 ROSOrin\Orin Nano课程资料 source\_static\media\chapter_9\section_1\media\image2.png"  style="width:600px"  class="common_img" />
+<img src="..\_static\media\chapter_9\section_1\media\image2.png"  style="width:600px"  class="common_img" />
 
 The essence of machine learning lies in enabling computers to simulate or implement human learning behaviors in order to acquire new knowledge or skills, and reorganize existing knowledge structures to continuously improve performance. From a practical perspective, machine learning involves training models using data and making predictions with those models.
 
@@ -2631,7 +2631,7 @@ Supervised learning provides a dataset along with correct labels or answers. The
 
 Labeled Data: Supervised learning uses training data that includes both input features and corresponding labels or outputs. Features describe the attributes of the data, while labels represent the target variable the model is expected to predict or classify. For instance, in image recognition, a large number of images of dogs can be labeled as "dog." The machine learns to recognize dogs in new images through this data.
 
-<img src="D:\翻译文件\12 ROSOrin\Orin Nano课程资料 source\_static\media\chapter_9\section_1\media\image3.png"  style="width:600px"  class="common_img" />
+<img src="..\_static\media\chapter_9\section_1\media\image3.png"  style="width:600px"  class="common_img" />
 
 Model Selection: Choosing the appropriate model to represent the relationship in the data is crucial. Common models include linear regression, logistic regression, decision trees, support vector machines (SVM), and deep neural networks. The choice depends on the data characteristics and the specific problem.
 
@@ -2649,7 +2649,7 @@ Unsupervised learning involves providing the algorithm with data without labels 
 
 For example, in image classification, if you provide a set of images containing cats and dogs without any labels. The algorithm will analyze the data and automatically group the images into two categories—cat images and dog images—based on similarities.
 
-<img src="D:\翻译文件\12 ROSOrin\Orin Nano课程资料 source\_static\media\chapter_9\section_1\media\image4.png"  style="width:600px"  class="common_img" />
+<img src="..\_static\media\chapter_9\section_1\media\image4.png"  style="width:600px"  class="common_img" />
 
 ### 7.2.2 Introduction to Machine Learning Libraries
 
@@ -2663,7 +2663,7 @@ Torch is an open-source machine learning framework under the BSD License, widely
 
 Unlike TensorFlow’s static computation graphs, PyTorch uses dynamic computation graphs, which can be modified in real-time according to the needs of the computation. PyTorch allows developers to accelerate tensor operations using GPUs, build dynamic graphs, and perform automatic differentiation.
 
-<img src="D:\翻译文件\12 ROSOrin\Orin Nano课程资料 source\_static\media\chapter_9\section_1\media\image5.png"   style="width:600px"  class="common_img" />
+<img src="..\_static\media\chapter_9\section_1\media\image5.png"   style="width:600px"  class="common_img" />
 
 #### 7.2.2.3 Tensorflow
 
@@ -2671,7 +2671,7 @@ TensorFlow is an open-source machine learning framework designed to simplify the
 
 TensorFlow allows for efficient mathematical computations. It can run on a wide range of hardware—from supercomputers to embedded systems—making it highly versatile. TensorFlow supports CPU, GPU, or both simultaneously. Compared to other frameworks, TensorFlow is best suited for industrial deployment, making it highly appropriate for use in production environments.
 
-<img src="D:\翻译文件\12 ROSOrin\Orin Nano课程资料 source\_static\media\chapter_9\section_1\media\image6.png"  style="width:600px"  class="common_img" />
+<img src="..\_static\media\chapter_9\section_1\media\image6.png"  style="width:600px"  class="common_img" />
 
 #### 7.2.2.4 PaddlePaddle
 
@@ -2679,13 +2679,13 @@ PaddlePaddle, developed by Baidu, is China’s first open-source, industrial-gra
 
 In recent years, deep learning has achieved outstanding performance across many fields such as image recognition, speech recognition, natural language processing, robotics, online advertising, medical diagnostics, and finance.
 
-<img src="D:\翻译文件\12 ROSOrin\Orin Nano课程资料 source\_static\media\chapter_9\section_1\media\image7.png"  style="width:600px"  class="common_img" />
+<img src="..\_static\media\chapter_9\section_1\media\image7.png"  style="width:600px"  class="common_img" />
 
 #### 7.2.2.5 MXNet
 
 MXNet is another high-performance deep learning framework that supports multiple programming languages, including Python, C++, Scala, and R. It offers data flow graphs similar to those in Theano and TensorFlow and supports multi-GPU configuration. It also includes high-level components for model building, comparable to those in Lasagne and Blocks, and can run on nearly any hardware platform—including mobile devices.
 
-<img src="D:\翻译文件\12 ROSOrin\Orin Nano课程资料 source\_static\media\chapter_9\section_1\media\image8.jpeg"   style="width:600px"  class="common_img" />
+<img src="..\_static\media\chapter_9\section_1\media\image8.jpeg"   style="width:600px"  class="common_img" />
 
 MXNet is designed to maximize efficiency and flexibility. As an accelerated library, it provides powerful tools for developers to take full advantage of GPUs and cloud computing. MXNet supports distributed deployment via a parameter server and can scale almost linearly across multiple CPUs and GPUs.
 
@@ -3602,7 +3602,7 @@ Before starting, it’s important to familiarize yourself with the map and the p
 
 The map should be laid on a flat surface, ensuring it is smooth without wrinkles, and that the road is clear of any obstacles. All road signs and traffic lights must be placed at the designated positions on the map, facing clockwise along the route. The positions of the road signs and the starting point are shown in the figure below.
 
-<img src="D:\翻译文件\12 ROSOrin\Orin 更新source\_static\media\chapter_11\section_1\media\image2.png"  style="width:600px"  class="common_img" />
+<img src="..\_static\media\chapter_11\section_1\media\image2.png"  style="width:600px"  class="common_img" />
 
 ### 7.4.1 Lane Keeping
 
@@ -3632,13 +3632,13 @@ The source code for this program is located at: **/home/ubuntu/ros2_ws/src/examp
 
 #### 7.4.1.3 Operation Steps
 
-Power on the robot and connect it via the **NoMachine** remote control software. For detailed information, please refer to the section [7.2.1 Connecting via NoMachine](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#connecting-via-nomachine) in the user manual.
+Power on the robot and connect it via the **NoMachine** remote control software. For detailed information, please refer to the section [1.7.2.1 Connecting via NoMachine](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#connecting-via-nomachine) in the user manual.
 
 
 
 **Starting the Model:**
 
-1. Click the terminal icon <img src="D:\翻译文件\12 ROSOrin\Orin 更新source\_static\media\chapter_11\section_1\media\image3.png" /> in the system desktop to open a command-line window.
+1. Click the terminal icon <img src="..\_static\media\chapter_11\section_1\media\image3.png" /> in the system desktop to open a command-line window.
 
 2. Enter the following command and press **Enter** to stop the app auto-start service.
 
@@ -3654,13 +3654,13 @@ ros2 launch example self_driving.launch.py
 
 4. To close the program, select the corresponding terminal window and press **Ctrl+C**.
 
-<img src="D:\翻译文件\12 ROSOrin\Orin 更新source\_static\media\chapter_11\section_1\media\image6.png"  style="width:600px"  class="common_img" />
+<img src="..\_static\media\chapter_11\section_1\media\image6.png"  style="width:600px"  class="common_img" />
 
 #### 7.4.1.4 Program Outcome
 
 After starting the feature, place the robot on the road of the map. The robot will detect the yellow lane markings at the edges of the road, adjust its position, and maintain itself in the center of the lane.
 
-<img src="D:\翻译文件\12 ROSOrin\Orin 更新source\_static\media\chapter_11\section_1\media\image7.png"  style="width:600px"  class="common_img" />
+<img src="..\_static\media\chapter_11\section_1\media\image7.png"  style="width:600px"  class="common_img" />
 
 ### 7.4.2 Traffic Sign Detection
 
@@ -3684,6 +3684,8 @@ The source code for this program is located at:
 
 **/home/ubuntu/ros2_ws/src/example/example/yolov11_detect/yolov11_detect_demo.py**
 
+<p id ="anther7.4.2.3"></p>
+
 #### 7.4.2.3 Operation Steps
 
 > [!NOTE]
@@ -3692,11 +3694,11 @@ The source code for this program is located at:
 >
 > * **The input command should be case sensitive, and the keywords can be complemented by the Tab key.**
 
-Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [7.2.1 Connecting via NoMachine](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#connecting-via-nomachine) in the user manual.
+Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2.1 Connecting via NoMachine](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#connecting-via-nomachine) in the user manual.
 
 1. Power on the robot and connect it via the NoMachine remote control software.
 
-2. Click the terminal icon <img src="D:\翻译文件\12 ROSOrin\Orin 更新source\_static\media\chapter_11\section_1\media\image3.png" /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="..\_static\media\chapter_11\section_1\media\image3.png" /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press Enter to stop the app auto-start service.
 
@@ -3718,7 +3720,7 @@ vim yolov11_detect_demo.py
 
 6. Press the **i** key to enter edit mode, locate the code highlighted in red, change the `MODEL_DEFAULT_NAME` weight file name to `best_traffic`, and update the `MODEL_PATH` to `/home/ubuntu/ros2_ws/src/example/example/yolov11_detect/models/`. Press **Esc**, type `:wq`, and press **Enter** to save and exit.
 
-   <img src="D:\翻译文件\12 ROSOrin\Orin 更新source\_static\media\chapter_11\section_1\media\image21.png"  style="width:600px"  class="common_img" />
+   <img src="..\_static\media\chapter_11\section_1\media\image21.png"  style="width:600px"  class="common_img" />
 
 7. Enter the following command to start the target detection feature:
 
@@ -3730,7 +3732,7 @@ ros2 launch example yolov11_detect_demo.launch.py
 
 After launching the feature, place the robot on the map’s road. When the robot detects a traffic sign, it will highlight the detected sign and display the label with the highest confidence based on the trained model.
 
-<img src="D:\翻译文件\12 ROSOrin\Orin 更新source\_static\media\chapter_11\section_1\media\image26.png"  style="width:600px"  class="common_img" />
+<img src="..\_static\media\chapter_11\section_1\media\image26.png"  style="width:600px"  class="common_img" />
 
 ### 7.4.3 Traffic Light Recognition
 
@@ -3762,13 +3764,13 @@ The source code for this program is located at:
 >
 > * **The input command should be case sensitive, and the keywords can be complemented by the Tab key.**
 
-Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [7.2.1 Connecting via NoMachine](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#connecting-via-nomachine) in the user manual.
+Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2.1 Connecting via NoMachine](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#connecting-via-nomachine) in the user manual.
 
 
 
 1. Power on the robot and connect it via the NoMachine remote control software.
 
-2. Click the terminal icon <img src="D:\翻译文件\12 ROSOrin\Orin 更新source\_static\media\chapter_11\section_1\media\image3.png" /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="..\_static\media\chapter_11\section_1\media\image3.png" /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press Enter to stop the app auto-start service.
 
@@ -3790,7 +3792,7 @@ vim yolov11_detect_demo.py
 
 6. Press the **i** key to enter edit mode, locate the code highlighted in red, change the `MODEL_DEFAULT_NAME` weight file name to `best_traffic`, and update the `MODEL_PATH` to `/home/ubuntu/ros2_ws/src/example/example/yolov11_detect/models/`. Press **Esc**, type `:wq`, and press **Enter** to save and exit.
 
-   <img src="D:\翻译文件\12 ROSOrin\Orin 更新source\_static\media\chapter_11\section_1\media\image21.png"  style="width:600px"  class="common_img" />
+   <img src="..\_static\media\chapter_11\section_1\media\image21.png"  style="width:600px"  class="common_img" />
 
 7. Enter the following command to start the target detection feature:
 
@@ -3802,7 +3804,7 @@ ros2 launch example yolov11_detect_demo.launch.py
 
 Once the feature is started, place the robot on the map’s road. When the robot detects a traffic light, it will identify the light’s color and highlight red and green signals accordingly.
 
-<img src="D:\翻译文件\12 ROSOrin\Orin 更新source\_static\media\chapter_11\section_1\media\image27.png"  style="width:600px"  class="common_img" />
+<img src="..\_static\media\chapter_11\section_1\media\image27.png"  style="width:600px"  class="common_img" />
 
 ### 7.4.4 Turing Decision Making
 
@@ -3834,11 +3836,11 @@ The source code for this program is located at:
 >
 > * **The input command should be case sensitive, and the keywords can be complemented by the Tab key.**
 
-Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [7.2.1 Connecting via NoMachine](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#connecting-via-nomachine) in the user manual.
+Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2.1 Connecting via NoMachine](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#connecting-via-nomachine) in the user manual.
 
 1. Power on the robot and connect it via the NoMachine remote control software.
 
-2. Click the terminal icon <img src="D:\翻译文件\12 ROSOrin\Orin 更新source\_static\media\chapter_11\section_1\media\image3.png" /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="..\_static\media\chapter_11\section_1\media\image3.png" /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press Enter to stop the app auto-start service.
 
@@ -3860,7 +3862,7 @@ vim yolov11_detect_demo.py
 
 6. Press the **i** key to enter edit mode, locate the code highlighted in red, change the `MODEL_DEFAULT_NAME` weight file name to `best_traffic`, and update the `MODEL_PATH` to `/home/ubuntu/ros2_ws/src/example/example/yolov11_detect/models/`. Press **Esc**, type `:wq`, and press **Enter** to save and exit.
 
-   <img src="D:\翻译文件\12 ROSOrin\Orin 更新source\_static\media\chapter_11\section_1\media\image21.png"  style="width:600px"  class="common_img" />
+   <img src="..\_static\media\chapter_11\section_1\media\image21.png"  style="width:600px"  class="common_img" />
 
 7. Enter the following command to start the target detection feature:
 
@@ -3872,7 +3874,7 @@ ros2 launch example yolov11_detect_demo.launch.py
 
 After starting the feature, place the robot on the map road. When the robot approaches a turn sign, it will adjust its direction of travel according to the sign’s instruction.
 
-<img src="D:\翻译文件\12 ROSOrin\Orin 更新source\_static\media\chapter_11\section_1\media\image28.png"  style="width:600px"  class="common_img" />
+<img src="..\_static\media\chapter_11\section_1\media\image28.png"  style="width:600px"  class="common_img" />
 
 ### 7.4.5 Autonomous Parking
 
@@ -3904,11 +3906,11 @@ The source code for this program is located at:
 >
 > * **The input command should be case sensitive, and the keywords can be complemented by the Tab key.**
 
-Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [7.2.1 Connecting via NoMachine](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#connecting-via-nomachine) in the user manual.
+Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2.1 Connecting via NoMachine](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#connecting-via-nomachine) in the user manual.
 
 1. Power on the robot and connect it via the NoMachine remote control software.
 
-2. Click the terminal icon <img src="D:\翻译文件\12 ROSOrin\Orin 更新source\_static\media\chapter_11\section_1\media\image3.png" /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="..\_static\media\chapter_11\section_1\media\image3.png" /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press Enter to stop the app auto-start service.
 
@@ -3930,7 +3932,7 @@ vim yolov11_detect_demo.py
 
 6. Press the **i** key to enter edit mode, locate the code highlighted in red, change the `MODEL_DEFAULT_NAME` weight file name to `best_traffic`, and update the `MODEL_PATH` to `/home/ubuntu/ros2_ws/src/example/example/yolov11_detect/models/`. Press **Esc**, type `:wq`, and press **Enter** to save and exit.
 
-   <img src="D:\翻译文件\12 ROSOrin\Orin 更新source\_static\media\chapter_11\section_1\media\image21.png"  style="width:600px"  class="common_img" />
+   <img src="..\_static\media\chapter_11\section_1\media\image21.png"  style="width:600px"  class="common_img" />
 
 7. Enter the following command to start the target detection feature:
 
@@ -3954,7 +3956,7 @@ This section demonstrates the comprehensive autonomous driving functionality of 
 
 The map should be laid on a flat surface, ensuring it is smooth without wrinkles, and that the road is clear of any obstacles. All road signs and traffic lights must be placed at the designated positions on the map, facing clockwise along the route. The positions of the road signs and the starting point are shown in the figure below.
 
-<img src="D:\翻译文件\12 ROSOrin\Orin 更新source\_static\media\chapter_11\section_1\media\image2.png"  style="width:600px"  class="common_img" />
+<img src="..\_static\media\chapter_11\section_1\media\image2.png"  style="width:600px"  class="common_img" />
 
 * **Color Threshold Setting**
 
@@ -3990,11 +3992,11 @@ The source code for this program is located at:
 
 #### 7.4.6.3 Operation Steps
 
-Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [7.2.1 Connecting via NoMachine](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#connecting-via-nomachine) in the user manual.
+Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2.1 Connecting via NoMachine](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#connecting-via-nomachine) in the user manual.
 
 
 
-1. Click the terminal icon <img src="D:\翻译文件\12 ROSOrin\Orin 更新source\_static\media\chapter_11\section_1\media\image29.png" /> in the system desktop to open a command-line window.
+1. Click the terminal icon <img src="..\_static\media\chapter_11\section_1\media\image29.png" /> in the system desktop to open a command-line window.
 
 2. Enter the following command and press **Enter** to stop the app auto-start service.
 
@@ -4010,7 +4012,7 @@ ros2 launch example self_driving.launch.py
 
 4. To close the program, select the corresponding terminal window and press **Ctrl+C**.
 
-<img src="D:\翻译文件\12 ROSOrin\Orin 更新source\_static\media\chapter_11\section_1\media\image36.png"  style="width:600px"  class="common_img" />
+<img src="..\_static\media\chapter_11\section_1\media\image36.png"  style="width:600px"  class="common_img" />
 
 #### 7.4.6.4 Program Outcome
 
@@ -5031,35 +5033,3 @@ def main():
     node.destroy_node()
 
 ```
-
-### 7.4.7 FAQ
-
-1\. The robot performs poorly during line-following, moving in a wobbly manner.
-
-Adjust the color thresholds according to the actual lighting environment. For detailed instructions, refer to [6. ROS + OpenCV Course](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/6_ROS%2BOpenCV_Course.html#ros-opencv-course).
-
-2\. The robot’s turning radius is too large or too small.
-
-Enter the command to navigate to the program directory:
-
-```bash
-cd ~/ros2_ws/src/example/example/self_driving
-```
-
-Enter the command to open the program:
-
-```bash
-vim self_driving.py
-```
-
-The highlighted value represents the lane center point. Decreasing the value makes the robot turn earlier, while increasing it delays the turn.
-
-<img src="../_static/media/chapter_11/section_1/media/image53.png"  style="width:600px"  class="common_img" />
-
-3\. Parking position is inaccurate.
-
-You can modify the parking function or adjust the starting point of the parking operation. For details, refer to section [7.4.5.5 Parameter Adjustment](#anther7.4.5.5).
-
-4\. Traffic sign recognition is inaccurate.
-
-Adjust the detection confidence level. For details, refer to [7.4.2.3 Operation Steps](#anther7.4.2.3).

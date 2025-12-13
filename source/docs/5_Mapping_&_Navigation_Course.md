@@ -203,7 +203,7 @@ This section provides a brief analysis of the robot model code and component mod
 
 #### 5.1.2.2 Access the Robot Model Code
 
-1. Start the robot and connect it to the remote control software NoMachine. For connection instructions, please refer to the section [7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Start the robot and connect it to the remote control software NoMachine. For connection instructions, please refer to the section [1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_5\section_1/media/image23.png"  class="common_img" /> in the system desktop to open a new command-line window.
 
@@ -347,7 +347,7 @@ each incoming frame of data is processed immediately and then returned.
 
 #### 5.1.4.2 Mapping Steps
 
-1. Start the robot and connect it to the remote control software NoMachine. For connection instructions, please refer to the section [7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Start the robot and connect it to the remote control software NoMachine. For connection instructions, please refer to the section [1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_5\section_1/media/image23.png"  class="common_img" /> in the system desktop to open a new command-line window.
 
@@ -541,7 +541,7 @@ During operation, the RTAB-VSLAM algorithm first uses short-term memory data to 
 
 #### 5.1.5.3 3D Mapping Steps
 
-1. Start the robot and connect it to the remote control software NoMachine. For connection instructions, please refer to the section [7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Start the robot and connect it to the remote control software NoMachine. For connection instructions, please refer to the section [1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_5\section_1/media/image23.png"  class="common_img" /> in the system desktop to open a ROS2 command-line window. Enter the command to disable the app auto-start service.
 
@@ -704,7 +704,7 @@ ROS provides a set of general navigation-related packages for robots, allowing d
 
 Overall, ROS navigation packages offer stable and comprehensive functions maintained by professional teams, enabling developers to focus on high-level implementation for more efficient development.
 
-#### 4.2.1.2 Package Details
+#### 5.2.1.2 Package Details
 
 This section provides a detailed explanation of the navigation packages and their parameter usage.
 
@@ -824,7 +824,7 @@ There are two important considerations:
 
 The Monte Carlo particle filter algorithm has many applications across a wide range of fields, including physical sciences, engineering, climatology, and computational biology.
 
-#### 4.2.2.3 Adaptive Monte Carlo Localization (AMCL)
+#### 5.2.2.3 Adaptive Monte Carlo Localization (AMCL)
 
 AMCL can be considered an improved version of the Monte Carlo localization algorithm. It reduces execution time by using fewer samples in the algorithm, thereby enhancing real-time performance. AMCL implements the adaptive or KLD (Kullback-Leibler Divergence) sampling-based Monte Carlo localization method. It uses particle filtering to track the robot’s pose with an existing map.
 
@@ -1111,7 +1111,7 @@ These links provide valuable resources for users to explore the TEB algorithm an
 
 ### 5.2.4 Single/Multi-Point Navigation and Obstacle Avoidance
 
-1. Start the robot and connect it to the remote control software NoMachine. For connection instructions, please refer to the section [7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Start the robot and connect it to the remote control software NoMachine. For connection instructions, please refer to the section [1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_6/section_1/media/image29.png"  class="common_img" /> in the system desktop to open a command-line window. Enter the command to disable the app auto-start service.
 
@@ -1143,11 +1143,11 @@ In the software menu bar, **2D Pose Estimate** is used to set the robot's initia
 
    <img src="../_static/media/chapter_6/section_1/media/image35.png" style="width:600px" class="common_img" />
 
-2. After setting the robot's initial position, the result is as shown below (where the robot's Lidar point cloud data overlaps with the obstacles in the map).
+2. After setting the robot's initial position, the result is as shown below where the robot's Lidar point cloud data overlaps with the obstacles in the map.
 
    <img src="../_static/media/chapter_6/section_1/media/image36.png" style="width:600px" class="common_img" />
 
-3. Click the icon<img src="../_static/media/chapter_6/section_1/media/image37.png"  class="common_img" /> and select a target point on the map. Simply click once at the target point on the map. After the selection, the robot will automatically generate a route and move toward the target point.
+3. Click the icon <img src="../_static/media/chapter_6/section_1/media/image37.png"  class="common_img" /> and select a target point on the map. Simply click once at the target point on the map. After the selection, the robot will automatically generate a route and move toward the target point.
 
    <img src="../_static/media/chapter_6/section_1/media/image38.png" style="width:600px" class="common_img" />
 
@@ -1304,7 +1304,7 @@ For an introduction to the RTAB-VSLAM algorithm and its principles, refer to the
 
 #### 5.2.5.2 Operating Steps
 
-1. Start the robot and connect it to the remote control software NoMachine. For connection instructions, please refer to the section [7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Start the robot and connect it to the remote control software NoMachine. For connection instructions, please refer to the section [1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_6/section_1/media/image29.png"  class="common_img" /> in the system desktop to open a command-line window. Enter the command to disable the app auto-start service.
 
