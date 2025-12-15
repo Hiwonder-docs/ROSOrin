@@ -601,7 +601,7 @@ Tip: We recommend starting with the AP direct connection mode to quickly explore
 
 <img src="../_static/media/chapter_1\section_1/media/image263.png" style="width:400px" class="common_img" />
 
-10. The IP address can be entered in the remote desktop client to establish a connection. For detailed connection instructions, refer to section[ 7. Development Environment Setup](#anther7.0).
+10. The IP address can be entered in the remote desktop client to establish a connection. For detailed connection instructions, refer to section[ 1.7 Development Environment Setup](#anther7.0).
 
 ### 1.5.3 App Control
 
@@ -609,9 +609,9 @@ You can control the robot via the WonderAi app and explore its AI vision feature
 
 #### 1.5.3.1 Preparation
 
-1. First, power on the robot. For details on startup status, refer to section [3.2  Power-On Status](#anther3.2).
+1. First, power on the robot. For details on startup status, refer to section [1.3.2  Power-On Status](#anther3.2).
 
-2. Next, install the WonderAi app and connect the robot. For step-by-step instructions, see section [5.1 App Installation](#anther5.1).
+2. Next, install the WonderAi app and connect the robot. For step-by-step instructions, see section [1.5.1 App Installation](#anther5.1).
 
 #### 1.5.3.2 App Modes
 
@@ -1299,7 +1299,7 @@ sudo systemctl restart wifi.service
 > * **After restarting the robot's Wi-Fi service, NoMachine will disconnect automatically. This happens because the device is in LAN mode, and connecting to a different Wi-Fi network causes the IP address to change.**
 > * **To switch to Direct Connection Mode, simply edit the configuration file, comment out all the lines, save the changes, and restart the robot.**
 
-8. For instructions on finding the device’s IP address, refer to [5.2.2 LAN Mode Connection (Optional)](#anther5.2.2), then follow the steps in [7.2 AP Mode Connection Steps](#anther7.2), updating the IP address with the one you’ve found.
+8. For instructions on finding the device’s IP address, refer to [1.5.2.2 LAN Mode Connection (Optional)](#anther5.2.2), then follow the steps in [1.7.2 AP Mode Connection Steps](#anther7.2), updating the IP address with the one you’ve found.
 
 ### 1.7.4 Fixed IP Connection via USB Data Cable
 
@@ -1323,7 +1323,7 @@ The robot can achieve smoother remote operation by enabling the remote NDIS-comp
 
 4. Click **Device Manager** in the left panel, then find the NDIS driver under **Network Adapters**. Right-click the driver and select **Update Driver**.
 
-5. Next, follow the steps in[ 7.2 AP Mode Connection Steps](#anther7.2), and change the IP address field to **192.168.55.1**.
+5. Next, follow the steps in[ 1.7.2 AP Mode Connection Steps](#anther7.2), and change the IP address field to **192.168.55.1**.
 
 ### 1.7.5 Changing Chassis Type
 
@@ -1368,7 +1368,7 @@ After mapping is completed, the generated map will be saved. You can then enable
 
 ### 1.8.1 Preparation
 
-Before starting the robot, first ensure that the remote desktop tool has been installed according to section [7. Development Environment Setup](#anther7.0), and that the connection to the robot has been established.
+Before starting the robot, first ensure that the remote desktop tool has been installed according to section [1.7 Development Environment Setup](#anther7.0), and that the connection to the robot has been established.
 
 Next, confirm that the wireless controller’s receiver is properly connected to the robot's USB port and securely plugged in.
 
@@ -2426,7 +2426,7 @@ Mecanum wheels enable full 360° omnidirectional movement, allowing the robot no
 
 Ackerman chassis operates like a car, with front-wheel steering controlled by servos.
 
-For detailed explanations of the kinematics models for each chassis type, refer to the documents and video tutorials under [2. Chassis Motion Control Course / 1. Kinematics Analysis](https://drive.google.com/drive/folders/1BGtaWjom-v2P8jHi4WCcyUZ3gogAmsNI) and [2. Motion Control](https://wiki.hiwonder.com/projects/ROSOrin/en/latest/docs/2_Chassis_Motion_Control_Course.html#motion-control).
+For detailed explanations of the kinematics models for each chassis type, refer to the document tutorials under [2. Chassis Motion Control Course](https://wiki.hiwonder.com/projects/ROSOrin/en/latest/docs/2_Chassis_Motion_Control_Course.html#motion-control).
 
 ### 1.13.6 Project Compilation
 

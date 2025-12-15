@@ -242,7 +242,7 @@ Finally, draw 3D bounding boxes on the detected objects in the image. In this se
 
 #### 7.1.3.2 Operation Steps
 
-Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [[1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps)](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 1. Click the terminal icon <img src="../_static/media/chapter_8/section_1/media/image4.png"  /> in the system desktop to open a command-line window.
 
