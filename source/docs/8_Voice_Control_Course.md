@@ -24,7 +24,7 @@ Make sure the corresponding language firmware is flashed first. Refer to the tut
 <img src="../_static/media/chapter_13/section_1/media/image74.png" style="width:400px" class="common_img"  />
 
 2) For robots using the 6-Microphone Array:  
-Set the recognition language via the desktop configuration tool. Double-click the Tool icon <img src="../_static/media/chapter_13/section_1/media/image75.png"  class="common_img"  /> on the system desktop.
+Set the recognition language via the desktop configuration tool. Double-click the Tool icon <img src="../_static/media/chapter_13/section_1/media/image75.png"  class="common_img" style="display:inline;vertical-align:middle;" /> on the system desktop.
 
 3) In the Tool interface, switch the language, then click **Save** → **Apply** → **Quit**. The default language is **English**.
 
@@ -1113,7 +1113,7 @@ The default position of Point A is at the top-right corner of the robot’s star
 
 1. Power on the robot and connect it via the NoMachine remote control software.
 
-2. Click the terminal icon <img src="../_static/media/chapter_13\section_1/media/image18.png" class="common_img"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_13\section_1/media/image18.png" class="common_img"  style="display:inline;vertical-align:middle;"/> in the system desktop to open a command-line window.
 
 3. Enter the command to disable the app auto-start service.
 

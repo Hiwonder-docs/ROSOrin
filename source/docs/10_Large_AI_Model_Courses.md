@@ -3809,6 +3809,8 @@ By continuously monitoring the output of the large model, when action instructio
 
 ## 10.4 Comprehensive Application of Large AI Models
 
+<p id ="anther10.4.1"></p>
+
 ### 10.4.1 Preparation
 
 Before starting this feature, verify that the correct microphone configuration is set in the system.
@@ -3846,6 +3848,7 @@ For the 6-Microphone Array, select **xf** as the microphone type as shown in the
 
 <img src="../_static/media/chapter_24\section_1/media/image139.png" style="width:400px" class="common_img"  />
 
+<p id ="anther10.4.2"></p>
 
 ### 10.4.2 Large Model API Key Setup
 
