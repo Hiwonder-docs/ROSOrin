@@ -1,9 +1,5 @@
 # 7. ROS+Machine Learning Course
 
-[TOC]
-
-
-
 ## 7.1 MediaPipe Human-Robot Interaction
 
 ### 7.1.1 MediaPipe Introduction and Getting Started
@@ -74,7 +70,7 @@ Finally, the background is replaced with a virtual one.
 
 #### 7.1.2.2 Operation Steps
 
-Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 1. Click the terminal icon <img src="../_static/media/chapter_8/section_1/media/image4.png"  /> in the system desktop to open a command-line window.
 
@@ -3025,7 +3021,7 @@ The **save number** in the top-left corner of the tool interface shows the ID of
 
 <img src="../_static/media/chapter_10/section_1/media/image38.png"  style="width:600px"  class="common_img" />
 
-11. Click on the icon <img src="../_static/media/chapter_10/section_1/media/image39.png"  style="width:70px"  class="common_img" /> in the system status bar to open the file manager, where the saved images can be viewed.
+11. Click on the icon <img src="../_static/media/chapter_10/section_1/media/image39.png" class="common_img" style="width:70px;display:inline;vertical-align:middle;"/> in the system status bar to open the file manager, where the saved images can be viewed.
 
 <img src="../_static/media/chapter_10/section_1/media/image40.png"  style="width:600px"  class="common_img" />
 
@@ -3056,19 +3052,19 @@ Below is a table of common shortcut keys:
 | <img src="../_static/media/chapter_10\section_1/media/image46.png"  style="width:70px"  class="common_img" /> | A                | Switch to the previous image.              |
 | <img src="../_static/media/chapter_10\section_1/media/image47.png"  style="width:70px"  class="common_img" /> | D                | Switch to the next image.                  |
 
-2. Click the button <img src="../_static/media/chapter_10/section_1/media/image48.png"  style="width:70px"  class="common_img" /> to open the folder where your images are stored. In this tutorial, select the directory used for image collection.
+2. Click the button <img src="../_static/media/chapter_10/section_1/media/image48.png"  class="common_img" style="width:70px;display:inline;vertical-align:middle;"/> to open the folder where your images are stored. In this tutorial, select the directory used for image collection.
 
 <img src="../_static/media/chapter_10/section_1/media/image49.png"  style="width:600px"  class="common_img" />
 
-3. Click Open <img src="../_static/media/chapter_10/section_1/media/image50.png"  style="width:70px"  class="common_img" /> to open the folder.
+3. Click Open <img src="../_static/media/chapter_10/section_1/media/image50.png" class="common_img" style="width:70px;display:inline;vertical-align:middle;"/> to open the folder.
 
 <img src="../_static/media/chapter_10/section_1/media/image51.png"  style="width:600px"  class="common_img" />
 
-4. Then click the **Change Save Dir** button <img src="../_static/media/chapter_10/section_1/media/image52.png"  style="width:70px"  class="common_img" /> and select the annotation save folder, which is the **Annotations** directory located under the same path as the image collection.
+4. Then click the **Change Save Dir** button <img src="../_static/media/chapter_10/section_1/media/image52.png"  class="common_img" style="width:70px;display:inline;vertical-align:middle;"/> and select the annotation save folder, which is the **Annotations** directory located under the same path as the image collection.
 
 <img src="../_static/media/chapter_10/section_1/media/image53.png"  style="width:600px"  class="common_img" />
 
-5. Click **Open** <img src="../_static/media/chapter_10/section_1/media/image54.png"  style="width:70px"  class="common_img" /> to return to the annotation interface.
+5. Click **Open** <img src="../_static/media/chapter_10/section_1/media/image54.png"  style="width:70px;display:inline;vertical-align:middle"  class="common_img" /> to return to the annotation interface.
 
 6. Press the **W** key to begin creating a bounding box.
 

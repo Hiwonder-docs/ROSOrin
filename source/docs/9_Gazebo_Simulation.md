@@ -1,9 +1,5 @@
 # 9\. Gazebo Simulation
 
-[TOC]
-
-
-
 <p id ="anther9.1"></p>
 
 ## 9.1 Virtual Machine Installation and Import
@@ -104,7 +100,7 @@ The virtual machine interface is as follows:
 
 ### 9.2.1 Importing the Feature Package
 
-1. Launch the virtual machine. Click the terminal icon <img src="../_static/media/chapter_21/section_2/media/image2.png" /> in the system desktop to open a command-line window.
+1. Launch the virtual machine. Click the terminal icon <img src="../_static/media/chapter_21/section_2/media/image2.png" style="display:inline;vertical-align:middle;" /> in the system desktop to open a command-line window.
 
 2. Click the Home folder <img src="../_static/media/chapter_21/section_2/media/image3.png" style="width:80px" /> on the desktop to enter the directory.
 
@@ -413,7 +409,7 @@ To understand the URDF model, refer to section [9.3.1 Overview and Basics of URD
 
 * **Viewing the Robot Model Code**
 
-1. Launch the virtual machine. Click the terminal icon <img class="common_img" src="../_static/media/chapter_21/section_3/media/image27.png"  /> on the left of the system desktop to open a command-line window.
+1. Launch the virtual machine. Click the terminal icon <img class="common_img" src="../_static/media/chapter_21/section_3/media/image27.png"  style="display:inline;vertical-align:middle;"/> on the left of the system desktop to open a command-line window.
 
 2. Enter the command and press **Enter** to navigate to the program’s startup directory.
 
@@ -483,7 +479,7 @@ To better understand the robot's model and structure, you can use Gazebo for vis
 >
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1) Launch the virtual machine. Click the terminal icon <img class="common_img" src="../_static/media/chapter_21/section_4/media/image2.png"  /> in the system desktop to open a command-line window.
+1) Launch the virtual machine. Click the terminal icon <img class="common_img" src="../_static/media/chapter_21/section_4/media/image2.png" style="display:inline;vertical-align:middle;"  /> in the system desktop to open a command-line window.
 
 2) Enter the following command to open the Gazebo simulation model:
 
@@ -511,15 +507,15 @@ Press and hold while moving the mouse to rotate the view around the current targ
 
 For the toolbar tools, the following three will be used as examples for explanation.
 
-1\. Selection Tool <img class="common_img" src="../_static/media/chapter_21/section_4/media/image5.png"  />: The default tool in Gazebo, used to select models.
+1\. Selection Tool <img class="common_img" src="../_static/media/chapter_21/section_4/media/image5.png"  style="display:inline;vertical-align:middle;" />: The default tool in Gazebo, used to select models.
 
 <img class="common_img" src="../_static/media/chapter_21/section_4/media/image6.png" style="width:700px" />
 
-2\. Move Tool <img class="common_img" src="../_static/media/chapter_21/section_4/media/image7.png"  />: After selecting a model with this tool, drag along the three axes to move the model.
+2\. Move Tool <img class="common_img" src="../_static/media/chapter_21/section_4/media/image7.png"  style="display:inline;vertical-align:middle;" />: After selecting a model with this tool, drag along the three axes to move the model.
 
 <img class="common_img" src="../_static/media/chapter_21/section_4/media/image8.png" style="width:700px" />
 
-3\. Rotate Tool <img class="common_img" src="../_static/media/chapter_21/section_4/media/image9.png"  />: After selecting a model with this tool, drag along the three axes to rotate the model.
+3\. Rotate Tool <img class="common_img" src="../_static/media/chapter_21/section_4/media/image9.png"  style="display:inline;vertical-align:middle;" />: After selecting a model with this tool, drag along the three axes to rotate the model.
 
 <img class="common_img" src="../_static/media/chapter_21/section_4/media/image10.png" style="width:700px" />
 
@@ -535,7 +531,7 @@ To understand the simulation models of various expansion devices on the robot, i
 >
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1) Launch the virtual machine. Click the terminal icon <img class="common_img" src="../_static/media/chapter_21/section_4/media/image2.png"  /> in the system desktop to open a command-line window.
+1) Launch the virtual machine. Click the terminal icon <img class="common_img" src="../_static/media/chapter_21/section_4/media/image2.png"  style="display:inline;vertical-align:middle;" /> in the system desktop to open a command-line window.
 
 2. Enter the command and press **Enter** to navigate to the program’s startup directory.
 
@@ -559,7 +555,7 @@ This file describes the LiDAR simulation model, including its name, detection ra
 >
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1) Launch the virtual machine. Click the terminal icon <img class="common_img" src="../_static/media/chapter_21/section_4/media/image2.png"  /> in the system desktop to open a command-line window.
+1) Launch the virtual machine. Click the terminal icon <img class="common_img" src="../_static/media/chapter_21/section_4/media/image2.png"  style="display:inline;vertical-align:middle;" /> in the system desktop to open a command-line window.
 
 2. Enter the command and press **Enter** to navigate to the program’s startup directory.
 
@@ -587,7 +583,7 @@ This file describes the IMU simulation model, including its name, offset setting
 
 If you want to perform mapping in an ideal environment but cannot build it in the real world, you can instead create the desired scene in Gazebo and carry out mapping simulation there.
 
-1) On the virtual machine, click the desktop icon <img class="common_img" src="../_static/media/chapter_21/section_4/media/image2.png"  /> to open a terminal.
+1) On the virtual machine, click the desktop icon <img class="common_img" src="../_static/media/chapter_21/section_4/media/image2.png"  style="display:inline;vertical-align:middle;" /> to open a terminal.
 
 2. Enter the command to launch the Gazebo simulation.
 
@@ -597,7 +593,7 @@ ros2 launch robot_gazebo room_worlds.launch.py
 
 <img class="common_img" src="../_static/media/chapter_21/section_4/media/image17.png" style="width:700px" />
 
-3) Click the icon <img class="common_img" src="../_static/media/chapter_21/section_4/media/image2.png"  /> to open a new terminal and enter the following command to start the mapping service.
+3) Click the icon <img class="common_img" src="../_static/media/chapter_21/section_4/media/image2.png"  style="display:inline;vertical-align:middle;" /> to open a new terminal and enter the following command to start the mapping service.
 
 ```
 ros2 launch robot_gazebo slam.launch.py
@@ -656,7 +652,7 @@ After completing the mapping in Gazebo, navigation can also be performed within 
 >
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1) Launch the virtual machine. Click the terminal icon <img class="common_img" src="../_static/media/chapter_21/section_4/media/image2.png"  /> in the system desktop to open a command-line window.
+1) Launch the virtual machine. Click the terminal icon <img class="common_img" src="../_static/media/chapter_21/section_4/media/image2.png"  style="display:inline;vertical-align:middle;" /> in the system desktop to open a command-line window.
 
 2. Enter the following command to launch the simulation map:
 
@@ -664,7 +660,7 @@ After completing the mapping in Gazebo, navigation can also be performed within 
 ros2 launch robot_gazebo room_worlds.launch.py nav:=true
 ```
 
-3) Click the icon <img class="common_img" src="../_static/media/chapter_21/section_4/media/image2.png"  /> to open a new terminal.
+3) Click the icon <img class="common_img" src="../_static/media/chapter_21/section_4/media/image2.png"  style="display:inline;vertical-align:middle;" /> to open a new terminal.
 
 4) Enter the following command to load the map for navigation and start the navigation process:
 
@@ -702,7 +698,7 @@ Publish Point: Used to set multiple target points for the robot.
 
 <img class="common_img" src="../_static/media/chapter_21/section_4/media/image33.png" style="width:400px" />
 
-4\. Click the icon <img class="common_img" src="../_static/media/chapter_21/section_4/media/image34.png"  />, then click and drag the left mouse button at a point on the map to set the target direction and create a target point. To set multiple target points, repeat the above steps.
+4\. Click the icon <img class="common_img" src="../_static/media/chapter_21/section_4/media/image34.png"  style="display:inline;vertical-align:middle;" />, then click and drag the left mouse button at a point on the map to set the target direction and create a target point. To set multiple target points, repeat the above steps.
 
 5\. Click the button in the lower-left corner to start navigation.
 

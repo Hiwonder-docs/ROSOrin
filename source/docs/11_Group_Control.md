@@ -1,9 +1,5 @@
 # 11\. Group Control
 
-[TOC]
-
-
-
 ## 11.1 Leader-Follower Configuration
 
 ### 11.1.1 Preparation
@@ -100,7 +96,7 @@ sudo reboot
 
 1) Select one ROSOrin as the leader device and power it on. Then, remotely connect to the desktop via NoMachine.
 
-2) Click the terminal icon <img class="common_img" src="../_static/media/chapter_20/section_1/media/image7.png"  /> in the system desktop to open a command-line window.
+2) Click the terminal icon <img class="common_img" src="../_static/media/chapter_20/section_1/media/image7.png"  style="display:inline;vertical-align:middle;"/> in the system desktop to open a command-line window.
 
 3) Ensure that the leader device has a USB receiver for the wireless controller connected.
 
@@ -136,7 +132,7 @@ source ~/.zshrc
 
 1) First, connect to the Wi-Fi network created by the leader device on the app. Once connected, search for the follower device. The vehicle icon will appear in the app, and by long-pressing the screen, the follower device’s IP address will be displayed. Refer to the section [1.5.2.2 LAN Mode Connection (Optional)](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#lan-mode-connection-optional)  in the user manual for guidance to use this IP address.
 
-2) Click the terminal icon <img class="common_img" src="../_static/media/chapter_20/section_1/media/image7.png"  /> on the system desktop to open a command-line window.
+2) Click the terminal icon <img class="common_img" src="../_static/media/chapter_20/section_1/media/image7.png" style="display:inline;vertical-align:middle;" /> on the system desktop to open a command-line window.
 
 3. Input the command to disable the auto-start service and press **Enter**.
 

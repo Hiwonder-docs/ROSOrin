@@ -1,7 +1,5 @@
 # 5. Mapping & Navigation Course
 
-[TOC]
-
 <p id ="anther5.1"></p>
 
 ## 5.1 Mapping Tutorial
@@ -205,7 +203,7 @@ This section provides a brief analysis of the robot model code and component mod
 
 1. Start the robot and connect it to the remote control software NoMachine. For connection instructions, please refer to the section [1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
-2. Click the terminal icon <img src="../_static/media/chapter_5\section_1/media/image23.png"  class="common_img" /> in the system desktop to open a new command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_5\section_1/media/image23.png"  class="common_img" style="display:inline;vertical-align:middle;" /> in the system desktop to open a new command-line window.
 
 3. Stop the app auto-start service by entering the following command and press **Enter**:
    
@@ -349,7 +347,7 @@ each incoming frame of data is processed immediately and then returned.
 
 1. Start the robot and connect it to the remote control software NoMachine. For connection instructions, please refer to the section [1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
-2. Click the terminal icon <img src="../_static/media/chapter_5\section_1/media/image23.png"  class="common_img" /> in the system desktop to open a new command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_5\section_1/media/image23.png"  class="common_img" style="display:inline;vertical-align:middle;" /> in the system desktop to open a new command-line window.
 
 3. Enter the command to disable the app auto-start service.
 
@@ -543,7 +541,7 @@ During operation, the RTAB-VSLAM algorithm first uses short-term memory data to 
 
 1. Start the robot and connect it to the remote control software NoMachine. For connection instructions, please refer to the section [1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
-2. Click the terminal icon <img src="../_static/media/chapter_5\section_1/media/image23.png"  class="common_img" /> in the system desktop to open a ROS2 command-line window. Enter the command to disable the app auto-start service.
+2. Click the terminal icon <img src="../_static/media/chapter_5\section_1/media/image23.png"  class="common_img" style="display:inline;vertical-align:middle;" /> in the system desktop to open a ROS2 command-line window. Enter the command to disable the app auto-start service.
 
 ```bash
 sudo systemctl stop start_app_node.service
@@ -1113,7 +1111,7 @@ These links provide valuable resources for users to explore the TEB algorithm an
 
 1. Start the robot and connect it to the remote control software NoMachine. For connection instructions, please refer to the section [1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
-2. Click the terminal icon <img src="../_static/media/chapter_6/section_1/media/image29.png"  class="common_img" /> in the system desktop to open a command-line window. Enter the command to disable the app auto-start service.
+2. Click the terminal icon <img src="../_static/media/chapter_6/section_1/media/image29.png"  class="common_img" style="display:inline;vertical-align:middle;" /> in the system desktop to open a command-line window. Enter the command to disable the app auto-start service.
 
 ```bash
 sudo systemctl stop start_app_node.service
@@ -1139,7 +1137,7 @@ ros2 launch navigation rviz_navigation.launch.py
 
 In the software menu bar, **2D Pose Estimate** is used to set the robot's initial position, and **2D Nav Goal** is used to set a single target point for the robot.
 
-1. To set the robot's initial position, click on <img src="../_static/media/chapter_6/section_1/media/image34.png"  class="common_img" /> in the software interface, select a location on the map, then click and drag the mouse to choose the robot's pose.
+1. To set the robot's initial position, click on <img src="../_static/media/chapter_6/section_1/media/image34.png"  class="common_img" style="display:inline;vertical-align:middle;" /> in the software interface, select a location on the map, then click and drag the mouse to choose the robot's pose.
 
    <img src="../_static/media/chapter_6/section_1/media/image35.png" style="width:600px" class="common_img" />
 
@@ -1147,7 +1145,7 @@ In the software menu bar, **2D Pose Estimate** is used to set the robot's initia
 
    <img src="../_static/media/chapter_6/section_1/media/image36.png" style="width:600px" class="common_img" />
 
-3. Click the icon <img src="../_static/media/chapter_6/section_1/media/image37.png"  class="common_img" /> and select a target point on the map. Simply click once at the target point on the map. After the selection, the robot will automatically generate a route and move toward the target point.
+3. Click the icon <img src="../_static/media/chapter_6/section_1/media/image37.png"  class="common_img" style="display:inline;vertical-align:middle;" /> and select a target point on the map. Simply click once at the target point on the map. After the selection, the robot will automatically generate a route and move toward the target point.
 
    <img src="../_static/media/chapter_6/section_1/media/image38.png" style="width:600px" class="common_img" />
 
@@ -1306,7 +1304,7 @@ For an introduction to the RTAB-VSLAM algorithm and its principles, refer to the
 
 1. Start the robot and connect it to the remote control software NoMachine. For connection instructions, please refer to the section [1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
-2. Click the terminal icon <img src="../_static/media/chapter_6/section_1/media/image29.png"  class="common_img" /> in the system desktop to open a command-line window. Enter the command to disable the app auto-start service.
+2. Click the terminal icon <img src="../_static/media/chapter_6/section_1/media/image29.png"  class="common_img"  style="display:inline;vertical-align:middle;"  /> in the system desktop to open a command-line window. Enter the command to disable the app auto-start service.
 
 ```bash
 sudo systemctl stop start_app_node.service
@@ -1328,7 +1326,7 @@ ros2 launch navigation rviz_rtabmap_navigation.launch.py
 
 <img src="../_static/media/chapter_6/section_1/media/image60.png" style="width:600px" class="common_img" />
 
-6. Click on the target point setting icon <img src="../_static/media/chapter_6/section_1/media/image61.png"  class="common_img" />at the top of the software to set a navigation target point for the robot.
+6. Click on the target point setting icon <img src="../_static/media/chapter_6/section_1/media/image61.png"  class="common_img"  style="display:inline;vertical-align:middle;" />at the top of the software to set a navigation target point for the robot.
 
 7. Select a location on the map and click once with the mouse at the desired target point on the map interface. After the selection, the robot will automatically generate a route and move toward the target point.
 

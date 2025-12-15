@@ -1,9 +1,6 @@
 # 6\. ROS+OpenCV Course
 
-[TOC]
-
-6.1 Color Threshold Adjustment
----
+## 6.1 Color Threshold Adjustment
 
 Various light sources can affect colors differently, leading to discrepancies in recognition. To address this issue, you can utilize LABTOOL to adjust the color threshold, ensuring more accurate and consistent color recognition.
 
@@ -15,7 +12,7 @@ The input command should be case sensitive, and the keywords can be complemented
 
 2. Power on the robot and connect it to the remote control software NoMachine. For instructions on setting up the remote desktop connection, refer to the section [1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
-3. Click the terminal icon <img src="../_static/media/chapter_7\section_1/media/image2.png"  class="common_img" /> in the system desktop to open a command-line window.
+3. Click the terminal icon <img src="../_static/media/chapter_7\section_1/media/image2.png"  class="common_img" style="display:inline;vertical-align:middle;"  /> in the system desktop to open a command-line window.
 
 4. Enter the following command and press **Enter** to stop the app auto-start service.
 
@@ -176,7 +173,7 @@ Finally, the recognition results are overlaid on the return image.
 
 1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
-2. Click the terminal icon <img src="../_static/media/chapter_7\section_1/media/image30.png"  class="common_img" /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_7\section_1/media/image30.png"  class="common_img" style="display:inline;vertical-align:middle;" /> in the system desktop to open a command-line window.
 
 3. Enter the command to disable the app auto-start service.
 
@@ -443,7 +440,7 @@ Finally, generate a QR code image based on the data, display it in a window, and
 
 1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
-2. Click the terminal icon <img src="../_static/media/chapter_7\section_1/media/image30.png"  class="common_img" /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_7\section_1/media/image30.png"  class="common_img" style="display:inline;vertical-align:middle;" /> in the system desktop to open a command-line window.
 
 3. Enter the command to disable the app auto-start service.
    
@@ -471,7 +468,7 @@ Press **Enter**, and a QR code containing the input data will be displayed.
 
 <img src="../_static/media/chapter_7\section_1/media/image48.png"  class="common_img" />
 
-7. Next, click the taskbar on the left side of the system interface, then click <img src="../_static/media/chapter_7\section_1/media/image49.png"  class="common_img" /> to open the file manager. Navigate to the directory highlighted in the red box below to find that the generated QR code has been exported to the host system.
+7. Next, click the taskbar on the left side of the system interface, then click <img src="../_static/media/chapter_7\section_1/media/image49.png"  class="common_img" style="display:inline;vertical-align:middle;"/> to open the file manager. Navigate to the directory highlighted in the red box below to find that the generated QR code has been exported to the host system.
 
 <img src="../_static/media/chapter_7\section_1/media/image50.png" style="width:600px" class="common_img" />
 
@@ -613,7 +610,7 @@ Finally, when a QR code is detected, it will be highlighted with a bounding box,
 
 1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to remote desktop, please refer to section [1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
-2. Click the terminal icon <img src="../_static/media/chapter_7\section_1/media/image30.png"  class="common_img" /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_7\section_1/media/image30.png"  class="common_img" style="display:inline;vertical-align:middle;" /> in the system desktop to open a command-line window.
 
 3. Enter the command to disable the app auto-start service.
 
@@ -834,7 +831,7 @@ Finally, the recognition results are overlaid on the return image.
 
 1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
-2. Click the terminal icon <img src="../_static/media/chapter_7\section_1/media/image30.png"  class="common_img" /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_7\section_1/media/image30.png"  class="common_img" style="display:inline;vertical-align:middle;" /> in the system desktop to open a command-line window.
 
 3. Enter the command to disable the app auto-start service.
 

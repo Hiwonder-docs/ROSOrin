@@ -1,11 +1,6 @@
 # 3\. LiDAR Course
 
-[TOC]
-
-
-
-3.1 Introduction
----
+## 3.1 Introduction
 
 ### 3.1.1 Overview
 
@@ -61,7 +56,7 @@ The platform uses the MS200 LiDAR by default, which connects to the intelligent 
 
 <img src="../_static/media/chapter_4\section_1/media/image9.png" style="width:600px" class="common_img" />
 
-7. Once the switch is finished, click the command line terminal icon<img src="../_static/media/chapter_4\section_1/media/image10.png"  class="common_img" /> on the left side of the system desktop to confirm the LiDAR version.
+7. Once the switch is finished, click the command line terminal icon <img src="../_static/media/chapter_4\section_1/media/image10.png"  class="common_img" style="display:inline;vertical-align:middle;"/> on the left side of the system desktop to confirm the LiDAR version.
 
 <img src="../_static/media/chapter_4\section_1/media/image11.png" style="width:600px" class="common_img" />
 
@@ -101,7 +96,7 @@ For instructions on using the mobile app, refer to the section [1.5 App Installa
 
 1. Start the robot and connect it to the remote control software NoMachine. For connection instructions, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
-2. Click the terminal icon <img src="../_static/media/chapter_4\section_1/media/image15.png"  class="common_img" /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_4\section_1/media/image15.png"  class="common_img" style="display:inline;vertical-align:middle;"/> in the system desktop to open a command-line window.
 
 3. Stop the app auto-start service by entering the following command and pressing **Enter**:
    
@@ -149,7 +144,7 @@ There are two ways to enable this feature. The first is through the mobile app, 
 For instructions on using the mobile app, refer to the section [1.5 App Installation and Connection](https://wiki.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#app-installation-and-connection) in the user manual to view the related course.
 
 1. Start the robot and connect it to the remote control software NoMachine. For connection instructions, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
-2. Click the terminal icon <img src="../_static/media/chapter_4\section_1/media/image15.png"  class="common_img" /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_4\section_1/media/image15.png"  class="common_img" style="display:inline;vertical-align:middle;" /> in the system desktop to open a command-line window.
 3. Stop the app auto-start service by entering the following command and pressing **Enter**:
 
 ```bash
@@ -193,13 +188,13 @@ The robot detects the distance to objects directly in front of it. If an object 
 
 There are two ways to enable this feature. The first is through the mobile app, and the second is by using commands after connecting to the system remotely.
 
-For instructions on using the mobile app, refer to the section [1.5 App Installation and Connection](1_ROSOrin_User_Manual.html#app-installation-and-connection) in the user manual to view the related course.
+For instructions on using the mobile app, refer to the section [1.5 App Installation and Connection](https://wiki.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#app-installation-and-connection) in the user manual to view the related course.
 
 This feature is only available for robots with a mecanum wheel chassis.
 
 1. Start the robot and connect it to the remote control software NoMachine. For connection instructions, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
-2. Click the terminal icon <img src="../_static/media/chapter_4\section_1/media/image15.png"  class="common_img" /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_4\section_1/media/image15.png"  class="common_img" style="display:inline;vertical-align:middle;" /> in the system desktop to open a command-line window.
 
 3. Stop the app auto-start service by entering the following command and pressing **Enter**:
 

@@ -1,9 +1,5 @@
 # 2\. Chassis Motion Control Course
 
-[TOC]
-
-
-
 ## 2.1 Motion Control
 
 ### 2.1.1 IMU Calibration
@@ -28,7 +24,7 @@ The figure above shows the positive directions of the IMU’s x, y, and z axes. 
 
 1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7 Development Environment Setup](https://wiki.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#development-environment-setup) in the user manual.
 
-2. Click the terminal icon <img src="../_static/media/chapter_2/section_1/media/image3.png"  class="common_img" /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_2/section_1/media/image3.png"  class="common_img" style="display:inline;vertical-align:middle;" /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app auto-start service.
 
@@ -116,7 +112,7 @@ When the robot shows noticeable deviation in turning points or turning angles du
 
 2. Power on the robot and connect to it using the remote connection tool by following the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
-3. Click the terminal icon <img src="../_static/media/chapter_2/section_1/media/image3.png"  class="common_img" /> on the system desktop.
+3. Click the terminal icon <img src="../_static/media/chapter_2/section_1/media/image3.png"  class="common_img" style="display:inline;vertical-align:middle;"/> on the system desktop.
 
 4. Enter the following command and press **Enter** to stop the app auto-start service.
 
@@ -206,7 +202,7 @@ Press the key **i** to enter edit mode and modify the value of **angular_correct
 
 2. Power on the robot and connect to it using the remote connection tool by following the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
-3. Click the terminal icon <img src="../_static/media/chapter_2/section_1/media/image3.png"  class="common_img" /> in the system desktop to open a command-line window.
+3. Click the terminal icon <img src="../_static/media/chapter_2/section_1/media/image3.png"  class="common_img" style="display:inline;vertical-align:middle;"/> in the system desktop to open a command-line window.
 
 4. Enter the following command and press Enter to stop the app auto-start service.
 
@@ -318,7 +314,7 @@ The IMU data is published on the topic /imu, and the odometry data is published 
 
 1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
-2. Click the terminal icon <img src="../_static/media/chapter_2/section_1/media/image3.png"  class="common_img" /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_2/section_1/media/image3.png"  class="common_img" style="display:inline;vertical-align:middle;"/> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app auto-start service.
 
@@ -376,7 +372,7 @@ The message content shows the data collected from the three axes of the IMU.
 
 1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
-2. Click the terminal icon <img src="../_static/media/chapter_2/section_1/media/image3.png"  class="common_img" /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_2/section_1/media/image3.png"  class="common_img" style="display:inline;vertical-align:middle;"/> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app auto-start service.
 
@@ -438,7 +434,7 @@ The program subscribes to the `/controller/cmd_vel` topic to get the set linear 
 
 1. Power on the robot and connect it to the remote control software NoMachine. For instructions on setting up the remote desktop connection, refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
-2. Click the terminal icon <img src="../_static/media/chapter_2/section_1/media/image3.png"  class="common_img" /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_2/section_1/media/image3.png"  class="common_img" style="display:inline;vertical-align:middle;"/> in the system desktop to open a command-line window.
 
 3. Enter the command to stop the app service and press **Enter**:
 

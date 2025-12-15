@@ -1,9 +1,5 @@
 # 8\. Voice Interaction Applications
 
-[TOC]
-
-
-
 ## 8.1 Voice Module Installation
 
 ### 8.1.1 Install the WonderEcho Pro
@@ -89,7 +85,7 @@ Since offline speech recognition is used in this section, an offline speech reso
 
 <img src="../_static/media/chapter_13\section_1/media/image11.png" style="width:600px" class="common_img"  />
 
-2. Click the terminal icon <img src="../_static/media/chapter_13\section_1/media/image12.png" class="common_img"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_13\section_1/media/image12.png" class="common_img"  style="display:inline;vertical-align:middle;" /> in the system desktop to open a command-line window.
 
 3. Run the following command to replace the **common.jet** file:
 
@@ -137,7 +133,7 @@ Follow the **Preparation** section below to complete the setup for this feature,
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
 1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
-2. Click the terminal icon <img src="../_static/media/chapter_13\section_1/media/image18.png" class="common_img"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_13\section_1/media/image18.png" class="common_img"  style="display:inline;vertical-align:middle;" /> in the system desktop to open a command-line window.
 3. Enter the command to disable the app auto-start service.
 
 ```bash
@@ -453,7 +449,7 @@ The default Wake Word is **Hello Hiwonder**. It can be changed by modifying the 
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
 1. Power on the robot and connect it via the NoMachine remote control software.
-2. Click the terminal icon <img src="../_static/media/chapter_13\section_1/media/image18.png" class="common_img"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_13\section_1/media/image18.png" class="common_img"  style="display:inline;vertical-align:middle;" /> in the system desktop to open a command-line window.
 3. Enter the following command and press **Enter**：
 
 ```bash
@@ -515,7 +511,7 @@ Follow the **Preparation** section below to complete the setup for this feature,
 
 2. The system uses the English wake word **Hello Hiwonder** by default. Refer to Section [8.2 Switching Wake Words](#anther8.2) in this document for instructions on changing the language or flashing the command phrases.
 
-3. Click the terminal icon <img src="../_static/media/chapter_13\section_1/media/image18.png" class="common_img"  /> in the system desktop to open a command-line window.
+3. Click the terminal icon <img src="../_static/media/chapter_13\section_1/media/image18.png" class="common_img"  style="display:inline;vertical-align:middle;" /> in the system desktop to open a command-line window.
 
 4. Enter the command to disable the app auto-start service.
 
@@ -843,7 +839,7 @@ Follow the **Preparation** section below to complete the setup for this feature,
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
 1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
-2. Click the terminal icon <img src="../_static/media/chapter_13\section_1/media/image18.png" class="common_img"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_13\section_1/media/image18.png" class="common_img"  style="display:inline;vertical-align:middle;"/> in the system desktop to open a command-line window.
 3. Enter the command to disable the app auto-start service.
 
 ```bash

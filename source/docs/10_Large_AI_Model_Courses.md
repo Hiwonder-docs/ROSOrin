@@ -1,9 +1,5 @@
 # 10. Large AI Model Courses
 
-[TOC]
-
-
-
 ## 10.1 Large Models Basic Courses
 
 ### 10.1.1 Large Language Model Courses
@@ -1614,7 +1610,7 @@ The creation and deployment of the large model have been completed, and this API
 
 #### 10.2.1.3 API Configuration
 
-1. Click <img class="common_img" src="../_static/media/chapter_22/section_1/media/image25.png"   /> to open a terminal and enter the following command to open the configuration file. Press the i key to enter input mode.
+1. Click <img class="common_img" src="../_static/media/chapter_22/section_1/media/image25.png"  style="display:inline;vertical-align:middle;"  /> to open a terminal and enter the following command to open the configuration file. Press the i key to enter input mode.
 
 ```bash
 vim /home/ubuntu/ros2_ws/src/large_models/large_models/large_models/config.py
@@ -1636,7 +1632,7 @@ vim /home/ubuntu/ros2_ws/src/large_models/large_models/large_models/config.py
 
 Before starting features, verify that the correct microphone configuration is set in the system.
 
-1. After remotely logging in via NoMachine, click the desktop icon <img class="common_img" src="../_static/media/chapter_22/section_1/media/image16.png"  /> to access the configuration interface.
+1. After remotely logging in via NoMachine, click the desktop icon <img style="display:inline;vertical-align:middle;"  class="common_img" src="../_static/media/chapter_22/section_1/media/image16.png"  /> to access the configuration interface.
 
 2. Select the appropriate microphone version configuration according to the hardware.
 
@@ -1692,7 +1688,7 @@ Refer to the section [10.2.1 Large Model API Key Setup](#anther10.2.1) to set up
 >
 > * **The robot must be connected to the Internet, either in STA (LAN) mode or AP (direct connection) mode via Ethernet.**
 
-1. Click the terminal <img class="common_img" src="../_static/media/chapter_22/section_1/media/image25.png"  /> on the left side of the system interface to open the command line. Enter the command and press **Enter** to disable the app auto-start service.
+1. Click the terminal <img class="common_img" src="../_static/media/chapter_22/section_1/media/image25.png" style="display:inline;vertical-align:middle;"  /> on the left side of the system interface to open the command line. Enter the command and press **Enter** to disable the app auto-start service.
 
 ```bash
 sudo systemctl stop start_app_node.service
@@ -1993,7 +1989,7 @@ Refer to the section [10.2.1 Large Model API Key Setup](#anther10.2.1) to set up
 >
 > * **The robot must be connected to the Internet, either in STA (LAN) mode or AP (direct connection) mode via Ethernet.**
 
-1) Click the terminal <img class="common_img" src="../_static/media/chapter_22/section_1/media/image25.png"  /> on the left side of the system interface to open the command line. Enter the command and press **Enter** to disable the app auto-start service.
+1) Click the terminal <img class="common_img" src="../_static/media/chapter_22/section_1/media/image25.png"  style="display:inline;vertical-align:middle;" /> on the left side of the system interface to open the command line. Enter the command and press **Enter** to disable the app auto-start service.
 
 ```bash
 sudo systemctl stop start_app_node.service
@@ -2289,7 +2285,7 @@ Refer to the section [10.2.1 Large Model API Key Setup](#anther10.2.1) to set up
 >
 > * **The robot must be connected to the Internet, either in STA (LAN) mode or AP (direct connection) mode via Ethernet.**
 
-1. Click the terminal <img class="common_img" src="../_static/media/chapter_22/section_1/media/image25.png"  /> on the left side of the system interface to open the command line. Enter the command and press **Enter** to disable the app auto-start service.
+1. Click the terminal <img class="common_img" src="../_static/media/chapter_22/section_1/media/image25.png" style="display:inline;vertical-align:middle;"  /> on the left side of the system interface to open the command line. Enter the command and press **Enter** to disable the app auto-start service.
 
 ```bash
 sudo systemctl stop start_app_node.service
@@ -2625,7 +2621,7 @@ The creation and deployment of the large model have been completed, and this API
 
 #### 10.3.1.3 API Configuration
 
-1. Click <img class="common_img" src="../_static/media/chapter_22/section_2/media/image25.png"   /> to open a terminal and enter the following command to open the configuration file. Press the i key to enter input mode.
+1. Click <img class="common_img" src="../_static/media/chapter_22/section_2/media/image25.png"  style="display:inline;vertical-align:middle;" /> to open a terminal and enter the following command to open the configuration file. Press the i key to enter input mode.
 
 ```bash
 vim /home/ubuntu/ros2_ws/src/large_models/large_models/large_models/config.py
@@ -2647,7 +2643,7 @@ vim /home/ubuntu/ros2_ws/src/large_models/large_models/large_models/config.py
 
 Before starting features, verify that the correct microphone configuration is set in the system.
 
-1. After remotely logging in via NoMachine, click the desktop icon <img class="common_img" src="../_static/media/chapter_22/section_2/media/image16.png"  /> to access the configuration interface.
+1. After remotely logging in via NoMachine, click the desktop icon <img class="common_img" src="../_static/media/chapter_22/section_2/media/image16.png"  style="display:inline;vertical-align:middle;"/> to access the configuration interface.
 
 2. Select the appropriate microphone version configuration according to the hardware.
 
@@ -2697,7 +2693,7 @@ Refer to the section [10.3.1 Large Model API Key Setup](#anther10.3.1) to set up
 
 #### 10.3.3.3 Operation Steps
 
-1. Click the terminal <img class="common_img" src="../_static/media/chapter_22/section_2/media/image25.png"  /> on the left side of the system interface to open the command line. Enter the command and press **Enter** to disable the app auto-start service.
+1. Click the terminal <img class="common_img" src="../_static/media/chapter_22/section_2/media/image25.png"  style="display:inline;vertical-align:middle;" /> on the left side of the system interface to open the command line. Enter the command and press **Enter** to disable the app auto-start service.
 
 ```bash
 sudo systemctl stop start_app_node.service
@@ -3049,7 +3045,7 @@ Refer to the section [10.3.1 Large Model API Key Setup](#anther10.3.1) to set up
 >
 > **The robot must be connected to the Internet, either in STA (LAN) mode or AP (direct connection) mode via Ethernet.**
 
-1. Click the terminal <img class="common_img" src="../_static/media/chapter_22/section_2/media/image25.png"  /> on the left side of the system interface to open the command line. Enter the command and press **Enter** to disable the app auto-start service.
+1. Click the terminal <img class="common_img" src="../_static/media/chapter_22/section_2/media/image25.png"  style="display:inline;vertical-align:middle;" /> on the left side of the system interface to open the command line. Enter the command and press **Enter** to disable the app auto-start service.
 
 ```bash
 sudo systemctl stop start_app_node.service
@@ -3420,7 +3416,7 @@ Before enabling this feature, a map must be created in advance. Please refer to 
 >
 > * **The robot must be connected to the Internet, either in STA (LAN) mode or AP (direct connection) mode via Ethernet.**
 
-1. Click the terminal <img class="common_img" src="../_static/media/chapter_22/section_2/media/image25.png"  /> on the left side of the system interface to open the command line. Enter the command and press **Enter** to disable the app auto-start service.
+1. Click the terminal <img class="common_img" src="../_static/media/chapter_22/section_2/media/image25.png" style="display:inline;vertical-align:middle;"  /> on the left side of the system interface to open the command line. Enter the command and press **Enter** to disable the app auto-start service.
 
 ```bash
 sudo systemctl stop start_app_node.service
@@ -3813,13 +3809,11 @@ By continuously monitoring the output of the large model, when action instructio
 
 ## 10.4 Comprehensive Application of Large AI Models
 
-<p id =“anther10.4.1"></p>
-
 ### 10.4.1 Preparation
 
 Before starting this feature, verify that the correct microphone configuration is set in the system.
 
-1) Log in to the machine remotely via NoMachine. Then click the desktop icon <img src="../_static/media/chapter_24\section_1/media/image131.png" style="width:50px" class="common_img"  /> to access the configuration interface.
+1) Log in to the machine remotely via NoMachine. Then click the desktop icon <img src="../_static/media/chapter_24\section_1/media/image131.png" style="width:50px;display:inline;vertical-align:middle;" class="common_img"  /> to access the configuration interface.
 2) On the right side of the interface, select the appropriate microphone type based on the hardware being used.
 
 <img src="../_static/media/chapter_24\section_1/media/image132.png" style="width:400px" class="common_img"  />
@@ -3852,7 +3846,6 @@ For the 6-Microphone Array, select **xf** as the microphone type as shown in the
 
 <img src="../_static/media/chapter_24\section_1/media/image139.png" style="width:400px" class="common_img"  />
 
-<p id =“anther10.4.2"></p>
 
 ### 10.4.2 Large Model API Key Setup
 
@@ -3910,7 +3903,7 @@ The creation and deployment of the large model have been completed, and this API
 
 #### 10.4.2.3 API Configuration
 
-1. Click <img class="common_img" src="../_static/media/chapter_22/section_1/media/image25.png"   /> to open a terminal and enter the following command to open the configuration file. Press the **i** key to enter input mode.
+1. Click <img class="common_img" src="../_static/media/chapter_22/section_1/media/image25.png"  style="display:inline;vertical-align:middle;"  /> to open a terminal and enter the following command to open the configuration file. Press the **i** key to enter input mode.
 
 ```bash
 vim /home/ubuntu/ros2_ws/src/large_models/large_models/large_models/config.py
@@ -3952,7 +3945,7 @@ Reference Tutorial: [10.4.2 Large Model API Key Setup](#anther10.4.2)
 >
 > * **The robot must be connected to the Internet, either in STA (LAN) mode or AP (direct connection) mode via Ethernet.**
 
-1. Open the command line terminal from the left side of the system interface.<img src="../_static/media/chapter_24\section_1/media/image35.png" class="common_img"  /> In the terminal window, enter the following command and press **Enter** to stop the auto-start service
+1. Open the command line terminal from the left side of the system interface. <img src="../_static/media/chapter_24\section_1/media/image35.png" class="common_img"  style="display:inline;vertical-align:middle;"/> In the terminal window, enter the following command and press **Enter** to stop the auto-start service
 
 2. Enter the command to disable the auto-start service of the app.
 
@@ -4962,7 +4955,7 @@ Reference Tutorial: [10.4.2 Large Model API Key Setup](#anther10.4.2)
 >
 > * **The robot must be connected to the Internet, either in STA (LAN) mode or AP (direct connection) mode via Ethernet.**
 
-1. Open the command line terminal from the left side of the system interface.<img src="../_static/media/chapter_24\section_1/media/image35.png" class="common_img"  /> In the terminal window, enter the following command and press **Enter** to stop the auto-start service
+1. Open the command line terminal from the left side of the system interface. <img src="../_static/media/chapter_24\section_1/media/image35.png" class="common_img"  style="display:inline;vertical-align:middle;"/> In the terminal window, enter the following command and press **Enter** to stop the auto-start service
 
 2. Enter the command to disable the auto-start service of the app.
 
@@ -4992,9 +4985,9 @@ Reference Tutorial: [10.4.2 Large Model API Key Setup](#anther10.4.2)
 
    <img src="../_static/media/chapter_24\section_1/media/image149.png" style="width:1000px" class="common_img" />
 
-   > [!NOTE]
-   >
-   > **The response is automatically generated by the large model. Only the semantic accuracy of the reply is guaranteed, while the wording and formatting may vary.**
+> [!NOTE]
+>
+> **The response is automatically generated by the large model. Only the semantic accuracy of the reply is guaranteed, while the wording and formatting may vary.**
 
 8. When the command line displays the output shown below, it means a round of conversation has finished.
 
@@ -5014,13 +5007,11 @@ Once the feature is started, voice commands can be issued to the robot, such as:
 
 ## 10.5 Offline Large AI Model Applications
 
-<p id =“anther10.5.1"></p>
-
 ### 10.5.1 Preparation
 
 Before starting this feature, verify that the correct microphone configuration and ASR mode are set in the system.
 
-1) After remotely logging in via NoMachine, click the desktop icon <img src="../_static/media/chapter_23/section_1/media/image131.png" style="width:50px" class="common_img" /> to access the configuration interface.
+1) After remotely logging in via NoMachine, click the desktop icon <img src="../_static/media/chapter_23/section_1/media/image131.png" style="display:inline;vertical-align:middle;"  class="common_img" /> to access the configuration interface.
 2) On the right side of the interface, select the appropriate microphone type based on the hardware being used.
 
 <img src="../_static/media/chapter_23/section_1/media/image132.png" style="width:400px" class="common_img" />
@@ -5069,7 +5060,7 @@ Reference Tutorial: [10.5.1 Preparation](#anther10.5.1).
 
 * **Operation Steps**
 
-1\) Open the command line terminal <img src="../_static/media/chapter_23/section_1/media/image37.png" class="common_img" /> from the left sidebar. Disable the app auto-start service and navigate to the `~/third_party/sherpa-onnx` directory.
+1\) Open the command line terminal <img src="../_static/media/chapter_23/section_1/media/image37.png" class="common_img" style="display:inline;vertical-align:middle;"/> from the left sidebar. Disable the app auto-start service and navigate to the `~/third_party/sherpa-onnx` directory.
 
 ```bash
 sudo systemctl stop start_app_node.service
@@ -5390,7 +5381,7 @@ Reference Tutorial: [10.5.1 Preparation](#anther10.5.1).
 
 * **Operation Steps**
 
-1\) Open the command line terminal <img src="../_static/media/chapter_23/section_1/media/image37.png" class="common_img" /> from the left sidebar, enter the command to disable the app auto-start service.
+1\) Open the command line terminal <img src="../_static/media/chapter_23/section_1/media/image37.png" class="common_img" style="display:inline;vertical-align:middle;"/> from the left sidebar, enter the command to disable the app auto-start service.
 
 ```bash
 sudo systemctl stop start_app_node.service
@@ -5509,7 +5500,7 @@ Reference Tutorial: [10.5.1 Preparation](#anther10.5.1).
 
 * Operation Steps
 
-1\) Open the command line terminal <img src="../_static/media/chapter_23/section_1/media/image37.png" class="common_img" /> from the left sidebar, enter the command to disable the app auto-start service.
+1\) Open the command line terminal <img src="../_static/media/chapter_23/section_1/media/image37.png" class="common_img" style="display:inline;vertical-align:middle;"/> from the left sidebar, enter the command to disable the app auto-start service.
 
 ```bash
 sudo systemctl stop start_app_node.service
@@ -5612,7 +5603,7 @@ Reference Tutorial: [10.5.1 Preparation](#anther10.5.1).
 
 * **Operation Steps**
 
-1\) Open the command line terminal <img src="../_static/media/chapter_23/section_1/media/image37.png" class="common_img" /> from the left sidebar, enter the command to disable the app auto-start service.
+1\) Open the command line terminal <img src="../_static/media/chapter_23/section_1/media/image37.png" class="common_img" style="display:inline;vertical-align:middle;" /> from the left sidebar, enter the command to disable the app auto-start service.
 
 ```bash
 sudo systemctl stop start_app_node.service
@@ -5653,7 +5644,7 @@ Reference Tutorial: [10.5.1 Preparation](#anther10.5.1).
 
 * Operation Steps
 
-1\) Open the command line terminal <img src="../_static/media/chapter_23/section_1/media/image37.png" class="common_img" /> from the left sidebar, enter the command to disable the app auto-start service.
+1\) Open the command line terminal <img src="../_static/media/chapter_23/section_1/media/image37.png" class="common_img" style="display:inline;vertical-align:middle;"/> from the left sidebar, enter the command to disable the app auto-start service.
 
 ```bash
 sudo systemctl stop start_app_node.service
@@ -5726,7 +5717,7 @@ Reference Tutorial: [10.5.1 Preparation](#anther10.5.1).
 
 * **Operation Steps**
 
-1\) Open the command line terminal <img src="../_static/media/chapter_23/section_1/media/image37.png" class="common_img" /> from the left sidebar, enter the command to disable the app auto-start service.
+1\) Open the command line terminal <img src="../_static/media/chapter_23/section_1/media/image37.png" class="common_img" style="display:inline;vertical-align:middle;"/> from the left sidebar, enter the command to disable the app auto-start service.
 
 ```bash
 sudo systemctl stop start_app_node.service
@@ -6488,7 +6479,7 @@ Reference Tutorial: [10.5.1 Preparation](#anther10.5.1).
 >
 > **Command input is case-sensitive and space-sensitive.**
 
-1. Open the command line terminal from the left side of the system interface.<img src="../_static/media/chapter_23/section_1/media/image37.png" class="common_img" /> In the terminal window, enter the following command and press **Enter** to stop the auto-start service.
+1. Open the command line terminal from the left side of the system interface. <img src="../_static/media/chapter_23/section_1/media/image37.png" class="common_img" style="display:inline;vertical-align:middle;"/> In the terminal window, enter the following command and press **Enter** to stop the auto-start service.
 
 2. Enter the command to disable the auto-start service of the app.
 
@@ -6518,9 +6509,11 @@ ros2 launch large_models_examples llm_control_move.launch.py
 
 <img src="../_static/media/chapter_23/section_1/media/image155.png" style="width:800px" class="common_img" />
 
+
 > [!NOTE]
 >
 > **The response is automatically generated by the large model. Only the semantic accuracy of the reply is guaranteed, while the wording and formatting may vary.**
+
 
 8. When the terminal shows the output shown in the figure indicating the end of one interaction cycle, the system is ready for the next round. To initiate another interaction, repeat step 4 by speaking the wake words again.
 
@@ -7056,7 +7049,7 @@ Reference Tutorial: [10.5.1 Preparation](#anther10.5.1).
 >
 > **Command input is case-sensitive and space-sensitive.**
 
-1. Open the command line terminal from the left side of the system interface.<img src="../_static/media/chapter_23/section_1/media/image37.png" class="common_img" /> In the terminal window, enter the following command and press **Enter** to stop the auto-start service.
+1. Open the command line terminal from the left side of the system interface. <img src="../_static/media/chapter_23/section_1/media/image37.png" class="common_img" style="display:inline;vertical-align:middle;"/> In the terminal window, enter the following command and press **Enter** to stop the auto-start service.
 
 2. Enter the command to disable the auto-start service of the app.
 
@@ -7086,9 +7079,9 @@ Reference Tutorial: [10.5.1 Preparation](#anther10.5.1).
 
    <img src="../_static/media/chapter_23/section_1/media/image160.png" style="width:800px" class="common_img" />
 
-   > [!NOTE]
-   >
-   > **The response is automatically generated by the large model. Only the semantic accuracy of the reply is guaranteed, while the wording and formatting may vary.**
+> [!NOTE]
+>
+> **The response is automatically generated by the large model. Only the semantic accuracy of the reply is guaranteed, while the wording and formatting may vary.**
 
 8. To exit the feature, press **Ctrl+C** in the terminal. If the feature does not shut down immediately, press **Ctrl+C** multiple times. If it still fails to exit, open a new terminal window and run the following command to terminate all active ROS processes and related programs.
 
@@ -7707,7 +7700,7 @@ Reference Tutorial: [10.5.1 Preparation](#anther10.5.1).
 >
 > **Command input is case-sensitive and space-sensitive.**
 
-1. Open the command line terminal from the left side of the system interface.<img src="../_static/media/chapter_23/section_1/media/image37.png" class="common_img" /> In the terminal window, enter the following command and press **Enter** to stop the auto-start service.
+1. Open the command line terminal from the left side of the system interface. <img src="../_static/media/chapter_23/section_1/media/image37.png" class="common_img" style="display:inline;vertical-align:middle;"/> In the terminal window, enter the following command and press **Enter** to stop the auto-start service.
 
 2. Enter the command to disable the auto-start service of the app.
 
@@ -7739,9 +7732,9 @@ Reference Tutorial: [10.5.1 Preparation](#anther10.5.1).
 
    <img src="../_static/media/chapter_23/section_1/media/image165.png" style="width:900px" class="common_img" />
 
-   > [!NOTE]
-   >
-   > **The response is automatically generated by the large model. Only the semantic accuracy of the reply is guaranteed, while the wording and formatting may vary.**
+> [!NOTE]
+>
+> **The response is automatically generated by the large model. Only the semantic accuracy of the reply is guaranteed, while the wording and formatting may vary.**
 
 9. Then, the robot will detect the red object in its camera feed and begin tracking it in real time.
 
