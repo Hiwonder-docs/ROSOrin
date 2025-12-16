@@ -23,7 +23,7 @@ ROSOrin
    docs/10_Large_AI_Model_Courses.md
    docs/11_Group_Control.md
    docs/resources_download.md
-
+   Download <https://drive.google.com/drive/folders/1CdWc8_aKkCjF3wer7S64FABitaiRAc5v>
 
 
 
