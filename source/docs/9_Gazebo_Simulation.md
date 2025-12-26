@@ -104,7 +104,7 @@ The virtual machine interface is as follows:
 
 2. Click the Home folder <img src="../_static/media/chapter_21/section_2/media/image3.png" style="width:80px" /> on the desktop to enter the directory.
 
-3. Locate the **simulations** compressed file in the directory [1. Virtual Machine Software \& Image File \\ Resources \\ 3. Feature Package](https://drive.google.com/drive/folders/1Nzjf8nOu-2i4XADzt-H-fw7evwOaY1Mp). Drag the compressed file into the **Home** directory of the virtual machine.
+3. Locate the compressed **simulations** file and the `.typerc` file in the directory [1. Virtual Machine Software \& Image File \\ Resources \\ 3. Feature Package](https://drive.google.com/drive/folders/1Nzjf8nOu-2i4XADzt-H-fw7evwOaY1Mp). Drag the compressed file into the **Home** directory of the virtual machine.
 
 4. Right-click in the Home directory and select **Open in terminal** to open the terminal.
 
@@ -153,7 +153,7 @@ echo "source ~/ros2_ws/.typerc">>~/.bashrc
 11. Reload the configuration file to apply the updated settings.
 
 ```bash
-ource ~/.bashrc
+source ~/.bashrc
 ```
 
 

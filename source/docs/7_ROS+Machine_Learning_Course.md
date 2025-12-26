@@ -3043,7 +3043,7 @@ python3 ~/software/labelImg/labelImg.py
 
 Below is a table of common shortcut keys:
 
-| **Function**                                                 | **Shortcut Key** | **Function**                               |
+| **Button**                                                   | **Shortcut Key** | **Function**                               |
 | ------------------------------------------------------------ | ---------------- | ------------------------------------------ |
 | <img src="../_static/media/chapter_10\section_1/media/image42.png"  style="width:70px"  class="common_img" /> | Ctrl+U           | Choose the directory for images.           |
 | <img src="../_static/media/chapter_10\section_1/media/image43.png"  style="width:70px"  class="common_img" /> | Ctrl+R           | Choose the directory for calibration data. |

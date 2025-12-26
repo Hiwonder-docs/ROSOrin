@@ -4,7 +4,7 @@
 
 Various light sources can affect colors differently, leading to discrepancies in recognition. To address this issue, you can utilize LABTOOL to adjust the color threshold, ensuring more accurate and consistent color recognition.
 
-### 6.1. 1 Launching and Closing LAB TOOL
+### 6.1.1 Launching and Closing LAB TOOL
 
 The input command should be case sensitive, and the keywords can be complemented by the **Tab** key.
 
@@ -391,7 +391,7 @@ Only contours with an area greater than 200 are considered, smaller contours are
         color_list.append(color)
 
         if len(color_list) == 3:  # Determine multiple times
-            # Get mean
+            # Averaging
             color = int(round(np.mean(np.array(color_list))))
             color_list = []
             if color == 1:
