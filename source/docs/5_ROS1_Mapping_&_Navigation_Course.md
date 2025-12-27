@@ -172,7 +172,7 @@ This will save the map information into the **maps** folder for easy modificatio
 
 The table below provides a brief comparison of the different mapping algorithms for quick reference. Detailed explanations of each algorithm can be found later in the text. The most suitable mapping algorithm can be selected based on specific requirements and environmental conditions.
 
-<table style="width:100%;">
+<table style="width:100%;" border="1">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 10%" />
