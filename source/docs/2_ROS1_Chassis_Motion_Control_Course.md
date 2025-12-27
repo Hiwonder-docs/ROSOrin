@@ -1,10 +1,7 @@
 # 2\. ROS1- Chassis Motion Control Course
 
-[TOC]
-
-
-
 <p id ="anther2.1"></p>
+
 ## 2.1 Kinematics Analysis
 
 ### 2.1.1 Overview
@@ -24,6 +21,7 @@ The Mecanum and Ackermann robots use two fundamentally different chassis designs
 **Ackermann Robot:** Ackermann chassis is widely used in road-driving scenarios—such as cars, trucks, and motorcycles—where steering through front wheels provides stable, predictable motion at speed.
 
 <p id ="anther2.1.2"></p>
+
 ### 2.1.2 Mecanum Chassis
 
 * **Hardware Structure**
@@ -56,13 +54,13 @@ In kinematic analysis, the motion of Mecanum wheels can be described using a kin
 
 <img class="common_img" src="../_static/media/chapter_2/section_1/media/image3.png"  />
 
-1. <img class="common_img" src="../_static/media/chapter_2/section_1/media/image4.png" style="zoom:70%;" />: Linear velocity of the Mecanum chassis along the X-axis, typically the forward/backward direction.
+1. <img class="common_img" src="../_static/media/chapter_2/section_1/media/image4.png" style="display:inline;vertical-align:middle;zoom:70%;" />: Linear velocity of the Mecanum chassis along the X-axis, typically the forward/backward direction.
 
-2. <img class="common_img" src="../_static/media/chapter_2/section_1/media/image5.png" style="zoom:70%;" />: Linear velocity of the Mecanum chassis along the Y-axis, typically the left/right or lateral direction.
+2. <img class="common_img" src="../_static/media/chapter_2/section_1/media/image5.png" style="display:inline;vertical-align:middle;zoom:70%;" />: Linear velocity of the Mecanum chassis along the Y-axis, typically the left/right or lateral direction.
 
-3. <img class="common_img" src="../_static/media/chapter_2/section_1/media/image6.png" style="zoom:70%;" />: Angular velocity of the Mecanum chassis, which is the rotation speed around its own center.
+3. <img class="common_img" src="../_static/media/chapter_2/section_1/media/image6.png" style="display:inline;vertical-align:middle;zoom:70%;" />: Angular velocity of the Mecanum chassis, which is the rotation speed around its own center.
 
-4. <img class="common_img" src="../_static/media/chapter_2/section_1/media/image7.png" style="zoom:70%;" />: The real-time speeds of the four Mecanum wheels.
+4. <img class="common_img" src="../_static/media/chapter_2/section_1/media/image7.png" style="display:inline;vertical-align:middle;zoom:70%;" />: The real-time speeds of the four Mecanum wheels.
 
 5. For example, the motion of the front-right wheel (Wheel B) on a 2D plane can be decomposed into:
 
@@ -74,7 +72,7 @@ In kinematic analysis, the motion of Mecanum wheels can be described using a kin
 
 9. H: The distance between the centers of the front and rear wheels.
 
-10. <img class="common_img" src="../_static/media/chapter_2/section_1/media/image8.png" style="zoom:70%;" />: The angle between the robot’s center of chassis and the front-right wheel is 45°.
+10. <img class="common_img" src="../_static/media/chapter_2/section_1/media/image8.png" style="display:inline;vertical-align:middle;zoom:70%;" />: The angle between the robot’s center of chassis and the front-right wheel is 45°.
 
 11. Based on these parameters, we can perform kinematic analysis of the Mecanum wheel chassis to determine how wheel speeds contribute to the overall movement of the robot in any direction. Key equations are given below:
 
@@ -88,33 +86,33 @@ The four wheels are positioned at the corners of a rectangle or square, and all 
 
 In this model, the robot’s rigid body movement is decomposed into three linear components: translation along the X-axis, translation along the Y-axis, and rotation around the Z-axis. By calculating the individual wheel speeds required for these three simple motions, we can combine them to compute the required rotational speed for each wheel during compound motion of simultaneous translation and rotation.
 
-<img class="common_img" src="../_static/media/chapter_2/section_1/media/image9.png" style="zoom:70%;" /> represent the rotational speeds of wheels A, B, C, and D, respectively, corresponding to the motor speeds.  is the translational velocity of the robot along the X-axis, <img class="common_img" src="../_static/media/chapter_2/section_1/media/image5.png" style="zoom:70%;" /> is the translational velocity along the Y-axis, and <img class="common_img" src="../_static/media/chapter_2/section_1/media/image6.png" style="zoom:70%;" /> is the rotational velocity around the Z-axis.
+<img class="common_img" src="../_static/media/chapter_2/section_1/media/image9.png" style="display:inline;vertical-align:middle;zoom:70%;" /> represent the rotational speeds of wheels A, B, C, and D, respectively, corresponding to the motor speeds.  is the translational velocity of the robot along the X-axis, <img class="common_img" src="../_static/media/chapter_2/section_1/media/image5.png" style="display:inline;vertical-align:middle;zoom:70%;" /> is the translational velocity along the Y-axis, and <img class="common_img" src="../_static/media/chapter_2/section_1/media/image6.png" style="display:inline;vertical-align:middle;zoom:70%;"/> is the rotational velocity around the Z-axis.
 
-<img class="common_img" src="../_static/media/chapter_2/section_1/media/image10.png" style="zoom:70%;" /> is half the wheel track *L*, and <img class="common_img" src="../_static/media/chapter_2/section_1/media/image11.png" style="zoom:70%;" /> is half the wheelbase *H*.
+<img class="common_img" src="../_static/media/chapter_2/section_1/media/image10.png" style="display:inline;vertical-align:middle;zoom:70%;" /> is half the wheel track *L*, and <img class="common_img" src="../_static/media/chapter_2/section_1/media/image11.png" style="display:inline;vertical-align:middle;zoom:70%;" /> is half the wheelbase *H*.
 
 1. When the robot moves along the X-axis, the speed component of each wheel can be calculated using the following formula:
 
-<img class="common_img" src="../_static/media/chapter_2/section_1/media/image12.png" style="zoom:70%;" />
+<img class="common_img" src="../_static/media/chapter_2/section_1/media/image12.png" style="display:inline;vertical-align:middle;zoom:70%;"/>
 
-<img class="common_img" src="../_static/media/chapter_2/section_1/media/image13.png" style="zoom:70%;" /> represent the real-time speeds of the four Mecanum wheels, while <img class="common_img" src="../_static/media/chapter_2/section_1/media/image4.png" style="zoom:70%;" /> represents the wheels’ speed along the X-axis.
+<img class="common_img" src="../_static/media/chapter_2/section_1/media/image13.png" style="display:inline;vertical-align:middle;zoom:70%;" /> represent the real-time speeds of the four Mecanum wheels, while <img class="common_img" src="../_static/media/chapter_2/section_1/media/image4.png" style="display:inline;vertical-align:middle;zoom:70%;" /> represents the wheels’ speed along the X-axis.
 
 2. When the robot moves along the Y-axis, the speed component of each wheel can be calculated using the following formula:
 
-<img class="common_img" src="../_static/media/chapter_2/section_1/media/image14.png" style="zoom:70%;" />
+<img class="common_img" src="../_static/media/chapter_2/section_1/media/image14.png" style="display:inline;vertical-align:middle;zoom:70%;" />
 
-<img class="common_img" src="../_static/media/chapter_2/section_1/media/image5.png" style="zoom:70%;" /> represents the speed of the Mecanum wheels along the Y-axis.
+<img class="common_img" src="../_static/media/chapter_2/section_1/media/image5.png" style="display:inline;vertical-align:middle;zoom:70%;"/> represents the speed of the Mecanum wheels along the Y-axis.
 
 3. When the robot rotates around the Z-axis, the speed component of each wheel can be calculated using the following formula:
 
-<img class="common_img" src="../_static/media/chapter_2/section_1/media/image15.png" style="zoom:70%;" />
+<img class="common_img" src="../_static/media/chapter_2/section_1/media/image15.png" style="display:inline;vertical-align:middle;zoom:70%;" />
 
-<img class="common_img" src="../_static/media/chapter_2/section_1/media/image16.png" style="zoom:70%;" />
+<img class="common_img" src="../_static/media/chapter_2/section_1/media/image16.png" style="display:inline;vertical-align:middle;zoom:70%;" />
 
-<img class="common_img" src="../_static/media/chapter_2/section_1/media/image17.png" style="zoom:70%;" />: Angular velocity of the Mecanum chassis, which is the rotation speed around its own center.
+<img class="common_img" src="../_static/media/chapter_2/section_1/media/image17.png" style="display:inline;vertical-align:middle;zoom:70%;" />: Angular velocity of the Mecanum chassis, which is the rotation speed around its own center.
 
 4. By combining the velocities along the X, Y, and Z axes, the rotational speed required for each of the four wheels can be derived according to the robot’s overall motion state.
 
-<img class="common_img" src="../_static/media/chapter_2/section_1/media/image18.png" style="zoom:70%;" />
+<img class="common_img" src="../_static/media/chapter_2/section_1/media/image18.png" style="display:inline;vertical-align:middle;zoom:70%;" />
 
 * **Program Analysis**
 
