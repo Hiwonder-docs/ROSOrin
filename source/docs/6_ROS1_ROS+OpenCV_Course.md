@@ -70,13 +70,13 @@ LABTOOL is divided into two parts, including the image display area and the reco
 
 | **Icon**                                                     | **Function**                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![img](file://Z:\%E8%AF%BE%E7%A8%8B%E9%83%A8%E5%AF%B9%E6%8E%A5%E8%B5%84%E6%96%99\12%20ROSOrin\%E5%8A%A0%E9%93%BE%E6%8E%A5\Orin%20Nano%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99%20source\_static\media\chapter_7\section_1\media\image10.png?lastModify=1766646850) | Sliders L, A, and B are respectively used to adjust L, A, and B components of the camera returned image. The left sliders set the **minimum** values for each channel, and the right sliders set the **maximum** values. |
-| ![img](file://Z:\%E8%AF%BE%E7%A8%8B%E9%83%A8%E5%AF%B9%E6%8E%A5%E8%B5%84%E6%96%99\12%20ROSOrin\%E5%8A%A0%E9%93%BE%E6%8E%A5\Orin%20Nano%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99%20source\_static\media\chapter_7\section_1\media\image11.png?lastModify=1766646850) | Select the target color for threshold tuning.                |
-| ![img](file://Z:\%E8%AF%BE%E7%A8%8B%E9%83%A8%E5%AF%B9%E6%8E%A5%E8%B5%84%E6%96%99\12%20ROSOrin\%E5%8A%A0%E9%93%BE%E6%8E%A5\Orin%20Nano%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99%20source\_static\media\chapter_7\section_1\media\image12.png?lastModify=1766646850) | Delete the selected color.                                   |
-| ![img](file://Z:\%E8%AF%BE%E7%A8%8B%E9%83%A8%E5%AF%B9%E6%8E%A5%E8%B5%84%E6%96%99\12%20ROSOrin\%E5%8A%A0%E9%93%BE%E6%8E%A5\Orin%20Nano%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99%20source\_static\media\chapter_7\section_1\media\image13.png?lastModify=1766646850) | Add a new detectable color.                                  |
-| ![img](file://Z:\%E8%AF%BE%E7%A8%8B%E9%83%A8%E5%AF%B9%E6%8E%A5%E8%B5%84%E6%96%99\12%20ROSOrin\%E5%8A%A0%E9%93%BE%E6%8E%A5\Orin%20Nano%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99%20source\_static\media\chapter_7\section_1\media\image14.png?lastModify=1766646850) | Save the adjusted value.                                     |
-| ![img](file://Z:\%E8%AF%BE%E7%A8%8B%E9%83%A8%E5%AF%B9%E6%8E%A5%E8%B5%84%E6%96%99\12%20ROSOrin\%E5%8A%A0%E9%93%BE%E6%8E%A5\Orin%20Nano%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99%20source\_static\media\chapter_7\section_1\media\image15.png?lastModify=1766646850) | Switch the camera between the depth camera and the monocular camera. |
-| ![img](file://Z:\%E8%AF%BE%E7%A8%8B%E9%83%A8%E5%AF%B9%E6%8E%A5%E8%B5%84%E6%96%99\12%20ROSOrin\%E5%8A%A0%E9%93%BE%E6%8E%A5\Orin%20Nano%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99%20source\_static\media\chapter_7\section_1\media\image16.png?lastModify=1766646850) | Exit from the LAB TOOL.                                      |
+| ![img](../_static/media/chapter_7/section_1/media/image10.png?lastModify=1766646850) | Sliders L, A, and B are respectively used to adjust L, A, and B components of the camera returned image. The left sliders set the **minimum** values for each channel, and the right sliders set the **maximum** values. |
+| ![img](../_static/media/chapter_7/section_1/media/image11.png?lastModify=1766646850) | Select the target color for threshold tuning.                |
+| ![img](../_static/media/chapter_7/section_1/media/image12.png?lastModify=1766646850) | Delete the selected color.                                   |
+| ![img](../_static/media/chapter_7/section_1/media/image13.png?lastModify=1766646850) | Add a new detectable color.                                  |
+| ![img](../_static/media/chapter_7/section_1/media/image14.png?lastModify=1766646850) | Save the adjusted value.                                     |
+| ![img](../_static/media/chapter_7/section_1/media/image15.png?lastModify=1766646850) | Switch the camera between the depth camera and the monocular camera. |
+| ![img](../_static/media/chapter_7/section_1/media/image16.png?lastModify=1766646850) | Exit from the LAB TOOL.                                      |
 
 
 ### 6.1.3 Adjust Color Threshold
