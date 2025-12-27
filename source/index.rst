@@ -11,6 +11,7 @@ ROSOrin Jetson Nano
    :maxdepth: 2
    :caption: ROSOrin
 
+   docs/1_ROSOrin_User_Manual.md
    docs/2_ROS1_Chassis_Motion_Control_Course.md
    docs/3_ROS1_LiDAR_Course.md
    docs/5_ROS1_Mapping_&_Navigation_Course.md
