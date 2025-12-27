@@ -1,9 +1,5 @@
 # 19. Large AI Model Courses
 
-[TOC]
-
-
-
 ## 19.1 Large Models Basic Courses
 
 ### 19.1.1 Large Language Model Courses
@@ -1614,7 +1610,7 @@ The creation and deployment of the large model have been completed, and this API
 
 #### 19.2.1.3 API Configuration
 
-1. Click <img class="common_img" src="../_static/media/chapter_19/section_3/media/image14.png"   /> to open a terminal and enter the following command to open the configuration file. Press the **i** key to enter input mode.
+1. Click <img src="../_static/media/chapter_19/section_3/media/image14.png"   /> to open a terminal and enter the following command to open the configuration file. Press the **i** key to enter input mode.
 
 ```bash
 vim /home/ubuntu/ros2_ws/src/large_models/large_models/large_models/config.py
@@ -1636,7 +1632,7 @@ vim /home/ubuntu/ros2_ws/src/large_models/large_models/large_models/config.py
 
 Before starting features, verify that the correct microphone configuration is set in the system.
 
-1. After remotely logging in via NoMachine, click the desktop icon <img class="common_img" src="../_static/media/chapter_19/section_3/media/image16.png"  /> to access the configuration interface.
+1. After remotely logging in via NoMachine, click the desktop icon <img src="../_static/media/chapter_19/section_3/media/image16.png"  /> to access the configuration interface.
 
 2. Select the appropriate microphone version configuration according to the hardware.
 
@@ -1691,13 +1687,13 @@ Refer to the section [19.2.1 Large Model API Key Setup](#anther19.2.1) to set up
 >
 > * **The robot must be connected to the Internet, either in STA (LAN) mode or AP (direct connection) mode via Ethernet.**
 
-1. Open the command line terminal from the left side of the system interface.<img class="common_img" src="../_static/media/chapter_19/section_3/media/image25.png"  /> In the terminal window, enter the following command and press **Enter** to stop the auto-start service.
+1. Open the command line terminal from the left side of the system interface.<img src="../_static/media/chapter_19/section_3/media/image25.png"  /> In the terminal window, enter the following command and press **Enter** to stop the auto-start service.
 
 ```bash
 sudo systemctl stop start_app_node.service
 ```
 
-2) Open the command line terminal <img class="common_img" src="../_static/media/chapter_19/section_3/media/image14.png"   /> from the left side of the system interface. In the terminal window, enter the following command and press **Enter** to launch the voice control feature.
+2) Open the command line terminal <img src="../_static/media/chapter_19/section_3/media/image14.png"   /> from the left side of the system interface. In the terminal window, enter the following command and press **Enter** to launch the voice control feature.
 
 ```bash
 ros2 launch large_models_examples llm_control_move.launch.py
@@ -1992,13 +1988,13 @@ Refer to the section [19.2.1 Large Model API Key Setup](#anther19.2.1) to set up
 >
 > * **The robot must be connected to the Internet, either in STA (LAN) mode or AP (direct connection) mode via Ethernet.**
 
-1) Click the terminal <img class="common_img" src="../_static/media/chapter_19/section_3/media/image25.png"  /> on the left side of the system interface to open the command line. Enter the command and press **Enter** to disable the app auto-start service.
+1) Click the terminal <img src="../_static/media/chapter_19/section_3/media/image25.png"  /> on the left side of the system interface to open the command line. Enter the command and press **Enter** to disable the app auto-start service.
 
 ```bash
 sudo systemctl stop start_app_node.service
 ```
 
-2) Open the command line terminal <img class="common_img" src="../_static/media/chapter_19/section_3/media/image14.png"   /> from the left side of the system interface. In the terminal window, enter the following command and press **Enter** to launch the line following feature.
+2) Open the command line terminal <img src="../_static/media/chapter_19/section_3/media/image14.png"   /> from the left side of the system interface. In the terminal window, enter the following command and press **Enter** to launch the line following feature.
 
 ```bash
 ros2 launch large_models_examples llm_visual_patrol.launch.py
@@ -2286,13 +2282,13 @@ Refer to the section [19.2.1 Large Model API Key Setup](#anther19.2.1) to set up
 >
 > * **The robot must be connected to the Internet, either in STA (LAN) mode or AP (direct connection) mode via Ethernet.**
 
-1. Click the terminal <img class="common_img" src="../_static/media/chapter_19/section_3/media/image25.png"  /> on the left side of the system interface to open the command line. Enter the command and press **Enter** to disable the app auto-start service.
+1. Click the terminal <img  src="../_static/media/chapter_19/section_3/media/image25.png"  /> on the left side of the system interface to open the command line. Enter the command and press **Enter** to disable the app auto-start service.
 
 ```bash
 sudo systemctl stop start_app_node.service
 ```
 
-2. Open the command line terminal <img class="common_img" src="../_static/media/chapter_19/section_3/media/image14.png"   /> from the left side of the system interface. In the terminal window, enter the following command and press **Enter** to launch the color tracking feature.
+2. Open the command line terminal <img src="../_static/media/chapter_19/section_3/media/image14.png"   /> from the left side of the system interface. In the terminal window, enter the following command and press **Enter** to launch the color tracking feature.
 
 ```bash
 ros2 launch large_models_examples llm_color_track.launch.py
@@ -2644,7 +2640,7 @@ vim /home/ubuntu/ros2_ws/src/large_models/large_models/large_models/config.py
 
 Before starting features, verify that the correct microphone configuration is set in the system.
 
-1. After remotely logging in via NoMachine, click the desktop icon <img class="common_img" src="../_static/media/chapter_19/section_4/media/image16.png"  /> to access the configuration interface.
+1. After remotely logging in via NoMachine, click the desktop icon <img src="../_static/media/chapter_19/section_4/media/image16.png"  /> to access the configuration interface.
 
 2. Select the appropriate microphone version configuration according to the hardware.
 
@@ -2693,13 +2689,13 @@ Refer to the section [19.3.1 Large Model API Key Setup](#anther19.3.1) to set up
 
 #### 19.3.3.3 Operation Steps
 
-1. Click the terminal <img class="common_img" src="../_static/media/chapter_19/section_4/media/image25.png"  /> on the left side of the system interface to open the command line. Enter the command and press **Enter** to disable the app auto-start service.
+1. Click the terminal <img src="../_static/media/chapter_19/section_4/media/image25.png"  /> on the left side of the system interface to open the command line. Enter the command and press **Enter** to disable the app auto-start service.
 
 ```bash
 sudo systemctl stop start_app_node.service
 ```
 
-2. Open the command line terminal <img class="common_img" src="../_static/media/chapter_19/section_4/media/image14.png"   /> from the left side of the system interface. In the terminal window, enter the following command and press **Enter** to launch the real-time detection feature.
+2. Open the command line terminal <img src="../_static/media/chapter_19/section_4/media/image14.png"   /> from the left side of the system interface. In the terminal window, enter the following command and press **Enter** to launch the real-time detection feature.
 
 ```bash
 ros2 launch large_models_examples vllm_with_camera.launch.py
@@ -3043,13 +3039,13 @@ Refer to the section [19.3.1 Large Model API Key Setup](#anther19.3.1) to set up
 >
 > **The robot must be connected to the Internet, either in STA (LAN) mode or AP (direct connection) mode via Ethernet.**
 
-1. Click the terminal <img class="common_img" src="../_static/media/chapter_19/section_4/media/image25.png"  /> on the left side of the system interface to open the command line. Enter the command and press **Enter** to disable the app auto-start service.
+1. Click the terminal <img src="../_static/media/chapter_19/section_4/media/image25.png"  /> on the left side of the system interface to open the command line. Enter the command and press **Enter** to disable the app auto-start service.
 
 ```bash
 sudo systemctl stop start_app_node.service
 ```
 
-2) Open the command line terminal <img class="common_img" src="../_static/media/chapter_19/section_4/media/image14.png"   /> from the left side of the system interface. In the terminal window, enter the following command and press **Enter** to launch the vision tracking feature.
+2) Open the command line terminal <img src="../_static/media/chapter_19/section_4/media/image14.png"   /> from the left side of the system interface. In the terminal window, enter the following command and press **Enter** to launch the vision tracking feature.
 
 ```bash
 ros2 launch large_models_examples vllm_track.launch.py
@@ -3403,7 +3399,7 @@ Refer to the section [19.3.1 Large Model API Key Setup](#anther19.3.1) to set up
 
 * **Navigation Map Construction**
 
-Before enabling this feature, a map must be created in advance. Please refer to [14.1 Mapping Tutorial]() in the file **14. ROS2-Mapping \& Navigation Course** for detailed instructions on how to build the map.
+Before enabling this feature, a map must be created in advance. Please refer to [14.1 Mapping Tutorial](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/14_ROS2_Mapping_%26_Navigation_Course.html#mapping-tutorial) in the file **14. ROS2-Mapping \& Navigation Course** for detailed instructions on how to build the map.
 
 #### 19.4.4.3 Operation Steps
 
@@ -3413,13 +3409,13 @@ Before enabling this feature, a map must be created in advance. Please refer to 
 >
 > **The robot must be connected to the Internet, either in STA (LAN) mode or AP (direct connection) mode via Ethernet.**
 
-1. Click the terminal <img class="common_img" src="../_static/media/chapter_19/section_4/media/image25.png"  /> on the left side of the system interface to open the command line. Enter the command and press **Enter** to disable the app auto-start service.
+1. Click the terminal <img  src="../_static/media/chapter_19/section_4/media/image25.png"  /> on the left side of the system interface to open the command line. Enter the command and press **Enter** to disable the app auto-start service.
 
 ```bash
 sudo systemctl stop start_app_node.service
 ```
 
-2) Open the command line terminal <img class="common_img" src="../_static/media/chapter_19/section_4/media/image14.png"   /> from the left side of the system interface. In the terminal window, enter the following command and press **Enter** to launch the smart home assistant feature.
+2) Open the command line terminal <img src="../_static/media/chapter_19/section_4/media/image14.png"   /> from the left side of the system interface. In the terminal window, enter the following command and press **Enter** to launch the smart home assistant feature.
 
 ```bash
 ros2 launch large_models_examples vllm_navigation.launch.py map:=map_01

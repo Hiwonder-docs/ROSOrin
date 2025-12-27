@@ -1,16 +1,12 @@
 # 20\. ROS2-Group Control
 
-[TOC]
-
-
-
 ## 20.1 Leader-Follower Configuration
 
 ### 20.1.1 Preparation
 
 1) Prepare at least two robots.
 
-2) Refer to the section [1.7 Development Environment Setup]() in the user manual for instructions on downloading and installing the remote connection tool, NoMachine.
+2) Refer to the section [1.7 Development Environment Setup](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual for instructions on downloading and installing the remote connection tool, NoMachine.
 
 ### 20.1.2 Working Principle
 
@@ -102,7 +98,7 @@ sudo reboot
 
 1. Select one ROSOrin as the leader robot and power it on. Then, remotely connect to the desktop via NoMachine.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_20/section_1/media/image7.png" style="width:50px" /> in the system desktop to open a command-line window, then enter the command to disable the auto-start service.
+2. Click the terminal icon <img src="../_static/media/chapter_20/section_1/media/image7.png" style="width:50px" /> in the system desktop to open a command-line window, then enter the command to disable the auto-start service.
 
 ```bash
 sudo systemctl stop start_app_node.service
@@ -110,7 +106,7 @@ sudo systemctl stop start_app_node.service
 
 3. Ensure that the leader robot has a USB receiver for wireless controller connected.
 
-4. Click the terminal icon <img class="common_img" src="../_static/media/chapter_20/section_1/media/image13.png"  /> in the system desktop to open a ROS2 command-line window.
+4. Click the terminal icon <img src="../_static/media/chapter_20/section_1/media/image13.png"  /> in the system desktop to open a ROS2 command-line window.
 
 5. Input the command to open the file and configure the environment variables for the leader robot.
 
@@ -136,9 +132,9 @@ source ~/.zshrc
 
 * **For Follower Robot**
 
-1) First, connect to the Wi-Fi network created by the leader robot on the app. Once connected, search for the follower device. The robot icon will appear in the app, and by long-pressing the screen, the follower robot’s IP address will be displayed. Refer to the section [1.5.2.2 LAN Mode Connection (Optional)]()  in the user manual for guidance to use this IP address.
+1) First, connect to the Wi-Fi network created by the leader robot on the app. Once connected, search for the follower device. The robot icon will appear in the app, and by long-pressing the screen, the follower robot’s IP address will be displayed. Refer to the section [1.5.2.2 LAN Mode Connection (Optional)](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#lan-mode-connection-optional)  in the user manual for guidance to use this IP address.
 
-2) Click the terminal icon <img class="common_img" src="../_static/media/chapter_20/section_1/media/image7.png" style="width:50px" /> on the system desktop to open a command-line window.
+2) Click the terminal icon <img src="../_static/media/chapter_20/section_1/media/image7.png" style="width:50px" /> on the system desktop to open a command-line window.
 
 3. Input the command to disable the auto-start service and press **Enter**.
 
@@ -146,7 +142,7 @@ source ~/.zshrc
 sudo systemctl stop start_app_node.service
 ```
 
-4. Click the icon <img class="common_img" src="../_static/media/chapter_20/section_1/media/image13.png"  /> on the system desktop to open a new ROS2 command line terminal. Enter the command to open the configuration file and set the follower robot environment variables.
+4. Click the icon <img src="../_static/media/chapter_20/section_1/media/image13.png"  /> on the system desktop to open a new ROS2 command line terminal. Enter the command to open the configuration file and set the follower robot environment variables.
 
 ```bash
 vim /home/ubuntu/ros2_ws/.typerc
@@ -200,7 +196,7 @@ sudo date -s "2025-8-20 10:50:03"
 
 ### 20.2.2 Program Execution
 
-1. On the leader robot, open three ROS2 command-line terminals <img class="common_img" src="../_static/media/chapter_20/section_2/media/image6.png"  /> from the desktop and run the following programs in sequence.
+1. On the leader robot, open three ROS2 command-line terminals <img  src="../_static/media/chapter_20/section_2/media/image6.png"  /> from the desktop and run the following programs in sequence.
 
 ```bash
 ros2 launch multi multi_controller.launch.py
@@ -214,7 +210,7 @@ python3 ros2_ws/src/multi/launch/joystick_control_multi.py
 ros2 run joy joy_node
 ```
 
-2. On the follower robot, open a ROS2 command-line terminal <img class="common_img" src="../_static/media/chapter_20/section_2/media/image6.png"  /> from the desktop and run the following program.
+2. On the follower robot, open a ROS2 command-line terminal <img  src="../_static/media/chapter_20/section_2/media/image6.png"  /> from the desktop and run the following program.
 
 ```bash
 ros2 launch multi multi_controller.launch.py

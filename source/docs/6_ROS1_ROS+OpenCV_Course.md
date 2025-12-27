@@ -1,9 +1,5 @@
 # 6\. ROS1- ROS+OpenCV Course
 
-[TOC]
-
-
-
 ## 6.1 Color Threshold Adjustment
 
 Various light sources can affect colors differently, leading to discrepancies in recognition. To address this issue, you can utilize LAB TOOL to adjust the color threshold, ensuring more accurate and consistent color recognition.
@@ -18,7 +14,7 @@ Various light sources can affect colors differently, leading to discrepancies in
 
 1) Power on the robot and connect it via the NoMachine remote control software.
 
-2) Click the terminal icon <img class="common_img" src="../_static/media/chapter_6/section_1/media/image1.png" style="width:50px" /> in the system desktop to open a command-line window.
+2) Click the terminal icon <img src="../_static/media/chapter_6/section_1/media/image1.png" style="width:50px" /> in the system desktop to open a command-line window.
 
 3) Enter the following command and press **Enter** to stop the app auto-start service:
 
@@ -42,7 +38,7 @@ python3 /home/ubuntu/software/lab_tool/main.py
 
 <img class="common_img" src="../_static/media/chapter_6/section_1/media/image4.png" style="width:600px" />
 
-For the instructions and use of the interface buttons, you can refer to the subsequent content of this document. To close it, click <img class="common_img" src="../_static/media/chapter_6/section_1/media/image5.png"  /> and select **Yes** in the pop-up prompt.
+For the instructions and use of the interface buttons, you can refer to the subsequent content of this document. To close it, click <img src="../_static/media/chapter_6/section_1/media/image5.png"  /> and select **Yes** in the pop-up prompt.
 
 <img class="common_img" src="../_static/media/chapter_6/section_1/media/image6.png"  />
 
@@ -176,7 +172,7 @@ Finally, the recognition results are overlaid on the return image.
 
 1) Power on the robot and connect it via the NoMachine remote control software.
 
-2) Click the terminal icon <img class="common_img" src="../_static/media/chapter_6/section_1/media/image1.png" style="width:50px" /> in the system desktop to open a command-line window.
+2) Click the terminal icon <img src="../_static/media/chapter_6/section_1/media/image1.png" style="width:50px" /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app auto-start service:
 
@@ -400,7 +396,7 @@ Finally, generate a QR code image based on the data, display it in a window, and
 
 1) Power on the robot and connect it via the NoMachine remote control software.
 
-2) Click the terminal icon <img class="common_img" src="../_static/media/chapter_6/section_1/media/image1.png" style="width:50px" /> in the system desktop to open a command-line window.
+2) Click the terminal icon <img src="../_static/media/chapter_6/section_1/media/image1.png" style="width:50px" /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app auto-start service:
 
@@ -543,7 +539,7 @@ Finally, when a QR code is detected, it will be highlighted with a bounding box,
 
 1. Power on the robot and connect it via the NoMachine remote control software.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_6/section_1/media/image1.png" style="width:50px" /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_6/section_1/media/image1.png" style="width:50px" /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app auto-start service:
 
@@ -678,7 +674,7 @@ Finally, perform camera calibration to display the tag recognition results on th
 
 1) Power on the robot and connect it via the NoMachine remote control software.
 
-2) Click the terminal icon <img class="common_img" src="../_static/media/chapter_6/section_1/media/image1.png" style="width:50px" /> in the system desktop to open a command-line window.
+2) Click the terminal icon <img src="../_static/media/chapter_6/section_1/media/image1.png" style="width:50px" /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app auto-start service:
 
@@ -724,7 +720,7 @@ By default, the program recognizes Tag 1, Tag 2, or Tag 3. To modify the configu
 
 1) Power on the robot and connect it via the NoMachine remote control software.
 
-2) Click the terminal icon <img class="common_img" src="../_static/media/chapter_6/section_1/media/image1.png" style="width:50px" /> in the system desktop to open a command-line window.
+2) Click the terminal icon <img  src="../_static/media/chapter_6/section_1/media/image1.png" style="width:50px" /> in the system desktop to open a command-line window.
 
 3) Enter the following command and press **Enter** to go to the configuration directory.
 
@@ -792,7 +788,7 @@ Finally, use model projection, polygon filling, and other operations to render t
 
 1) Power on the robot and connect it via the NoMachine remote control software.
 
-2) Click the terminal icon <img class="common_img" src="../_static/media/chapter_6/section_1/media/image1.png" style="width:50px" /> in the system desktop to open a command-line window.
+2) Click the terminal icon <img  src="../_static/media/chapter_6/section_1/media/image1.png" style="width:50px" /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app auto-start service:
 
@@ -1161,7 +1157,7 @@ Next, a mouse callback function is used to draw a bounding box around the target
 > 
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1) Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1) Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2) Click the terminal icon <img class="common_img" src="../_static/media/chapter_6/section_1/media/image54.png" style="width:50px" /> in the system desktop to open a command-line window.
 

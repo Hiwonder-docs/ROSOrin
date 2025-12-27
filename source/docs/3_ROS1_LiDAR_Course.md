@@ -1,9 +1,5 @@
 # 3\. ROS1-LiDAR Course
 
-[TOC]
-
-
-
 ## 3.1 Introduction to LiDAR
 
 ### 3.1.1 Overview
@@ -38,7 +34,7 @@ LiDAR is a sensor that uses laser beams to obtain precise positional information
 
 <img class="common_img" src="../_static/media/chapter_3/section_1/media/image2.png"  />
 
-Click the icon <img class="common_img" src="../_static/media/chapter_3/section_1/media/image3.png"  /> on the desktop to check that the current LiDAR is MS200.
+Click the icon <img class="common_img" src="../_static/media/chapter_3/section_1/media/image3.png" style="display:inline;vertical-align:middle;"/> on the desktop to check that the current LiDAR is MS200.
 
 <img class="common_img" src="../_static/media/chapter_3/section_1/media/image5.png"  />
 

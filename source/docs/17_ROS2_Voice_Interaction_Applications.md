@@ -1,9 +1,5 @@
 # 17\. ROS2-Voice Interaction Applications
 
-[TOC]
-
-
-
 ## 17.1 Voice Module Installation
 
 ### 17.1.1 Installing the AI Voice Interaction Module
@@ -21,14 +17,14 @@
 The system uses the English wake-up phrase **Hello Hiwonder** by default. To use a different wake word or command, follow the steps below.
 
 1) For robots with the WonderEcho Pro:  
-Make sure the corresponding language firmware is flashed first. Refer to the tutorial [02 Firmware Flashing]() under the folder **Voice Control Basic Lesson** for detailed instructions.
+Make sure the corresponding language firmware is flashed first. Refer to the tutorial [02 Firmware Flashing](https://drive.google.com/drive/folders/1k99wcXlh2hoAdDcCBwK_ws4eVpDZGrMG?usp=sharing) under the folder **Voice Control Basic Lesson** for detailed instructions.
 
 <img src="../_static/media/chapter_17/section_1/media/image73.png" style="width:300px" class="common_img"  />
 
 <img src="../_static/media/chapter_17/section_1/media/image74.png" style="width:300px" class="common_img"  />
 
 2) For robots using the 6-Microphone Array:  
-Set the recognition language via the desktop configuration tool. Double-click the **Tool** icon <img src="../_static/media/chapter_17/section_1/media/image75.png" style="width:50px" class="common_img"  /> on the system desktop.
+Set the recognition language via the desktop configuration tool. Double-click the **Tool** icon <img src="../_static/media/chapter_17/section_1/media/image75.png" style="width:50px" /> on the system desktop.
 
 3) In the Tool interface, switch the language, then click **Save** → **Apply** → **Quit**. The default language is **English**.
 
@@ -89,7 +85,7 @@ Open the folder named **Linux_aitalk_exp1227_01997b6c**. The version ID, such as
 
 <img src="../_static/media/chapter_17/section_1/media/image11.png" style="width:600px" class="common_img"  />
 
-2. Click the terminal icon <img src="../_static/media/chapter_17/section_1/media/image12.png" class="common_img"  /> in the system desktop to open a ROS1 command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_17/section_1/media/image12.png" /> in the system desktop to open a ROS1 command-line window.
 
 3. Enter the following command and press **Enter**.
 
@@ -97,7 +93,7 @@ Open the folder named **Linux_aitalk_exp1227_01997b6c**. The version ID, such as
 cp /home/ubuntu/Desktop/common.jet /home/ubuntu/docker/tmp
 ```
 
-4. Click the icon <img src="../_static/media/chapter_17/section_1/media/image1.png" class="common_img"  /> on the system desktop to open a ROS2 command line terminal. Enter the command and press **Enter** to replace the **common.jet** file:
+4. Click the icon <img src="../_static/media/chapter_17/section_1/media/image1.png" /> on the system desktop to open a ROS2 command line terminal. Enter the command and press **Enter** to replace the **common.jet** file:
 
 ```bash
 cp /home/ubuntu/share/tmp/common.jet /home/ubuntu/ros2_ws/src/xf_mic_asr_offline/config/msc/res/asr/
@@ -142,15 +138,15 @@ Follow the **Preparation** section below to complete the setup for this feature,
 > 
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
-2. Click the terminal icon <img src="../_static/media/chapter_17/section_1/media/image18.png" class="common_img"  /> in the system desktop to open a ROS1 command-line window.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+2. Click the terminal icon <img src="../_static/media/chapter_17/section_1/media/image18.png" /> in the system desktop to open a ROS1 command-line window.
 3. Enter the command to disable the app auto-start service.
 
 ```bash
 sudo systemctl stop start_app_node.service
 ```
 
-4. Click the icon <img src="../_static/media/chapter_17/section_1/media/image1.png" class="common_img"  /> on the system desktop to open a ROS2 command line terminal. Enter the command and press **Enter** to start the voice-controlled movement feature:
+4. Click the icon <img src="../_static/media/chapter_17/section_1/media/image1.png" /> on the system desktop to open a ROS2 command line terminal. Enter the command and press **Enter** to start the voice-controlled movement feature:
 
 ```bash
 ros2 launch xf_mic_asr_offline voice_control_move.launch.py
@@ -451,7 +447,7 @@ The default wake word is **Hello Hiwonder**. It can be changed by modifying the 
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
 1. Power on the robot and connect it via the NoMachine remote control software.
-2. Click the terminal icon <img src="../_static/media/chapter_17/section_1/media/image1.png" class="common_img"  /> in the system desktop to open a ROS2 command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_17/section_1/media/image1.png" /> in the system desktop to open a ROS2 command-line window.
 3. Enter the following command and press **Enter**：
 
 ```bash
@@ -507,13 +503,13 @@ Follow the **Preparation** section below to complete the setup for this feature,
 > 
 > * **Ensure that no objects with similar or identical colors to the target block appear in the background, as this may cause interference during recognition.**
 > 
-> * **If the color detection is inaccurate, the color thresholds can be adjusted. For more details, refer to section [15.1 Color Threshold Adjustment]()  in the file 15. ROS2-ROS+OpenCV Course.**
+> * **If the color detection is inaccurate, the color thresholds can be adjusted. For more details, refer to section [15.1 Color Threshold Adjustment](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/15_ROS2_ROS%2BOpenCV_Course.html#color-threshold-adjustment)  in the file 15. ROS2-ROS+OpenCV Course.**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. The system uses the English wake word **Hello Hiwonder** by default. Refer to section [17.2 Switching Wake Words](#anther17.2)  in this document for instructions on changing the language or flashing the command phrases.
 
-3. Click the terminal icon <img src="../_static/media/chapter_17/section_1/media/image18.png" class="common_img"  /> in the system desktop to open a ROS1 command-line window.
+3. Click the terminal icon <img src="../_static/media/chapter_17/section_1/media/image18.png"  /> in the system desktop to open a ROS1 command-line window.
 
 4. Enter the command to disable the app auto-start service.
 
@@ -521,7 +517,7 @@ Follow the **Preparation** section below to complete the setup for this feature,
 sudo systemctl stop start_app_node.service
 ```
 
-5. Click the icon <img src="../_static/media/chapter_17/section_1/media/image1.png" class="common_img"  /> on the system desktop to open a ROS2 command line terminal. Enter the command and press **Enter** to start the voice-controlled movement feature:
+5. Click the icon <img src="../_static/media/chapter_17/section_1/media/image1.png" /> on the system desktop to open a ROS2 command line terminal. Enter the command and press **Enter** to start the voice-controlled movement feature:
 
 ```bash
 ros2 launch xf_mic_asr_offline voice_control_color_detect.launch.py
@@ -828,7 +824,7 @@ Follow the **Preparation** section below to complete the setup for this feature,
 
 3. The system uses the English wake word **Hello Hiwonder** by default. If using a **WonderEcho Pro** as a voice module, the voice interaction command phrases must be flashed. Refer to section [17.2 Switching Wake Words](#anther17.2) for instructions on changing the language or flashing the command words.
 
-4. Before starting this feature, a map must be prepared in advance. Refer to the file [14. ROS2-Mapping \& Navigation Course]() for guidance.
+4. Before starting this feature, a map must be prepared in advance. Refer to the file [14. ROS2-Mapping \& Navigation Course](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/14_ROS2_Mapping_%26_Navigation_Course.html#ros2-mapping-navigation-course) for guidance.
 
 5. It is recommended to place the robot on an open platform, ensuring at least a 3-meter radius around the robot is free for safe movement.
 
@@ -840,15 +836,15 @@ Follow the **Preparation** section below to complete the setup for this feature,
 > 
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
-2. Click the terminal icon <img src="../_static/media/chapter_17/section_1/media/image18.png" class="common_img"  /> in the system desktop to open a ROS1 command-line window.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+2. Click the terminal icon <img src="../_static/media/chapter_17/section_1/media/image18.png"  /> in the system desktop to open a ROS1 command-line window.
 3. Enter the command to disable the app auto-start service.
 
 ```bash
 sudo systemctl stop start_app_node.service
 ```
 
-4. Click the icon <img src="../_static/media/chapter_17/section_1/media/image1.png" class="common_img"  /> on the system desktop to open a ROS2 command line terminal. Enter the command and press **Enter** to start the voice-controlled movement feature:
+4. Click the icon <img src="../_static/media/chapter_17/section_1/media/image1.png"  /> on the system desktop to open a ROS2 command line terminal. Enter the command and press **Enter** to start the voice-controlled movement feature:
 
 ```bash
 ros2 launch xf_mic_asr_offline voice_control_navigation.launch.py map:=map_01
@@ -1115,7 +1111,7 @@ The default position of Point A is at the top-right corner of the robot’s star
 
 1. Power on the robot and connect it via the NoMachine remote control software.
 
-2. Click the terminal icon <img src="../_static/media/chapter_17/section_1/media/image18.png" class="common_img"  /> in the system desktop to open a ROS1 command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_17/section_1/media/image18.png"/> in the system desktop to open a ROS1 command-line window.
 
 3. Enter the command to disable the app auto-start service.
 
@@ -1123,7 +1119,7 @@ The default position of Point A is at the top-right corner of the robot’s star
 sudo systemctl stop start_app_node.service
 ```
 
-4. Click the icon <img src="../_static/media/chapter_17/section_1/media/image1.png" class="common_img"  /> on the system desktop to open a ROS2 command line terminal. Enter the following command and press **Enter** to open the program file:
+4. Click the icon <img src="../_static/media/chapter_17/section_1/media/image1.png" /> on the system desktop to open a ROS2 command line terminal. Enter the following command and press **Enter** to open the program file:
 
 ```bash
 vim ~/ros2_ws/src/xf_mic_asr_offline/scripts/voice_control_navigation.py 

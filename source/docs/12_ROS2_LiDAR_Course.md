@@ -1,11 +1,6 @@
 # 12\. ROS2-LiDAR Course
 
-[TOC]
-
-
-
-12.1 Introduction to LiDAR
----
+## 12.1 Introduction to LiDAR
 
 ### 12.1.1 Overview
 
@@ -41,11 +36,11 @@ The platform uses the MS200 LiDAR by default, which connects to the intelligent 
 
 <img src="../_static/media/chapter_12/section_1/media/image3.png" style="width:250px" class="common_img" />
 
-2. Power on the robot and connect it using a remote desktop tool. For detailed connection instructions, refer to section [1.7.2 AP Mode Connection Steps]() in the user manual.
+2. Power on the robot and connect it using a remote desktop tool. For detailed connection instructions, refer to section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 <img src="../_static/media/chapter_12/section_1/media/image4.png" style="width:600px" class="common_img" />
 
-3. After the connection is complete, double-click the <img src="../_static/media/chapter_12/section_1/media/image5.png"   class="common_img" /> **Tool** icon on the desktop.
+3. After the connection is complete, double-click the <img src="../_static/media/chapter_12/section_1/media/image5.png" /> **Tool** icon on the desktop.
 
 <img src="../_static/media/chapter_12/section_1/media/image6.png" style="width:400px" class="common_img" />
 
@@ -57,7 +52,7 @@ The platform uses the MS200 LiDAR by default, which connects to the intelligent 
 
 <img src="../_static/media/chapter_12/section_1/media/image9.png" style="width:400px" class="common_img" />
 
-6. Once the switch is finished, click the command line terminal icon<img src="../_static/media/chapter_12/section_1/media/image10.png"  class="common_img" /> on the left side of the system desktop to confirm the LiDAR version.
+6. Once the switch is finished, click the command line terminal icon<img src="../_static/media/chapter_12/section_1/media/image10.png" /> on the left side of the system desktop to confirm the LiDAR version.
 
 <img src="../_static/media/chapter_12/section_1/media/image11.png" style="width:600px" class="common_img" />
 
@@ -93,11 +88,11 @@ The robot will detect the distance between objects directly in front and its bod
 
 There are two ways to enable this feature. The first is through the app, and the second is by using commands after connecting to the system remotely.
 
-For instructions on using the app, refer to the section [1.5 App Installation and Connection]() in the user manual to view the related course.
+For instructions on using the app, refer to the section [1.5 App Installation and Connection](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#app-installation-and-connection) in the user manual to view the related course.
 
-1. Power on the robot and connect it to the remote control software NoMachine. For instructions on setting up the remote desktop connection, refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Power on the robot and connect it to the remote control software NoMachine. For instructions on setting up the remote desktop connection, refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
-2. Click the terminal icon <img src="../_static/media/chapter_12/section_1/media/image15.png"  class="common_img" /> in the system desktop to open a ROS1 command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_12/section_1/media/image15.png"  /> in the system desktop to open a ROS1 command-line window.
 
 3. Enter the following command and press **Enter** to stop the app auto-start service.
 
@@ -105,7 +100,7 @@ For instructions on using the app, refer to the section [1.5 App Installation an
 sudo systemctl stop start_app_node.service
 ```
 
-4. Click the terminal icon <img src="../_static/media/chapter_12/section_1/media/image24.png"  class="common_img" /> in the system desktop to open a ROS2 command-line window.
+4. Click the terminal icon <img src="../_static/media/chapter_12/section_1/media/image24.png" /> in the system desktop to open a ROS2 command-line window.
 
 5. Next, enter the command and press **Enter** to activate the robot's auto-start program:
 
@@ -144,11 +139,11 @@ The robot detects the distance between objects in front and its body. When an ob
 
 There are two ways to enable this feature. The first is through the app, and the second is by using commands after connecting to the system remotely.
 
-For instructions on using the app, refer to the section [1.5 App Installation and Connection]() in the user manual to view the related course.
+For instructions on using the app, refer to the section [1.5 App Installation and Connection](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#app-installation-and-connection) in the user manual to view the related course.
 
-1. Power on the robot and connect it to the remote control software NoMachine. For instructions on setting up the remote desktop connection, refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Power on the robot and connect it to the remote control software NoMachine. For instructions on setting up the remote desktop connection, refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
-2. Click the terminal icon <img src="../_static/media/chapter_12/section_1/media/image15.png"  class="common_img" /> in the system desktop to open a ROS1 command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_12/section_1/media/image15.png"  /> in the system desktop to open a ROS1 command-line window.
 
 3. Enter the following command and press **Enter** to stop the app auto-start service.
 
@@ -156,7 +151,7 @@ For instructions on using the app, refer to the section [1.5 App Installation an
 sudo systemctl stop start_app_node.service
 ```
 
-4. Click the terminal icon <img src="../_static/media/chapter_12/section_1/media/image24.png"  class="common_img" /> in the system desktop to open a ROS2 command-line window.
+4. Click the terminal icon <img src="../_static/media/chapter_12/section_1/media/image24.png" /> in the system desktop to open a ROS2 command-line window.
 
 5. Enter the command and press **Enter** to start the local services for the app features and chassis control.
 
@@ -195,13 +190,13 @@ The robot detects the distance between objects in front and its body. When an ob
 
 There are two ways to enable this feature. The first is through the app, and the second is by using commands after connecting to the system remotely.
 
-For instructions on using the app, refer to the section [1.5 App Installation and Connection]() in the user manual to view the related course.
+For instructions on using the app, refer to the section [1.5 App Installation and Connection](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#app-installation-and-connection) in the user manual to view the related course.
 
 This feature is only available for the robot with Mecanum chassis.
 
-1. Power on the robot and connect it to the remote control software NoMachine. For instructions on setting up the remote desktop connection, refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Power on the robot and connect it to the remote control software NoMachine. For instructions on setting up the remote desktop connection, refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
-2. Click the terminal icon <img src="../_static/media/chapter_12/section_1/media/image15.png"  class="common_img" /> in the system desktop to open a ROS1 command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_12/section_1/media/image15.png"  /> in the system desktop to open a ROS1 command-line window.
 
 3. Enter the following command and press **Enter** to stop the app auto-start service.
 
@@ -209,7 +204,7 @@ This feature is only available for the robot with Mecanum chassis.
 sudo systemctl stop start_app_node.service
 ```
 
-4. Click the terminal icon <img src="../_static/media/chapter_12/section_1/media/image24.png"  class="common_img" /> in the system desktop to open a ROS2 command-line window.
+4. Click the terminal icon <img src="../_static/media/chapter_12/section_1/media/image24.png" /> in the system desktop to open a ROS2 command-line window.
 
 5. Enter the command and press **Enter** to start the local services for the app features and chassis control.
 

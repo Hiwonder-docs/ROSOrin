@@ -1,13 +1,9 @@
 # 8\. ROS1-Gazebo Simulation
 
-[TOC]
-
-
-
 ## 8.1 Getting Started with URDF Model
 
-<p id ="anther8.1.1"></p>
 ### 8.1.1 Introduction and Getting Started with URDF Model
+<p id ="anther8.1.1"></p>
 
 * **URDF Model Introduction**
 
@@ -293,7 +289,7 @@ To understand the URDF model, refer to section [8.1.1 Overview and Basics of URD
 
 1. Power on the robot and connect it via the NoMachine remote control software.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_8/section_1/media/image27.png" style="width:50px" /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_8/section_1/media/image27.png" style="width:50px" /> in the system desktop to open a command-line window.
 
 3. Enter the command and press **Enter** to navigate to the program’s startup directory.
 
@@ -424,7 +420,7 @@ After gaining a basic understanding of the URDF description file, the following 
 
 1. Power on the robot and connect it via the NoMachine remote control software.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_8/section_1/media/image27.png" style="width:50px" /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_8/section_1/media/image27.png" style="width:50px" /> in the system desktop to open a command-line window.
 
 3. Enter the command and press **Enter** to navigate to the program’s startup directory.
 
@@ -512,7 +508,7 @@ To better understand the robot's model and structure, Gazebo for visualization c
 
 1. Power on the robot and connect it via the NoMachine remote control software.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_8/section_2/media/image2.png"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_8/section_2/media/image2.png"  /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app auto-start service:
 
@@ -555,17 +551,17 @@ This section introduces some commonly used shortcuts and tools in Gazebo, using 
 
 The following three tools from the toolbar are used as examples for explanation.
 
-Selection tool <img class="common_img" src="../_static/media/chapter_8/section_2/media/image7.png"  />: It is Gazebo's default tool, used to select models.
+Selection tool <img src="../_static/media/chapter_8/section_2/media/image7.png"  />: It is Gazebo's default tool, used to select models.
 
 <img class="common_img" src="../_static/media/chapter_8/section_2/media/image8.png" style="width:400px" />
 
-Move Tool <img class="common_img" src="../_static/media/chapter_8/section_2/media/image9.png"  />: Use this tool to select a model and drag the three axes to control its movement.
+Move Tool <img  src="../_static/media/chapter_8/section_2/media/image9.png"  />: Use this tool to select a model and drag the three axes to control its movement.
 
 <img class="common_img" src="../_static/media/chapter_8/section_2/media/image10.png" style="width:400px" />
 
 <img class="common_img" src="../_static/media/chapter_8/section_2/media/image11.png" style="width:400px" />
 
-Rotate Tool <img class="common_img" src="../_static/media/chapter_8/section_2/media/image12.png"  />: Use this tool to select a model and drag the three axes to control its rotation.
+Rotate Tool <img src="../_static/media/chapter_8/section_2/media/image12.png"  />: Use this tool to select a model and drag the three axes to control its rotation.
 
 <img class="common_img" src="../_static/media/chapter_8/section_2/media/image13.png" style="width:400px" />
 
@@ -583,7 +579,7 @@ To understand the simulation models of various expansion devices on the robot, i
 
 1. Power on the robot and connect it via the NoMachine remote control software.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_8/section_2/media/image2.png"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_8/section_2/media/image2.png"  /> in the system desktop to open a command-line window.
 
 3. Enter the command and press **Enter** to navigate to the program’s startup directory.
 
@@ -615,7 +611,7 @@ To perform mapping in an ideal environment, but cannot build it in the real worl
 
 1. Power on the robot and connect it via the NoMachine remote control software.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_8/section_2/media/image2.png"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_8/section_2/media/image2.png"  /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app auto-start service:
 
@@ -750,7 +746,7 @@ After completing the mapping in Gazebo, navigation can also be performed within 
 
 1. Power on the robot and connect it via the NoMachine remote control software.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_8/section_2/media/image2.png"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_8/section_2/media/image2.png"  /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app auto-start service:
 
@@ -810,7 +806,7 @@ The software menu bar contains three tools: 2D Pose Estimate, 2D Nav Goal, and P
 roslaunch navigation publish_point.launch
 ```
 
-4. Click the icon <img class="common_img" src="../_static/media/chapter_8/section_2/media/image37.png"  />, then left-click on a point on the map to set it as the target point. The remaining target points can be set using the same procedure. Once the target points are set, the robot will automatically generate a travel route based on the order of the target points and proceed to each target point in sequence.
+4. Click the icon <img src="../_static/media/chapter_8/section_2/media/image37.png"  />, then left-click on a point on the map to set it as the target point. The remaining target points can be set using the same procedure. Once the target points are set, the robot will automatically generate a travel route based on the order of the target points and proceed to each target point in sequence.
 
 <img class="common_img" src="../_static/media/chapter_8/section_2/media/image38.png" style="width:500px" />
 

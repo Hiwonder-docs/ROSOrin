@@ -1,9 +1,5 @@
 # 9\. ROS1- Voice Interaction Applications
 
-[TOC]
-
-
-
 ## 9.1 Voice Module Installation
 
 ### 9.1.1 Installing the AI Voice Interaction Module
@@ -14,20 +10,21 @@
 
 <img src="../_static/media/chapter_9/section_1/media/image26.png" class="common_img"  />
 
-<p id ="anther9.2"></p>
+
 ## 9.2 Switching Wake Words
+<p id ="anther9.2"></p>
 
 The system uses the English wake-up phrase **Hello Hiwonder** by default. To use a different wake word or command, follow the steps below.
 
 1) For robots with the WonderEcho Pro:  
-Make sure the corresponding language firmware is flashed first. Refer to the tutorial [02 Firmware Flashing]() under the folder **Voice Control Basic Lesson** for detailed instructions.
+Make sure the corresponding language firmware is flashed first. Refer to the tutorial [02 Firmware Flashing](https://drive.google.com/drive/folders/1k99wcXlh2hoAdDcCBwK_ws4eVpDZGrMG?usp=sharing) under the folder **Voice Control Basic Lesson** for detailed instructions.
 
 <img src="../_static/media/chapter_9/section_1/media/image27.png" class="common_img" style="width:300px" />
 
 <img src="../_static/media/chapter_9/section_1/media/image28.png" class="common_img" style="width:300px" />
 
 2) For robots using the 6-Microphone Array:  
-Set the recognition language via the desktop configuration tool. Double-click the Tool icon <img src="../_static/media/chapter_9/section_1/media/image15.png" style="width:50px" class="common_img"  /> on the system desktop.
+Set the recognition language via the desktop configuration tool. Double-click the Tool icon <img src="../_static/media/chapter_9/section_1/media/image15.png" style="width:50px" /> on the system desktop.
 
 3) Set the language to **English**, then click **Save** > **Apply** > **Quit**.
 
@@ -135,9 +132,9 @@ Finally, based on voice command matching, the robot will perform the correspondi
 > 
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_9/section_1/media/image17.png"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_9/section_1/media/image17.png"  /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app service:
 
@@ -442,7 +439,7 @@ The default wake word is **Hello Hiwonder**. It can be changed by modifying the 
 
 1. Power on the robot and connect it via the NoMachine remote control software.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_9/section_1/media/image17.png"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_9/section_1/media/image17.png"  /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to go to the configuration directory.
 
@@ -496,7 +493,7 @@ Then give a command to the robot, it will execute the corresponding action, enab
 
 The implementation of color recognition is divided into two parts: color detection and response execution.
 
-In the recognition process, Gaussian filtering is first applied to reduce noise in the image. Then, the image is converted to the Lab color space to better distinguish colors. For details on Lab color space, refer to [6. ROS1-ROS+OpenCV Course]().
+In the recognition process, Gaussian filtering is first applied to reduce noise in the image. Then, the image is converted to the Lab color space to better distinguish colors. For details on Lab color space, refer to [6. ROS1-ROS+OpenCV Course](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/6_ROS1_ROS%2BOpenCV_Course.html#ros1-ros-opencv-course).
 
 Based on this, color thresholds are used to identify the color of the object within the circle. A mask is then applied to the image, which involves selecting parts of the image, graphics, or objects to globally or locally block out areas in the image for processing.
 
@@ -510,11 +507,11 @@ After masking, morphological operations, including opening and closing, are perf
 > 
 > * **Ensure that no objects with similar or identical colors to the target block appear in the background, as this may cause interference during recognition.**
 > 
-> * **If the color detection is inaccurate, the color thresholds can be adjusted. For more details, refer to the tutorials in [6.1 Color Threshold Adjustment]() of the 6. ROS1-ROS+OpenCV Course.**
+> * **If the color detection is inaccurate, the color thresholds can be adjusted. For more details, refer to the tutorials in [6.1 Color Threshold Adjustment](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/6_ROS1_ROS%2BOpenCV_Course.html#color-threshold-adjustment) of the 6. ROS1-ROS+OpenCV Course.**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_9/section_1/media/image17.png"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_9/section_1/media/image17.png"  /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app service:
 
@@ -714,7 +711,7 @@ In this section, voice control will be used to navigate the robot on a pre-built
 
 3) The system uses the English wake word **Hello Hiwonder** by default. If using a WonderEcho Pro as a voice module, the voice interaction command phrases must be flashed. Refer to Section [9.2 Switching Wake Words](#anther9.2) for instructions on changing the language or flashing the command words.
 
-4) Before starting this feature, a map must be prepared in advance. Refer to the file [5. ROS1-Mapping \& Navigation Course]() for guidance.
+4) Before starting this feature, a map must be prepared in advance. Refer to the file [5. ROS1-Mapping \& Navigation Course](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/5_ROS1_Mapping_%26_Navigation_Course.html#ros1-mapping-navigation-course) for guidance.
 
 5) It is recommended to place the robot on an open platform, ensuring at least a 3-meter radius around the robot is free for safe movement.
 
@@ -736,9 +733,9 @@ Finally, based on the recognized language, the robot will navigate to the corres
 > 
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_9/section_1/media/image17.png"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_9/section_1/media/image17.png"  /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app service:
 
@@ -955,7 +952,7 @@ The default position of Point A is at the top-right corner of the robot’s star
 
 1. Power on the robot and connect it via the NoMachine remote control software.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_9/section_1/media/image17.png"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_9/section_1/media/image17.png"  /> in the system desktop to open a command-line window.
 
 3. Enter the command and press **Enter** to go to the program file directory.
 

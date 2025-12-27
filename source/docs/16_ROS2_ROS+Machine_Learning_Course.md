@@ -1,9 +1,5 @@
 # 16\. ROS2-ROS+Machine Learning Course
 
-[TOC]
-
-
-
 ## 16.1 MediaPipe Human-Robot Interaction
 
 ### 16.1.1 MediaPipe Introduction and Getting Started
@@ -76,7 +72,7 @@ Finally, the background is replaced with a virtual one.
 
 #### 16.1.2.2 Operation Steps
 
-Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 1. Click the terminal icon <img src="../_static/media/chapter_15/section_1/media/image4.png"  /> in the system desktop to open a ROS1 command-line window.
 
@@ -250,7 +246,7 @@ Finally, draw 3D bounding boxes on the detected objects in the image. In this se
 
 #### 16.1.3.2 Operation Steps
 
-Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 1. Click the terminal icon <img src="../_static/media/chapter_15/section_1/media/image4.png"  /> in the system desktop to open a ROS1 command-line window.
 
@@ -424,7 +420,7 @@ Finally, the face will be outlined with a bounding box, and the six key landmark
 
 #### 16.1.4.2 Operation Steps
 
-Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 1. Click the terminal icon <img src="../_static/media/chapter_15/section_1/media/image4.png"  /> in the system desktop to open a ROS1 command-line window.
 
@@ -590,7 +586,7 @@ Finally, a 3D mesh is rendered over the detected face in the video feed.
 
 #### 16.1.5.2 Operation Steps
 
-Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 1. Click the terminal icon <img src="../_static/media/chapter_15/section_1/media/image4.png" /> in the system desktop to open a ROS1 command-line window.
 
@@ -754,7 +750,7 @@ Finally, it detects and draws the hand keypoints on the output image.
 
 #### 16.1.6.2 Operation Steps
 
-Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 1. Click the terminal icon <img src="../_static/media/chapter_15/section_1/media/image4.png" /> in the system desktop to open a ROS1 command-line window.
 
@@ -928,7 +924,7 @@ Finally, it identifies and draws the body landmarks on the image.
 
 #### 16.1.7.2 Operation Steps
 
-Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 1. Click the terminal icon <img src="../_static/media/chapter_15/section_1/media/image4.png"  /> in the system desktop to open a ROS1 command-line window.
 
@@ -1091,7 +1087,7 @@ Finally, once the designated gesture is recognized, the robot starts tracking an
 > 
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 1. Click the terminal icon <img src="../_static/media/chapter_15/section_1/media/image4.png"  /> in the system desktop to open a ROS1 command-line window.
 
@@ -1389,7 +1385,7 @@ Finally, if the user performs a specific action, the robot responds accordingly.
 > 
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 1. Click the terminal icon <img src="../_static/media/chapter_15/section_1/media/image4.png" /> in the system desktop to open a ROS1 command-line window.
 
@@ -1723,7 +1719,7 @@ Finally, update the PID controller based on the coordinates of the human's cente
 > 
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
    
    **Starting the Model:**
 
@@ -1970,7 +1966,7 @@ Finally, if the detected posture is **hands on hips**, the system uses the cloth
 > 
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_15/section_1/media/image4.png" /> in the system desktop to open a ROS1 command-line window.
 
@@ -2371,7 +2367,7 @@ Finally, if a fall is detected, the robot will trigger an alert and move forward
 > 
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_15/section_1/media/image4.png" /> in the system desktop to open a ROS1 command-line window.
 
@@ -2639,7 +2635,7 @@ This lesson focuses on controlling the car to move forward while keeping it with
 
 1. When performing this feature, make sure the environment is well-lit, but avoid direct light hitting the camera to prevent misrecognition.
 
-2. Adjust the color thresholds in advance to correctly detect the yellow lines, preventing misdetection during the lesson. For guidance on setting color thresholds, refer to the file [15. ROS2- ROS+OpenCV Course]().
+2. Adjust the color thresholds in advance to correctly detect the yellow lines, preventing misdetection during the lesson. For guidance on setting color thresholds, refer to the file [15. ROS2- ROS+OpenCV Course](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/15_ROS2_ROS%2BOpenCV_Course.html#ros2-ros-opencv-course).
 
 3. It is recommended to position the robot in the center of the lane for easier detection.
 
@@ -2657,7 +2653,7 @@ Based on the comparison results, the forward direction is adjusted to keep the r
 
 #### 16.2.1.3 Operation Steps
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_15/section_2/media/image3.png" /> in the system desktop to open a ROS1 command-line window.
 
@@ -3042,7 +3038,7 @@ Finally, based on the comparison results, execute the corresponding traffic sign
 > 
 > * **The input command should be case sensitive, and the keywords can be complemented by the Tab key.**
 
-Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 1. Power on the robot and connect it via the NoMachine remote control software.
 
@@ -3132,7 +3128,7 @@ Finally, based on the comparison results, the robot identifies the turn sign and
 > 
 > * **The input command should be case sensitive, and the keywords can be complemented by the Tab key.**
 
-Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 1. Power on the robot and connect it via the NoMachine remote control software.
 
@@ -3222,7 +3218,7 @@ Finally, based on the comparison results, the robot recognizes the parking sign 
 > 
 > * **The input command should be case sensitive, and the keywords can be complemented by the Tab key.**
 
-Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 1. Power on the robot and connect it via the NoMachine remote control software.
 
@@ -3352,13 +3348,13 @@ The map should be laid on a flat surface, ensuring it is smooth without wrinkles
 
 * **Color Threshold Setting**
 
-Since lighting conditions affect color recognition, you need to adjust the thresholds for black, white, red, green, blue, and yellow before starting, following the instructions in the file [15. ROS2-ROS + OpenCV Course]().
+Since lighting conditions affect color recognition, you need to adjust the thresholds for black, white, red, green, blue, and yellow before starting, following the instructions in the file [15. ROS2-ROS + OpenCV Course](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/15_ROS2_ROS%2BOpenCV_Course.html#ros2-ros-opencv-course).
 
 If the robot encounters inaccurate recognition during its movement, the color threshold should be adjusted in areas of the map where recognition fails.
 
 #### 16.2.6.3 Operation Steps
 
-Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 1. Click the terminal icon <img src="../_static/media/chapter_15/section_2/media/image29.png" /> in the system desktop to open a ROS1 command-line window.
 
@@ -3766,7 +3762,7 @@ Main function of the class, executes different line-following strategies based o
 
 1\. The robot performs poorly during line-following, moving in a wobbly manner.
 
-Adjust the color thresholds according to the actual lighting environment. For detailed instructions, refer to the file [15. ROS2-ROS + OpenCV Course]().
+Adjust the color thresholds according to the actual lighting environment. For detailed instructions, refer to the file [15. ROS2-ROS + OpenCV Course](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/15_ROS2_ROS%2BOpenCV_Course.html#ros2-ros-opencv-course).
 
 2\. The robot’s turning radius is too large or too small.
 

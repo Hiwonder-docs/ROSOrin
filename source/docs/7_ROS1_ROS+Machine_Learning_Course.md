@@ -1,9 +1,5 @@
 # 7\. ROS1-ROS+Machine Learning Course
 
-[TOC]
-
-
-
 ## 7.1 Machine Learning Basics
 
 ### 7.1.1 Introduction to Machine Learning
@@ -96,8 +92,8 @@ In recent years, deep learning has achieved outstanding performance across many 
 
 MXNet is designed to maximize efficiency and flexibility. As an accelerated library, it provides powerful tools for developers to take full advantage of GPUs and cloud computing. MXNet supports distributed deployment via a parameter server and can scale almost linearly across multiple CPUs and GPUs.
 
-<p id ="anther7.2"></p>
 ## 7.2 Machine Learning Application
+<p id ="anther7.2"></p>
 
 ### 7.2.1 GPU Acceleration
 
@@ -408,7 +404,7 @@ In this example, the demonstration uses traffic signs as target objects.
 
 1. Power on the robot and connect it via the NoMachine remote control software.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_7/section_2/media/image28.png"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_7/section_2/media/image28.png"  /> in the system desktop to open a command-line window.
 
 3. Stop the app auto-start service by running the following command:
 
@@ -450,7 +446,7 @@ After clicking **Save(space)**, a folder named **JPEGImages** will be automatica
 
 <img class="common_img" src="../_static/media/chapter_7/section_2/media/image36.png"  />
 
-9. Click on the icon <img class="common_img" src="../_static/media/chapter_7/section_2/media/image37.png" style="width:50px" /> in the system status bar to open the file manager, where the saved images can be viewed.
+9. Click on the icon <img src="../_static/media/chapter_7/section_2/media/image37.png" style="width:50px" /> in the system status bar to open the file manager, where the saved images can be viewed.
 
 <img class="common_img" src="../_static/media/chapter_7/section_2/media/image38.png"  />
 
@@ -534,7 +530,7 @@ Move the mouse to the desired location and hold the left mouse button to draw a 
 
 6) Press **Ctrl+S** to save the annotation for the current image.
 
-7) Click the icon <img class="common_img" src="../_static/media/chapter_7/section_2/media/image37.png" style="width:50px" /> in the system status bar  to open the file manager and navigate to the directory **/home/ubuntu/my_data/Annotations/**. The annotation files for each image will be available in this folder.
+7) Click the icon <img src="../_static/media/chapter_7/section_2/media/image37.png" style="width:50px" /> in the system status bar  to open the file manager and navigate to the directory **/home/ubuntu/my_data/Annotations/**. The annotation files for each image will be available in this folder.
 
 <img class="common_img" src="../_static/media/chapter_7/section_2/media/image50.png"  />
 
@@ -615,7 +611,7 @@ After converting the dataset format, you can proceed to the model training phase
 
 1. Power on the robot and connect it via the NoMachine remote control software.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_7/section_2/media/image28.png"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_7/section_2/media/image28.png"  /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to go to the specific directory.
 
@@ -711,7 +707,7 @@ After extensive training, the new model needs to be converted into a TensorRT-ac
 
 1. Power on the robot and connect it via the NoMachine remote control software.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_7/section_2/media/image28.png"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_7/section_2/media/image28.png"  /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to go to the specific directory.
 
@@ -875,7 +871,7 @@ Create a new folder in any directory, such as **my_data**. Remember the folder n
 
 1. Power on the robot and connect it via the NoMachine remote control software.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_7/section_2/media/image28.png"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_7/section_2/media/image28.png"  /> in the system desktop to open a command-line window.
 
 3. Execute the following command to stop the app service:
 
@@ -919,7 +915,7 @@ After clicking **Save(space)**, a folder named **JPEGImages** will be automatica
 
 <img class="common_img" src="../_static/media/chapter_7/section_2/media/image36.png" style="width:600px" />
 
-9) Click on the icon <img class="common_img" src="../_static/media/chapter_7/section_2/media/image37.png" style="width:50px" /> in the system status bar to open the file manager. Navigate to the directory as shown in the image below to view the saved images.
+9) Click on the icon <img src="../_static/media/chapter_7/section_2/media/image37.png" style="width:50px" /> in the system status bar to open the file manager. Navigate to the directory as shown in the image below to view the saved images.
 
 <img class="common_img" src="../_static/media/chapter_7/section_2/media/image96.png" style="width:600px" />
 
@@ -931,7 +927,7 @@ After clicking **Save(space)**, a folder named **JPEGImages** will be automatica
 
 1. Power on the robot and connect it via the NoMachine remote control software.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_7/section_2/media/image28.png"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_7/section_2/media/image28.png"  /> in the system desktop to open a command-line window.
 
 3. Execute the following command to stop the app service:
 
@@ -1018,11 +1014,11 @@ Move the mouse to the desired location and hold the left mouse button to draw a 
 
 12) Refer to Step 9 to complete the annotation of the remaining images.
 
-13) Click the system status bar icon <img class="common_img" src="../_static/media/chapter_7/section_2/media/image37.png" style="width:50px" /> to open the file manager and navigate to the directory /home/ubuntu/my_data/Annotations/. This is the same dataset path where the images were saved during Step [Image Collection](#p7-2-9Image-Collection). The annotation files corresponding to each image can be viewed in this folder.
+13) Click the system status bar icon <img src="../_static/media/chapter_7/section_2/media/image37.png" style="width:50px" /> to open the file manager and navigate to the directory /home/ubuntu/my_data/Annotations/. This is the same dataset path where the images were saved during Step [Image Collection](#p7-2-9Image-Collection). The annotation files corresponding to each image can be viewed in this folder.
 
 * **Generating Related Files**
 
-1. Click the terminal icon <img class="common_img" src="../_static/media/chapter_7/section_2/media/image28.png"  /> in the system desktop to open a command-line window.
+1. Click the terminal icon <img src="../_static/media/chapter_7/section_2/media/image28.png"  /> in the system desktop to open a command-line window.
 
 2. Enter the following command and press **Enter**.
 
@@ -1058,7 +1054,7 @@ The output paths depend on the actual storage location of the folders in your ro
 
 * **Model Training**
 
-1. Click the terminal icon <img class="common_img" src="../_static/media/chapter_7/section_2/media/image28.png"  /> in the system desktop to open a command-line window.
+1. Click the terminal icon <img src="../_static/media/chapter_7/section_2/media/image28.png"  /> in the system desktop to open a command-line window.
 
 2. Enter the following command and press **Enter** to go to the specific directory.
 
@@ -1096,7 +1092,7 @@ After the model training is completed, the terminal will print the path where th
 
 * **Creating a TensorRT Model Engine**
 
-1. Click the terminal icon <img class="common_img" src="../_static/media/chapter_7/section_2/media/image28.png"  /> in the system desktop to open a command-line window.
+1. Click the terminal icon <img src="../_static/media/chapter_7/section_2/media/image28.png"  /> in the system desktop to open a command-line window.
 
 2. Enter the following command and press **Enter** to go to the specific directory.
 
@@ -1268,7 +1264,7 @@ Create a new folder in any directory, such as **my_data**. Remember the folder n
 
 1. Power on the robot and connect it via the NoMachine remote control software.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_7/section_2/media/image28.png"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_7/section_2/media/image28.png"  /> in the system desktop to open a command-line window.
 
 3. Execute the following command to stop the app service:
 
@@ -1308,7 +1304,7 @@ After clicking **Save (space)**, a folder named **JPEGImages** will be automatic
 
 <img class="common_img" src="../_static/media/chapter_7/section_2/media/image36.png" style="width:600px" />
 
-9) Click on the icon <img class="common_img" src="../_static/media/chapter_7/section_2/media/image37.png" style="width:50px" /> in the system status bar to open the file manager. Navigate to the directory as shown in the image below to view the saved images.
+9) Click on the icon <img  src="../_static/media/chapter_7/section_2/media/image37.png" style="width:50px" /> in the system status bar to open the file manager. Navigate to the directory as shown in the image below to view the saved images.
 
 * **Labeling Image Data**
 
@@ -1318,7 +1314,7 @@ After clicking **Save (space)**, a folder named **JPEGImages** will be automatic
 
 1. Power on the robot and connect it via the NoMachine remote control software.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_7/section_2/media/image28.png"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_7/section_2/media/image28.png"  /> in the system desktop to open a command-line window.
 
 3. Execute the following command to stop the app service:
 
@@ -1419,7 +1415,7 @@ Use the shortcut **Ctrl+U**, set the image storage directory to **/home/ubuntu/m
 
 * **Generating Related Files**
 
-1. Click the terminal icon <img class="common_img" src="../_static/media/chapter_7/section_2/media/image28.png"  /> in the system desktop to open a command-line window.
+1. Click the terminal icon <img src="../_static/media/chapter_7/section_2/media/image28.png"  /> in the system desktop to open a command-line window.
 
 2. Enter the following command and press **Enter**.
 
@@ -1449,7 +1445,7 @@ The output paths depend on the actual storage location of the folders in your ro
 
 * **Start Training**
 
-1. Click the terminal icon <img class="common_img" src="../_static/media/chapter_7/section_2/media/image28.png"  /> in the system desktop to open a command-line window.
+1. Click the terminal icon <img src="../_static/media/chapter_7/section_2/media/image28.png"  /> in the system desktop to open a command-line window.
 
 2. Enter the following command and press **Enter** to go to the specific directory.
 
@@ -1487,7 +1483,7 @@ After the model training is completed, the terminal will print the path where th
 
 * **Data Format Conversion**
 
-1. Click the terminal icon <img class="common_img" src="../_static/media/chapter_7/section_2/media/image28.png"  /> in the system desktop to open a command-line window.
+1. Click the terminal icon <img src="../_static/media/chapter_7/section_2/media/image28.png"  /> in the system desktop to open a command-line window.
 
 2. Enter the following command and press **Enter** to go to the specific directory.
 
@@ -1717,7 +1713,7 @@ Finally, the face will be outlined with a bounding box, and the six key landmark
 > 
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_7/section_3/media/image3.png"  /> in the system desktop to open a command-line window.
 
@@ -1850,7 +1846,7 @@ Finally, a 3D mesh is rendered over the detected face in the video feed.
 > 
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps)  in the user manual.
 
 2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_7/section_3/media/image3.png"  /> in the system desktop to open a command-line window.
 
@@ -1983,7 +1979,7 @@ Finally, it detects and draws the hand keypoints on the output image.
 > 
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps)  in the user manual.
 
 2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_7/section_3/media/image3.png"  /> in the system desktop to open a command-line window.
 
@@ -2118,7 +2114,7 @@ Finally, it identifies and draws the body landmarks on the image.
 > 
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps)  in the user manual.
 
 2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_7/section_3/media/image3.png"  /> in the system desktop to open a command-line window.
 
@@ -2241,7 +2237,7 @@ Finally, once the designated gesture is recognized, the robot starts tracking an
 > 
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps)  in the user manual.
 
 2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_7/section_3/media/image17.png"  /> in the system desktop to open a command-line window.
 
@@ -2567,7 +2563,7 @@ Finally, if the user performs a specific action, the robot responds accordingly.
 > 
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps)  in the user manual.
 
 2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_7/section_3/media/image17.png"  /> in the system desktop to open a command-line window.
 
@@ -2893,7 +2889,7 @@ Finally, update the PID controller based on the coordinates of the human's cente
 > 
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps)  in the user manual.
 
 2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_7/section_3/media/image17.png"  /> in the system desktop to open a command-line window.
 
@@ -3146,7 +3142,7 @@ Finally, if the detected posture is “hands on hips,” the system uses the clo
 > 
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps)  in the user manual.
 
 2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_7/section_3/media/image17.png"  /> in the system desktop to open a command-line window.
 
@@ -3534,7 +3530,7 @@ Finally, if a fall is detected, the robot will trigger an alert and move forward
 > 
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps)  in the user manual.
 
 2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_7/section_3/media/image17.png"  /> in the system desktop to open a command-line window.
 
@@ -3978,7 +3974,7 @@ This lesson focuses on controlling the car to move forward while keeping it with
 
 2) When performing this feature, make sure the environment is well-lit, but avoid direct light hitting the camera to prevent misrecognition.
 
-3) Adjust the color thresholds in advance to correctly detect the yellow lines, preventing misdetection during the lesson. For guidance on setting color thresholds, refer to Section [6.1 Color Threshold Adjustment]() in the 6. ROS+OpenCV Course.
+3) Adjust the color thresholds in advance to correctly detect the yellow lines, preventing misdetection during the lesson. For guidance on setting color thresholds, refer to Section [6.1 Color Threshold Adjustment](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/6_ROS1_ROS%2BOpenCV_Course.html#color-threshold-adjustment) in the 6. ROS+OpenCV Course.
 
 4) It is recommended to position the robot in the center of the lane for easier detection.
 
@@ -4405,7 +4401,7 @@ This feature allows the robot to recognize traffic lights through command execut
 
 2) When performing this feature, make sure the environment is well-lit, but avoid direct light hitting the camera to prevent misrecognition.
 
-3) Adjust the color thresholds in advance to correctly detect the red and green, preventing misdetection during the lesson. For guidance on setting color thresholds, refer to Section [6.1 Color Threshold Adjustment]() in the 6. ROS+OpenCV Course.
+3) Adjust the color thresholds in advance to correctly detect the red and green, preventing misdetection during the lesson. For guidance on setting color thresholds, refer to Section [6.1 Color Threshold Adjustment](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/6_ROS1_ROS%2BOpenCV_Course.html#color-threshold-adjustment) in the 6. ROS+OpenCV Course.
 
 #### 7.4.4.2 Project Process
 
@@ -4632,7 +4628,7 @@ The map should be laid on a flat surface, ensuring it is smooth without wrinkles
 
 * **Color Threshold Setting**
 
-Since lighting conditions affect color recognition differently, color thresholds should be adjusted before starting. Follow the steps in [6.1 Color Threshold Adjustment]() to tune the thresholds for black, white, red, green, blue, and yellow..
+Since lighting conditions affect color recognition differently, color thresholds should be adjusted before starting. Follow the steps in [6.1 Color Threshold Adjustment](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/6_ROS1_ROS%2BOpenCV_Course.html#color-threshold-adjustment) to tune the thresholds for black, white, red, green, blue, and yellow..
 
 If the robot encounters inaccurate recognition during its movement, the color threshold should be adjusted in areas of the map where recognition fails.
 

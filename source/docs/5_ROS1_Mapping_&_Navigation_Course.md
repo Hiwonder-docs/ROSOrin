@@ -1,11 +1,7 @@
 # 5\. ROS1-Mapping \& Navigation Course
 
-[TOC]
-
-
-
-<p id ="anther5.1"></p>
 ## 5.1 Mapping Tutorial
+<p id ="anther5.1"></p>
 
 ### 5.1.1 SLAM Map Construction Principle
 
@@ -286,9 +282,9 @@ OpenSlam_Gmapping open-source algorithm:<https://github.com/ros-perception/opens
 
 * **Enable Service**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_5/section_1/media/image13.png"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img  src="../_static/media/chapter_5/section_1/media/image13.png"  /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app auto-start service:
 
@@ -330,7 +326,7 @@ roslaunch slam rviz_slam.launch slam_methods:=gmapping
 
 * **Start the Mapping Process**
 
-This section uses keyboard control for mapping. If mapping via the wireless controller is preferred, refer to the section [1.6 Wireless Controller Control]() of the user manual for detailed instructions.
+This section uses keyboard control for mapping. If mapping via the wireless controller is preferred, refer to the section [1.6 Wireless Controller Control](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#wireless-controller-control) of the user manual for detailed instructions.
 
 1. Open a new terminal window, enter the command to start the keyboard control node, and press **Enter**.
 
@@ -686,9 +682,9 @@ Hector_slam software package: <https://github.com/tu-darmstadt-ros-pkg/hector_sl
 
 * **Enable Service**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_5/section_1/media/image13.png"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_5/section_1/media/image13.png"  /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app auto-start service:
 
@@ -712,7 +708,7 @@ roslaunch slam rviz_slam.launch slam_methods:=hector
 
 * **Start the Mapping Process**
 
-This section uses keyboard control for mapping. If mapping via the wireless controller is preferred, refer to the section [1.6 Wireless Controller Control]() of the user manual for detailed instructions.
+This section uses keyboard control for mapping. If mapping via the wireless controller is preferred, refer to the section [1.6 Wireless Controller Control](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#wireless-controller-control) of the user manual for detailed instructions.
 
 1. Open a new terminal window, enter the command to start the keyboard control service, and press **Enter**.
 
@@ -1016,9 +1012,9 @@ As shown in the figure above, the workflow of Karto SLAM is relatively straightf
 
 * **Enable Service**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_5/section_1/media/image35.png"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_5/section_1/media/image35.png"  /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app auto-start service:
 
@@ -1042,7 +1038,7 @@ roslaunch slam rviz_slam.launch slam_methods:=karto
 
 * **Start the Mapping Process**
 
-1. If mapping via the wireless controller is preferred, refer to the section [1.6 Wireless Controller Control]() of the user manual for detailed instructions.
+1. If mapping via the wireless controller is preferred, refer to the section [1.6 Wireless Controller Control](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#wireless-controller-control) of the user manual for detailed instructions.
 
 2. Open a new terminal window, enter the command to start the keyboard control service, and press **Enter**.
 
@@ -1260,9 +1256,9 @@ For more information on the Cartographer package: <https://github.com/cartograph
 
 * **Enable Service**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_5/section_1/media/image35.png"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_5/section_1/media/image35.png"  /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app auto-start service:
 
@@ -1286,7 +1282,7 @@ roslaunch slam rviz_slam.launch slam_methods:=cartographer
 
 * **Start the Mapping Process**
 
-If mapping via the wireless controller is preferred, refer to the section [1.6 Wireless Controller Control]() of the user manual for detailed instructions.
+If mapping via the wireless controller is preferred, refer to the section [1.6 Wireless Controller Control](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#wireless-controller-control) of the user manual for detailed instructions.
 
 1. Open a new terminal window, enter the command to start the keyboard control service, and press **Enter**.
 
@@ -1652,9 +1648,9 @@ The frontier_exploration Software Package:<https://github.com/paulbovbel/frontie
 
 * **Start the Mapping Process**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_5/section_1/media/image35.png" style="width:50px" /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_5/section_1/media/image35.png" style="width:50px" /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app auto-start service:
 
@@ -1897,9 +1893,9 @@ The Explore_Lite software package link:<https://github.com/hrnr/m-explore>
 
 * **Enable Service**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_5/section_1/media/image35.png"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_5/section_1/media/image35.png"  /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app auto-start service:
 
@@ -2136,9 +2132,9 @@ The RRT Software Package:<https://github.com/RoboJackets/rrt>
 
 * **Enable Service**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_5/section_1/media/image35.png" style="width:50px" /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_5/section_1/media/image35.png" style="width:50px" /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app auto-start service:
 
@@ -2499,9 +2495,9 @@ ORB-SLAM3 extracts ORB features from images, estimates the pose based on the pre
 
 * **Start the ORB-SLAM2 Mapping**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_5/section_1/media/image35.png" style="width:50px" /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_5/section_1/media/image35.png" style="width:50px" /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app auto-start service:
 
@@ -2568,9 +2564,9 @@ If the interface shown below appears, the keyboard control service has started s
 
 * **Start the ORB-SLAM3 Mapping**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_5/section_1/media/image35.png" style="width:50px" /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img  src="../_static/media/chapter_5/section_1/media/image35.png" style="width:50px" /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app auto-start service:
 
@@ -2656,7 +2652,7 @@ RTAB-VSLAM software resources: <https://github.com/introlab/rtabmap>
 
 1. Power on the robot and connect it via the NoMachine remote control software.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_5/section_1/media/image35.png" style="width:50px" /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_5/section_1/media/image35.png" style="width:50px" /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app auto-start service:
 
@@ -2753,7 +2749,7 @@ The installation packages for the **Make A Map** and **Map Nav** apps are locate
 
 1. Power on the robot and connect it via the NoMachine remote control software.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_5/section_1/media/image35.png" style="width:50px" /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_5/section_1/media/image35.png" style="width:50px" /> in the system desktop to open a command-line window.
 
 3. Enter the command and press **Enter** to stop the auto-start services of the app, including services for the wireless controller, depth camera, chassis control, and others.
 
@@ -2797,7 +2793,7 @@ Dragging the arrow icons up, down, left, or right will move the robot forward, b
 
 * **Save the Map**
 
-1. Return to the remote control software NoMachine, then click the terminal icon <img class="common_img" src="../_static/media/chapter_5/section_1/media/image78.png"  /> in the system desktop to open a command-line window.
+1. Return to the remote control software NoMachine, then click the terminal icon <img  src="../_static/media/chapter_5/section_1/media/image78.png"  /> in the system desktop to open a command-line window.
 
 2. After the mapping is complete, open a new terminal window, enter the command, and press **Enter** to navigate to the folder where the map is stored.
 
@@ -3307,9 +3303,9 @@ This section will cover how the robot moves to the selected target destination.
 
 * **Operation**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_5/section_2/media/image31.png" style="width:50px" /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_5/section_2/media/image31.png" style="width:50px" /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app auto-start service:
 
@@ -3379,9 +3375,9 @@ It contains the following folders, such as `config`, `launch`, `rivz`, and `src`
 >
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_5/section_2/media/image42.png" style="width:50px" /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_5/section_2/media/image42.png" style="width:50px" /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app auto-start service:
 
@@ -3415,7 +3411,7 @@ roslaunch navigation publish_point.launch
 
 <img class="common_img" src="../_static/media/chapter_5/section_2/media/image35.png"  />
 
-8. Click the icon <img class="common_img" src="../_static/media/chapter_5/section_2/media/image47.png"  />, then left-click on a point on the map to set it as the target point. The remaining target points can be set using the same procedure.
+8. Click the icon <img src="../_static/media/chapter_5/section_2/media/image47.png"  />, then left-click on a point on the map to set it as the target point. The remaining target points can be set using the same procedure.
 
 > [!NOTE]
 >
@@ -3445,9 +3441,9 @@ For an introduction and explanation of the RTAB-VSLAM algorithm, refer to sectio
 
 #### 5.2.6.2 Operation Steps
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_5/section_2/media/image42.png" style="width:50px" /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img  src="../_static/media/chapter_5/section_2/media/image42.png" style="width:50px" /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app auto-start service:
 
@@ -3529,7 +3525,7 @@ The installation packages for the **Make A Map** and **Map Nav** apps are locate
 
 1. Power on the robot and connect it via the NoMachine remote control software.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_5/section_2/media/image62.png" style="width:50px" /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img  src="../_static/media/chapter_5/section_2/media/image62.png" style="width:50px" /> in the system desktop to open a command-line window.
 
 3. Enter the command and press **Enter** to stop the auto-start services of the app, including services for the wireless controller, depth camera, chassis control, and others.
 

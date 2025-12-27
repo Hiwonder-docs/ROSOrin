@@ -1,9 +1,5 @@
 # 14\. ROS2-Mapping \& Navigation Course
 
-[TOC]
-
-
-
 ## 14.1 Mapping Tutorial
 
 ### 14.1.1 Introduction and Getting Started with URDF Model
@@ -203,9 +199,9 @@ To understand the URDF model, refer to section [14.1.1.3 URDF Model Basic Syntax
 
 #### 14.1.2.2 Viewing the Robot Model Code
 
-1. Power on the robot and connect it to the remote control software NoMachine. For instructions on setting up the remote desktop connection, refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Power on the robot and connect it to the remote control software NoMachine. For instructions on setting up the remote desktop connection, refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
-2. Click the terminal icon <img src="../_static/media/chapter_13/section_1/media/image23.png"  class="common_img" /> in the system desktop to open a ROS1 command-line terminal.
+2. Click the terminal icon <img src="../_static/media/chapter_13/section_1/media/image23.png"/> in the system desktop to open a ROS1 command-line terminal.
 
 3. Enter the following command and press **Enter** to stop the app auto-start service.
 
@@ -342,9 +338,9 @@ As shown in the figure above, the workflow of Karto SLAM is relatively straightf
 
 #### 14.1.4.2 Mapping Steps
 
-1. Power on the robot and connect it to the remote control software NoMachine. For instructions on setting up the remote desktop connection, refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Power on the robot and connect it to the remote control software NoMachine. For instructions on setting up the remote desktop connection, refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
-2. Click the terminal icon <img src="../_static/media/chapter_13/section_1/media/image23.png"  class="common_img" /> in the system desktop to open a ROS1 command-line terminal.
+2. Click the terminal icon <img src="../_static/media/chapter_13/section_1/media/image23.png" /> in the system desktop to open a ROS1 command-line terminal.
 
 3. Enter the command to disable the app auto-start service.
 
@@ -352,7 +348,7 @@ As shown in the figure above, the workflow of Karto SLAM is relatively straightf
 sudo systemctl stop start_app_node.service
 ```
 
-4. Click the icon <img src="../_static/media/chapter_13/section_1/media/image31.png"  class="common_img" /> on the system desktop to open a new ROS2 command line terminal. Enter the command to start mapping:
+4. Click the icon <img src="../_static/media/chapter_13/section_1/media/image31.png" /> on the system desktop to open a new ROS2 command line terminal. Enter the command to start mapping:
 
 ```bash
 ros2 launch slam slam.launch.py
@@ -387,7 +383,7 @@ If the prompt shown below appears, the keyboard control service has started succ
 
 #### 14.1.4.3 Save the Map
 
-1. Click the terminal icon <img src="../_static/media/chapter_13/section_1/media/image31.png"  class="common_img" /> in the system desktop to open a ROS2 command-line window.
+1. Click the terminal icon <img src="../_static/media/chapter_13/section_1/media/image31.png" /> in the system desktop to open a ROS2 command-line window.
 
 2. Save the map by entering the following command and pressing Enter:
 
@@ -401,7 +397,7 @@ The prompt message shown in the image confirms that the map has been saved succe
 
 #### 14.1.4.4 Exiting Mapping
 
-1. Click the terminal icon <img src="../_static/media/chapter_13/section_1/media/image31.png"  class="common_img" /> in the system desktop to open a ROS2 command-line window.
+1. Click the terminal icon <img src="../_static/media/chapter_13/section_1/media/image31.png"  /> in the system desktop to open a ROS2 command-line window.
 
 2. Then, enter the command and press **Enter** to execute the program for all ROS nodes in the current system environment. If it doesn’t close successfully, the command can be executed multiple times.
 
@@ -413,7 +409,7 @@ The prompt message shown in the image confirms that the map has been saved succe
 
 For more accurate mapping, the odometry can be optimized. Odometry is required for robot mapping, and odometry relies on the IMU.
 
-The robot is preloaded with calibrated IMU data, which allows it to perform mapping and navigation normally. However, the IMU can still be recalibrated to achieve higher precision. For IMU calibration methods and steps, refer to section [11.1.1 IMU Calibration]() in the **11. ROS2-Chassis Motion Control Course**.
+The robot is preloaded with calibrated IMU data, which allows it to perform mapping and navigation normally. However, the IMU can still be recalibrated to achieve higher precision. For IMU calibration methods and steps, refer to section [11.1.1 IMU Calibration](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/11_ROS2_Chassis_Motion_Control_Course.html#imu-calibration) in the **11. ROS2-Chassis Motion Control Course**.
 
 #### 14.1.4.6 Parameter Description
 
@@ -522,15 +518,15 @@ During operation, the RTAB-VSLAM algorithm first uses short-term memory data to 
 
 #### 14.1.5.3 3D Mapping Steps
 
-1. Power on the robot and connect it to the remote control software NoMachine. For instructions on setting up the remote desktop connection, refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Power on the robot and connect it to the remote control software NoMachine. For instructions on setting up the remote desktop connection, refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
-2. Click the icon <img src="../_static/media/chapter_13/section_1/media/image23.png"  class="common_img" /> on the system desktop to open a ROS1 command line terminal. Enter the command to disable the app’s auto-start service:
+2. Click the icon <img src="../_static/media/chapter_13/section_1/media/image23.png"  /> on the system desktop to open a ROS1 command line terminal. Enter the command to disable the app’s auto-start service:
 
 ```bash
 sudo systemctl stop start_app_node.service
 ```
 
-3. Click the icon <img src="../_static/media/chapter_13/section_1/media/image31.png"  class="common_img" /> on the system desktop to open a new ROS2 command line terminal. Enter the command to start mapping:
+3. Click the icon <img src="../_static/media/chapter_13/section_1/media/image31.png"  /> on the system desktop to open a new ROS2 command line terminal. Enter the command to start mapping:
 
 ```bash
 ros2 launch slam rtabmap_slam.launch.py
@@ -577,7 +573,7 @@ After completing the mapping, press **Ctrl+C** in each command-line terminal win
 
 #### 14.1.5.5 Exiting Mapping
 
-1. Click the terminal icon <img src="../_static/media/chapter_13/section_1/media/image31.png"  class="common_img" /> in the system desktop to open a ROS2 command-line window.
+1. Click the terminal icon <img src="../_static/media/chapter_13/section_1/media/image31.png"  /> in the system desktop to open a ROS2 command-line window.
 
 2. Then, enter the command and press **Enter** to execute the program for all ROS nodes in the current system environment. If it doesn’t close successfully, the command can be executed multiple times.
 
@@ -1087,15 +1083,15 @@ These links provide resources for users to study the TEB algorithm in depth and 
 
 ### 14.2.4 Single-Point and Multi-Point Navigation and Obstacle Avoidance
 
-1. Power on the robot and connect it to the remote control software NoMachine. For instructions on setting up the remote desktop connection, refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Power on the robot and connect it to the remote control software NoMachine. For instructions on setting up the remote desktop connection, refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
-2. Click the terminal icon <img src="../_static/media/chapter_13/section_2/media/image29.png"  class="common_img" /> in the system desktop to open a ROS1 command-line window. Enter the command to disable the app auto-start service.
+2. Click the terminal icon <img src="../_static/media/chapter_13/section_2/media/image29.png" /> in the system desktop to open a ROS1 command-line window. Enter the command to disable the app auto-start service.
 
 ```bash
 sudo systemctl stop start_app_node.service
 ```
 
-3. Click the icon <img src="../_static/media/chapter_13/section_2/media/image48.png"  class="common_img" /> on the system desktop to open a ROS2 command line terminal. Enter the command to start the navigation service and press **Enter**:
+3. Click the icon <img src="../_static/media/chapter_13/section_2/media/image48.png"  /> on the system desktop to open a ROS2 command line terminal. Enter the command to start the navigation service and press **Enter**:
 
 ```bash
 ros2 launch navigation navigation.launch.py map:=map_01
@@ -1115,7 +1111,7 @@ ros2 launch navigation rviz_navigation.launch.py
 
 In the software menu bar, **2D Pose Estimate** is used to set the robot’s initial position, while **2D Nav Goal** is used to set a single target point.
 
-1. To set the robot’s initial position, click <img src="../_static/media/chapter_13/section_2/media/image34.png"  class="common_img" /> in the software to choose a location on the map, and drag the mouse to select the robot’s pose.
+1. To set the robot’s initial position, click <img src="../_static/media/chapter_13/section_2/media/image34.png" /> in the software to choose a location on the map, and drag the mouse to select the robot’s pose.
    
    <img src="../_static/media/chapter_13/section_2/media/image35.png" style="width:600px" class="common_img" />
    
@@ -1123,7 +1119,7 @@ In the software menu bar, **2D Pose Estimate** is used to set the robot’s init
    
    <img src="../_static/media/chapter_13/section_2/media/image36.png" style="width:600px" class="common_img" />
    
-3. Click the icon<img src="../_static/media/chapter_13/section_2/media/image37.png"  class="common_img" />, then select a location on the map as the target point and simply click once at that point with the mouse. Once the target is selected, the robot will automatically generate a route and move toward the target point.
+3. Click the icon<img src="../_static/media/chapter_13/section_2/media/image37.png" />, then select a location on the map as the target point and simply click once at that point with the mouse. Once the target is selected, the robot will automatically generate a route and move toward the target point.
    
    <img src="../_static/media/chapter_13/section_2/media/image38.png" style="width:600px" class="common_img" />
    
@@ -1169,7 +1165,7 @@ To define a navigation point, press and hold the left mouse button to set the ta
 
 #### 14.2.4.3 Exiting Navigation
 
-1. Click the terminal icon <img src="../_static/media/chapter_13/section_2/media/image48.png"  class="common_img" /> in the system desktop to open a ROS2 command-line window.
+1. Click the terminal icon <img src="../_static/media/chapter_13/section_2/media/image48.png"  /> in the system desktop to open a ROS2 command-line window.
 
 2. Then, enter the command and press **Enter** to execute the program for all ROS nodes in the current system environment. If it doesn’t close successfully, the command can be executed multiple times.
 
@@ -1278,15 +1274,15 @@ For an introduction and explanation of the RTAB-VSLAM algorithm, refer to sectio
 
 #### 14.2.5.2 Operation Steps
 
-1. Power on the robot and connect it to the remote control software NoMachine. For instructions on setting up the remote desktop connection, refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Power on the robot and connect it to the remote control software NoMachine. For instructions on setting up the remote desktop connection, refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
-2. Click the command line terminal <img src="../_static/media/chapter_13/section_2/media/image29.png"  class="common_img" /> on the left side of the system desktop to open a ROS1 command line terminal. Enter the command to disable the app auto-start service:
+2. Click the command line terminal <img src="../_static/media/chapter_13/section_2/media/image29.png" /> on the left side of the system desktop to open a ROS1 command line terminal. Enter the command to disable the app auto-start service:
 
 ```bash
 sudo systemctl stop start_app_node.service
 ```
 
-3. Click the command line terminal <img src="../_static/media/chapter_13/section_2/media/image48.png"  class="common_img" /> on the left side of the system desktop to open a ROS2 command line terminal. Enter the command to start the navigation service and press **Enter**:
+3. Click the command line terminal <img src="../_static/media/chapter_13/section_2/media/image48.png"/> on the left side of the system desktop to open a ROS2 command line terminal. Enter the command to start the navigation service and press **Enter**:
 
 ```bash
 ros2 launch navigation rtabmap_navigation.launch.py
@@ -1302,7 +1298,7 @@ ros2 launch navigation rviz_rtabmap_navigation.launch.py
 
 <img src="../_static/media/chapter_13/section_2/media/image60.png" style="width:600px" class="common_img" />
 
-6. Click the goal-setting icon <img src="../_static/media/chapter_13/section_2/media/image61.png"  class="common_img" /> at the top of the software to define navigation target points for the robot.
+6. Click the goal-setting icon <img src="../_static/media/chapter_13/section_2/media/image61.png" /> at the top of the software to define navigation target points for the robot.
 
 7. Select a location on the map interface as the target point by clicking once with the mouse. Once the target is selected, the robot will automatically generate a route and move toward the target point.
 
