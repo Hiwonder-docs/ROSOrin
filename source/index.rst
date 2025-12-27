@@ -9,7 +9,7 @@ ROSOrin
 
 .. toctree::
    :maxdepth: 2
-   :caption: ROSOrin
+   :caption: Specification
 
    docs/1_ROSOrin_User_Manual.md
    docs/2_Chassis_Motion_Control_Course.md
