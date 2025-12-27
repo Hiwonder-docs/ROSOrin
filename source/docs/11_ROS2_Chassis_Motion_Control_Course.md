@@ -22,7 +22,7 @@ The figure above shows the positive directions of the IMU’s x, y, and z axes. 
 > 
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7. Development Environment Setup](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#development-environment-setup) in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7 Development Environment Setup](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#development-environment-setup) in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_11/section_1/media/image3.png" /> in the system desktop to open a ROS1 command-line window.
 

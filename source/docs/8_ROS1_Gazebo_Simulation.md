@@ -91,7 +91,7 @@ The Link element describes the visual and physical properties of the robot's rig
 
 Each tag contains its own child elements and serves different purposes. Refer to the table below for details.
 
-<table>
+<table border="1">
   <tr>
     <th style>Tag</th>
     <th style>Function</th>
@@ -122,7 +122,7 @@ Each tag contains its own child elements and serves different purposes. Refer to
 
 In a URDF model, a joint is represented by the **joint** tag. It describes the kinematic and dynamic properties of the robot joint, including motion type, as well as position and velocity limits. According to the type of motion, joints in a URDF model can be categorized into six types:
 
-<table>
+<table border="1">
   <tr>
     <th>Type & Description</th>
     <th>Label</th>
@@ -170,7 +170,7 @@ When defining joint behavior, the following tags are commonly used:
 
 Each tag contains its own child elements and serves different purposes. Refer to the table below for details.
 
-<table>
+<table border="1">
   <tr>
     <th>Label</th>
     <th>Function</th>
@@ -325,7 +325,7 @@ vim rosorin.xacro
 
 Multiple URDF models are called to form the complete robot.
 
-<table>
+<table border="1">
   <thead>
     <tr>
       <th>File Name</th>
@@ -452,7 +452,7 @@ The Gazebo simulation interface is shown below.
 
 The functions of each section are described in the table below:
 
-<table>
+<table border="1">
   <thead>
     <tr>
       <th>Name</th>
@@ -675,7 +675,7 @@ roslaunch peripherals teleop_key_control.launch
 
 To control the robot to move within the simulated map, the table below shows the keyboard keys and their corresponding functions for controlling the robot's movement during mapping:
 
-<table>
+<table border="1">
   <thead>
     <tr>
       <th>Key</th>

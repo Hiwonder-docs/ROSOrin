@@ -93,6 +93,7 @@ In recent years, deep learning has achieved outstanding performance across many 
 MXNet is designed to maximize efficiency and flexibility. As an accelerated library, it provides powerful tools for developers to take full advantage of GPUs and cloud computing. MXNet supports distributed deployment via a parameter server and can scale almost linearly across multiple CPUs and GPUs.
 
 ## 7.2 Machine Learning Application
+
 <p id ="anther7.2"></p>
 
 ### 7.2.1 GPU Acceleration
@@ -153,7 +154,7 @@ Most deep learning frameworks use 32-bit floating-point (FP32) precision for net
 
 The following table shows the dynamic ranges for different precisions:
 
-<table>
+<table border="1">
   <thead>
     <tr>
       <th>Precision</th>
@@ -393,7 +394,9 @@ Once the bounding box annotations are complete, prior boxes appear on the image.
 With each new training iteration, the predicted boxes are influenced by the anchor boxes from the previous round. This process is repeated until the predicted boxes gradually align with the prior boxes in both size and location.
 
 <img class="common_img" src="../_static/media/chapter_7/section_2/media/image27.png" style="width:600px"  />
+
 <p id ="anther7.2.5"></p>
+
 ### 7.2.5 Image Collection and Annotation
 
 Training a YOLOv5 model requires a large dataset, so please first collect and annotate images to prepare for model training.
@@ -466,7 +469,7 @@ python3 ~/software/labelImg/labelImg.py
 
 Below is a table of common shortcut keys:
 
-<table>
+<table border="1">
   <thead>
     <tr>
       <th>Button</th>
@@ -535,6 +538,7 @@ Move the mouse to the desired location and hold the left mouse button to draw a 
 <img class="common_img" src="../_static/media/chapter_7/section_2/media/image50.png"  />
 
 <p id ="anther7.2.6"></p>
+
 ### 7.2.6 Data Format Conversion
 
 #### 7.2.6.1 Preparation
@@ -605,7 +609,7 @@ Finally, an XML file will be generated under the **~/my_data** folder to record 
 
 #### 7.2.7.1 Preparation
 
-After converting the dataset format, you can proceed to the model training phase. Before starting, make sure the dataset with the correct format is ready. For details, refer to the section **Data Format Conversion**.
+After converting the dataset format, you can proceed to the model training phase. Before starting, make sure the dataset with the correct format is ready. For details, refer to the section [Data Format Conversion](#anther7.2.6).
 
 #### 7.2.7.2 Training the Model
 
@@ -693,6 +697,7 @@ cd ~/third_party/yolov5 && ls
 Next, proceed to the following section for model conversion and detection.
 
 <p id ="anther7.2.8"></p>
+
 ### 7.2.8 TensorRT Road Sign Detection
 
 #### 7.2.8.1 Preparation
@@ -809,7 +814,7 @@ cp yolov5n.engine libmyplugins.so ~/ros_ws/src/example/scripts/yolov5_detect/
 sudo systemctl stop start_app_node.service
 ```
 
-3. Click <img class="common_img" src="../_static/media/chapter_7/section_2/media/image82.png" style="width:50px" /> to open the file manager and navigate to the folder shown below.
+3. Click <img src="../_static/media/chapter_7/section_2/media/image82.png" style="width:50px" /> to open the file manager and navigate to the folder shown below.
 
 <img class="common_img" src="../_static/media/chapter_7/section_2/media/image83.png" style="width:600px" />
 
@@ -949,7 +954,7 @@ python3 software/labelImg/labelImg.py
 
 6. After opening the image annotation tool. Below is a table of common shortcut keys:
 
-<table>
+<table border="1">
   <thead>
     <tr>
       <th>Button</th>
@@ -1336,7 +1341,7 @@ python3 software/labelImg/labelImg.py
 
 6. After opening the image annotation tool. Below is a table of common shortcut keys:
 
-<table>
+<table border="1">
   <thead>
     <tr>
       <th>Button</th>
@@ -1848,7 +1853,7 @@ Finally, a 3D mesh is rendered over the detected face in the video feed.
 
 1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps)  in the user manual.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_7/section_3/media/image3.png"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_7/section_3/media/image3.png"  /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app auto-start service:
 
@@ -1981,7 +1986,7 @@ Finally, it detects and draws the hand keypoints on the output image.
 
 1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps)  in the user manual.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_7/section_3/media/image3.png"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_7/section_3/media/image3.png"  /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app auto-start service:
 
@@ -2116,7 +2121,7 @@ Finally, it identifies and draws the body landmarks on the image.
 
 1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps)  in the user manual.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_7/section_3/media/image3.png"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img  src="../_static/media/chapter_7/section_3/media/image3.png"  /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app auto-start service:
 
@@ -2239,7 +2244,7 @@ Finally, once the designated gesture is recognized, the robot starts tracking an
 
 1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps)  in the user manual.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_7/section_3/media/image17.png"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_7/section_3/media/image17.png"  /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app auto-start service:
 
@@ -2565,7 +2570,7 @@ Finally, if the user performs a specific action, the robot responds accordingly.
 
 1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps)  in the user manual.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_7/section_3/media/image17.png"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_7/section_3/media/image17.png"  /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app auto-start service:
 
@@ -2891,7 +2896,7 @@ Finally, update the PID controller based on the coordinates of the human's cente
 
 1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps)  in the user manual.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_7/section_3/media/image17.png"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_7/section_3/media/image17.png"  /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app auto-start service:
 
@@ -3144,7 +3149,7 @@ Finally, if the detected posture is “hands on hips,” the system uses the clo
 
 1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps)  in the user manual.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_7/section_3/media/image17.png"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_7/section_3/media/image17.png"  /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app auto-start service:
 
@@ -3532,7 +3537,7 @@ Finally, if a fall is detected, the robot will trigger an alert and move forward
 
 1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps)  in the user manual.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_7/section_3/media/image17.png"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_7/section_3/media/image17.png"  /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app auto-start service:
 
@@ -3740,11 +3745,12 @@ Retrieve images from the queue and use MediaPipe to detect human keypoints. Comp
 
 If the depth camera is not listed, try unplugging and reconnecting the camera cable, or gently pressing the USB connector to ensure a proper connection. Run **ls /dev/video*** again. When the output matches the result shown in the figure, the depth camera has been successfully detected.
 
-
-
 ## 7.4 Autonomous Driving
+<p id ="anther7.4"></p>
 
 ### 7.4.1 Autonomous Driving Debugging
+
+<p id ="anther7.4.1"></p>
 
 Before executing the autonomous driving feature, ensure that the hardwares installed on the robot, including depth camera and chassis motors, meet the required specifications and are functioning properly, and that the battery is fully charged.
 
@@ -4109,6 +4115,7 @@ After launching the feature, place the robot on the map’s road. When the robot
 <img class="common_img" src="../_static/media/chapter_7/section_4/media/image10.png" style="width:500px" />
 
 <p id ="anther7.4.3.5"></p>
+
 #### 7.4.3.5 Program Analysis
 
 1\. Colors Class
@@ -4614,6 +4621,7 @@ After starting the feature, place the robot on the roadway of the map. When the 
 Refer to the [7.4.3.5 Program Analysis](#anther7.4.3.5) section for details.
 
 <p id ="anther7.4.7"></p>
+
 ### 7.4.7 Comprehensive Application of Autonomous Driving
 
 This section demonstrates the comprehensive autonomous driving functionality of the robot through commands. It integrates multiple features, including lane keeping, traffic sign detection, traffic light recognition, turning decision making, and autonomous parking.
@@ -4705,6 +4713,7 @@ While moving forward, if the robot detects a traffic sign, it will take the corr
 Following these rules, the robot continuously navigates around the map in a loop.
 
 <p id ="anther7.4.7.5"></p>
+
 #### 7.4.7.5 Program Analysis
 
 1\. Class Initialization

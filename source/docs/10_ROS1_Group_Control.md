@@ -28,7 +28,7 @@ Follower receives commands from the Leader and carries out the corresponding act
 
 ### 10.1.4 Virtual Machine Installation and Import
 
-For detailed information of installation, please refer to the [18.1.1 Virtual Machine Installation](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/18_ROS2-Gazebo_Simulation.html#virtual-machine-installation). After installing the virtual machine software, extract the prepared virtual machine image located under [5. Virtual Machine Software](c:\Users\ADMINI~1\AppData\Local\Temp\QQ_1766818084543.png) in the 2. Software folder.
+For detailed information of installation, please refer to the [18.1.1 Virtual Machine Installation](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/18_ROS2-Gazebo_Simulation.html#virtual-machine-installation). After installing the virtual machine software, extract the prepared virtual machine image located under [5. Virtual Machine Software](https://drive.google.com/drive/folders/1vL6BsExx7dsp1N_jicL2BORTpmzP8nk6) in the 2. Software folder.
 
 1. Ensure the computer is connected to the same network as the robots, either via Wi-Fi or Ethernet.
 
@@ -617,7 +617,7 @@ Turn on the controller and press the **Start** button to confirm the connection 
 
 The table below explains the functions of the controller buttons and joysticks:
 
-<table>
+<table border="1">
   <thead>
     <tr>
       <th>Button</th>
@@ -992,7 +992,7 @@ RVIZ is a 3D visualization platform provided by ROS. It not only enables graphic
 
 The table below explains the functions of the toolbar buttons:
 
-<table>
+<table border="1">
 <colgroup>
 <col />
 <col />

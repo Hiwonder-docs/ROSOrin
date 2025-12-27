@@ -172,7 +172,7 @@ This will save the map information into the **maps** folder for easy modificatio
 
 The table below provides a brief comparison of the different mapping algorithms for quick reference. Detailed explanations of each algorithm can be found later in the text. The most suitable mapping algorithm can be selected based on specific requirements and environmental conditions.
 
-<table style="width:100%;" border="1">
+<table style="width:100%;"  border="1">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 10%" />
@@ -340,7 +340,7 @@ If the prompt shown below appears, the keyboard control service has started succ
 
 2) Control the robot to move within the current environment to build a more complete map. The table below shows the keyboard keys and their corresponding functions for controlling the robot's movement during mapping:
 
-<table>
+<table  border="1">
   <thead>
     <tr>
       <th>Keyboard Key</th>
@@ -404,7 +404,7 @@ sudo systemctl restart start_app_node.service
 
 For more accurate mapping, the odometry can be optimized. Odometry is required for robot mapping, and odometry relies on the IMU.
 
-The robot is preloaded with calibrated IMU data, which allows it to perform mapping and navigation normally. However, the IMU can still be recalibrated to achieve higher precision. For IMU calibration methods and steps, refer to the [2. ROS1- Chassis Motion Control Course](https://drive.google.com/drive/folders/1XSAKCNTO3dJoQF0KMjdchNnNPDSrnTYM) file.
+The robot is preloaded with calibrated IMU data, which allows it to perform mapping and navigation normally. However, the IMU can still be recalibrated to achieve higher precision. For IMU calibration methods and steps, refer to the [2. ROS1- Chassis Motion Control Course](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/2_ROS1_Chassis_Motion_Control_Course.html) file.
 
 #### 5.1.2.3 Specifications
 
@@ -560,7 +560,7 @@ minimumScore: 30
 
 Key parameters to note:
 
-<table>
+<table  border="1">
   <thead>
     <tr>
       <th>Name</th>
@@ -612,7 +612,7 @@ stt: 0.02
 
 During robot motion and rotation, several parameters related to the mapping method should be considered.
 
-<table>
+<table  border="1">
   <thead>
     <tr>
       <th>Name</th>
@@ -722,7 +722,7 @@ If the prompt shown below appears, the keyboard control service has started succ
 
 2) Control the robot to move within the current environment to build a more complete map. The table below shows the keyboard keys and their corresponding functions for controlling the robot's movement during mapping:
 
-<table>
+<table  border="1">
   <thead>
     <tr>
       <th>Keyboard Key</th>
@@ -788,7 +788,7 @@ sudo systemctl restart start_app_node.service
 
 For more accurate mapping, the odometry can be optimized. Odometry is required for robot mapping, and odometry relies on the IMU.
 
-The robot is preloaded with calibrated IMU data, which allows it to perform mapping and navigation normally. However, the IMU can still be recalibrated to achieve higher precision. For IMU calibration methods and steps, refer to the [2. ROS1- Chassis Motion Control Course](https://drive.google.com/drive/folders/1XSAKCNTO3dJoQF0KMjdchNnNPDSrnTYM) file.
+The robot is preloaded with calibrated IMU data, which allows it to perform mapping and navigation normally. However, the IMU can still be recalibrated to achieve higher precision. For IMU calibration methods and steps, refer to the [2. ROS1- Chassis Motion Control Course](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/2_ROS1_Chassis_Motion_Control_Course.html) file.
 
 #### 5.1.3.3 Specifications
 
@@ -913,7 +913,7 @@ Topic names for the relevant coordinate frames and the TF transformation logic n
 
 Map message parameters also need to be set.
 
-<table>
+<table  border="1">
   <thead>
     <tr>
       <th>Name</th>
@@ -1052,7 +1052,7 @@ If the prompt shown below appears, the keyboard control service has started succ
 
 3. Control the robot to move within the current environment to build a more complete map. The table below shows the keyboard keys and their corresponding functions for controlling the robot's movement during mapping:
 
-<table>
+<table border="1">
   <thead>
     <tr>
       <th>Keyboard Key</th>
@@ -1116,7 +1116,7 @@ sudo systemctl restart start_app_node.service
 
 For more accurate mapping, the odometry can be optimized. Odometry is required for robot mapping, and odometry relies on the IMU.
 
-The robot is preloaded with calibrated IMU data, which allows it to perform mapping and navigation normally. However, the IMU can still be recalibrated to achieve higher precision. For IMU calibration methods and steps, refer to the [2. ROS1- Chassis Motion Control Course](https://drive.google.com/drive/folders/1XSAKCNTO3dJoQF0KMjdchNnNPDSrnTYM) file.
+The robot is preloaded with calibrated IMU data, which allows it to perform mapping and navigation normally. However, the IMU can still be recalibrated to achieve higher precision. For IMU calibration methods and steps, refer to the [2. ROS1- Chassis Motion Control Course](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/2_ROS1_Chassis_Motion_Control_Course.html) file.
 
 #### 5.1.4.3 Launch File Analysis
 
@@ -1296,7 +1296,7 @@ If the prompt shown below appears, the keyboard control service has started succ
 
 2. Control the robot to move within the current environment to build a more complete map. The table below shows the keyboard keys and their corresponding functions for controlling the robot's movement during mapping:
 
-<table>
+<table border="1">
   <thead>
     <tr>
       <th>Keyboard Key</th>
@@ -1359,7 +1359,7 @@ sudo systemctl restart start_app_node.service
 
 For more accurate mapping, the odometry can be optimized. Odometry is required for robot mapping, and odometry relies on the IMU.
 
-The robot is preloaded with calibrated IMU data, which allows it to perform mapping and navigation normally. However, the IMU can still be recalibrated to achieve higher precision. For IMU calibration methods and steps, refer to the [2. ROS1- Chassis Motion Control Course](https://drive.google.com/drive/folders/1XSAKCNTO3dJoQF0KMjdchNnNPDSrnTYM) file.
+The robot is preloaded with calibrated IMU data, which allows it to perform mapping and navigation normally. However, the IMU can still be recalibrated to achieve higher precision. For IMU calibration methods and steps, refer to the [2. ROS1- Chassis Motion Control Course](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/2_ROS1_Chassis_Motion_Control_Course.html) file.
 
 #### 5.1.5.3 Specifications
 
@@ -1546,7 +1546,7 @@ TRAJECTORY_BUILDER_2D.real_time_correlative_scan_matcher.rotation_delta_cost_wei
 
 `TRAJECTORY_BUILDER_2D` is a class in the Cartographer mapping algorithm that includes logic settings for parameters and methods for obtaining parameters.
 
-<table>
+<table border="1">
   <thead>
     <tr>
       <th>Name</th>
@@ -1592,7 +1592,7 @@ TRAJECTORY_BUILDER_2D.real_time_correlative_scan_matcher.rotation_delta_cost_wei
 
 It also includes another class `real_time_correlative_scan_matcher `:
 
-<table>
+<table border="1">
   <thead>
     <tr>
       <th>Name</th>
@@ -1712,7 +1712,7 @@ sudo systemctl restart start_app_node.service
 
 For more accurate mapping, the odometry can be optimized. Odometry is required for robot mapping, and odometry relies on the IMU.
 
-The robot is preloaded with calibrated IMU data, which allows it to perform mapping and navigation normally. However, the IMU can still be recalibrated to achieve higher precision. For IMU calibration methods and steps, refer to the [2. ROS1- Chassis Motion Control Course](https://drive.google.com/drive/folders/1XSAKCNTO3dJoQF0KMjdchNnNPDSrnTYM) file.
+The robot is preloaded with calibrated IMU data, which allows it to perform mapping and navigation normally. However, the IMU can still be recalibrated to achieve higher precision. For IMU calibration methods and steps, refer to the [2. ROS1- Chassis Motion Control Course](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/2_ROS1_Chassis_Motion_Control_Course.html) file.
 
 #### 5.1.6.3 Parameter Description
 
@@ -1953,7 +1953,7 @@ sudo systemctl restart start_app_node.service
 
 For more accurate mapping, the odometry can be optimized. Odometry is required for robot mapping, and odometry relies on the IMU.
 
-The robot is preloaded with calibrated IMU data, which allows it to perform mapping and navigation normally. However, the IMU can still be recalibrated to achieve higher precision. For IMU calibration methods and steps, refer to the [2. ROS1- Chassis Motion Control Course](https://drive.google.com/drive/folders/1XSAKCNTO3dJoQF0KMjdchNnNPDSrnTYM) file.
+The robot is preloaded with calibrated IMU data, which allows it to perform mapping and navigation normally. However, the IMU can still be recalibrated to achieve higher precision. For IMU calibration methods and steps, refer to the [2. ROS1- Chassis Motion Control Course](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/2_ROS1_Chassis_Motion_Control_Course.html) file.
 
 #### 5.1.7.4 Launch File Analysis
 
@@ -2198,7 +2198,7 @@ sudo systemctl start start_app_node.service
 
 For more accurate mapping, the odometry can be optimized. Odometry is required for robot mapping, and odometry relies on the IMU.
 
-The robot is preloaded with calibrated IMU data, which allows it to perform mapping and navigation normally. However, the IMU can still be recalibrated to achieve higher precision. For IMU calibration methods and steps, refer to the [2. ROS1- Chassis Motion Control Course](https://drive.google.com/drive/folders/1XSAKCNTO3dJoQF0KMjdchNnNPDSrnTYM) file.
+The robot is preloaded with calibrated IMU data, which allows it to perform mapping and navigation normally. However, the IMU can still be recalibrated to achieve higher precision. For IMU calibration methods and steps, refer to the [2. ROS1- Chassis Motion Control Course](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/2_ROS1_Chassis_Motion_Control_Course.html) file.
 
 #### 5.1.8.3 Specifications
 
@@ -2527,7 +2527,7 @@ If the interface shown below appears, the keyboard control service has started s
 
 6. Control the robot to move within the current environment to build a more complete map. The table below shows the keyboard keys and their corresponding functions for controlling the robot's movement during mapping:
 
-<table>
+<table border="1">
   <thead>
     <tr>
       <th>Keyboard Key</th>
@@ -2596,7 +2596,7 @@ If the interface shown below appears, the keyboard control service has started s
 
 6) Control the robot to move within the current environment to build a more complete map. The table below shows the keyboard keys and their corresponding functions for controlling the robot's movement during mapping:
 
-<table>
+<table border="1">
   <thead>
     <tr>
       <th>Keyboard Key</th>
@@ -2688,7 +2688,7 @@ If the prompt shown below appears, the keyboard control service has started succ
 
 7) Control the robot to move within the current environment to build a more complete map. The table below shows the keyboard keys and their corresponding functions for controlling the robot's movement during mapping:
 
-<table>
+<table border="1">
   <thead>
     <tr>
       <th>Keyboard Key</th>

@@ -12,6 +12,7 @@
 
 
 ## 9.2 Switching Wake Words
+
 <p id ="anther9.2"></p>
 
 The system uses the English wake-up phrase **Hello Hiwonder** by default. To use a different wake word or command, follow the steps below.
@@ -31,6 +32,7 @@ Set the recognition language via the desktop configuration tool. Double-click th
 4) After restarting the robot, the wake word will be successfully switched.
 
 <p id ="anther9.3"></p>
+
 ## 9.3 6-Microphone Array Configuration (Must Read)
 
 ### 9.3.1 Applying for Offline Speech Package \& ID
@@ -174,7 +176,7 @@ sudo systemctl start start_app_node.service
 
 The command phrases and their corresponding actions are as follows:
 
-<table>
+<table border="1">
   <thead>
     <tr>
       <th>Command Phrase</th>
@@ -767,7 +769,7 @@ For example, first say **Hello Hiwonder**, and the robot will reply with **I’m
 
 The following table lists the voice commands and their corresponding functions from the robot’s perspective:
 
-<table>
+<table border="1">
   <thead>
     <tr>
       <th>Command Phrase</th>
