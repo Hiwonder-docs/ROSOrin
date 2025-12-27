@@ -1,8 +1,7 @@
 # 2\. ROS1- Chassis Motion Control Course
 
-<p id ="anther2.1"></p>
-
 ## 2.1 Kinematics Analysis
+<p id ="anther2.1"></p>
 
 ### 2.1.1 Overview
 
@@ -578,23 +577,23 @@ Computation of robot velocity and wheel speeds:
 
 1\. Angular velocity consistency:
 
-<img class="common_img" src="../_static/media/chapter_2/section_1/media/image23.png"  />
+<img class="common_img" src="../_static/media/chapter_2/section_1/media/image23.png" style="display:inline;vertical-align:middle;"/>
 
 **ω** is the angular velocity of the robot, **R** is the turning radius of the robot’s center, **V** is the linear velocity of the robot, V<sub>L</sub> and V<sub>R</sub> are the linear velocities of the left and right rear wheels, and R<sub>L</sub> and R<sub>R</sub> are their respective turning radii.
 
 Relationship between the front wheel steering angle and the turning radius:
 
-<img class="common_img" src="../_static/media/chapter_2/section_1/media/image24.png"  />
+<img class="common_img" src="../_static/media/chapter_2/section_1/media/image24.png"  style="display:inline;vertical-align:middle;"/>
 
 where H is the wheelbase, the distance between front and rear axles, R is the turning radius of the vehicle, **D** is the track width, the distance between left and right wheels, and **θ** is the steering angle of the front wheel.
 
 3\. Left rear wheel velocity:
 
-<img class="common_img" src="../_static/media/chapter_2/section_1/media/image25.png"  />
+<img class="common_img" src="../_static/media/chapter_2/section_1/media/image25.png" style="display:inline;vertical-align:middle;" />
 
 4\. Right rear wheel velocity:
 
-<img class="common_img" src="../_static/media/chapter_2/section_1/media/image26.png"  />
+<img class="common_img" src="../_static/media/chapter_2/section_1/media/image26.png"  style="display:inline;vertical-align:middle;"/>
 
 Given the robot’s track width, wheelbase, linear velocity, and steering angle, the velocities of the left and right rear wheels can be determined.
 
@@ -630,7 +629,7 @@ After receiving the first IMU message, the node will prompt to keep the IMU in a
 
 1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_2/section_2/media/image3.png"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_2/section_2/media/image3.png" style="display:inline;vertical-align:middle;"/> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app auto-start service.
 
@@ -704,7 +703,7 @@ Typically, angular velocity calibration involves rotating the robot a full circl
 
 2. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
 
-3. Click the terminal icon <img class="common_img" src="../_static/media/chapter_2/section_2/media/image3.png"  /> in the system desktop to open a command-line window.
+3. Click the terminal icon <img class="common_img" src="../_static/media/chapter_2/section_2/media/image3.png" style="display:inline;vertical-align:middle;" /> in the system desktop to open a command-line window.
 
 4. Enter the following command and press **Enter** to stop the app auto-start service.
 
@@ -774,7 +773,7 @@ Place the robot on a flat, open surface. Attach a starting tape or place another
 
 1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_2/section_2/media/image3.png"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_2/section_2/media/image3.png" style="display:inline;vertical-align:middle;" /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app auto-start service.
 
@@ -882,7 +881,7 @@ The IMU data is published on the **/imu** topic, and the odometry data is publis
 
 Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
 
-1. Click the terminal icon <img class="common_img" src="../_static/media/chapter_2/section_2/media/image36.png"  /> in the system desktop to open a command-line window.
+1. Click the terminal icon <img class="common_img" src="../_static/media/chapter_2/section_2/media/image36.png"  style="display:inline;vertical-align:middle;"/> in the system desktop to open a command-line window.
 
 2. Enter the following command and press **Enter** to stop the app auto-start service:
 
@@ -952,7 +951,7 @@ In the program, the `controller` movement control node subscribes to receive the
 
 1. Power on the robot and connect it via the NoMachine remote control software.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_2/section_2/media/image44.png"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_2/section_2/media/image44.png"  style="display:inline;vertical-align:middle;"/> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app auto-start service.
 
