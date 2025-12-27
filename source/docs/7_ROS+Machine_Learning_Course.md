@@ -414,7 +414,7 @@ Finally, the face will be outlined with a bounding box, and the six key landmark
 
 #### 7.1.4.2 Operation Steps
 
-Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [[1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps)](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 1. Click the terminal icon <img src="../_static/media/chapter_8/section_1/media/image4.png"  /> in the system desktop to open a command-line window.
 
@@ -578,7 +578,7 @@ Finally, a 3D mesh is rendered over the detected face in the video feed.
 
 #### 7.1.5.2 Operation Steps
 
-Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [[1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps)](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 1. Click the terminal icon <img src="../_static/media/chapter_8/section_1/media/image4.png" /> in the system desktop to open a command-line window.
 
@@ -740,7 +740,7 @@ Finally, it detects and draws the hand keypoints on the output image.
 
 #### 7.1.6.2 Operation Steps
 
-Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [[1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps)](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 1. Click the terminal icon <img src="../_static/media/chapter_8/section_1/media/image4.png" /> in the system desktop to open a command-line window.
 
@@ -912,7 +912,7 @@ Finally, it identifies and draws the body landmarks on the image.
 
 #### 7.1.7.2 Operation Steps
 
-Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [[1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps)](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 1. Click the terminal icon <img src="../_static/media/chapter_8/section_1/media/image4.png"  /> in the system desktop to open a command-line window.
 
@@ -1073,7 +1073,7 @@ Finally, once the designated gesture is recognized, the robot starts tracking an
 >
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [[1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps)](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 1. Click the terminal icon <img src="../_static/media/chapter_8/section_1/media/image4.png"  /> in the system desktop to open a command-line window.
 
@@ -1701,7 +1701,7 @@ Finally, update the PID controller based on the coordinates of the human's cente
 >
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [[1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps)](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_8/section_1/media/image4.png" /> in the system desktop to open a command-line window.
 
@@ -1942,7 +1942,7 @@ Finally, if the detected posture is “hands on hips,” the system uses the clo
 >
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [[1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps)](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_8/section_1/media/image4.png" /> in the system desktop to open a command-line window.
 
@@ -2341,7 +2341,7 @@ Finally, if a fall is detected, the robot will trigger an alert and move forward
 >
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [[1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps)](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_8/section_1/media/image4.png" /> in the system desktop to open a command-line window.
 
@@ -3043,7 +3043,7 @@ python3 ~/software/labelImg/labelImg.py
 
 Below is a table of common shortcut keys:
 
-| **Function**                                                 | **Shortcut Key** | **Function**                               |
+| **Button**                                                   | **Shortcut Key** | **Function**                               |
 | ------------------------------------------------------------ | ---------------- | ------------------------------------------ |
 | <img src="../_static/media/chapter_10\section_1/media/image42.png"  style="width:70px"  class="common_img" /> | Ctrl+U           | Choose the directory for images.           |
 | <img src="../_static/media/chapter_10\section_1/media/image43.png"  style="width:70px"  class="common_img" /> | Ctrl+R           | Choose the directory for calibration data. |
