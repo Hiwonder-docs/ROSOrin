@@ -14,6 +14,7 @@ ROSOrin Jetson Nano
    docs/1_ROSOrin_User_Manual.md
    docs/2_ROS1_Chassis_Motion_Control_Course.md
    docs/3_ROS1_LiDAR_Course.md
+   docs/4_Camera_Basic_Lesson.md
    docs/5_ROS1_Mapping_&_Navigation_Course.md
    docs/6_ROS1_ROS+OpenCV_Course.md
    docs/7_ROS1_ROS+Machine_Learning_Course.md
@@ -32,4 +33,4 @@ ROSOrin Jetson Nano
 
 
    docs/resources_download.md
-   Download <https://drive.google.com/drive/folders/1CdWc8_aKkCjF3wer7S64FABitaiRAc5v>
+   Download <https://drive.google.com/drive/folders/12OK96XxMn8X7nvRwC0itB574_C81uRSi?usp=sharing>
