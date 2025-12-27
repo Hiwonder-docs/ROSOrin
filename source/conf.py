@@ -5,8 +5,30 @@
 
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
+import re
 
-project = 'TurboPi Standard'
+def replace_gfm_callouts(app, docname, source):
+    text = source[0]
+
+    # 匹配 > [!NOTE] 风格的块，多行捕获
+    def repl(match):
+        kind = match.group(1).lower()
+        body = re.sub(r'^>\s?', '', match.group(2), flags=re.MULTILINE)
+        return f"```{{{kind}}}\n{body}\n```"
+
+    text = re.sub(
+        r'> \[!(NOTE|TIP|WARNING|IMPORTANT|CAUTION)\]\n((?:>.*\n?)+)',
+        repl,
+        text,
+        flags=re.IGNORECASE
+    )
+
+    source[0] = text
+
+def setup(app):
+    app.connect("source-read", replace_gfm_callouts)
+
+project = 'ROSOrin'
 copyright = '2025, Hiwonder'
 author = 'Hiwonder'
 release = 'v1.0'
