@@ -58,7 +58,7 @@ html_js_files = ['custom.js']
 html_theme_options = {
     'version_selector': True,
     'versioning': True,
-    'current_version_name': 'Standard',
+    'current_version_name': 'jetson-nano',
     'style_nav_header_background': '#F29401',
     'display_version': True,
     'style_external_links': True,
