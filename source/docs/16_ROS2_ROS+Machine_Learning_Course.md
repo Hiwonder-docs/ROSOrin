@@ -3316,7 +3316,7 @@ The parking function can be modified to adjust the robot's parking position. The
 
 This section demonstrates the comprehensive autonomous driving functionality of the robot through commands. It integrates multiple features, including lane keeping, traffic sign detection, traffic light recognition, turning decision making, and autonomous parking.
 
-#### 16.2.6.2 Project Process
+#### 16.2.6.1 Project Process
 
 The robot is currently capable of performing the following actions:
 
@@ -3338,7 +3338,7 @@ Next, detect the target color line in the image, and extract key information suc
 
 Finally, calculate the offset of the target center point, and adjust the robot’s heading accordingly to keep it aligned in the middle of the road. During navigation, the robot also executes specific actions based on the detected traffic signs.
 
-#### 16.2.6.1 Preparation
+#### 16.2.6.2 Preparation
 
 * **Map Preparation**
 

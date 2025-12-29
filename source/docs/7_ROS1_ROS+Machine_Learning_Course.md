@@ -1720,7 +1720,7 @@ Finally, the face will be outlined with a bounding box, and the six key landmark
 
 1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_7/section_3/media/image3.png"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img  src="../_static/media/chapter_7/section_3/media/image3.png"  /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app auto-start service:
 
@@ -3824,7 +3824,7 @@ Once all props are set up on the test track, the arrangement should look like th
 
 2) Power on the robot and connect it via the NoMachine remote control software.
 
-3) Click the terminal icon <img class="common_img" src="../_static/media/chapter_7/section_4/media/image33.png"  /> in the system desktop to open a command-line window.
+3) Click the terminal icon <img  src="../_static/media/chapter_7/section_4/media/image33.png"  /> in the system desktop to open a command-line window.
 
 4) Enter the following command and press **Enter** to stop the app service:
 
@@ -4004,7 +4004,7 @@ Based on the comparison results, the forward direction is adjusted to keep the r
 
 1. Power on the robot and connect it via the NoMachine remote control software.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_7/section_4/media/image2.png"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img  src="../_static/media/chapter_7/section_4/media/image2.png"  /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app service:
 
@@ -4074,7 +4074,7 @@ Finally, based on the comparison results, execute the corresponding traffic sign
 
 1. Power on the robot and connect it via the NoMachine remote control software.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_7/section_4/media/image2.png"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_7/section_4/media/image2.png"  /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app service:
 
@@ -4430,7 +4430,7 @@ Finally, the processed regions are enclosed with bounding boxes to complete traf
 
 1. Power on the robot and connect it via the NoMachine remote control software.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_7/section_4/media/image2.png"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_7/section_4/media/image2.png"  /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app service:
 
@@ -4504,7 +4504,7 @@ Finally, based on the comparison results, the robot identifies the turn sign and
 
 1. Power on the robot and connect it via the NoMachine remote control software.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_7/section_4/media/image2.png"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_7/section_4/media/image2.png"  /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app service:
 
@@ -4578,7 +4578,7 @@ Finally, based on the comparison results, the robot recognizes the parking sign 
 
 1. Power on the robot and connect it via the NoMachine remote control software.
 
-2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_7/section_4/media/image2.png"  /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_7/section_4/media/image2.png"  /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app service:
 
@@ -4658,7 +4658,7 @@ Finally, calculate the offset of the target center point, and adjust the robotâ€
 
 2. Power on the robot and connect it via the NoMachine remote control software.
 
-3. Click the terminal icon <img class="common_img" src="../_static/media/chapter_7/section_4/media/image2.png"  /> in the system desktop to open a command-line window.
+3. Click the terminal icon <img  src="../_static/media/chapter_7/section_4/media/image2.png"  /> in the system desktop to open a command-line window.
 
 4. Enter the following command and press **Enter** to stop the app service:
 

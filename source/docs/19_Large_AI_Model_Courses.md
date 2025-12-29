@@ -2618,7 +2618,7 @@ The creation and deployment of the large model have been completed, and this API
 
 #### 19.3.1.3 API Configuration
 
-1. Click <img class="common_img" src="../_static/media/chapter_19/section_4/media/image14.png"   /> to open a terminal and enter the following command to open the configuration file. Press the **i** key to enter input mode.
+1. Click <img src="../_static/media/chapter_19/section_4/media/image14.png"   /> to open a terminal and enter the following command to open the configuration file. Press the **i** key to enter input mode.
 
 ```bash
 vim /home/ubuntu/ros2_ws/src/large_models/large_models/large_models/config.py

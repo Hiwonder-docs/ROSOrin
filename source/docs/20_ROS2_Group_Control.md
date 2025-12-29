@@ -6,7 +6,7 @@
 
 1) Prepare at least two robots.
 
-2) Refer to the section [1.7 Development Environment Setup](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual for instructions on downloading and installing the remote connection tool, NoMachine.
+2) Refer to the section [1.7 Development Environment Setup](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#development-environment-setup) in the user manual for instructions on downloading and installing the remote connection tool, NoMachine.
 
 ### 20.1.2 Working Principle
 

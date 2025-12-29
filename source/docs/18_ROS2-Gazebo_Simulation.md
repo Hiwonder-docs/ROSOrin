@@ -59,7 +59,7 @@ A virtual machine is software that allows one operating system to run another op
 
 <img class="common_img" src="../_static/media/chapter_18/section_1/media/image14.png"  />
 
-2. Navigate to the required virtual machine file in the directory [1. Virtual Machine Software \& Image File \\ Resources  \\ 2. Virtual Machine Image](https://drive.google.com/drive/folders/1qseZqoPJW3tNiJR-VbK3osFqaPcvf78E), and open it.
+2. Navigate to the required virtual machine file in the directory [1. Virtual Machine Software \& Image File \\ Resources  \\ 2. Virtual Machine Image](https://drive.google.com/drive/folders/1VNCw2knTO7_Yq4PjOHK5JxmxQZIsellc?usp=sharing), and open it.
 
 <img class="common_img" src="../_static/media/chapter_18/section_1/media/image15.png"  />
 
@@ -103,7 +103,7 @@ The virtual machine interface is as follows:
 
 2. Click the Home folder <img src="../_static/media/chapter_18/section_2/media/image3.png" style="width:80px" /> on the desktop to enter the directory.
 
-3. Locate the compressed **simulations** file and the `.typerc` file in the directory [1. Virtual Machine Software \& Image File \\ Resources \\ 3. Feature Package](https://drive.google.com/drive/folders/1qseZqoPJW3tNiJR-VbK3osFqaPcvf78E). Drag the compressed file into the Home directory of the virtual machine.
+3. Locate the compressed **simulations** file and the `.typerc` file in the directory [1. Virtual Machine Software \& Image File \\ Resources \\ 3. Feature Package](https://drive.google.com/drive/folders/1Ev5CLpM07vHqlzC3lH0o07k8jxpdUprk?usp=sharing). Drag the compressed file into the Home directory of the virtual machine.
 
 4. Right-click in the Home directory and select **Open in terminal** to open the terminal.
 
@@ -158,6 +158,7 @@ source ~/.bashrc
 ## 18.3 Introduction to URDF Models
 
 <p id ="anther18.3.1"></p>
+
 ### 18.3.1 Overview and Basics of URDF Models
 
 > [!NOTE]
@@ -489,7 +490,7 @@ The Gazebo simulation interface is shown below.
 
 The functions of each section are described in the table below:
 
-<table>
+<table border="1">
   <thead>
     <tr>
       <th>Name</th>
