@@ -49,7 +49,10 @@ myst_enable_extensions = [
     "attrs_block",
     "colon_fence",
     "substitution",
+    "amsmath",
+    "dollarmath",
 ]
+
 
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
@@ -58,7 +61,7 @@ html_js_files = ['custom.js']
 html_theme_options = {
     'version_selector': True,
     'versioning': True,
-    'current_version_name': 'Standard',
+    'current_version_name': 'Jetson-Nano-Version',
     'style_nav_header_background': '#F29401',
     'display_version': True,
     'style_external_links': True,
