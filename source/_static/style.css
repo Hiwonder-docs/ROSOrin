@@ -59,11 +59,29 @@ section p {
      border-color: #F29401;
 }
 .wy-side-scroll .wy-side-nav-search>div.switch-menus>div.version-switch select{
-    color:#000;
+    color: #000;
     text-transform: capitalize;
+    background-color: #e7c896;
+    /* padding-right: 1.6em;
+    border: 1px solid #d0d0d0;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -moz-appearance: none; */
+    /* appearance: none;  */
+    /* custom black arrow using layered backgrounds */
+    /* background-image:
+        linear-gradient(45deg, transparent 50%, #000 50%),
+        linear-gradient(135deg, #000 50%, transparent 50%),
+        linear-gradient(to right, rgba(0,0,0,0.08), rgba(0,0,0,0.08));
+    background-position:
+        calc(100% - 18px) calc(50% - 3px),
+        calc(100% - 13px) calc(50% - 3px),
+        calc(100% - 2px) 50%;
+    background-size: 5px 5px, 5px 5px, 1px 1.2em;
+    background-repeat: no-repeat; */
 }
 .wy-side-scroll .wy-side-nav-search>div.switch-menus>div.version-switch select:hover{
-    color:#000;
+    color: #000;
 }
 .wy-breadcrumbs-aside a{
     color: #F29401;
