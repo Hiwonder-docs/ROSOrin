@@ -70,13 +70,13 @@ LABTOOL is divided into two parts, including the image display area and the reco
 
 | **Icon**                                                     | **Function**                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![img](../_static/media/chapter_7/section_1/media/image10.png) | Sliders L, A, and B are respectively used to adjust L, A, and B components of the camera returned image. The left sliders set the **minimum** values for each channel, and the right sliders set the **maximum** values. |
-| ![img](../_static/media/chapter_7/section_1/media/image11.png) | Select the target color for threshold tuning.                |
-| ![img](../_static/media/chapter_7/section_1/media/image12.png) | Delete the selected color.                                   |
-| ![img](../_static/media/chapter_7/section_1/media/image13.png) | Add a new detectable color.                                  |
-| ![img](../_static/media/chapter_7/section_1/media/image14.png) | Save the adjusted value.                                     |
-| ![img](../_static/media/chapter_7/section_1/media/image15.png) | Switch the camera between the depth camera and the monocular camera. |
-| ![img](../_static/media/chapter_7/section_1/media/image16.png) | Exit from the LAB TOOL.                                      |
+| <img class="common_img" src="../_static/media/chapter_6/section_1/media/image9.png" /> | Sliders L, A, and B are respectively used to adjust L, A, and B components of the camera returned image. The left sliders set the **minimum** values for each channel, and the right sliders set the **maximum** values. |
+| <img class="common_img" src="../_static/media/chapter_6/section_1/media/image10.png" /> | Select the target color for threshold tuning.                |
+| <img class="common_img" src="../_static/media/chapter_6/section_1/media/image11.png" /> | Delete the selected color.                                   |
+| <img class="common_img" src="../_static/media/chapter_6/section_1/media/image12.png" /> | Add a new detectable color.                                  |
+| <img class="common_img" src="../_static/media/chapter_6/section_1/media/image13.png" /> | Save the adjusted value.                                     |
+| <img class="common_img" src="../_static/media/chapter_6/section_1/media/image14.png" /> | Switch the camera between the depth camera and the monocular camera. |
+| <img class="common_img" src="../_static/media/chapter_6/section_1/media/image15.png" /> | Exit from the LAB TOOL.                                      |
 
 
 ### 6.1.3 Adjust Color Threshold

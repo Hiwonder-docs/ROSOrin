@@ -2545,8 +2545,6 @@ The image topic callback function processes images and places them into a queue.
         self.move_finish = True
 ```
 
-<img src="../_static/media/chapter_15/section_1/media/image125.png"  style="width:600px"  class="common_img" />
-
 Motion strategy function controls the robot’s movement according to the detected body height.
 
 `buzzer_warn`:
