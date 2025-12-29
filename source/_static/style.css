@@ -58,12 +58,23 @@ section p {
 .wy-nav-side .wy-side-nav-search input[type=text]{
      border-color: #F29401;
 }
+.wy-side-nav-search>div.switch-menus>div.language-switch, .wy-side-nav-search>div.switch-menus>div.version-switch
+{
+    background-color:#f1c269;
+}
 .wy-side-scroll .wy-side-nav-search>div.switch-menus>div.version-switch select{
-    color:#000;
+    color: #000;
     text-transform: capitalize;
+    margin-right: -1.7rem;
 }
 .wy-side-scroll .wy-side-nav-search>div.switch-menus>div.version-switch select:hover{
-    color:#000;
+    color: #000;
+}
+.wy-side-scroll .wy-side-nav-search>div.switch-menus>div.version-switch:after{
+    color: #000;
+    font-size: 23px;
+    margin-left: -15px;
+    margin-top: 0px;
 }
 .wy-breadcrumbs-aside a{
     color: #F29401;
