@@ -128,6 +128,8 @@ Next, the robot is activated using a specific wake word. Once the wake word is r
 
 Finally, based on voice command matching, the robot will perform the corresponding actions.
 
+<p id ="anther9.4.3"></p>
+
 ### 9.4.3 Operation Steps
 
 > [!NOTE]
