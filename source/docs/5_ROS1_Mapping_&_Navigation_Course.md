@@ -3333,7 +3333,7 @@ In the software menu bar, **2D Pose Estimate** is used to set the robot’s init
 
 <img class="common_img" src="../_static/media/chapter_5/section_2/media/image35.png"  />
 
-Click the icon<img class="common_img" src="../_static/media/chapter_5/section_2/media/image36.png"  />, then select a location on the map as the target point and simply click once at that point with the mouse. Once the target is selected, the robot will automatically generate a route and move toward the target point.
+Click the icon<img src="../_static/media/chapter_5/section_2/media/image36.png"  />, then select a location on the map as the target point and simply click once at that point with the mouse. Once the target is selected, the robot will automatically generate a route and move toward the target point.
 
 Once the target point is set, the map will display two paths: the line formed by blue squares represents the straight-line path from the robot to the target, while the dark blue line represents the robot’s planned path.
 

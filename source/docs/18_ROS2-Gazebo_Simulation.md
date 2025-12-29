@@ -251,7 +251,7 @@ The Link element describes the visual and physical properties of the robot's rig
 
 Each tag contains its own child elements and serves different purposes. Refer to the table below for details.
 
-<table>
+<table border="1">
   <tr>
     <th style>Tag</th>
     <th style>Function</th>
@@ -282,7 +282,7 @@ Each tag contains its own child elements and serves different purposes. Refer to
 
 In a URDF model, a joint is represented by the \<joint> tag. It describes the kinematic and dynamic properties of the robot joint, including motion type, as well as position and velocity limits. According to the type of motion, joints in a URDF model can be categorized into six types:
 
-<table>
+<table border="1">
   <tr>
     <th>Type & Description</th>
     <th>Label</th>
@@ -330,7 +330,7 @@ When defining joint behavior, the following tags are commonly used:
 
 Each tag contains its own child elements and serves different purposes. Refer to the table below for details.
 
-<table>
+<table border="1">
   <tr>
     <th>Label</th>
     <th>Function</th>
@@ -675,7 +675,7 @@ ros2 run robot_gazebo teleop_key_control
 
 Once the following window appears, click anywhere inside the window with the mouse to start controlling. The specific key functions are listed in the table below:
 
-<table>
+<table border="1">
   <thead>
     <tr>
       <th>Key</th>

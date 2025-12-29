@@ -1582,7 +1582,7 @@ If the message **Build engine successfully!** appears, the engine file has been 
 
 * **Steps**
 
-1. Click on the file manager <img class="common_img" src="../_static/media/chapter_7/section_2/media/image133.png"  /> on the left side of the system, then navigate to the path **home/third_party/tensorrtx/yolov5** to access the specified directory. In this directory, find and open the file **yolov5_det_trt.py** by double-clicking it.
+1. Click on the file manager <img src="../_static/media/chapter_7/section_2/media/image133.png"  /> on the left side of the system, then navigate to the path **home/third_party/tensorrtx/yolov5** to access the specified directory. In this directory, find and open the file **yolov5_det_trt.py** by double-clicking it.
 
 <img class="common_img" src="../_static/media/chapter_7/section_2/media/image134.png" style="width:600px" />
 
@@ -1622,7 +1622,7 @@ After **yolov5_det_trt.py** is executed, images in the **samples** directory are
 
 During inference, the model may fail to detect objects or produce inaccurate results. In such cases, the confidence threshold can be adjusted to improve detection performance.
 
-1. Click on the file manager <img class="common_img" src="../_static/media/chapter_7/section_2/media/image133.png"  /> on the left side of the system, then navigate to the path **home/third_party/tensorrtx/yolov5** to access the specified directory. In this directory, find and open the file **yolov5_det_trt.py** by double-clicking it.
+1. Click on the file manager <img src="../_static/media/chapter_7/section_2/media/image133.png"  /> on the left side of the system, then navigate to the path **home/third_party/tensorrtx/yolov5** to access the specified directory. In this directory, find and open the file **yolov5_det_trt.py** by double-clicking it.
    
    <img class="common_img" src="../_static/media/chapter_7/section_2/media/image134.png" style="width:600px" />
    
