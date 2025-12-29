@@ -627,7 +627,7 @@ After receiving the first IMU message, the node will prompt to keep the IMU in a
 > 
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_2/section_2/media/image3.png" style="display:inline;vertical-align:middle;"/> in the system desktop to open a command-line window.
 
@@ -701,7 +701,7 @@ Typically, angular velocity calibration involves rotating the robot a full circl
 
 1. Place the robot on a flat surface, and mark a point directly in front of it using tape or another indicator.
 
-2. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+2. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 3. Click the terminal icon <img class="common_img" src="../_static/media/chapter_2/section_2/media/image3.png" style="display:inline;vertical-align:middle;" /> in the system desktop to open a command-line window.
 
@@ -771,7 +771,7 @@ vim calibrate_params.yaml
 
 Place the robot on a flat, open surface. Attach a starting tape or place another starting marker in front of the robot, and attach a finishing tape or place another finishing marker 1 meter ahead of the robot.
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img class="common_img" src="../_static/media/chapter_2/section_2/media/image3.png" style="display:inline;vertical-align:middle;" /> in the system desktop to open a command-line window.
 
@@ -879,7 +879,7 @@ The IMU data is published on the **/imu** topic, and the odometry data is publis
 > 
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 1. Click the terminal icon <img class="common_img" src="../_static/media/chapter_2/section_2/media/image36.png"  style="display:inline;vertical-align:middle;"/> in the system desktop to open a command-line window.
 

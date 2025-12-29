@@ -66,9 +66,9 @@ The robot will detect the distance between objects directly in front and its bod
 
 There are two ways to enable this feature. The first is through the mobile app, and the second is by using commands after connecting to the system remotely.
 
-For instructions on using the app, refer to the section [1.5.3 App Control](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#app-control) in the user manual to view the related course.
+For instructions on using the app, refer to the section [1.5.3 App Control](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/1_ROSOrin_User_Manual.html#app-control) in the user manual to view the related course.
 
-For detailed information on connecting to a remote desktop, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+For detailed information on connecting to a remote desktop, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 ### 3.3.1 Feature Enabling via App
 
@@ -86,7 +86,7 @@ For detailed information on connecting to a remote desktop, please refer to the 
 
 ### 3.3.2 Feature Enabling via Command
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_3/section_1/media/image11.png" /> in the system desktop to open a command-line window.
 
@@ -140,9 +140,9 @@ The robot will detect the distance between the object in front and its body. If 
 
 There are two ways to enable this feature. The first is through the mobile app, and the second is by using commands after connecting to the system remotely.
 
-For instructions on using the app, refer to Section [1.5 App Installation and Connection](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#app-installation-and-connection) in the user manual to view the related course.
+For instructions on using the app, refer to Section [1.5 App Installation and Connection](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/1_ROSOrin_User_Manual.html#app-installation-and-connection) in the user manual to view the related course.
 
-For detailed information on connecting to a remote desktop, please refer to Section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+For detailed information on connecting to a remote desktop, please refer to Section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 ### 3.4.1 Feature Enabling via App
 
@@ -160,7 +160,7 @@ For detailed information on connecting to a remote desktop, please refer to Sect
 
 ### 3.4.2 Feature Enabling via Command
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_3/section_1/media/image11.png"  /> in the system desktop to open a command-line window.
 
@@ -214,9 +214,9 @@ The robot will detect the distance between the object in front and its body. If 
 
 There are two ways to enable this feature. The first is through the app, and the second is by using commands after connecting to the system remotely.
 
-For instructions on using the app, refer to the section [1.5 App Installation and Connection](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#app-installation-and-connection) in the user manual to view the related course.
+For instructions on using the app, refer to the section [1.5 App Installation and Connection](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/1_ROSOrin_User_Manual.html#app-installation-and-connection) in the user manual to view the related course.
 
-For detailed information on connecting to a remote desktop, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+For detailed information on connecting to a remote desktop, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 ### 3.5.1 Feature Enabling via App
 
@@ -234,7 +234,7 @@ For detailed information on connecting to a remote desktop, please refer to the 
 
 ### 3.5.2 Feature Enabling via Command
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_3/section_1/media/image11.png"  /> in the system desktop to open a command-line window.
 

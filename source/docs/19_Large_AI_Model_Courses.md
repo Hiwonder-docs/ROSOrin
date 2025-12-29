@@ -3399,7 +3399,7 @@ Refer to the section [19.3.1 Large Model API Key Setup](#anther19.3.1) to set up
 
 * **Navigation Map Construction**
 
-Before enabling this feature, a map must be created in advance. Please refer to [14.1 Mapping Tutorial](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/14_ROS2_Mapping_%26_Navigation_Course.html#mapping-tutorial) in the file **14. ROS2-Mapping \& Navigation Course** for detailed instructions on how to build the map.
+Before enabling this feature, a map must be created in advance. Please refer to [14.1 Mapping Tutorial](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/14_ROS2_Mapping_%26_Navigation_Course.html#mapping-tutorial) in the file **14. ROS2-Mapping \& Navigation Course** for detailed instructions on how to build the map.
 
 #### 19.4.4.3 Operation Steps
 

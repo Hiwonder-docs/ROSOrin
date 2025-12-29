@@ -199,7 +199,7 @@ To understand the URDF model, refer to section [14.1.1.3 URDF Model Basic Syntax
 
 #### 14.1.2.2 Viewing the Robot Model Code
 
-1. Power on the robot and connect it to the remote control software NoMachine. For instructions on setting up the remote desktop connection, refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Power on the robot and connect it to the remote control software NoMachine. For instructions on setting up the remote desktop connection, refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_13/section_1/media/image23.png"/> in the system desktop to open a ROS1 command-line terminal.
 
@@ -338,7 +338,7 @@ As shown in the figure above, the workflow of Karto SLAM is relatively straightf
 
 #### 14.1.4.2 Mapping Steps
 
-1. Power on the robot and connect it to the remote control software NoMachine. For instructions on setting up the remote desktop connection, refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Power on the robot and connect it to the remote control software NoMachine. For instructions on setting up the remote desktop connection, refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_13/section_1/media/image23.png" /> in the system desktop to open a ROS1 command-line terminal.
 
@@ -409,7 +409,7 @@ The prompt message shown in the image confirms that the map has been saved succe
 
 For more accurate mapping, the odometry can be optimized. Odometry is required for robot mapping, and odometry relies on the IMU.
 
-The robot is preloaded with calibrated IMU data, which allows it to perform mapping and navigation normally. However, the IMU can still be recalibrated to achieve higher precision. For IMU calibration methods and steps, refer to section [11.1.1 IMU Calibration](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/11_ROS2_Chassis_Motion_Control_Course.html#imu-calibration) in the **11. ROS2-Chassis Motion Control Course**.
+The robot is preloaded with calibrated IMU data, which allows it to perform mapping and navigation normally. However, the IMU can still be recalibrated to achieve higher precision. For IMU calibration methods and steps, refer to section [11.1.1 IMU Calibration](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/11_ROS2_Chassis_Motion_Control_Course.html#imu-calibration) in the **11. ROS2-Chassis Motion Control Course**.
 
 #### 14.1.4.6 Parameter Description
 
@@ -518,7 +518,7 @@ During operation, the RTAB-VSLAM algorithm first uses short-term memory data to 
 
 #### 14.1.5.3 3D Mapping Steps
 
-1. Power on the robot and connect it to the remote control software NoMachine. For instructions on setting up the remote desktop connection, refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Power on the robot and connect it to the remote control software NoMachine. For instructions on setting up the remote desktop connection, refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the icon <img src="../_static/media/chapter_13/section_1/media/image23.png"  /> on the system desktop to open a ROS1 command line terminal. Enter the command to disable the app’s auto-start service:
 
@@ -1083,7 +1083,7 @@ These links provide resources for users to study the TEB algorithm in depth and 
 
 ### 14.2.4 Single-Point and Multi-Point Navigation and Obstacle Avoidance
 
-1. Power on the robot and connect it to the remote control software NoMachine. For instructions on setting up the remote desktop connection, refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Power on the robot and connect it to the remote control software NoMachine. For instructions on setting up the remote desktop connection, refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_13/section_2/media/image29.png" /> in the system desktop to open a ROS1 command-line window. Enter the command to disable the app auto-start service.
 
@@ -1274,7 +1274,7 @@ For an introduction and explanation of the RTAB-VSLAM algorithm, refer to sectio
 
 #### 14.2.5.2 Operation Steps
 
-1. Power on the robot and connect it to the remote control software NoMachine. For instructions on setting up the remote desktop connection, refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Power on the robot and connect it to the remote control software NoMachine. For instructions on setting up the remote desktop connection, refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the command line terminal <img src="../_static/media/chapter_13/section_2/media/image29.png" /> on the left side of the system desktop to open a ROS1 command line terminal. Enter the command to disable the app auto-start service:
 

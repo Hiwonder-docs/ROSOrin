@@ -282,7 +282,7 @@ OpenSlam_Gmapping open-source algorithm:<https://github.com/ros-perception/opens
 
 * **Enable Service**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img  src="../_static/media/chapter_5/section_1/media/image13.png"  /> in the system desktop to open a command-line window.
 
@@ -326,7 +326,7 @@ roslaunch slam rviz_slam.launch slam_methods:=gmapping
 
 * **Start the Mapping Process**
 
-This section uses keyboard control for mapping. If mapping via the wireless controller is preferred, refer to the section [1.6 Wireless Controller Control](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#wireless-controller-control) of the user manual for detailed instructions.
+This section uses keyboard control for mapping. If mapping via the wireless controller is preferred, refer to the section [1.6 Wireless Controller Control](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/1_ROSOrin_User_Manual.html#wireless-controller-control) of the user manual for detailed instructions.
 
 1. Open a new terminal window, enter the command to start the keyboard control node, and press **Enter**.
 
@@ -404,7 +404,7 @@ sudo systemctl restart start_app_node.service
 
 For more accurate mapping, the odometry can be optimized. Odometry is required for robot mapping, and odometry relies on the IMU.
 
-The robot is preloaded with calibrated IMU data, which allows it to perform mapping and navigation normally. However, the IMU can still be recalibrated to achieve higher precision. For IMU calibration methods and steps, refer to the [2. ROS1- Chassis Motion Control Course](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/2_ROS1_Chassis_Motion_Control_Course.html) file.
+The robot is preloaded with calibrated IMU data, which allows it to perform mapping and navigation normally. However, the IMU can still be recalibrated to achieve higher precision. For IMU calibration methods and steps, refer to the [2. ROS1- Chassis Motion Control Course](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/2_ROS1_Chassis_Motion_Control_Course.html) file.
 
 #### 5.1.2.3 Specifications
 
@@ -682,7 +682,7 @@ Hector_slam software package: <https://github.com/tu-darmstadt-ros-pkg/hector_sl
 
 * **Enable Service**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_5/section_1/media/image13.png"  /> in the system desktop to open a command-line window.
 
@@ -708,7 +708,7 @@ roslaunch slam rviz_slam.launch slam_methods:=hector
 
 * **Start the Mapping Process**
 
-This section uses keyboard control for mapping. If mapping via the wireless controller is preferred, refer to the section [1.6 Wireless Controller Control](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#wireless-controller-control) of the user manual for detailed instructions.
+This section uses keyboard control for mapping. If mapping via the wireless controller is preferred, refer to the section [1.6 Wireless Controller Control](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/1_ROSOrin_User_Manual.html#wireless-controller-control) of the user manual for detailed instructions.
 
 1. Open a new terminal window, enter the command to start the keyboard control service, and press **Enter**.
 
@@ -788,7 +788,7 @@ sudo systemctl restart start_app_node.service
 
 For more accurate mapping, the odometry can be optimized. Odometry is required for robot mapping, and odometry relies on the IMU.
 
-The robot is preloaded with calibrated IMU data, which allows it to perform mapping and navigation normally. However, the IMU can still be recalibrated to achieve higher precision. For IMU calibration methods and steps, refer to the [2. ROS1- Chassis Motion Control Course](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/2_ROS1_Chassis_Motion_Control_Course.html) file.
+The robot is preloaded with calibrated IMU data, which allows it to perform mapping and navigation normally. However, the IMU can still be recalibrated to achieve higher precision. For IMU calibration methods and steps, refer to the [2. ROS1- Chassis Motion Control Course](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/2_ROS1_Chassis_Motion_Control_Course.html) file.
 
 #### 5.1.3.3 Specifications
 
@@ -1012,7 +1012,7 @@ As shown in the figure above, the workflow of Karto SLAM is relatively straightf
 
 * **Enable Service**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_5/section_1/media/image35.png"  /> in the system desktop to open a command-line window.
 
@@ -1038,7 +1038,7 @@ roslaunch slam rviz_slam.launch slam_methods:=karto
 
 * **Start the Mapping Process**
 
-1. If mapping via the wireless controller is preferred, refer to the section [1.6 Wireless Controller Control](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#wireless-controller-control) of the user manual for detailed instructions.
+1. If mapping via the wireless controller is preferred, refer to the section [1.6 Wireless Controller Control](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/1_ROSOrin_User_Manual.html#wireless-controller-control) of the user manual for detailed instructions.
 
 2. Open a new terminal window, enter the command to start the keyboard control service, and press **Enter**.
 
@@ -1116,7 +1116,7 @@ sudo systemctl restart start_app_node.service
 
 For more accurate mapping, the odometry can be optimized. Odometry is required for robot mapping, and odometry relies on the IMU.
 
-The robot is preloaded with calibrated IMU data, which allows it to perform mapping and navigation normally. However, the IMU can still be recalibrated to achieve higher precision. For IMU calibration methods and steps, refer to the [2. ROS1- Chassis Motion Control Course](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/2_ROS1_Chassis_Motion_Control_Course.html) file.
+The robot is preloaded with calibrated IMU data, which allows it to perform mapping and navigation normally. However, the IMU can still be recalibrated to achieve higher precision. For IMU calibration methods and steps, refer to the [2. ROS1- Chassis Motion Control Course](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/2_ROS1_Chassis_Motion_Control_Course.html) file.
 
 #### 5.1.4.3 Launch File Analysis
 
@@ -1256,7 +1256,7 @@ For more information on the Cartographer package: <https://github.com/cartograph
 
 * **Enable Service**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_5/section_1/media/image35.png"  /> in the system desktop to open a command-line window.
 
@@ -1282,7 +1282,7 @@ roslaunch slam rviz_slam.launch slam_methods:=cartographer
 
 * **Start the Mapping Process**
 
-If mapping via the wireless controller is preferred, refer to the section [1.6 Wireless Controller Control](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#wireless-controller-control) of the user manual for detailed instructions.
+If mapping via the wireless controller is preferred, refer to the section [1.6 Wireless Controller Control](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/1_ROSOrin_User_Manual.html#wireless-controller-control) of the user manual for detailed instructions.
 
 1. Open a new terminal window, enter the command to start the keyboard control service, and press **Enter**.
 
@@ -1359,7 +1359,7 @@ sudo systemctl restart start_app_node.service
 
 For more accurate mapping, the odometry can be optimized. Odometry is required for robot mapping, and odometry relies on the IMU.
 
-The robot is preloaded with calibrated IMU data, which allows it to perform mapping and navigation normally. However, the IMU can still be recalibrated to achieve higher precision. For IMU calibration methods and steps, refer to the [2. ROS1- Chassis Motion Control Course](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/2_ROS1_Chassis_Motion_Control_Course.html) file.
+The robot is preloaded with calibrated IMU data, which allows it to perform mapping and navigation normally. However, the IMU can still be recalibrated to achieve higher precision. For IMU calibration methods and steps, refer to the [2. ROS1- Chassis Motion Control Course](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/2_ROS1_Chassis_Motion_Control_Course.html) file.
 
 #### 5.1.5.3 Specifications
 
@@ -1648,7 +1648,7 @@ The frontier_exploration Software Package:<https://github.com/paulbovbel/frontie
 
 * **Start the Mapping Process**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_5/section_1/media/image35.png" style="width:50px" /> in the system desktop to open a command-line window.
 
@@ -1712,7 +1712,7 @@ sudo systemctl restart start_app_node.service
 
 For more accurate mapping, the odometry can be optimized. Odometry is required for robot mapping, and odometry relies on the IMU.
 
-The robot is preloaded with calibrated IMU data, which allows it to perform mapping and navigation normally. However, the IMU can still be recalibrated to achieve higher precision. For IMU calibration methods and steps, refer to the [2. ROS1- Chassis Motion Control Course](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/2_ROS1_Chassis_Motion_Control_Course.html) file.
+The robot is preloaded with calibrated IMU data, which allows it to perform mapping and navigation normally. However, the IMU can still be recalibrated to achieve higher precision. For IMU calibration methods and steps, refer to the [2. ROS1- Chassis Motion Control Course](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/2_ROS1_Chassis_Motion_Control_Course.html) file.
 
 #### 5.1.6.3 Parameter Description
 
@@ -1893,7 +1893,7 @@ The Explore_Lite software package link:<https://github.com/hrnr/m-explore>
 
 * **Enable Service**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_5/section_1/media/image35.png"  /> in the system desktop to open a command-line window.
 
@@ -1953,7 +1953,7 @@ sudo systemctl restart start_app_node.service
 
 For more accurate mapping, the odometry can be optimized. Odometry is required for robot mapping, and odometry relies on the IMU.
 
-The robot is preloaded with calibrated IMU data, which allows it to perform mapping and navigation normally. However, the IMU can still be recalibrated to achieve higher precision. For IMU calibration methods and steps, refer to the [2. ROS1- Chassis Motion Control Course](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/2_ROS1_Chassis_Motion_Control_Course.html) file.
+The robot is preloaded with calibrated IMU data, which allows it to perform mapping and navigation normally. However, the IMU can still be recalibrated to achieve higher precision. For IMU calibration methods and steps, refer to the [2. ROS1- Chassis Motion Control Course](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/2_ROS1_Chassis_Motion_Control_Course.html) file.
 
 #### 5.1.7.4 Launch File Analysis
 
@@ -2132,7 +2132,7 @@ The RRT Software Package:<https://github.com/RoboJackets/rrt>
 
 * **Enable Service**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_5/section_1/media/image35.png" style="width:50px" /> in the system desktop to open a command-line window.
 
@@ -2198,7 +2198,7 @@ sudo systemctl start start_app_node.service
 
 For more accurate mapping, the odometry can be optimized. Odometry is required for robot mapping, and odometry relies on the IMU.
 
-The robot is preloaded with calibrated IMU data, which allows it to perform mapping and navigation normally. However, the IMU can still be recalibrated to achieve higher precision. For IMU calibration methods and steps, refer to the [2. ROS1- Chassis Motion Control Course](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/2_ROS1_Chassis_Motion_Control_Course.html) file.
+The robot is preloaded with calibrated IMU data, which allows it to perform mapping and navigation normally. However, the IMU can still be recalibrated to achieve higher precision. For IMU calibration methods and steps, refer to the [2. ROS1- Chassis Motion Control Course](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/2_ROS1_Chassis_Motion_Control_Course.html) file.
 
 #### 5.1.8.3 Specifications
 
@@ -2495,7 +2495,7 @@ ORB-SLAM3 extracts ORB features from images, estimates the pose based on the pre
 
 * **Start the ORB-SLAM2 Mapping**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_5/section_1/media/image35.png" style="width:50px" /> in the system desktop to open a command-line window.
 
@@ -2564,7 +2564,7 @@ If the interface shown below appears, the keyboard control service has started s
 
 * **Start the ORB-SLAM3 Mapping**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img  src="../_static/media/chapter_5/section_1/media/image35.png" style="width:50px" /> in the system desktop to open a command-line window.
 
@@ -3303,7 +3303,7 @@ This section will cover how the robot moves to the selected target destination.
 
 * **Operation**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_5/section_2/media/image31.png" style="width:50px" /> in the system desktop to open a command-line window.
 
@@ -3375,7 +3375,7 @@ It contains the following folders, such as `config`, `launch`, `rivz`, and `src`
 >
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_5/section_2/media/image42.png" style="width:50px" /> in the system desktop to open a command-line window.
 
@@ -3441,7 +3441,7 @@ For an introduction and explanation of the RTAB-VSLAM algorithm, refer to sectio
 
 #### 5.2.6.2 Operation Steps
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img  src="../_static/media/chapter_5/section_2/media/image42.png" style="width:50px" /> in the system desktop to open a command-line window.
 

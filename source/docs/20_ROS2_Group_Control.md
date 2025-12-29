@@ -6,7 +6,7 @@
 
 1) Prepare at least two robots.
 
-2) Refer to the section [1.7 Development Environment Setup](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#development-environment-setup) in the user manual for instructions on downloading and installing the remote connection tool, NoMachine.
+2) Refer to the section [1.7 Development Environment Setup](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/1_ROSOrin_User_Manual.html#development-environment-setup) in the user manual for instructions on downloading and installing the remote connection tool, NoMachine.
 
 ### 20.1.2 Working Principle
 
@@ -132,7 +132,7 @@ source ~/.zshrc
 
 * **For Follower Robot**
 
-1) First, connect to the Wi-Fi network created by the leader robot on the app. Once connected, search for the follower device. The robot icon will appear in the app, and by long-pressing the screen, the follower robot’s IP address will be displayed. Refer to the section [1.5.2.2 LAN Mode Connection (Optional)](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/docs/1_ROSOrin_User_Manual.html#lan-mode-connection-optional)  in the user manual for guidance to use this IP address.
+1) First, connect to the Wi-Fi network created by the leader robot on the app. Once connected, search for the follower device. The robot icon will appear in the app, and by long-pressing the screen, the follower robot’s IP address will be displayed. Refer to the section [1.5.2.2 LAN Mode Connection (Optional)](https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano-version/docs/1_ROSOrin_User_Manual.html#lan-mode-connection-optional)  in the user manual for guidance to use this IP address.
 
 2) Click the terminal icon <img src="../_static/media/chapter_20/section_1/media/image7.png" style="width:50px" /> on the system desktop to open a command-line window.
 
