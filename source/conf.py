@@ -66,3 +66,14 @@ html_theme_options = {
     'logo_only': False,
     'collapse_navigation': False,
 }
+html_context = {
+    "display_github": True,
+    # "github_user": "你的GitHub用户名",
+    # "github_repo": "项目仓库名",
+    "conf_py_path": "/docs/source/",
+    "version": "jetson-nano",  # 当前版本名称与html_theme_options中current_version_name保持一致
+    "versions": [
+        {"name": "latest", "url": "https://wiki.hiwonder.com/projects/ROSOrin/en/latest/"},
+        {"name": "Jetson - Nano", "url": "https://wiki.hiwonder.com/projects/ROSOrin/en/jetson-nano/"}
+    ],
+}
