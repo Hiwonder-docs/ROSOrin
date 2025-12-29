@@ -1,28 +1,4 @@
 function initMenu() {
-    const alreadyItems = document.querySelector('.toctree-l2.current');
-    if (alreadyItems) {
-        alreadyItems.classList.remove('current');
-        alreadyItems.classList.add('h-current');
-    }
-
-    // 事件委托绑定到父级
-    const menuContainer = document.querySelector('.wy-menu-vertical > .current');
-    menuContainer.addEventListener('click', function(e) {
-        const target = e.target.closest('.toctree-l2>a');
-        if (target) {
-            console.log(1);
-            target.parentNode.classList.toggle('h-current');
-        }
-    });
-}
-
-// 根据场景选择执行时机
-if (document.readyState === 'complete') {
-    initMenu();
-} else {
-    window.addEventListener('load', initMenu);
-}
-function initMenu() {
     var nav_sidebar = document.querySelector('.wy-nav-side');
     var nav_search = nav_sidebar.querySelector('.wy-side-scroll .wy-side-nav-search');
     var returnLink = document.createElement('div');
@@ -103,4 +79,11 @@ function initMenu() {
             }
         });
     }
+}
+
+// 根据场景选择执行时机
+if (document.readyState === 'complete') {
+    initMenu();
+} else {
+    window.addEventListener('load', initMenu);
 }
