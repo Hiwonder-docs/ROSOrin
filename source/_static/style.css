@@ -58,26 +58,22 @@ section p {
 .wy-nav-side .wy-side-nav-search input[type=text]{
      border-color: #F29401;
 }
+.wy-side-nav-search>div.switch-menus>div.language-switch, .wy-side-nav-search>div.switch-menus>div.version-switch
+{
+    background-color:#f8a200;
+}
 .wy-side-scroll .wy-side-nav-search>div.switch-menus>div.version-switch select{
     color: #000;
     text-transform: capitalize;
-    background-color: #f8a200;
 }
 .wy-side-scroll .wy-side-nav-search>div.switch-menus>div.version-switch select:hover{
     color: #000;
 }
 .wy-side-scroll .wy-side-nav-search>div.switch-menus>div.version-switch:after{
-    content: "";
-    position: absolute;
-    right: 8px;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 0;
-    height: 0;
-    border-left: 7px solid transparent;
-    border-right: 7px solid transparent;
-    border-top: 10px solid #000;
-    pointer-events: none; 
+    color: #000;
+    font-size: 23px;
+    margin-left: -15px;
+    margin-top: 0px;
 }
 .wy-breadcrumbs-aside a{
     color: #F29401;
