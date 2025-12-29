@@ -65,6 +65,7 @@ section p {
 .wy-side-scroll .wy-side-nav-search>div.switch-menus>div.version-switch select{
     color: #000;
     text-transform: capitalize;
+    margin-right: -1.7rem;
 }
 .wy-side-scroll .wy-side-nav-search>div.switch-menus>div.version-switch select:hover{
     color: #000;
