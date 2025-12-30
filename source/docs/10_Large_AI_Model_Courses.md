@@ -8,7 +8,7 @@
 
 A Large Language Model (LLM) is an advanced artificial intelligence model developed to comprehend and generate human language.
 
-<img  src="../_static/media/chapter_12/section_1.1/01/image2.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.1/01/image2.png" style="width:500px" class="common_img"/>
 
 (1) Basic Concept
 
@@ -70,25 +70,25 @@ Large Language Models can be used to build question-answering systems that respo
 
 Open the OpenAI website and click on the "**Sign Up**" button in the top right corner.
 
-<img  src="../_static/media/chapter_12/section_1.1/02/image2.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.1/02/image2.png" style="width:500px" class="common_img"/>
 
 ② Follow the prompts to register and log in using your Google, Microsoft, or Apple account.
 
-<img  src="../_static/media/chapter_12/section_1.1/02/image3.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.1/02/image3.png" style="width:500px" class="common_img"/>
 
 ③ Click on the settings icon, then select Billing, followed by Payment Methods, to link your payment method. Recharge your account to purchase tokens.
 
-<img  src="../_static/media/chapter_12/section_1.1/02/image4.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.1/02/image4.png" style="width:500px" class="common_img"/>
 
-<img  src="../_static/media/chapter_12/section_1.1/02/image5.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.1/02/image5.png" style="width:500px" class="common_img"/>
 
 ④ After completing the setup, click on API Keys, then select Create New Secret Key. Follow the prompts to fill in the required information. Once the key is created, make sure to save it for future use.
 
-<img  src="../_static/media/chapter_12/section_1.1/02/image6.png" style="width:200px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.1/02/image6.png" style="width:200px" class="common_img"/>
 
-<img  src="../_static/media/chapter_12/section_1.1/02/image7.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.1/02/image7.png" style="width:500px" class="common_img"/>
 
-<img  src="../_static/media/chapter_12/section_1.1/02/image8.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.1/02/image8.png" style="width:500px" class="common_img"/>
 
 ⑤ With these steps, the large model has been successfully created and deployed. You can now use the API in the upcoming lessons.
 
@@ -98,21 +98,21 @@ Open the OpenAI website and click on the "**Sign Up**" button in the top right c
 
 Open the webpage in your browser and click "**Sign In**". Register using your Google account or another available login option.
 
-<img  src="../_static/media/chapter_12/section_1.1/02/image9.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.1/02/image9.png" style="width:500px" class="common_img"/>
 
-<img  src="../_static/media/chapter_12/section_1.1/02/image10.png" style="width:400px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.1/02/image10.png" style="width:400px" class="common_img"/>
 
 ② After logging in, click the icon in the top-right corner and select **"Credits"** to link your payment method.
 
-<img  src="../_static/media/chapter_12/section_1.1/02/image11.png" style="width:400px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.1/02/image11.png" style="width:400px" class="common_img"/>
 
-<img  src="../_static/media/chapter_12/section_1.1/02/image12.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.1/02/image12.png" style="width:500px" class="common_img"/>
 
 ③ To create an API key, go to **"API Keys"**, then click **"Create Key"**. Follow the prompts to complete the process. Once the key is generated, make sure to save it for future use.
 
-<img  src="../_static/media/chapter_12/section_1.1/02/image13.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.1/02/image13.png" style="width:500px" class="common_img"/>
 
-<img  src="../_static/media/chapter_12/section_1.1/02/image14.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.1/02/image14.png" style="width:500px" class="common_img"/>
 
 ④ At this point, the large model is successfully created and deployed. You can now use the API in the upcoming lessons.
 
@@ -126,7 +126,7 @@ Open the webpage in your browser and click "**Sign In**". Register using your Go
 
 It is important to ensure a stable network connection for the development board. For optimal performance, we also recommend connecting the main controller to a wired network for enhanced stability.
 
-<img  src="../_static/media/chapter_12/section_1.1/03/image2.png" style="width:300px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.1/03/image2.png" style="width:300px" class="common_img"/>
 
 (1) Environment Configuration
 
@@ -152,17 +152,17 @@ sudo apt install gedit
 sudo apt install python3 python3-pip python3-all-dev python3-pyaudio portaudio11-dev libsndfile1
 ```
 
-<img  src="../_static/media/chapter_12/section_1.1/03/image3.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.1/03/image3.png" style="width:500px" class="common_img"/>
 
 (2) Importing the Large Model Program Directory
 
 ① In this section, locate the '[Appendix -> Source Code](https://drive.google.com/drive/folders/1Na86By9er9Jj1_1YXz3sxAwePrIgSUcN?usp=sharing)' folder within the same directory as this tutorial document.
 
-<img  src="../_static/media/chapter_12/section_1.1/03/image4.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.1/03/image4.png" style="width:500px" class="common_img"/>
 
 ② Using the MobaXterm remote connection tool (as outlined in the '5.5 Remote Access and File Transfer' tutorial), drag the folder into the root directory of the main controller. The software installation package can be found in the '[Appendix -\> Remote Access and File Transfer](https://drive.google.com/drive/folders/17mfRH9lmP9OYO4_LAyzkRnHfytqRYldJ?usp=sharing)' directory.
 
-<img  src="../_static/media/chapter_12/section_1.1/03/image5.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.1/03/image5.png" style="width:500px" class="common_img"/>
 
 ③ Next, execute the command to navigate to the **'speech_pkg' directory**.
 
@@ -204,7 +204,7 @@ cd ~/large_models/speech_pkg/speech
 ls
 ```
 
-<img  src="../_static/media/chapter_12/section_1.1/03/image13.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.1/03/image13.png" style="width:500px" class="common_img"/>
 
 ⑦ Depending on the type of main controller and Python version you're using, switch to the appropriate folder for packaging and distribution. This tutorial uses the Jetson Orin controller as an example.
 
@@ -261,7 +261,7 @@ vim config.py
 
 ③ Once the file is open, configure the OpenAI and OpenRouter keys by filling in the llm_api_key and vllm_api_key parameters, respectively (you can obtain these keys from the '[10.1.1 Large Language Model Courses -> Large Language Model Deployment](#anchor10.1.1.2)' course).
 
-<img  src="../_static/media/chapter_12/section_1.1/03/image21.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.1/03/image21.png" style="width:500px" class="common_img"/>
 
 For instance, copy the key created in Section 1.2 of this chapter and paste it into the appropriate field. To paste the key, place the cursor between the quotation marks, hold the **"Shift"** key, right-click, and select **"Paste"** .
 
@@ -269,7 +269,7 @@ For instance, copy the key created in Section 1.2 of this chapter and paste it i
 >
 > Do not mix keys from different models, as this may cause the functionality to malfunction
 
-<img  src="../_static/media/chapter_12/section_1.1/03/image22.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.1/03/image22.png" style="width:500px" class="common_img"/>
 
 ④  After pasting, press the **'Esc'** key, then type the following command and press Enter to save the file:
 
@@ -281,7 +281,7 @@ For instance, copy the key created in Section 1.2 of this chapter and paste it i
 
 Once the keys are configured, you can run the demo program (openai_llm_demo.py) to experience the text generation capabilities of the large model. For example, the program's prompt might be: 'Write a 50-word article about how technology is changing life.'
 
-<img  src="../_static/media/chapter_12/section_1.1/03/image24.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.1/03/image24.png" style="width:500px" class="common_img"/>
 
 ① To run the demo, enter the following command in the terminal:
 
@@ -291,7 +291,7 @@ python3 openai_llm_demo.py
 
 ② After running the program, the output will appear as shown in the image below.
 
-<img  src="../_static/media/chapter_12/section_1.1/03/image26.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.1/03/image26.png" style="width:500px" class="common_img"/>
 
 * **Semantic Understanding with Large Language Model**
 
@@ -313,11 +313,11 @@ python3 openai_llm_nlu_demo.py
 
 (3) As shown in the output, the model demonstrates strong summarization abilities.
 
-<img  src="../_static/media/chapter_12/section_1.1/01/image4.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.1/01/image4.png" style="width:500px" class="common_img"/>
 
 (4) The result matches the prompt defined in the program — where a passage of text is provided to the model, and it generates a concise summary.
 
-<img  src="../_static/media/chapter_12/section_1.1/01/image5.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.1/01/image5.png" style="width:500px" class="common_img"/>
 
 * **Emotional Perception with Large Language Model**
 
@@ -339,11 +339,11 @@ python3 openai_llm_er_demo.py
 
 (3) From the output, you will see that the model successfully identifies and understands the emotions conveyed, providing a text-based response accordingly.
 
-<img  src="../_static/media/chapter_12/section_1.1/01/image6.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.1/01/image6.png" style="width:500px" class="common_img"/>
 
 (4) In this program, we send two emotional expressions to the model: the first is an expression of sadness, **"So Sad"**. After the model responds, we then send an expression of happiness, "**Ha Ha**", and observe how the model reacts.
 
-<img  src="../_static/media/chapter_12/section_1.1/01/image7.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.1/01/image7.png" style="width:500px" class="common_img"/>
 
 ### 10.1.2 Large Speech Model Courses
 
@@ -433,7 +433,7 @@ Introduction：
 
 The 6-Microphone Circular Array is a high-sensitivity, high signal-to-noise ratio microphone board. It features six analog silicon microphones arranged in a circular pattern. When paired with a main control board, it supports high-performance Acoustic Echo Cancellation (AEC), environmental noise reduction, and factory-level voice pickup from up to 10 meters.
 
-<img  src="../_static/media/chapter_12/section_1.2/02/image2.png" style="width:300px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.2/02/image2.png" style="width:300px" class="common_img"/>
 
 Features and Specifications：
 
@@ -451,15 +451,15 @@ The following demonstration uses the Raspberry Pi 5 as an example. The connectio
 
 ① Connection Illustration and Detection
 
-<img  src="../_static/media/chapter_12/section_1.2/02/image3.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.2/02/image3.png" style="width:500px" class="common_img"/>
 
 If the main controller is a Raspberry Pi, you can use VNC remote desktop access (refer to the appendix: Remote Access and File Transfer) to log into the Raspberry Pi system. Once connected, check the upper right corner of the desktop for microphone and speaker icons. As shown in the image below, the presence of these icons indicates a successful connection.
 
-<img  src="../_static/media/chapter_12/section_1.2/02/image4.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.2/02/image4.png" style="width:500px" class="common_img"/>
 
 If you're using a NVIDIA Jetson device, you can connect via the NoMachine remote access tool. After logging in, check the upper right corner of the system interface for the speaker icon to confirm successful detection.
 
-<img  src="../_static/media/chapter_12/section_1.2/02/image5.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.2/02/image5.png" style="width:500px" class="common_img"/>
 
 ② Recording Test
 
@@ -469,7 +469,7 @@ Next, open a new terminal window and enter the following command to check the av
 arecord -l
 ```
 
-<img  src="../_static/media/chapter_12/section_1.2/02/image6.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.2/02/image6.png" style="width:500px" class="common_img"/>
 
 Then, use the following command to start recording. Replace the red-marked card number (hw:0,0) with the actual number you found in the previous step:
 
@@ -489,7 +489,7 @@ After the recording is complete, you can check whether the audio file was succes
 ls
 ```
 
-<img  src="../_static/media/chapter_12/section_1.2/02/image8.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.2/02/image8.png" style="width:500px" class="common_img"/>
 
 If test.wav appears in the list, the recording was successful. To play back the recording, use the following command:
 
@@ -527,7 +527,7 @@ ll /dev | grep USB
 
 Please take note of this device name—it may vary depending on the main controller being used.
 
-<img  src="../_static/media/chapter_12/section_1.2/03/image3.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.2/03/image3.png" style="width:500px" class="common_img"/>
 
 Wake-Up Test：
 
@@ -539,7 +539,7 @@ vim wakeup_demo.py
 
 Press i to enter edit mode and make the necessary changes as shown below (update the port number accordingly and adjust comments as needed).
 
-<img  src="../_static/media/chapter_12/section_1.2/03/image4.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.2/03/image4.png" style="width:500px" class="common_img"/>
 
 Once the changes are complete, press ESC, then type :wq and press Enter to save and exit the editor.
 
@@ -551,7 +551,7 @@ If the output includes **"keyword detect"**, it indicates that the firmware has 
 python3 ~/large_models/wakeup_demo.py
 ```
 
-<img  src="../_static/media/chapter_12/section_1.2/03/image5.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.2/03/image5.png" style="width:500px" class="common_img"/>
 
 (2) 6-Microphone Circular Array
 
@@ -575,11 +575,11 @@ vim ~/large_models/wakeup_demo.py
 
 ③ Update the port to match the device port number you previously identified. Comment out the WonderEcho Pro configuration (add \# at the beginning of the corresponding line), and uncomment the line using the voice device on line 11 as the input device (see red box in the referenced image).
 
-<img  src="../_static/media/chapter_12/section_1.2/03/image7.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.2/03/image7.png" style="width:500px" class="common_img"/>
 
 ④ Press ESC to return to command mode, then type :wq and press Enter to save and exit.
 
-<img  src="../_static/media/chapter_12/section_1.2/03/image8.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.2/03/image8.png" style="width:500px" class="common_img"/>
 
 ⑤ In the terminal, run the wake-up program with the following command:
 
@@ -589,7 +589,7 @@ python3 ~/large_models/wakeup_demo.py
 
 ⑥ After about 30 seconds of initialization, speak the wake word **"hello hiwonder"** to test the device.
 
-<img  src="../_static/media/chapter_12/section_1.2/03/image10.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.2/03/image10.png" style="width:500px" class="common_img"/>
 
 (3) Brief Program Overview
 
@@ -697,7 +697,7 @@ vim wakeup_demo.py
 i
 ```
 
-<img  src="../_static/media/chapter_12/section_1.2/03/image17.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.2/03/image17.png" style="width:500px" class="common_img"/>
 
 ③ Press ESC, then type **:wq** and press Enter to save and exit.
 
@@ -749,7 +749,7 @@ cd large_models/
 vim config.py
 ```
 
-<img  src="../_static/media/chapter_12/section_1.2/04/image3.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.2/04/image3.png" style="width:500px" class="common_img"/>
 
 ④ Run the speech recognition program with:
 
@@ -761,7 +761,7 @@ python3 openai_asr_demo.py
 
 After the program starts, the microphone will recognize the recorded audio content from the user and print the converted text output.
 
-<img  src="../_static/media/chapter_12/section_1.2/04/image5.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.2/04/image5.png" style="width:500px" class="common_img"/>
 
 (6) Brief Program Analysis
 
@@ -821,7 +821,7 @@ vim openai_asr_demo.py
 i
 ```
 
-<img  src="../_static/media/chapter_12/section_1.2/04/image10.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.2/04/image10.png" style="width:500px" class="common_img"/>
 
 ③ Then, run the program with the command:
 
@@ -831,7 +831,7 @@ python3 openai_asr_demo.py
 
 ④ Record a sample sentence such as "**Hello, can you hear me clearly?**", and the recognized text will be printed on the console.
 
-<img  src="../_static/media/chapter_12/section_1.2/04/image12.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.2/04/image12.png" style="width:500px" class="common_img"/>
 
 * **Speech Synthesis**
 
@@ -865,7 +865,7 @@ cd large_models/
 vim config.py
 ```
 
-<img  src="../_static/media/chapter_12/section_1.2/05/image3.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.2/05/image3.png" style="width:500px" class="common_img"/>
 
 ④ Finally, run the program with the following command:
 
@@ -879,7 +879,7 @@ Upon running the program, it will play an audio message saying "**Hello, Can I H
 
 `/home/ubuntu/large_models/resources/audio/`
 
-<img  src="../_static/media/chapter_12/section_1.2/05/image5.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.2/05/image5.png" style="width:500px" class="common_img"/>
 
 (6) Brief Program Analysis
 
@@ -937,9 +937,9 @@ Step2 : Press i on your keyboard to enter INSERT mode. Locate the line voice="**
 i
 ```
 
-<img  src="../_static/media/chapter_12/section_1.2/05/image9.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.2/05/image9.png" style="width:500px" class="common_img"/>
 
-<img  src="../_static/media/chapter_12/section_1.2/05/image10.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.2/05/image10.png" style="width:500px" class="common_img"/>
 
 Step3 : Press Esc, then type :wq and hit Enter to save and exit.
 
@@ -947,7 +947,7 @@ Step3 : Press Esc, then type :wq and hit Enter to save and exit.
 :wq
 ```
 
-<img  src="../_static/media/chapter_12/section_1.2/05/image11.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.2/05/image11.png" style="width:500px" class="common_img"/>
 
 Step4 : Execute the program with the following command:
 
@@ -955,7 +955,7 @@ Step4 : Execute the program with the following command:
 python3 openai_tts_demo.py
 ```
 
-<img  src="../_static/media/chapter_12/section_1.2/05/image12.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.2/05/image12.png" style="width:500px" class="common_img"/>
 
 Once the program starts, the speaker will play the synthesized audio using the newly selected voice style.
 
@@ -983,7 +983,7 @@ ll /dev | grep USB
 
 After disconnecting the microphone, no USB device should appear.
 
-<img  src="../_static/media/chapter_12/section_1.2/06/image2.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.2/06/image2.png" style="width:500px" class="common_img"/>
 
 Upon reconnecting the microphone, a USB port (e.g., ttyCH341USB1) will be listed (make sure to note this device name). The device name may vary depending on the main controller.
 
@@ -999,7 +999,7 @@ cd large_models/
 vim config.py
 ```
 
-<img  src="../_static/media/chapter_12/section_1.2/06/image4.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.2/06/image4.png" style="width:500px" class="common_img"/>
 
 ⑤ Enter the port number you obtained and modify the corresponding microphone port settings for either WonderEcho Pro or the six-microphone setup. Uncomment the configuration for the port you intend to use and comment out the settings for any unused ports.
 
@@ -1011,7 +1011,7 @@ If you are using the WonderEcho Pro, modify the corresponding section:
 
 If you are using the 6-Microphone Array, modify the relevant section:
 
-<img  src="../_static/media/chapter_12/section_1.2/06/image5.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.2/06/image5.png" style="width:500px" class="common_img"/>
 
 ⑥ Run the program:
 
@@ -1027,7 +1027,7 @@ After successful execution, the voice device will announce 'I'm ready.' Then, up
 
 For example: 'What are some fun places to visit in New York?'
 
-<img  src="../_static/media/chapter_12/section_1.2/06/image7.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.2/06/image7.png" style="width:500px" class="common_img"/>
 
 (5) Brief Program Analysis
 
@@ -1202,9 +1202,9 @@ python3 openai_vllm_understand.py
 
 After running the program, the output printed matches our request of "**Describe the image**".
 
-<img  src="../_static/media/chapter_12/section_1.3/02/image4.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.3/02/image4.png" style="width:500px" class="common_img"/>
 
-<img  src="../_static/media/chapter_12/section_1.3/02/image5.jpeg" style="width:300px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.3/02/image5.jpeg" style="width:300px" class="common_img"/>
 
 * **Vision Language Model: Object Detection**
 
@@ -1232,9 +1232,9 @@ python3 qwen_vllm_detect_demo.py
 
 After running the program, the positions of the fruits in the image will be circled.
 
-<img  src="../_static/media/chapter_12/section_1.3/03/image4.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.3/03/image4.png" style="width:500px" class="common_img"/>
 
-<img  src="../_static/media/chapter_12/section_1.3/03/image5.png" style="width:400px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.3/03/image5.png" style="width:400px" class="common_img"/>
 
 (3) Function Expansion
 
@@ -1246,11 +1246,11 @@ Change Pictures:
 
 Here, you can drag in other images, for example, in the apples.png format.
 
-<img  src="../_static/media/chapter_12/section_1.3/03/image6.png" style="width:400px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.3/03/image6.png" style="width:400px" class="common_img"/>
 
-<img  src="../_static/media/chapter_12/section_1.3/03/image7.png" style="width:400px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.3/03/image7.png" style="width:400px" class="common_img"/>
 
-<img  src="../_static/media/chapter_12/section_1.3/03/image8.png" style="width:400px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.3/03/image8.png" style="width:400px" class="common_img"/>
 
 ② Then, input the command:
 
@@ -1264,13 +1264,13 @@ vim large_models/qwen_vllm_detect_demo.py
 i
 ```
 
-<img  src="../_static/media/chapter_12/section_1.3/03/image10.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.3/03/image10.png" style="width:500px" class="common_img"/>
 
 ④ Change the image recognition path from: `./resources/pictures/test_image_understand.jpeg`
 
 To: image = cv2.imread('./resources/pictures/apples.png')
 
-<img  src="../_static/media/chapter_12/section_1.3/03/image11.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.3/03/image11.png" style="width:500px" class="common_img"/>
 
 ⑤ Next, input the following command and execute the program again to see the results
 
@@ -1278,7 +1278,7 @@ To: image = cv2.imread('./resources/pictures/apples.png')
 python3 qwen_vllm_detect_demo.py
 ```
 
-<img  src="../_static/media/chapter_12/section_1.3/03/image12.png" style="width:400px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.3/03/image12.png" style="width:400px" class="common_img"/>
 
 * **Vision Language Model: Scene Understanding**
 
@@ -1308,9 +1308,9 @@ python3 openai_vllm_understand.py
 
 After running the program, the output printed matches our request of "**Describe the image**".
 
-<img  src="../_static/media/chapter_12/section_1.3/04/image4.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.3/04/image4.png" style="width:500px" class="common_img"/>
 
-<img  src="../_static/media/chapter_12/section_1.3/04/image5.jpeg" style="width:400px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.3/04/image5.jpeg" style="width:400px" class="common_img"/>
 
 (3) Function Expansion
 
@@ -1318,7 +1318,7 @@ If you need to recognize your own image, you should place the image in the corre
 
 ① First, drag your image directly into the ~/large_models/resources/pictures/ path using MobaXterm, and rename the image to test.png.
 
-<img  src="../_static/media/chapter_12/section_1.3/04/image6.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.3/04/image6.png" style="width:500px" class="common_img"/>
 
 ② Then, open the scene understanding script by entering the following command in the terminal:
 
@@ -1328,7 +1328,7 @@ vim ~/large_models/vllm_understand.py
 
 ③ Change the image path in the code to reflect the name of your image (e.g., test.png).
 
-<img  src="../_static/media/chapter_12/section_1.3/04/image8.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.3/04/image8.png" style="width:500px" class="common_img"/>
 
 ④ Run the program:
 
@@ -1336,9 +1336,9 @@ vim ~/large_models/vllm_understand.py
 python3 ~/large_models/openai_vllm_understand.py
 ```
 
-<img  src="../_static/media/chapter_12/section_1.3/04/image10.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.3/04/image10.png" style="width:500px" class="common_img"/>
 
-<img  src="../_static/media/chapter_12/section_1.3/04/image11.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.3/04/image11.png" style="width:500px" class="common_img"/>
 
 * **Vision Language Model: Optical Character Recognition** 
 
@@ -1368,9 +1368,9 @@ python3 openai_vllm_ocr.py
 
 After running the program, the output printed will be consistent with the content of the image sent.
 
-<img  src="../_static/media/chapter_12/section_1.3/05/image4.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.3/05/image4.png" style="width:500px" class="common_img"/>
 
-<img  src="../_static/media/chapter_12/section_1.3/05/image5.png" style="width:400px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.3/05/image5.png" style="width:400px" class="common_img"/>
 
 (3) Function Expansion
 
@@ -1380,9 +1380,9 @@ Change Pictures：
 
 ① Drag the image directly into the `~/large_models/resources/pictures/` path using MobaXterm. Here, we can drag in the image named 'ocr1.png' as an example, and let the program recognize the text 'COME ON'.
 
-<img  src="../_static/media/chapter_12/section_1.3/05/image6.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.3/05/image6.png" style="width:500px" class="common_img"/>
 
-<img  src="../_static/media/chapter_12/section_1.3/05/image7.png" style="width:400px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.3/05/image7.png" style="width:400px" class="common_img"/>
 
 ② Then, input the command:
 
@@ -1396,7 +1396,7 @@ vim ~/large_models/openai_vllm_ocr.py
 i
 ```
 
-<img  src="../_static/media/chapter_12/section_1.3/05/image9.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.3/05/image9.png" style="width:500px" class="common_img"/>
 
 ④ Change the image recognition path from: ./resources/pictures/ocr.jpeg
 
@@ -1412,7 +1412,7 @@ image = cv2.imread('./resources/pictures/ocr1.png)
 python3 ~/large_models/openai_vllm_ocr.py
 ```
 
-<img  src="../_static/media/chapter_12/section_1.3/05/image12.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.3/05/image12.png" style="width:500px" class="common_img"/>
 
 ### 10.1.4 Multimodal Model Basic Courses
 
@@ -1492,7 +1492,7 @@ ll /dev | grep USB
 
 After disconnecting the microphone, no USB device should appear.
 
-<img  src="../_static/media/chapter_12/section_1.4/image2.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.4/image2.png" style="width:500px" class="common_img"/>
 
 Upon reconnecting the microphone, a USB port (e.g., ttyCH341USB1) will be listed (make sure to note this device name). The device name may vary depending on the main controller.
 
@@ -1508,7 +1508,7 @@ cd large_models/
 vim config.py
 ```
 
-<img  src="../_static/media/chapter_12/section_1.4/image4.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.4/image4.png" style="width:500px" class="common_img"/>
 
 ④ Fill in the detected port number and update the corresponding microphone port settings for either the WonderEcho Pro or the Six-channel Microphone.  
 
@@ -1520,11 +1520,11 @@ vim openai_agent_demo.py
 
 Modify the settings as follows. For WonderEcho Pro, update the corresponding configuration
 
-<img  src="../_static/media/chapter_12/section_1.4/image5.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.4/image5.png" style="width:500px" class="common_img"/>
 
 For 6-channel Microphone, update the respective settings:
 
-<img  src="../_static/media/chapter_12/section_1.4/image6.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.4/image6.png" style="width:500px" class="common_img"/>
 
 ⑤ Run the program:
 
@@ -1534,7 +1534,7 @@ python3 openai_agent_demo.py
 
 ⑥ The program will print the prompts configured for the large model. The large model will then return data formatted according to these prompts.
 
-<img  src="../_static/media/chapter_12/section_1.4/image8.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.4/image8.png" style="width:500px" class="common_img"/>
 
 
 
@@ -1546,7 +1546,7 @@ When the device responds with "**I'm here**", it indicates that the agent has be
 
 ② After updating the wake word, you can say: "Take two steps forward, turn left and take one step back". The agent will respond according to the format we have defined.
 
-<img  src="../_static/media/chapter_12/section_1.4/image9.png" style="width:500px" class="common_img"/>
+<img  src="../_static/media/chapter_22/section_1.4/image9.png" style="width:500px" class="common_img"/>
 
 
 
@@ -1632,7 +1632,7 @@ vim /home/ubuntu/ros2_ws/src/large_models/large_models/large_models/config.py
 
 Before starting features, verify that the correct microphone configuration is set in the system.
 
-1. After remotely logging in via NoMachine, click the desktop icon <img style="display:inline;vertical-align:middle;"  class="common_img" src="../_static/media/chapter_22/section_1/media/image16.png"  /> to access the configuration interface.
+1. After remotely logging in via VNC, click the desktop icon <img style="display:inline;vertical-align:middle;width:50px"  class="common_img" src="../_static/media/chapter_22/section_1/media/image16.png" style="" /> to access the configuration interface.
 
 2. Select the appropriate microphone version configuration according to the hardware.
 
@@ -2643,7 +2643,7 @@ vim /home/ubuntu/ros2_ws/src/large_models/large_models/large_models/config.py
 
 Before starting features, verify that the correct microphone configuration is set in the system.
 
-1. After remotely logging in via NoMachine, click the desktop icon <img class="common_img" src="../_static/media/chapter_22/section_2/media/image16.png"  style="display:inline;vertical-align:middle;"/> to access the configuration interface.
+1. After remotely logging in via VNC, click the desktop icon <img class="common_img" src="../_static/media/chapter_22/section_2/media/image16.png"  style="display:inline;vertical-align:middle;width:50px"/> to access the configuration interface.
 
 2. Select the appropriate microphone version configuration according to the hardware.
 
@@ -2733,7 +2733,7 @@ The response is automatically generated by the large model. Only the semantic ac
 
 #### 10.3.3.4 Program Outcome
 
-Once the feature is activated, any command can be issued to the robot, for example: “**Tell me what you saw**.” The robot will automatically analyze the scene within its camera view, process the information, and describe the current environment in detail.
+Once the feature is activated, any command can be issued to the robot, for example: **Tell me what you saw**. The robot will automatically analyze the scene within its camera view, process the information, and describe the current environment in detail.
 
 #### 10.3.4.5 Program Analysis
 
@@ -3406,7 +3406,7 @@ Refer to the section [10.3.1 Large Model API Key Setup](#anther10.3.1) to set up
 
 * **Navigation Map Construction**
 
-Before enabling this feature, a map must be created in advance. Please refer to [5.1 Mapping Tutorial](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/5_Mapping_%26_Navigation_Course.html#mapping-tutorial) for detailed instructions on how to build the map.
+Before enabling this feature, a map must be created in advance. Please refer to [5.1 Mapping Tutorial]() for detailed instructions on how to build the map.
 
 #### 10.3.4.3 Operation Steps
 
@@ -3804,4534 +3804,3 @@ def process(self):
 ```
 
 By continuously monitoring the output of the large model, when action instructions are detected, the action list and response text are parsed. If there is a movement command, navigation is executed, and the system waits for the target point to be reached while supporting interruption. If there is a visual command, a visual query is executed and the result is recorded. If there is an audio command, the corresponding content is played, and the text response is sent to the TTS module for speech output. If only a text response is provided, it will be relayed as speech feedback. During the process, coordination between action execution and the completion status of speech playback is managed. Once the task is completed, the voice wake-up function is re-enabled, and the system waits for the next command.
-
-
-
-## 10.4 Comprehensive Application of Large AI Models
-
-<p id ="anther10.4.1"></p>
-
-### 10.4.1 Preparation
-
-Before starting this feature, verify that the correct microphone configuration is set in the system.
-
-1) Log in to the machine remotely via NoMachine. Then click the desktop icon <img src="../_static/media/chapter_24\section_1/media/image131.png" style="width:50px;display:inline;vertical-align:middle;" class="common_img"  /> to access the configuration interface.
-2) On the right side of the interface, select the appropriate microphone type based on the hardware being used.
-
-<img src="../_static/media/chapter_24\section_1/media/image132.png" style="width:400px" class="common_img"  />
-
-3) If using the AI voice interaction box, select **WonderEcho Pro** under the microphone type, as shown in the image below.
-
-<img src="../_static/media/chapter_24\section_1/media/image133.png" style="width:400px" class="common_img"  />
-
-<img src="../_static/media/chapter_24\section_1/media/image134.png" style="width:400px" class="common_img"  />
-
-For the 6-Microphone Array, select **xf** as the microphone type as shown in the figure.
-
-<img src="../_static/media/chapter_24\section_1/media/image135.png" style="width:400px" class="common_img"  />
-
-<img src="../_static/media/chapter_24\section_1/media/image136.png" style="width:400px" class="common_img"  />
-
-4) Change the ASR mode to **online**.
-
-<img src="../_static/media/chapter_24\section_1/media/image140.png" class="common_img"  />
-
-5) Then, click **Save**.
-
-<img src="../_static/media/chapter_24\section_1/media/image137.png" class="common_img"  />
-
-6) A **Save Success** message will confirm that the configuration has been stored in the system environment.
-
-<img src="../_static/media/chapter_24\section_1/media/image138.png" style="width:400px" class="common_img"  />
-
-7) Then, click **Quit** to close the interface.
-
-<img src="../_static/media/chapter_24\section_1/media/image139.png" style="width:400px" class="common_img"  />
-
-<p id ="anther10.4.2"></p>
-
-### 10.4.2 Large Model API Key Setup
-
-> [!NOTE]
->
-> **This section requires registering on the official OpenAI website and obtaining an API key for accessing large language models.**
-
-#### 10.4.2.1 OpenAI Account Registration and Deployment
-
-1) Copy and open the following URL: https://platform.openai.com/docs/overview, then click the **Sign Up** button in the upper-right corner.
-
-<img class="common_img" src="../_static/media/chapter_22/section_1/media/image1.png"  />
-
-2) Register and log in using a Google, Microsoft, or Apple account, as prompted.
-
-<img class="common_img" src="../_static/media/chapter_22/section_1/media/image2.png" style="width:500px" />
-
-3) After logging in, click the Settings button, then go to **Billing**, and click **Payment Methods** to add a payment method. The payment is used to purchase **tokens**.
-
-<img class="common_img" src="../_static/media/chapter_22/section_1/media/image3.png"  />
-
-<img class="common_img" src="../_static/media/chapter_22/section_1/media/image4.png" style="width:700px" />
-
-4) After completing the preparation steps, click **API Keys** and create a new key. Follow the prompts to fill in the required information, then save the key for later use.
-
-<img class="common_img" src="../_static/media/chapter_22/section_1/media/image5.png"  />
-
-<img class="common_img" src="../_static/media/chapter_22/section_1/media/image6.png"  />
-
-<img class="common_img" src="../_static/media/chapter_22/section_1/media/image7.png"  />
-
-5) The creation and deployment of the large model have been completed, and this API will be used in the following sections.
-
-#### 10.4.2.2 OpenRouter Account Registration and Deployment
-
-1) Copy the URL https://openrouter.ai/ into a browser and open the webpage. Click **Sign in** and register or sign in using a Google account or another available account.
-
-<img class="common_img" src="../_static/media/chapter_22/section_1/media/image8.png" style="width:700px" />
-
-<img class="common_img" src="../_static/media/chapter_22/section_1/media/image9.png"  />
-
-2) After logging in, click the icon in the top-right corner, then select **Credits** to add a payment method.
-
-<img class="common_img" src="../_static/media/chapter_22/section_1/media/image10.png" style="width:700px" />
-
-<img class="common_img" src="../_static/media/chapter_22/section_1/media/image11.png" style="width:700px" />
-
-3) Create an API key. Go to **API Keys**, then click **Create Key**. Follow the prompts to generate a key. Save the API key securely for later use.
-
-<img class="common_img" src="../_static/media/chapter_22/section_1/media/image12.png" style="width:700px" />
-
-<img class="common_img" src="../_static/media/chapter_22/section_1/media/image13.png" style="width:700px" />
-
-The creation and deployment of the large model have been completed, and this API will be used in the following sections.
-
-#### 10.4.2.3 API Configuration
-
-1. Click <img class="common_img" src="../_static/media/chapter_22/section_1/media/image25.png"  style="display:inline;vertical-align:middle;"  /> to open a terminal and enter the following command to open the configuration file. Press the **i** key to enter input mode.
-
-```bash
-vim /home/ubuntu/ros2_ws/src/large_models/large_models/large_models/config.py
-```
-
-2. Fill in the obtained Large Model API Key in the corresponding parameter, as shown in the red box in the figure below.
-
-<img class="common_img" src="../_static/media/chapter_22/section_1/media/image15.png"  />
-
-3. Press **Esc**, then enter the command and press **Enter** to save and exit the configuration file.
-
-```bash
-:wq
-```
-
-
-
-### 10.4.3 Vision Application of Large AI Models
-
-#### 10.4.3.1 Overview
-
-When the program starts, the voice module announces **I’m ready**. After saying the wake word, the robot replies **I’m here**. Once activated, voice commands can be issued, for example, **Follow the black line, stop when you encounter an obstacle, then turn left, and finally describe what you see to me.** The voice system will speak the response generated after processing the command and the robot will carry out the corresponding actions.
-
-#### 10.4.3.2 Preparation
-
-* **Version Confirmation**
-
-Reference Tutorial: [10.4.1 Preparation](#anther10.4.1)
-
-* **Configure Large Model API-KEY**
-
-Reference Tutorial: [10.4.2 Large Model API Key Setup](#anther10.4.2)
-
-#### 10.4.3.3 Operation Steps
-
-> [!NOTE]
->
-> * **Command input is case-sensitive and space-sensitive.**
->
-> * **The robot must be connected to the Internet, either in STA (LAN) mode or AP (direct connection) mode via Ethernet.**
-
-1. Open the command line terminal from the left side of the system interface. <img src="../_static/media/chapter_24\section_1/media/image35.png" class="common_img"  style="display:inline;vertical-align:middle;"/> In the terminal window, enter the following command and press **Enter** to stop the auto-start service
-
-2. Enter the command to disable the auto-start service of the app.
-
-```bash
-sudo systemctl stop start_app_node.service
-```
-
-3. Then enter the command and press **Enter** to start the feature.
-
-```bash
-ros2 launch large_models_examples llm_control_progress.launch.py
-```
-
-4. When the terminal displays the output shown below and announces **I’m ready**, the voice device has completed initialization. At this point, say the wake word **Hello Hiwonder**.
-
-<img src="../_static/media/chapter_24\section_1/media/image141.png" style="width:1200px" class="common_img"  />
-
-5. When the terminal displays the corresponding output shown in the figure and the device responds with **I’m here**, it indicates successful activation. The system will begin recording voice commands.
-
-<img src="../_static/media/chapter_24\section_1/media/image142.png" style="width:800px" class="common_img"  />
-
-6. When the command line displays the output shown in the image below, it indicates that the voice module is printing the recognized speech.
-
-<img src="../_static/media/chapter_24\section_1/media/image143.png" style="width:1200px" class="common_img"  />
-
-7. Upon successful recognition by the speech recognition service of a cloud-based large speech model, the parsed command will be displayed under the **publish_asr_result** output in the terminal.
-
-<img src="../_static/media/chapter_24\section_1/media/image144.png" style="width:1200px" class="common_img"  />
-
-> [!NOTE]
->
-> **The response is automatically generated by the large model. Only the semantic accuracy of the reply is guaranteed, while the wording and formatting may vary.**
-
-8. When the command line displays the output shown below, it means a round of conversation has finished.
-
-<img src="../_static/media/chapter_24\section_1/media/image145.png" style="width:1200px" class="common_img"  />
-
-9. To exit the feature, press **Ctrl+C** in the terminal. If the feature does not shut down immediately, press **Ctrl+C** multiple times. If it still fails, open a new terminal window and run the following command to clear the ROS node.
-
-```bash
-~/.stop_ros.sh
-```
-
-#### 10.4.3.4 Project Outcome
-
-Once the feature is activated, voice commands can be issued to the robot, enabling it to move, follow lines, and perform real-time detection.
-
-#### 10.4.3.5 Program Analysis
-
-* **Launch File Analysis**
-
-File Path:
-
-**/home/ubuntu/ros2_ws/src/large_models_examples/large_models_examples/llm_control_move.launch.py**
-
-1\) Import library files.
-
-```python
-import os
-from ament_index_python.packages import get_package_share_directory
-
-from launch_ros.actions import Node
-from launch.substitutions import LaunchConfiguration
-from launch import LaunchDescription, LaunchService
-from launch.launch_description_sources import PythonLaunchDescriptionSource
-from launch.actions import IncludeLaunchDescription, DeclareLaunchArgument, OpaqueFunction
-```
-
-`os`: Used for handling file paths and operating system-related functions.
-
-`ament_index_python.packages.get_package_share_directory`: Retrieves the share directory path of ROS 2 package.
-
-`launch_ros.actions.Node`: Used to define ROS 2 nodes.
-
-`launch.substitutions.LaunchConfiguration`: Retrieves parameter values defined in the Launch file.
-
-`LaunchDescription,LaunchService`: Used to define and start the Launch file.
-
-`launch.launch_description_sources.PythonLaunchDescriptionSource`: Enables the inclusion of other Launch files.
-
-`launch.actions.IncludeLaunchDescription、DeclareLaunchArgument、OpaqueFunction`: Used to define actions and arguments within the Launch file.
-
-2\) Define `launch_setup` Function
-
-Declare launch parameters:
-
-`function_mode` determines whether to start the navigation.
-
-`mode`: Mode parameter, default value `1`.
-
-`conf`: Confidence level.
-
-`debug`: Debug mode.
-
-`camera_topic`: Camera topic, default `depth_cam/rgb0/image_raw`.
-
-`offline`: Offline mode.
-
-`interruption`: Interruption toggle, default ` False`.
-
-```python
-    function_mode = LaunchConfiguration('function').perform(context)
-    conf = LaunchConfiguration('conf', default=0.45)
-    conf_arg = DeclareLaunchArgument('conf', default_value=conf)
-
-    mode = LaunchConfiguration('mode', default=1)
-    mode_arg = DeclareLaunchArgument('mode', default_value=mode)
-
-    debug = LaunchConfiguration('debug', default=False)
-    debug_arg = DeclareLaunchArgument('debug', default_value=debug)
-
-
-    interruption = LaunchConfiguration('interruption', default=False)
-    interruption_arg = DeclareLaunchArgument('interruption', default_value=interruption)
-
-    camera_topic = LaunchConfiguration('camera_topic', default='/depth_cam/rgb0/image_raw')
-    camera_topic_arg = DeclareLaunchArgument('camera_topic', default_value=camera_topic)
-
-
-    offline = LaunchConfiguration('offline', default='false')
-    offline_arg = DeclareLaunchArgument('offline', default_value=offline)
-
-    interruption = LaunchConfiguration('interruption', default=False)
-    interruption_arg = DeclareLaunchArgument('interruption', default_value=interruption)
-```
-
-Obtain package paths:
-
-Retrieve paths for `controller` and `navigation` packages.
-
-```python
-    controller_package_path = get_package_share_directory('controller')
-    navigation_package_path = get_package_share_directory('navigation')
-```
-
-`map_name`: Map name.
-
-`robot_name`: Robot name.
-
-`master_name`: Node name.
-
-```
-    map_name = LaunchConfiguration('map', default='map_01').perform(context)
-    robot_name = LaunchConfiguration('robot_name', default=os.environ['HOST'])
-    master_name = LaunchConfiguration('master_name', default=os.environ['MASTER'])
-
-    map_name_arg = DeclareLaunchArgument('map', default_value=map_name)
-    master_name_arg = DeclareLaunchArgument('master_name', default_value=master_name)
-    robot_name_arg = DeclareLaunchArgument('robot_name', default_value=robot_name)
-```
-
-Include launch.py files using `IncludeLaunchDescription`.
-
-`controller_launch`: Chassis controller launch file.
-
-`peripherals_package_path`: Depth camera launch file.
-
-`lidar_node_launch`: LiDAR launch file.
-
-`navigation_launch`: Navigation launch file.
-
-`llm_agent_progress_launch`: Launch file for voice recognition, LLM processing, speech synthesis, and LLM-based control functions.
-
-```python
-    controller_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
-            os.path.join(controller_package_path, 'launch/controller.launch.py')),
-    )
-
-    peripherals_package_path = get_package_share_directory('peripherals')
-    depth_camera_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
-            os.path.join(peripherals_package_path, 'launch/depth_camera.launch.py')),
-    )
-
-    lidar_node_launch = IncludeLaunchDescription(
-            PythonLaunchDescriptionSource(
-                os.path.join(peripherals_package_path, 'launch/lidar.launch.py')),
-    )
-    
-    navigation_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(os.path.join(navigation_package_path, 'launch/navigation.launch.py')),
-        launch_arguments={
-            'sim': 'false',
-            'map': map_name,
-            'robot_name': robot_name,
-            'master_name': master_name,
-            'use_teb': 'true',
-        }.items(),
-    )
-    navigation_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(os.path.join(navigation_package_path, 'launch/navigation.launch.py')),
-        launch_arguments={
-            'sim': 'false',
-            'map': map_name,
-            'robot_name': robot_name,
-            'master_name': master_name,
-            'use_teb': 'true',
-        }.items(),
-    )
-    llm_agent_progress_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
-            os.path.join(get_package_share_directory('large_models_examples'), 'large_models_examples/function_calling/llm_agent_progress.launch.py')),
-    ) 
-```
-
-Starting Nodes:
-
-`line_following_node`: Line-following node.
-
-`object_tracking_node`: Color-tracking node.
-
-`navigation_controller_node`: Navigation controller node.
-
-`rviz_node`: Visualization node.
-
-```python
-    line_following_node =   Node(
-                    package='app',
-                    executable='line_following',
-                    output='screen',
-                    parameters=[{'debug': debug}],
-                    # parameters=[{'debug': True}],
-    )
-
-    object_tracking_node =   Node(
-            package='app',
-            executable='object_tracking',
-            output='screen',
-            parameters=[{'debug': debug}],
-            )
-	navigation_controller_node = Node(
-        package='large_models_examples',
-        executable='navigation_controller',
-        output='screen',
-        parameters=[{'map_frame': 'map', 'nav_goal': '/nav_goal'}]
-    )
-
-    rviz_node = ExecuteProcess(
-            cmd=['rviz2', 'rviz2', '-d', os.path.join(navigation_package_path, 'rviz/navigation_controller.rviz')],
-            output='screen'
-    )
-```
-
-3\) Define `generate_launch_description` Function
-
-This function generates a Launch description. The `OpaqueFunction` is used to add the `launch_setup` function to the Launch description, allowing the `function` parameter to be passed.
-
-```python
-def generate_launch_description():
-    return LaunchDescription([
-        DeclareLaunchArgument(
-            'function',
-            default_value='default',
-            description='The function to execute'),
-        OpaqueFunction(function = launch_setup)
-    ])
-```
-
-4\) Main Program Entry
-
-```python
-if __name__ == '__main__':
-    # Create a LaunchDescription object
-    ld = generate_launch_description()
-
-    ls = LaunchService()
-    ls.include_launch_description(ld)
-    ls.run()
-```
-
-`ld = generate_launch_description()` generates the Launch description object.
-
-`ls = LaunchService()` creates a Launch service object.
-
-`ls.include_launch_description(ld)` adds the Launch description to the Launch service.
-
-`ls.run()` starts the Launch service and executes all defined Launch actions.
-
-* **Python File Analysis**
-
-File Path:
-
-**ros2_ws/src/large_models_examples/large_models_examples/llm_control_move_offline.py**
-
-1\) `tools` list
-
-Defines 12 LLM tool functions:
-
-`get_pixel_distance`: Retrieves depth distance in pixels.
-
-`get_obejct_pixel`: Identifies an object and gets its pixel position.
-
-`get_available_locations`: Gets a list of navigable locations.
-
-`get_current_location`: Retrieves the current location.
-
-`describe_current_view`: Describes the current view.
-
-`move_to_location`: Navigates to a specified location.
-
-`line_following`: Performs color-based line following.
-
-`lidar_scan_detect`: Detects obstacles using LiDAR.
-
-`object_track_detect`: Tracks objects.
-
-`color_track`: Tracks colors.
-
-`robot_move_control`: Controls robot movement directly.
-
-`get_object_box`: Retrieves the bounding box of an object.
-
-```python
-tools = [
-    {
-        "type": "function",
-        "function": {
-            "name": "get_pixel_distance",
-            "description": "Get depth distance of one or more specified pixel positions",
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "pixel_position": {
-                        "type": "string",
-                        "description": "JSON string containing one or more pixel coordinate lists",
-                    }
-                },
-                "required": ["pixel_position"],
-            },
-        },
-    },
-    {
-        "type": "function",
-        "function": {
-            "name": "get_obejct_pixel",
-            "description": "Identify objects and get their pixel positions",
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "content": {
-                        "type": "string",
-                        "description": "User's question",
-                    }
-                },
-                "required": ["content"],
-            },
-        },
-    },
-    {
-        "type": "function",
-        "function": {
-            "name": "get_available_locations",
-            "description": "Query and list all predefined locations the robot can navigate to",
-            "parameters": {
-                "type": "object",
-                "properties": {}
-            }
-        }
-    },
-    {
-        "type": "function",
-        "function": {
-            "name": "get_current_location",
-            "description": "Query and get the robot's current precise position and orientation on the map",
-            "parameters": {
-                "type": "object",
-                "properties": {}
-            }
-        }
-    },
-    {
-        "type": "function",
-        "function": {
-            "name": "describe_current_view",
-            "description": "Describe in detail what the robot camera currently sees to answer user's specific questions",
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "question": {
-                        "type": "string",
-                        "description": "Specific questions about the current view",
-                    }
-                },
-                "required": ["question"]
-            }
-        }
-    },
-    {   "type": "function",
-        "function": {
-            "name": "move_to_location",
-            "description": "Move the robot to specified location",
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "destination": {
-                        "type": "string",
-                        "description": "Target location name",
-                        "enum": ["study_room","bedroom","fruit_supermarket","kitchen","sorting_station_3"]
-                    }
-                },
-                "required": ["destination"],
-            },
-        },
-    },
-    {
-        "type": "function",
-        "function": {
-            "name": "line_following",
-            "description": "Command robot to follow line of specified color",
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "color": {
-                        "type": "string",
-                        "description": "Color to follow",
-                        "enum": ["red", "green", "blue", "black", "yellow"]
-                    }
-                },
-                "required": ["color"]
-            }
-        }
-    },
-    {
-        "type": "function",
-        "function": {
-            "name": "lidar_scan_detect",
-            "description": "Obstacle detection during line following based on LiDAR scan",
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "scan_detect": {
-                        "type": "string",
-                        "description": "Obstacle detection result",
-                    }
-                },
-                "required": ["scan_detect"],
-            },
-        },
-    },
-    {
-        "type": "function",
-        "function": {
-            "name": "object_track_detect",
-            "description": "Object tracking command, note that only when the robot is sure to track the object, and no need to specify a specific color. Need to get the target object position in the image line pixel square.",
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "box": {
-                        "type": "string",
-                        "description": "Return the position of the target in the frame as a bounding box, such as [xmin, ymin, xmax, ymax]",
-                    }
-                },
-                "required": ["box"]
-            }
-        }
-    },
-    {
-        "type": "function",
-        "function": {
-            "name": "color_track",
-            "description": "Command robot to track object of specified color",
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "color": {
-                        "type": "string",
-                        "description": "Color of object to track",
-                        "enum": ["red", "green", "blue", "black", "yellow"]
-                    }
-                },
-                "required": ["color"]
-            }
-        }
-    },
-    {
-        "type": "function",
-        "function": {
-            "name": "robot_move_control",
-            "description": "Move robot with specified linear speed and angular speed for a certain time, it takes 8s to rotate 90°",
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "linear_x": {
-                        "type": "number",
-                        "description": "Linear velocity in X direction",
-                    },
-                    "linear_y": {
-                        "type": "number",
-                        "description": "Linear velocity in Y direction",
-                    },
-                    "angular_z": {
-                        "type": "number",
-                        "description": "Angular velocity in Z direction",
-                    },
-                    "duration": {
-                        "type": "number",
-                        "description": "Movement duration",
-                    }
-                },
-                "required": ["linear_x", "linear_y", "angular_z", "duration"]
-            }
-        }
-    },
-    {
-        "type": "function",
-        "function": {
-            "name": "get_object_box",
-            "description": "Command robot to track specific target object",
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "obj_track": {
-                        "type": "string",
-                        "description": "User's question"
-                    }
-                },
-                "required": ["obj_track"]
-            }
-        }
-    },
-]
-```
-
-2\) Location Dictionary
-
-Stores locations and their corresponding coordinates using a dictionary.
-
-```python
-position_dict = {
-    "study_room": [1.2, -0.8, 0.0, 0.0, 80.0],
-    "bedroom": [1.38, 0.50, 0.0, 0.0, 10.0],
-    "fruit_supermarket": [3.02, -0.49, 0.0, 0.0, -90.0],
-    "kitchen": [0.05, 0.0, 0.0, 0.0, 0.0],
-    "sorting_station_3": [1.15, 0.1, 0.0, 0.0, 0.0],
-}
-```
-
-3\) Prompt Templates
-
-Defines the LLM roles and workflow.
-
-```python
-    content_string = textwrap.dedent("""
-        # Role setting
-        You are a real interactive robot, need to execute tasks according to user instructions,
-        and interact with users in a friendly way, just like chatting with friends.
-        ## Workflow
-        1. **Task Planning:** Before starting a task, you need to break it down and plan it. 
-        The steps will be presented in a numbered format, with each number representing an independent step.
-        2. **Tool Usage:** Before each tool is used, you need to provide an explanation, no more than 20 words, 
-        describing the feedback in a humorous and varied way to make the communication process more engaging.
-        3. **Feedback Processing:** After the tool is used, you need to follow up with a commentary on the feedback results, 
-        no more than 20 words, describing the feedback in a humorous and varied way to make the communication process more engaging.
-        4. **Task Completion:** After all task steps have been completed, provide a summary explanation, no more than 40 words.
-    """) 
-```
-
-Object detection prompts.
-
-```python
-    PROMPT = '''
-    As an image recognition expert, your capability is to accurately locate objects in images sent by users through object detection, and output the final results according to the "Output Format".
-    ## 1. Understand User Instructions
-    I will give you a sentence. You need to make the best decision based on my words and extract the "object name" from the decision. **The name corresponding to the object must be in English**, **do not output objects that are not mentioned**.
-    ## 2. Understand the Image
-    I will give you an image. Analyze the image and identify all recognizable objects within it.
-    For each identified object, calculate the center point coordinates of the object. **Do not output objects that are not mentioned**.
-    【Special Note】: Deeply understand the positional relationships of objects.
-    ## Output Format (Please only output the following content, do not say any extra words)
-    [
-    {
-    "object": name_1,
-    "center_xy": [center_x_1, center_y_1]
-    },
-    {
-    "object": name_2,
-    "center_xy": [center_x_2, center_y_2]
-    }
-    ]
-    '''
-```
-
-Object tracking prompts.
-
-```python
-    OBJ_TRACK_PROMPT = '''
-    As an intelligent vehicle, skilled in image recognition, your capability is to accurately locate objects in images sent by users through object detection, output the final results according to the "Output Format", and then perform tracking.
-    ## 1. Understand User Instructions
-    I will give you a sentence. You need to extract the "object name" from my words. **The name corresponding to the object must be in English**, **do not output objects that are not mentioned**.
-    ## 2. Understand the Image
-    I will give you an image. From this image, find the pixel coordinates of the top-left and bottom-right corners of the object corresponding to the "object name". If not found, then xyxy should be []. **Do not output objects that are not mentioned**.
-    【Special Note】: Deeply understand the positional relationships of objects. The response needs to combine the user's instruction and the detection results.
-    ## Output Format (Please only output the following content, do not say any extra words)
-    {
-        "object": "name", 
-        "xyxy": [xmin, ymin, xmax, ymax]
-    }
-    '''
-```
-
-4\) Log Colors
-
-```python
-class LogColors:
-    RESET = '\033[0m'
-    BOLD = '\033[1m'
-    YELLOW = '\033[93m'
-    BLUE = '\033[94m'
-    GREEN = '\033[92m'
-    CYAN = '\033[96m'
-```
-
-5\) Initialization Configuration
-
-```python
-class LLMControlMove(Node):
-    def __init__(self, name):
-        super().__init__(name)
-        self.initialize_variables()       # Initialization of variables
-        self.setup_ros_components()       # Setup of ROS components
-        self.setup_services_and_clients() # Setup of services and clients
-        self.setup_subs_and_pubs()        # Setup of subscribers and publishers
-        self.setup_timers()               # Setup of timers
-```
-
-Initializes variables.
-
-```python
-    def initialize_variables(self):
-        """Initialize all class variables"""
-        self.language = os.environ.get('ASR_LANGUAGE')
-        self.machine_type = os.environ.get('MACHINE_TYPE')
-
-        self.tools = []
-        self.vllm_result = ''
-        self.current_pose = None
-        self.saved_pose = None
-        self.obstacle_detected = False
-        self.bridge = CvBridge()
-
-        self.action = []
-        self.llm_result = ''
-        self.running = True
-        self.interrupt = False
-        self.action_finish = False
-        self.play_audio_finish = False
-        self.is_task_running = False
-        self.reach_goal = False
-
-        self.cb_group = ReentrantCallbackGroup()
-
-        # Lock
-        self.draw_lock = threading.Lock()
-        self.draw_flag = False
-
-        # Line following related variables
-        self.line_following_count = 0
-        self.line_following_start = True
-        self.current_left = 0.0
-        self.current_right = 0.0
-
-        # Object tracking related variables
-        self.start_track = False
-        self.track_box_p1 = None
-        self.track_box_p2 = None
-        self.object_detect_box = False
-        self.get_box_flag = False
-        self.box = None
-        self.set_above = False
-
-        # Image queue
-        self.image_pair_queue = queue.Queue(maxsize=2)
-```
-
-6\) Vision Perception Module
-
-Image Synchronization: Uses `message_filters` to synchronize RGB and depth images, with a queue size of 2.
-
-```python
-    def image_sync_callback(self, ros_image, ros_depth_image):
-        """Synchronized image callback"""
-        try:
-            bgr_image = self.bridge.imgmsg_to_cv2(ros_image, "bgr8")
-            depth_image = np.ndarray(
-                shape=(ros_depth_image.height, ros_depth_image.width), 
-                dtype=np.uint16, 
-                buffer=ros_depth_image.data
-            )
-
-            if self.image_pair_queue.full():
-                self.image_pair_queue.get()
-            self.image_pair_queue.put((bgr_image, depth_image))
-        except Exception as e:
-            self.get_logger().error(f"Image sync error: {str(e)}")
-```
-
-Depth Measurement: Computes the average depth within a 5×5 ROI, filtering out anomalies.
-
-```python
-    def get_pixel_distance(self, pixel_coords_list):
-        """Get pixel distance"""
-        try:
-            _, depth_image = self.image_pair_queue.get()
-            distances = []
-            
-            for pixel_xy in pixel_coords_list:
-
-                x, y = pixel_xy
-                
-                roi = [y, y + 5, x, x + 5]
-
-                img_h, img_w = depth_image.shape[:2]
-                if roi[0] < 0: roi[0] = 0
-                if roi[1] > img_h: roi[1] = img_h
-                if roi[2] < 0: roi[2] = 0
-                if roi[3] > img_w: roi[3] = img_w
-                
-                roi_distance = depth_image[roi[0]:roi[1], roi[2]:roi[3]]
-                
-                valid_distances = roi_distance[np.logical_and(roi_distance > 0, roi_distance < 30000)]
-                
-                if len(valid_distances) > 0:
-                    distance = round(float(np.mean(valid_distances) / 1000.0), 3)
-                else:
-                    distance = 0.0
-                distances.append(distance)
-            return str(distances)
-        except Exception as e:
-            self.get_logger().error(f"Get pixel distance error: {str(e)}")
-            return "[]"
-```
-
-Object Detection: Uses the vision LLM `qwen-vl-max-latest` for object detection and extracts JSON results.
-
-```python
-    def get_obejct_pixel(self, user_query):
-        """Get object pixel position"""
-        try:
-            rgb_image, _ = self.image_pair_queue.get()
-            vllm_result_str = self.client.vllm(user_query, rgb_image, prompt=PROMPT, model='qwen-vl-max-latest')
-
-            # Extract JSON part
-            if "```json" in vllm_result_str:
-                json_part = vllm_result_str.split("```json")[1].split("```")[0]
-            else:
-                json_part = vllm_result_str
-
-            detected_objects = json.loads(json_part.strip())
-            return str(detected_objects)
-        except Exception as e:
-            self.get_logger().error(f"Get object pixel error: {str(e)}")
-            return "[]"
-```
-
-7\) Navigation Module
-
-Performs location-based navigation.
-
-```python
-    def move_to_location(self, destination):
-        """Move to specified location"""
-        if destination not in position_dict:
-            return f"Move failed: Unknown destination '{destination}'."
-
-        self.reach_goal = False
-        msg = SetPose2D.Request()
-        p = position_dict[destination]
-        msg.data.x = float(p[0])
-        msg.data.y = float(p[1])
-        msg.data.roll = p[2]
-        msg.data.pitch = p[3]
-        msg.data.yaw = p[4]
-        
-        self.send_request(self.set_pose_client, msg)
-        self.get_logger().info(f"Navigation goal '{destination}' sent. Waiting for arrival...")
-
-        # Wait for reaching goal
-        while not self.reach_goal:
-            time.sleep(0.1)
-
-        if self.reach_goal:
-            return f"Arrived at {destination}"
-        else:
-            return f"Timeout, failed to reach {destination}"
-```
-
-8\) Main Processing Loop
-
-Retrieves tools from `self.tools`, executes them, and publishes the results.
-
-```python
-    def process(self):
-        """Main processing loop"""
-        while rclpy.ok():
-            if self.tools:
-                tool_id, tool_name, args_dict = self.tools
-                res = None
-                
-                try:
-                    if tool_name == 'get_obejct_pixel':
-                        content = args_dict.get('content') 
-                        if content:
-                            res = self.get_obejct_pixel(content)
-                    elif tool_name == 'get_pixel_distance':
-                        position_str = args_dict.get('pixel_position')
-                        if position_str:
-                            positions_list = ast.literal_eval(position_str)
-                            if (isinstance(positions_list, list) and 
-                                all(isinstance(p, list) and len(p) == 2 for p in positions_list)):
-                                res = self.get_pixel_distance(positions_list)
-                    elif tool_name == 'move_to_location':
-                        destination = args_dict.get('destination')
-                        if destination:
-                            res = self.move_to_location(destination)
-                    elif tool_name == 'describe_current_view':
-                        question = args_dict.get('question')
-                        if question:
-                            res = self.describe_current_view(question)
-                    elif tool_name == 'get_available_locations':
-                        res = self.get_available_locations()
-                    elif tool_name == 'get_current_location':
-                        res = self.get_current_location()
-                    elif tool_name == 'line_following':
-                        color = args_dict.get('color')
-                        if color:
-                            res = self.line_following(color)
-                    elif tool_name == 'color_track':
-                        color = args_dict.get('color')
-                        if color:
-                            res = self.color_track(color)
-                    elif tool_name == 'object_track_detect':
-                        box = args_dict.get('box')
-                        if box:
-                            res = self.object_track_detect(box)
-                    elif tool_name == 'lidar_scan_detect':
-                        scan_detect = args_dict.get('scan_detect')
-                        if scan_detect:
-                            res = self.lidar_scan_detect(scan_detect)
-                    elif tool_name == 'robot_move_control':
-                        if all(k in args_dict for k in ["linear_x", "linear_y", "angular_z", "duration"]):
-                            res = self.robot_move_control(
-                                linear_x=args_dict['linear_x'],
-                                linear_y=args_dict['linear_y'],
-                                angular_z=args_dict['angular_z'],
-                                duration=args_dict['duration']
-                            )
-                    elif tool_name == 'get_object_box':
-                        obj_track = args_dict.get('obj_track')
-                        if obj_track:
-                            res = self.get_object_box(obj_track)
-                            
-                    if res is not None:
-                        self.tools_result_pub.publish(Tools(id=tool_id, name=tool_name, data=res))
-                        
-                except Exception as e:
-                    self.get_logger().error(f"Tool {tool_name} execution error: {str(e)}")
-                    res = f"The tool execution error: {str(e)}"
-                    self.tools_result_pub.publish(Tools(id=tool_id, name=tool_name, data=res))
-                
-                self.tools = []
-                time.sleep(2)
-            else:
-                time.sleep(0.02)
-```
-
-9\) Display Thread
-
-Visualizes RGB and depth images and draws tracking boxes.
-
-```python
-    def display_thread(self):
-        """Show thread"""
-        while self.running:
-            try:
-                rgb_image, depth_image = self.image_pair_queue.get(block=True, timeout=1)
-                result_image = rgb_image.copy()
-
-                sim_depth_image = np.clip(depth_image, 0, 2000).astype(np.float64)
-                sim_depth_image = sim_depth_image / 2000.0 * 255.0
-                
-                depth_color_map = cv2.applyColorMap(sim_depth_image.astype(np.uint8), cv2.COLORMAP_JET)
-
-                with self.draw_lock:
-                    if self.draw_flag:
-                        # Object tracking drawing
-                        if self.start_track and self.track_box_p1 is not None and self.track_box_p2 is not None:
-                            cv2.rectangle(result_image, self.track_box_p1, self.track_box_p2, (0, 255, 0), 2)
-                result_image = np.concatenate([result_image, depth_color_map, ], axis=1)
-                cv2.imshow("result_image", result_image)
-                key = cv2.waitKey(1)
-                if key == ord('q') or key == 27:
-                    self.running = False
-
-            except queue.Empty:
-                if not self.running:
-                    break
-                continue
-            except Exception as e:
-                self.get_logger().error(f"Display thread error: {str(e)}")
-                continue
-```
-
-10\) Object Tracking Thread
-
-Uses CUDA acceleration for tracking and publishes velocity commands.
-
-```python
-    def object_track_thread(self):
-        """Object tracking thread"""
-        # Create new CUDA context in current thread
-        dev = cuda.Device(0)
-        ctx = dev.make_context()
-        try:
-            model_path = os.path.split(os.path.realpath(__file__))[0]
-
-            back_exam_engine_path = os.path.join(model_path, "../resources/models/nanotrack_backbone_exam.engine")
-            back_temp_engine_path = os.path.join(model_path, "../resources/models/nanotrack_backbone_temp.engine")
-            head_engine_path = os.path.join(model_path, "../resources/models/nanotrack_head.engine")
-            tracker = Tracker(back_exam_engine_path, back_temp_engine_path, head_engine_path)
-
-            while self.running:
-                try:
-                    image, depth_image = self.image_pair_queue.get(block=True)
-                    img_h, img_w, _ = image.shape
-                    if self.box is not None and len(self.box) > 0 and self.object_detect_box:
-                        # Convert to [x, y, width, height] format
-                        box_wh = [self.box[0], self.box[1], self.box[2] - self.box[0], self.box[3] - self.box[1]]
-                        self.track.set_track_target(tracker, box_wh, image)
-                        self.start_track = True
-                        self.box = []
-
-                    if self.start_track and self.is_task_running:
-                        self.data = self.track.track(tracker, image, depth_image)
-                        image = self.data[-1]
-                        with self.draw_lock:
-                            self.track_box_p1 = self.data[2]
-                            self.track_box_p2 = self.data[3]
-                        
-                        self.track_box_p1 = (max(0, self.track_box_p1[0]), min(img_w-1, self.track_box_p1[1]))
-                        self.track_box_p2 = (max(0, self.track_box_p2[0]), min(img_h-1, self.track_box_p2[1]))
-                        if isinstance(self.data[0], (int, float)) and isinstance(self.data[1], (int, float)):
-                            twist = Twist()
-                            twist.linear.x, twist.angular.z = float(self.data[0]), float(self.data[1])
-                            if 'Acker' in self.machine_type:
-                                if twist.angular.z < -math.radians(40):
-                                    twist.angular.z = -math.radians(40)
-                                elif twist.angular.z > math.radians(40):
-                                    twist.angular.z = math.radians(40)
-                                steering_angle = twist.angular.z
-                                if steering_angle != 0:
-                                    R = 0.145 / math.tan(steering_angle)
-                                    twist.angular.z = twist.linear.x / R
-                            self.cmd_vel_pub.publish(twist)
-                        else:
-                            self.get_logger().warn(f"Invalid track data: {self.data[0]}, {self.data[1]}")
-                        
-                except Exception as e:
-                    self.get_logger().error(f"Object track thread error: {str(e)}")
-                    continue
-
-            cv2.destroyAllWindows()
-        finally:
-            # Ensure context is properly released
-            ctx.pop()
-```
-
-11\) def main() Function
-
-Create the node, run with a multithreaded executor, and finally destroy the node.
-
-```python
-def main():
-    rclpy.init()
-    node = LLMControlMove('llm_control')
-    executor = MultiThreadedExecutor()
-    executor.add_node(node)
-```
-
-### 10.4.4 Smart Home Assistant
-
-#### 10.4.4.1 Overview
-
-When the program starts, the voice module announces **I’m ready**. After saying the wake word, the robot replies **I’m here**.
-
-Then, the robot can be controlled via voice commands. For example, a command like, **Go check what’s in the kitchen, then come back and tell me**, will be converted to text using the Cloud ASR API and passed to the large AI model for processing. Once the model completes its reasoning, the result will be broadcast using the API and the corresponding action will be executed.
-
-#### 10.4.4.2 Preparation
-
-* **Version Confirmation**
-
-Reference Tutorial: [10.4.1 Preparation](#anther10.4.1)
-
-* **Configure Large Model API-KEY**
-
-Reference Tutorial: [10.4.2 Large Model API Key Setup](#anther10.4.2)
-
-* ****
-
-
-
-#### 10.4.4.3 Operation Steps
-
-> [!NOTE]
->
-> * **Command input is case-sensitive and space-sensitive.**
->
-> * **The robot must be connected to the Internet, either in STA (LAN) mode or AP (direct connection) mode via Ethernet.**
-
-1. Open the command line terminal from the left side of the system interface. <img src="../_static/media/chapter_24\section_1/media/image35.png" class="common_img"  style="display:inline;vertical-align:middle;"/> In the terminal window, enter the following command and press **Enter** to stop the auto-start service
-
-2. Enter the command to disable the auto-start service of the app.
-
-   ```bash
-   sudo systemctl stop start_app_node.service
-   ```
-
-3. Enter the following command and press **Enter** to launch the smart home assistant feature.
-
-   ```bash
-   ros2 launch large_models_examples llm_control_progress.launch.py function:=navigation
-   ```
-
-4. When the terminal displays the output shown below and announces **I’m ready**, the voice device has completed initialization. At this point, say the wake word **Hello Hiwonder**.
-
-   <img src="../_static/media/chapter_24\section_1/media/image146.png" style="width:1000px" class="common_img"  />
-
-5. When the terminal displays the corresponding output shown in the figure and the device responds with **I’m here**, it indicates successful activation. The system will begin recording voice commands.
-
-   <img src="../_static/media/chapter_24\section_1/media/image147.png" style="width:700px" class="common_img"  />
-
-6. When the command line displays the output shown in the image below, it indicates that the voice module is printing the recognized speech. Then, say the command to the robot, such as **Go check what’s in the kitchen, then come back and tell me**.
-
-   <img src="../_static/media/chapter_24\section_1/media/image148.png" style="width:1200px" class="common_img"  />
-
-7. Upon successful recognition by the speech recognition service of a cloud-based large speech model, the parsed command will be displayed under the **publish_asr_result** output in the terminal.
-
-   <img src="../_static/media/chapter_24\section_1/media/image149.png" style="width:1000px" class="common_img" />
-
-> [!NOTE]
->
-> **The response is automatically generated by the large model. Only the semantic accuracy of the reply is guaranteed, while the wording and formatting may vary.**
-
-8. When the command line displays the output shown below, it means a round of conversation has finished.
-
-   <img src="../_static/media/chapter_24\section_1/media/image150.png" style="width:700px" class="common_img"  />
-
-9. To exit the feature, press **Ctrl+C** in the terminal. If the feature does not shut down immediately, press **Ctrl+C** multiple times. If it still fails, open a new terminal window and run the following command to clear the ROS node.
-
-```bash
-~/.stop_ros.sh
-```
-
-#### 10.4.4.4 Project Outcome
-
-Once the feature is started, voice commands can be issued to the robot, such as: **Go check what’s in the kitchen, then come back and tell me**. The robot will navigate to the preset location of the kitchen, check what’s there, then return to the starting point to report the result.
-
-
-
-## 10.5 Offline Large AI Model Applications
-
-<p id ="anther10.5.1"></p>
-
-### 10.5.1 Preparation
-
-Before starting this feature, verify that the correct microphone configuration and ASR mode are set in the system.
-
-1) After remotely logging in via NoMachine, click the desktop icon <img src="../_static/media/chapter_23/section_1/media/image131.png" style="display:inline;vertical-align:middle;"  class="common_img" /> to access the configuration interface.
-2) On the right side of the interface, select the appropriate microphone type based on the hardware being used.
-
-<img src="../_static/media/chapter_23/section_1/media/image132.png" style="width:400px" class="common_img" />
-
-3) If using the AI voice interaction box, select **WonderEcho Pro** under the microphone type, as shown in the image below.
-
-<img src="../_static/media/chapter_23/section_1/media/image133.png" style="width:400px" class="common_img" />
-
-<img src="../_static/media/chapter_23/section_1/media/image134.png" style="width:400px" class="common_img" />
-
-For the 6-Microphone Array, select **xf** as the microphone type as shown in the figure.
-
-<img src="../_static/media/chapter_23/section_1/media/image135.png" style="width:400px" class="common_img" />
-
-<img src="../_static/media/chapter_23/section_1/media/image136.png" style="width:400px" class="common_img" />
-
-4) Change the ASR mode to **offline**.
-
-<img src="../_static/media/chapter_23/section_1/media/image140.png" class="common_img" />
-
-5) Then, click **Save**.
-
-<img src="../_static/media/chapter_23/section_1/media/image137.png" class="common_img" />
-
-6) A **Save Success** message will confirm that the configuration has been stored in the system environment.
-
-<img src="../_static/media/chapter_23/section_1/media/image138.png" style="width:400px" class="common_img" />
-
-7) Then, click **Quit** to close the interface.
-
-<img src="../_static/media/chapter_23/section_1/media/image139.png" style="width:400px" class="common_img" />
-
-
-
-### 10.5.2 Offline Large AI Model Basic Course
-
-#### 10.5.2.1 Speech-to-Text Test
-
-* **Working Principle**
-
-This section demonstrates offline real-time speech recognition using **sherpa-onnx**. Audio is captured from the voice module via **sounddevice** in 100 ms chunks. Recognition is performed locally using a pre-trained **transducer** model with encoder, decoder, and joiner components. Endpoint detection is used to determine when speech ends based on trailing silence duration and utterance length. Once an endpoint is detected, the final recognition result is output and the recognition stream is reset. The process is handled in a streaming manner, updating intermediate results every 100 ms and displaying them in real time on the terminal.
-
-* **Preparation**
-
-Reference Tutorial: [10.5.1 Preparation](#anther10.5.1).
-
-* **Operation Steps**
-
-1\) Open the command line terminal <img src="../_static/media/chapter_23/section_1/media/image37.png" class="common_img" style="display:inline;vertical-align:middle;"/> from the left sidebar. Disable the app auto-start service and navigate to the `~/third_party/sherpa-onnx` directory.
-
-```bash
-sudo systemctl stop start_app_node.service
-cd ~/third_party/sherpa-onnx
-```
-
-2\) Run the command to start the speech-to-text test.
-
-```bash
-python3 python-api-examples/speech-recognition-from-microphone-with-endpoint-detection.py \
- --encoder ./sherpa-onnx-streaming-zipformer-zh-xlarge-int8-2025-06-30/encoder.int8.onnx \
- --decoder ./sherpa-onnx-streaming-zipformer-zh-xlarge-int8-2025-06-30/decoder.onnx \
- --joiner ./sherpa-onnx-streaming-zipformer-zh-xlarge-int8-2025-06-30/joiner.int8.onnx \
- --tokens ./sherpa-onnx-streaming-zipformer-zh-xlarge-int8-2025-06-30/tokens.txt
-```
-
-<img src="../_static/media/chapter_23/section_1/media/image141.png" style="width:1000px" class="common_img" />
-
-3\) When the prompt below appears, the voice module is ready to receive audio input.
-
-<img src="../_static/media/chapter_23/section_1/media/image142.png" style="width:600px" class="common_img" />
-
-4\) If text starts appearing as shown, the voice module is working properly.
-
-<img src="../_static/media/chapter_23/section_1/media/image143.png" style="width:500px" class="common_img" />
-
-5\) If no text is displayed, adjust the audio settings:
-
-Open the dropdown ① and select **Settings**.
-
-<img src="../_static/media/chapter_23/section_1/media/image144.png" style="width:300px" class="common_img" />
-
-Go to **Sound**, set **Output Device** to **Speakers-USB Audio Device** and Input to **Analog Input-XFM-DP-V0.0.18**, and close the settings after making the changes.
-
-<img src="../_static/media/chapter_23/section_1/media/image145.png" style="width:700px" class="common_img" />
-
-* **Program Analysis**
-
-File Path: **/home/ubuntu/third_party/sherpa-onnx/python-api-examples/speech-recognition-from-microphone-with-endpoint-detection.py**.
-
-1\) Import library files.
-
-```python
-import argparse
-import sys
-from pathlib import Path
-
-try:
-    import sounddevice as sd
-except ImportError:
-    print("Please install sounddevice first. You can use")
-    print()
-    print("  pip install sounddevice")
-    print()
-    print("to install it")
-    sys.exit(-1)
-
-import sherpa_onnx
-```
-
-2\) `def assert_file_exists(filename: str)`
-
-Checks whether a model file exists using `Path`. If the file is missing, a download link is provided.
-
-```python
-def assert_file_exists(filename: str):
-    assert Path(filename).is_file(), (
-        f"{filename} does not exist!\n"
-        "Please refer to "
-        "https://k2-fsa.github.io/sherpa/onnx/pretrained_models/index.html to download it"
-    )
-```
-
-3\) `def get_args()`
-
-Parameter categories:
-
-Required parameters: `--tokens`, `--encoder`, `--decoder`, and `--joiner`, all specifying the paths to the model files.
-
-Optional parameters:
-
-`--decoding-method`: Decoding method, default is greedy_search.
-
-`--provider`: Compute backend, options include cpu, cuda, and coreml.
-
-`--hotwords-file`: Hotword file to improve recognition of specific terms.
-
-`--hotwords-score`: Weight for hotwords.
-
-`--blank-penalty`: Penalty for blank symbols.
-
-`--hr-lexicon, --hr-rule-fsts`: Homophone replacement related.
-
-```python
-def get_args():
-    parser = argparse.ArgumentParser(
-        formatter_class=argparse.ArgumentDefaultsHelpFormatter
-    )
-
-    parser.add_argument(
-        "--tokens",
-        type=str,
-        required=True,
-        help="Path to tokens.txt",
-    )
-
-    parser.add_argument(
-        "--encoder",
-        type=str,
-        required=True,
-        help="Path to the encoder model",
-    )
-
-    parser.add_argument(
-        "--decoder",
-        type=str,
-        required=True,
-        help="Path to the decoder model",
-    )
-
-    parser.add_argument(
-        "--joiner",
-        type=str,
-        required=True,
-        help="Path to the joiner model",
-    )
-
-    parser.add_argument(
-        "--decoding-method",
-        type=str,
-        default="greedy_search",
-        help="Valid values are greedy_search and modified_beam_search",
-    )
-
-    parser.add_argument(
-        "--provider",
-        type=str,
-        default="cpu",
-        help="Valid values: cpu, cuda, coreml",
-    )
-
-    parser.add_argument(
-        "--hotwords-file",
-        type=str,
-        default="",
-        help="""
-        The file containing hotwords, one words/phrases per line, and for each
-        phrase the bpe/cjkchar are separated by a space. For example:
-
-        ▁HE LL O ▁WORLD
-        """,
-    )
-
-    parser.add_argument(
-        "--hotwords-score",
-        type=float,
-        default=1.5,
-        help="""
-        The hotword score of each token for biasing word/phrase. Used only if
-        --hotwords-file is given.
-        """,
-    )
-
-    parser.add_argument(
-        "--blank-penalty",
-        type=float,
-        default=0.0,
-        help="""
-        The penalty applied on blank symbol during decoding.
-        Note: It is a positive value that would be applied to logits like
-        this `logits[:, 0] -= blank_penalty` (suppose logits.shape is
-        [batch_size, vocab] and blank id is 0).
-        """,
-    )
-
-    parser.add_argument(
-        "--hr-lexicon",
-        type=str,
-        default="",
-        help="If not empty, it is the lexicon.txt for homophone replacer",
-    )
-
-    parser.add_argument(
-        "--hr-rule-fsts",
-        type=str,
-        default="",
-        help="If not empty, it is the replace.fst for homophone replacer",
-    )
-
-    return parser.parse_args()
-```
-
-4\) `def create_recognizer(args)`
-
-Function to create the recognizer.
-
-Key settings:
-
-Model type: Transducer (encoder, decoder, joiner).
-
-Sample rate: 16 kHz, used internally by the model.
-
-Feature dimension: 80 for Mel spectrogram features.
-
-Endpoint detection: Enabled.
-
-Rule 1: Trailing silence ≥ 2.4 s.
-
-Rule 2: Trailing silence ≥ 1.2 s.
-
-Rule 3: Utterance length ≥ 300, currently disabled.
-
-```python
-def create_recognizer(args):
-    assert_file_exists(args.encoder)
-    assert_file_exists(args.decoder)
-    assert_file_exists(args.joiner)
-    assert_file_exists(args.tokens)
-    # Please replace the model files if needed.
-    # See https://k2-fsa.github.io/sherpa/onnx/pretrained_models/index.html
-    # for download links.
-    recognizer = sherpa_onnx.OnlineRecognizer.from_transducer(
-        tokens=args.tokens,
-        encoder=args.encoder,
-        decoder=args.decoder,
-        joiner=args.joiner,
-        num_threads=1,
-        sample_rate=16000,
-        feature_dim=80,
-        enable_endpoint_detection=True,
-        rule1_min_trailing_silence=2.4,
-        rule2_min_trailing_silence=1.2,
-        rule3_min_utterance_length=300,  # it essentially disables this rule
-        decoding_method=args.decoding_method,
-        provider=args.provider,
-        hotwords_file=args.hotwords_file,
-        hotwords_score=args.hotwords_score,
-        blank_penalty=args.blank_penalty,
-        hr_rule_fsts=args.hr_rule_fsts,
-        hr_lexicon=args.hr_lexicon,
-    )
-    return recognizer
-```
-
-5\) `def main()`
-
-Parses parameters and detects devices.
-
-```python
-    args = get_args()
-
-    devices = sd.query_devices()
-    if len(devices) == 0:
-        print("No microphone devices found")
-        sys.exit(0)
-
-    print(devices)
-```
-
-Creates the recognizer and display objects, then starts the audio capture loop.
-
-```python
-    recognizer = create_recognizer(args)
-    print("Started! Please speak")
-```
-
-Starts the audio capture loop at 48 kHz, reading 100 ms of audio each time, which equals 4800 samples.
-
-```python
-    sample_rate = 48000
-    samples_per_read = int(0.1 * sample_rate)  # 0.1 second = 100 mspy
-```
-
-Feeds audio into the recognition stream for decoding.
-
-```python
-    stream = recognizer.create_stream()
-
-    display = sherpa_onnx.Display()
-```
-
-The audio capture loop runs at 48 kHz, reading 100 ms of audio at a time, which is 4800 samples. The data is fed into the recognition stream for decoding, endpoints are checked to obtain results, and intermediate outputs are displayed in real time. When an endpoint is detected, the current sentence is finalized and the recognition stream is reset.
-
-```python
-	with sd.InputStream(channels=1, dtype="float32", samplerate=sample_rate) as s:
-        while True:
-            samples, _ = s.read(samples_per_read)  # a blocking read
-            samples = samples.reshape(-1)
-            stream.accept_waveform(sample_rate, samples)
-            while recognizer.is_ready(stream):
-                recognizer.decode_stream(stream)
-
-            is_endpoint = recognizer.is_endpoint(stream)
-
-            result = recognizer.get_result(stream)
-
-            display.update_text(result)
-            display.display()
-
-            if is_endpoint:
-                if result:
-                    display.finalize_current_sentence()
-                    display.display()
-
-                recognizer.reset(stream)
-
-```
-
-#### 10.5.2.2 Text-to-Speech Test
-
-* **Working Principle**
-
-The system uses a client-server setup, where the client communicates with the local Ollama service through an API to convert text into speech offline.
-
-* **Preparation**
-
-Reference Tutorial: [10.5.1 Preparation](#anther10.5.1).
-
-* **Operation Steps**
-
-1\) Open the command line terminal <img src="../_static/media/chapter_23/section_1/media/image37.png" class="common_img" style="display:inline;vertical-align:middle;"/> from the left sidebar, enter the command to disable the app auto-start service.
-
-```bash
-sudo systemctl stop start_app_node.service
-```
-
-2\) Enter the command to start the offline large AI model server.
-
-```bash
-ollama serve
-```
-
-<img src="../_static/media/chapter_23/section_1/media/image146.png" style="width:1200px" class="common_img" />
-
-3\) Right-click and select **Split Vertically** to open a second terminal.
-
-<img src="../_static/media/chapter_23/section_1/media/image147.png" style="width:200px" class="common_img" />
-
-4\) Enter the command to run the text-to-speech program.
-
-```bash
-cd ~/large_models
-python3 offline_tts_demo.py
-```
-
-5\) After running the program, the output appears as shown below, and the voice module plays **Hello, what can I help you**.
-
-<img src="../_static/media/chapter_23/section_1/media/image151.png" style="width:900px" class="common_img" />
-
-* Program Analysis
-
-File Path: **/home/ubuntu/large_models/offline_tts_demo.py**.
-
-1\) Import modules.
-
-```python
-import os
-from config import *
-from speech import speech
-import sherpa_onnx
-from pathlib import Path
-```
-
-2\) Initialize configuration.
-
-Set the volume.
-
-```python
-speech.set_volume(80)
-```
-
-Set the language to English.
-
-```python
-language = 'Chinese'
-```
-
-Model path.
-
-```python
-sherpa_onnx_path = os.path.join(Path.home(), 'third_party/sherpa-onnx')
-```
-
-
-
-
-
-```python
-if language == 'Chinese':
-    offline_tts = 'matcha-icefall-zh-baker'
-    model_path = f'{sherpa_onnx_path}/{offline_tts}'
-    tts = speech.OfflineRealTimeTTS(
-        provider="cuda",
-        debug=1,
-        matcha_acoustic_model=os.path.join(model_path, 'model-steps-3.onnx'),
-        matcha_vocoder=os.path.join(sherpa_onnx_path, 'vocos-22khz-univ.onnx'),
-        matcha_lexicon=os.path.join(model_path, 'lexicon.txt'),
-        matcha_tokens=os.path.join(model_path, 'tokens.txt'),
-        tts_rule_fsts=f'{model_path}/phone.fst,{model_path}/date.fst,{model_path}/number.fst',
-        sherpa = sherpa_onnx
-    )
-```
-
-4\) English Model
-
-Configure parameters using VITS.
-
-```python
-else:
-    offline_tts = 'vits-ljs'
-    model_path = f'{sherpa_onnx_path}/{offline_tts}'
-    tts = speech.OfflineRealTimeTTS(
-        provider="cuda",
-        debug=1,
-        vits_model=os.path.join(model_path, f'{offline_tts}.onnx'),
-        vits_lexicon=os.path.join(model_path, 'lexicon.txt'),
-        vits_tokens=os.path.join(model_path, 'tokens.txt'),
-        sherpa = sherpa_onnx
-    )
-```
-
-5\) Example
-
-```python
-tts.tts('Hello, what can I help you', block=True)
-```
-
-#### 10.5.2.3 Large AI Model Invocation
-
-* **Working Principle**
-
-Uses a client-server architecture. The client communicates with the local Ollama service via API. By defining roles and tasks, the model interprets the context and generates structured outputs in the required format, leveraging its ability to follow instructions and produce structured responses.
-
-* **Preparation**
-
-Reference Tutorial: [10.5.1 Preparation](#anther10.5.1).
-
-* Operation Steps
-
-1\) Open the command line terminal <img src="../_static/media/chapter_23/section_1/media/image37.png" class="common_img" style="display:inline;vertical-align:middle;"/> from the left sidebar, enter the command to disable the app auto-start service.
-
-```bash
-sudo systemctl stop start_app_node.service
-```
-
-2\) Enter the command to start the offline large AI model server.
-
-```bash
-ollama serve
-```
-
-<img src="../_static/media/chapter_23/section_1/media/image146.png" style="width:1200px" class="common_img" />
-
-3\) Right-click and select **Split Vertically** to open a second terminal.
-
-<img src="../_static/media/chapter_23/section_1/media/image147.png" style="width:200px" class="common_img" />
-
-4\) Enter the command to launch the demo script for large-model calls.
-
-```bash
-cd ~/large_models
-python3 offline_llm_demo.py
-```
-
-5\) Once the script is running, the terminal shows the output as illustrated.
-
-<img src="../_static/media/chapter_23/section_1/media/image148.png" style="width:1000px" class="common_img" />
-
-* Program Analysis
-
-File Path: **/home/ubuntu/large_models/offline_llm_demo.py**.
-
-1\) The prompt template.
-
-```python
-PROMPT = '''
-##Role Task
-You are an intelligent robot car that can control the linear velocity in the x and y directions (in m/s), the angular velocity in the z direction (in rad/s), and time (t) in seconds. Based on the input, generate the corresponding commands.
-
-##Requirements
-1. Ensure the speed range is correct:
-    Linear velocity: x, y ∈ [-1.0, 1.0] (negative values represent reverse direction)
-    Angular velocity: z ∈ [-1.0, 1.0] (counterclockwise is positive, clockwise is negative)
-2. Execute multiple actions sequentially and output an action list containing multiple movement commands. Add [0.0, 0.0, 0.0, 0.0] only after the last action to ensure the robot stops.
-3. x and y default to 0.2, z defaults to 1, t defaults to 2.
-4. For each action sequence, craft a concise (5 to 10 words), witty, and endlessly varied feedback message to make the interaction fun.
-5. Output the json result directly without analysis or additional content.
-6. Format:
-{  
-  "action": [[x1, y1, z1, t1], [x2, y2, z2, t2], ..., [0.0, 0.0, 0.0, 0.0]],  
-  "response": "xx"  
-}  
-7. Strong mathematical computation ability.
-8. Note that drifting involves movement, rotation, and combination, requiring precise calculation, for example [0.0, -0.2, 1.0, 2.0].
-
-##Notes
-- The "action" key contains an array of function name strings ordered by execution sequence. If the corresponding action function is not found, the action will output [].
-- The "response" key contains a carefully crafted short reply that perfectly fits the above word count and style requirements.
-
-##Example Task
-Input: Move forward for 2 seconds, then rotate clockwise for 1 second.
-Output: {"action": [[0.2, 0.0, 0.0, 2.0], [0.0, 0.0, -1.0, 1.0], [0, 0, 0.0, 0.0]], "response": "Move forward for 2 seconds, then rotate clockwise for 1 second, go!"}
-Input: Move forward 1 meter.
-Output: {"action": [[0.2, 0.0, 0.0, 5.0], [0.0, 0.0, 0.0, 0.0]], "response": "OK."}
-'''
-
-```
-
-2\) The message format used in Chat API mode.
-
-```python
-params = {"model": 'qwen3:1.7b', 
-          "messages": [
-            {
-                "role": "system",
-                "content": PROMPT
-            },
-            {
-                "role": "user",
-                "content": user_input
-            },
-          ],
-```
-
-3\) Sending a request to the local **ollama server**.
-
-```python
-client.llm_origin(params)
-```
-
-#### 10.5.2.4 Semantic Understanding
-
-* **Working Principle**
-
-The system uses a client–server setup to interact with the local **ollama service**. The model processes a prepared text passage and generates a concise semantic summary.
-
-* **Preparation**
-
-Reference Tutorial: [10.5.1 Preparation](#anther10.5.1).
-
-* **Operation Steps**
-
-1\) Open the command line terminal <img src="../_static/media/chapter_23/section_1/media/image37.png" class="common_img" style="display:inline;vertical-align:middle;" /> from the left sidebar, enter the command to disable the app auto-start service.
-
-```bash
-sudo systemctl stop start_app_node.service
-```
-
-2\) Enter the command to start the offline large AI model server.
-
-```bash
-ollama serve
-```
-
-<img src="../_static/media/chapter_23/section_1/media/image146.png" style="width:1200px" class="common_img" />
-
-3\) Right-click and select **Split Vertically** to open a second terminal.
-
-<img src="../_static/media/chapter_23/section_1/media/image147.png" style="width:200px" class="common_img" />
-
-4\) Enter the command to run the program.
-
-```bash
-cd ~/large_models
-python3 offline_llm_nlu_demo.py
-```
-
-5\) Once the script is running, the terminal shows the output as illustrated.
-
-<img src="../_static/media/chapter_23/section_1/media/image149.png" style="width:1000px" class="common_img" />
-
-#### 10.5.2.5 Emotion Perception
-
-* **Working Principle**
-
-The system uses a client–server setup to communicate with the local **ollama service**. The model receives short emotion-related descriptions and generates its interpretation, allowing an evaluation of its ability to recognize emotional cues.
-
-* **Preparation**
-
-Reference Tutorial: [10.5.1 Preparation](#anther10.5.1).
-
-* Operation Steps
-
-1\) Open the command line terminal <img src="../_static/media/chapter_23/section_1/media/image37.png" class="common_img" style="display:inline;vertical-align:middle;"/> from the left sidebar, enter the command to disable the app auto-start service.
-
-```bash
-sudo systemctl stop start_app_node.service
-```
-
-2\) Enter the command to start the offline large AI model server.
-
-```bash
-ollama serve
-```
-
-<img src="../_static/media/chapter_23/section_1/media/image146.png" style="width:1200px" class="common_img" />
-
-3\) Right-click and select **Split Vertically** to open a second terminal.
-
-<img src="../_static/media/chapter_23/section_1/media/image147.png" style="width:200px" class="common_img" />
-
-4\) Enter the command to run the program.
-
-```bash
-cd ~/large_models
-python3 offline_llm_er_demo.py
-```
-
-5\) Once the script is running, the terminal shows the output as illustrated.
-
-<img src="../_static/media/chapter_23/section_1/media/image150.png" style="width:1000px" class="common_img" />
-
-* **Program Analysis**
-
-File Path: **/home/ubuntu/large_models/offline_llm_er_demo.py**.
-
-1\) Initialize the **API client**.
-
-```python
-client = speech.OllamaAPI(ollama_host)
-```
-
-2\) Send the emotion-related prompt to the **ollama server**.
-
-```python
-messages = [{"role": "user", "content": 'Annoying'}]
-assistant_output = client.llm_multi_turn(messages, model='qwen3:1.7b')
-```
-
-3\) Store the dialogue history from the previous turn.
-
-```python
-messages.append({"role": "assistant", "content": assistant_output})
-```
-
-4\) Proceed to the next turn.
-
-Call `llm_multi_turn` again with the full conversation history included.
-
-```python
-messages.append({"role": "user", "content": 'Laughing'})
-assistant_output = client.llm_multi_turn(messages, model='qwen3:1.7b')
-```
-
-#### 10.5.2.6 Recording Test
-
-* **Working Principle**
-
-The system uses a client–server setup to communicate with the local **ollama service**. The model receives short emotion-related descriptions and generates its interpretation, allowing an evaluation of its ability to recognize emotional cues.
-
-* **Preparation**
-
-Reference Tutorial: [10.5.1 Preparation](#anther10.5.1).
-
-* **Operation Steps**
-
-1\) Open the command line terminal <img src="../_static/media/chapter_23/section_1/media/image37.png" class="common_img" style="display:inline;vertical-align:middle;"/> from the left sidebar, enter the command to disable the app auto-start service.
-
-```bash
-sudo systemctl stop start_app_node.service
-```
-
-2\) Enter the command to start the **streaming ASR server**.
-
-```bash
-python3 third_party/sherpa-onnx/python-api-examples/streaming_server.py \
- --tokens=third_party/sherpa-onnx/sherpa-onnx-streaming-zipformer-zh-xlarge-int8-2025-06-30/tokens.txt \
- --encoder=third_party/sherpa-onnx/sherpa-onnx-streaming-zipformer-zh-xlarge-int8-2025-06-30/encoder.int8.onnx \
- --decoder=third_party/sherpa-onnx/sherpa-onnx-streaming-zipformer-zh-xlarge-int8-2025-06-30/decoder.onnx \
- --joiner=third_party/sherpa-onnx/sherpa-onnx-streaming-zipformer-zh-xlarge-int8-2025-06-30/joiner.int8.onnx \
- --doc-root=third_party/sherpa-onnx/python-api-examples/web
-```
-
-3\) Right-click and select **Split Vertically** to open a second terminal.
-
-<img src="../_static/media/chapter_23/section_1/media/image147.png" style="width:200px" class="common_img" />
-
-4\) Enter the command to launch the audio-recording program.
-
-```bash
-cd ~/large_models
-python3 offline_asr_demo.py
-```
-
-5\) Once **Recording······** appears, the module has started capturing audio and speech input can be provided. The recognized text will be printed in the terminal, as shown in the figure.
-
-<img src="../_static/media/chapter_23/section_1/media/image152.png" style="width:500px" class="common_img" />
-
-6\) The recorded audio can be played from the path `~/large_models/resources/audio`.
-
-```bash
-cd ~/large_models/resources/audio
-aplay test_recording.wav
-```
-
-<img src="../_static/media/chapter_23/section_1/media/image153.png" style="width:700px" class="common_img" />
-
-* **Program Analysis**
-
-**Streaming ASR server** script path: **/home/ubuntu/third_party/sherpa-onnx/python-api-examples/streaming_server.py**.
-
-Audio recording script path: **/home/ubuntu/large_models/offline_asr_demo.py**.
-
-Audio file path: **/home/ubuntu/large_models/resources/audio/test_recording.wav**.
-
-**Streaming ASR Server** `streaming_server.py` Program Analysis:
-
-Client → WebSocket → Receive audio → Recognition stream → Queue → Batch processing → Recognizer decoding → Return results → Client.
-
-1\) Import modules.
-
-```python
-import argparse
-import asyncio
-import http
-import json
-import logging
-import socket
-import ssl
-from concurrent.futures import ThreadPoolExecutor
-from datetime import datetime
-from pathlib import Path
-from typing import List, Optional, Tuple
-
-import numpy as np
-import sherpa_onnx
-import websockets
-
-from http_server import HttpServer
-```
-
-2\) Configure the logging system.
-
-Logs include timestamps and filenames, output to both file and console.
-
-```python
-def setup_logger(
-    log_filename: str,
-    log_level: str = "info",
-    use_console: bool = True,
-) -> None:
-    """Setup log level.
-
-    Args:
-      log_filename:
-        The filename to save the log.
-      log_level:
-        The log level to use, e.g., "debug", "info", "warning", "error",
-        "critical"
-      use_console:
-        True to also print logs to console.
-    """
-    now = datetime.now()
-    date_time = now.strftime("%Y-%m-%d-%H-%M-%S")
-    formatter = "%(asctime)s %(levelname)s [%(filename)s:%(lineno)d] %(message)s"
-    log_filename = f"{log_filename}-{date_time}.txt"
-
-    Path(log_filename).parent.mkdir(parents=True, exist_ok=True)
-
-    level = logging.ERROR
-    if log_level == "debug":
-        level = logging.DEBUG
-    elif log_level == "info":
-        level = logging.INFO
-    elif log_level == "warning":
-        level = logging.WARNING
-    elif log_level == "critical":
-        level = logging.CRITICAL
-
-    logging.basicConfig(
-        filename=log_filename,
-        format=formatter,
-        level=level,
-        filemode="w",
-    )
-    if use_console:
-        console = logging.StreamHandler()
-        console.setLevel(level)
-        console.setFormatter(logging.Formatter(formatter))
-        logging.getLogger("").addHandler(console)
-```
-
-3\) Model parameters.
-
-```python
-def add_model_args(parser: argparse.ArgumentParser):
-    parser.add_argument(
-        "--encoder",
-        type=str,
-        help="Path to the transducer encoder model",
-    )
-
-    parser.add_argument(
-        "--decoder",
-        type=str,
-        help="Path to the transducer decoder model.",
-    )
-
-    parser.add_argument(
-        "--joiner",
-        type=str,
-        help="Path to the transducer joiner model.",
-    )
-
-    parser.add_argument(
-        "--zipformer2-ctc",
-        type=str,
-        help="Path to the model file from zipformer2 ctc",
-    )
-
-    parser.add_argument(
-        "--wenet-ctc",
-        type=str,
-        help="Path to the model.onnx from WeNet",
-    )
-
-    parser.add_argument(
-        "--paraformer-encoder",
-        type=str,
-        help="Path to the paraformer encoder model",
-    )
-
-    parser.add_argument(
-        "--paraformer-decoder",
-        type=str,
-        help="Path to the paraformer decoder model.",
-    )
-
-    parser.add_argument(
-        "--tokens",
-        type=str,
-        required=True,
-        help="Path to tokens.txt",
-    )
-
-    parser.add_argument(
-        "--sample-rate",
-        type=int,
-        default=16000,
-        help="Sample rate of the data used to train the model. "
-        "Caution: If your input sound files have a different sampling rate, "
-        "we will do resampling inside",
-    )
-
-    parser.add_argument(
-        "--feat-dim",
-        type=int,
-        default=80,
-        help="Feature dimension of the model",
-    )
-
-    parser.add_argument(
-        "--provider",
-        type=str,
-        default="cpu",
-        help="Valid values: cpu, cuda, coreml",
-    )
-```
-
-4\) Decoding parameters.
-
-```python
-def add_decoding_args(parser: argparse.ArgumentParser):
-    parser.add_argument(
-        "--decoding-method",
-        type=str,
-        default="greedy_search",
-        help="""Decoding method to use. Current supported methods are:
-        - greedy_search
-        - modified_beam_search
-        """,
-    )
-
-    add_modified_beam_search_args(parser)
-```
-
-5\) Endpoint detection parameters.
-
-```python
-def add_endpointing_args(parser: argparse.ArgumentParser):
-    parser.add_argument(
-        "--use-endpoint",
-        type=int,
-        default=1,
-        help="1 to enable endpoiting. 0 to disable it",
-    )
-
-    parser.add_argument(
-        "--rule1-min-trailing-silence",
-        type=float,
-        default=2.4,
-        help="""This endpointing rule1 requires duration of trailing silence
-        in seconds) to be >= this value""",
-    )
-
-    parser.add_argument(
-        "--rule2-min-trailing-silence",
-        type=float,
-        default=1.2,
-        help="""This endpointing rule2 requires duration of trailing silence in
-        seconds) to be >= this value.""",
-    )
-
-    parser.add_argument(
-        "--rule3-min-utterance-length",
-        type=float,
-        default=20,
-        help="""This endpointing rule3 requires utterance-length (in seconds)
-        to be >= this value.""",
-    )
-```
-
-6\) Server parameters.
-
-```python
-    parser.add_argument(
-        "--port",
-        type=int,
-        default=6006,
-        help="The server will listen on this port",
-    )
-
-    parser.add_argument(
-        "--nn-pool-size",
-        type=int,
-        default=1,
-        help="Number of threads for NN computation and decoding.",
-    )
-
-    parser.add_argument(
-        "--max-batch-size",
-        type=int,
-        default=3,
-        help="""Max batch size for computation. Note if there are not enough
-        requests in the queue, it will wait for max_wait_ms time. After that,
-        even if there are not enough requests, it still sends the
-        available requests in the queue for computation.
-        """,
-    )
-
-    parser.add_argument(
-        "--max-wait-ms",
-        type=float,
-        default=10,
-        help="""Max time in millisecond to wait to build batches for inference.
-        If there are not enough requests in the stream queue to build a batch
-        of max_batch_size, it waits up to this time before fetching available
-        requests for computation.
-        """,
-    )
-
-    parser.add_argument(
-        "--max-message-size",
-        type=int,
-        default=(1 << 20),
-        help="""Max message size in bytes.
-        The max size per message cannot exceed this limit.
-        """,
-    )
-
-    parser.add_argument(
-        "--max-queue-size",
-        type=int,
-        default=32,
-        help="Max number of messages in the queue for each connection.",
-    )
-
-    parser.add_argument(
-        "--max-active-connections",
-        type=int,
-        default=200,
-        help="""Maximum number of active connections. The server will refuse
-        to accept new connections once the current number of active connections
-        equals to this limit.
-        """,
-    )
-
-    parser.add_argument(
-        "--num-threads",
-        type=int,
-        default=2,
-        help="Number of threads to run the neural network model",
-    )
-
-    parser.add_argument(
-        "--certificate",
-        type=str,
-        help="""Path to the X.509 certificate. You need it only if you want to
-        use a secure websocket connection, i.e., use wss:// instead of ws://.
-        You can use ./web/generate-certificate.py
-        to generate the certificate `cert.pem`.
-        Note ./web/generate-certificate.py will generate three files but you
-        only need to pass the generated cert.pem to this option.
-        """,
-    )
-
-    parser.add_argument(
-        "--doc-root",
-        type=str,
-        default="./python-api-examples/web",
-        help="Path to the web root",
-    )
-```
-
-7\) Create the recognizer.
-
-Instantiate the recognizer according to the specified parameters.
-
-```python
-def create_recognizer(args) -> sherpa_onnx.OnlineRecognizer:
-    if args.encoder:
-        recognizer = sherpa_onnx.OnlineRecognizer.from_transducer(
-            tokens=args.tokens,
-            encoder=args.encoder,
-            decoder=args.decoder,
-            joiner=args.joiner,
-            num_threads=args.num_threads,
-            sample_rate=args.sample_rate,
-            feature_dim=args.feat_dim,
-            decoding_method=args.decoding_method,
-            max_active_paths=args.num_active_paths,
-            hotwords_score=args.hotwords_score,
-            hotwords_file=args.hotwords_file,
-            blank_penalty=args.blank_penalty,
-            enable_endpoint_detection=args.use_endpoint != 0,
-            rule1_min_trailing_silence=args.rule1_min_trailing_silence,
-            rule2_min_trailing_silence=args.rule2_min_trailing_silence,
-            rule3_min_utterance_length=args.rule3_min_utterance_length,
-            provider=args.provider,
-            modeling_unit=args.modeling_unit,
-            bpe_vocab=args.bpe_vocab
-        )
-    elif args.paraformer_encoder:
-        recognizer = sherpa_onnx.OnlineRecognizer.from_paraformer(
-            tokens=args.tokens,
-            encoder=args.paraformer_encoder,
-            decoder=args.paraformer_decoder,
-            num_threads=args.num_threads,
-            sample_rate=args.sample_rate,
-            feature_dim=args.feat_dim,
-            decoding_method=args.decoding_method,
-            enable_endpoint_detection=args.use_endpoint != 0,
-            rule1_min_trailing_silence=args.rule1_min_trailing_silence,
-            rule2_min_trailing_silence=args.rule2_min_trailing_silence,
-            rule3_min_utterance_length=args.rule3_min_utterance_length,
-            provider=args.provider,
-        )
-    elif args.zipformer2_ctc:
-        recognizer = sherpa_onnx.OnlineRecognizer.from_zipformer2_ctc(
-            tokens=args.tokens,
-            model=args.zipformer2_ctc,
-            num_threads=args.num_threads,
-            sample_rate=args.sample_rate,
-            feature_dim=args.feat_dim,
-            decoding_method=args.decoding_method,
-            enable_endpoint_detection=args.use_endpoint != 0,
-            rule1_min_trailing_silence=args.rule1_min_trailing_silence,
-            rule2_min_trailing_silence=args.rule2_min_trailing_silence,
-            rule3_min_utterance_length=args.rule3_min_utterance_length,
-            provider=args.provider,
-        )
-    elif args.wenet_ctc:
-        recognizer = sherpa_onnx.OnlineRecognizer.from_wenet_ctc(
-            tokens=args.tokens,
-            model=args.wenet_ctc,
-            num_threads=args.num_threads,
-            sample_rate=args.sample_rate,
-            feature_dim=args.feat_dim,
-            decoding_method=args.decoding_method,
-            enable_endpoint_detection=args.use_endpoint != 0,
-            rule1_min_trailing_silence=args.rule1_min_trailing_silence,
-            rule2_min_trailing_silence=args.rule2_min_trailing_silence,
-            rule3_min_utterance_length=args.rule3_min_utterance_length,
-            provider=args.provider,
-        )
-    else:
-        raise ValueError("Please provide a model")
-
-    return recognizer
-```
-
-8\) Core class `class StreamingServer(object)`
-
-Initialization includes `self.recognizer` as the recognizer instance, `self.nn_pool` as the thread pool for neural network computation, `self.max_queue_size` as the asynchronous queue for streaming, and `self.http_server` as the HTTP server.
-
-```python
-    def __init__(
-        self,
-        recognizer: sherpa_onnx.OnlineRecognizer,
-        nn_pool_size: int,
-        max_wait_ms: float,
-        max_batch_size: int,
-        max_message_size: int,
-        max_queue_size: int,
-        max_active_connections: int,
-        doc_root: str,
-        certificate: Optional[str] = None,
-    ):
-        """
-        Args:
-          recognizer:
-            An instance of online recognizer.
-          nn_pool_size:
-            Number of threads for the thread pool that is responsible for
-            neural network computation and decoding.
-          max_wait_ms:
-            Max wait time in milliseconds in order to build a batch of
-            `batch_size`.
-          max_batch_size:
-            Max batch size for inference.
-          max_message_size:
-            Max size in bytes per message.
-          max_queue_size:
-            Max number of messages in the queue for each connection.
-          max_active_connections:
-            Max number of active connections. Once number of active client
-            equals to this limit, the server refuses to accept new connections.
-          beam_search_params:
-            Dictionary containing all the parameters for beam search.
-          online_endpoint_config:
-            Config for endpointing.
-          doc_root:
-            Path to the directory where files like index.html for the HTTP
-            server locate.
-          certificate:
-            Optional. If not None, it will use secure websocket.
-            You can use ./web/generate-certificate.py to generate
-            it (the default generated filename is `cert.pem`).
-        """
-        self.recognizer = recognizer
-
-        self.certificate = certificate
-        self.http_server = HttpServer(doc_root)
-
-        self.nn_pool_size = nn_pool_size
-        self.nn_pool = ThreadPoolExecutor(
-            max_workers=nn_pool_size,
-            thread_name_prefix="nn",
-        )
-
-        self.stream_queue = asyncio.Queue()
-
-        self.max_wait_ms = max_wait_ms
-        self.max_batch_size = max_batch_size
-        self.max_message_size = max_message_size
-        self.max_queue_size = max_queue_size
-        self.max_active_connections = max_active_connections
-
-        self.current_active_connections = 0
-
-        self.sample_rate = int(recognizer.config.feat_config.sampling_rate)
-```
-
-9\) Streaming tasks.
-
-Extract streams from the queue, process them in batches, and decode using the recognizer.
-
-```python
-    async def stream_consumer_task(self):
-        """This function extracts streams from the queue, batches them up, sends
-        them to the neural network model for computation and decoding.
-        """
-        while True:
-            if self.stream_queue.empty():
-                await asyncio.sleep(self.max_wait_ms / 1000)
-                continue
-
-            batch = []
-            try:
-                while len(batch) < self.max_batch_size:
-                    item = self.stream_queue.get_nowait()
-
-                    assert self.recognizer.is_ready(item[0])
-
-                    batch.append(item)
-            except asyncio.QueueEmpty:
-                pass
-            stream_list = [b[0] for b in batch]
-            future_list = [b[1] for b in batch]
-
-            loop = asyncio.get_running_loop()
-            await loop.run_in_executor(
-                self.nn_pool,
-                self.recognizer.decode_streams,
-                stream_list,
-            )
-
-            for f in future_list:
-                self.stream_queue.task_done()
-                f.set_result(None)
-```
-
-10\) Connection handling.
-
-Receive audio data, feed it into the recognition stream, perform batch decoding, return results, handle endpoint detection and segmentation, and process padding at the end of the connection.
-
-```python
-    async def handle_connection(
-        self,
-        socket: websockets.WebSocketServerProtocol,
-    ):
-        """Receive audio samples from the client, process it, and send
-        decoding result back to the client.
-
-        Args:
-          socket:
-            The socket for communicating with the client.
-        """
-        try:
-            await self.handle_connection_impl(socket)
-        except websockets.exceptions.ConnectionClosedError:
-            logging.info(f"{socket.remote_address} disconnected")
-        finally:
-            # Decrement so that it can accept new connections
-            self.current_active_connections -= 1
-
-            logging.info(
-                f"Disconnected: {socket.remote_address}. "
-                f"Number of connections: {self.current_active_connections}/{self.max_active_connections}"  # noqa
-            )
-
-    async def handle_connection_impl(
-        self,
-        socket: websockets.WebSocketServerProtocol,
-    ):
-        """Receive audio samples from the client, process it, and send
-        decoding result back to the client.
-
-        Args:
-          socket:
-            The socket for communicating with the client.
-        """
-        logging.info(
-            f"Connected: {socket.remote_address}. "
-            f"Number of connections: {self.current_active_connections}/{self.max_active_connections}"  # noqa
-        )
-
-        stream = self.recognizer.create_stream()
-        segment = 0
-        while True:
-            samples = await self.recv_audio_samples(socket)
-            if samples is None:
-                break
-            # TODO(fangjun): At present, we assume the sampling rate
-            # of the received audio samples equal to --sample-rate
-            stream.accept_waveform(sample_rate=self.sample_rate, waveform=samples)
-
-            while self.recognizer.is_ready(stream):
-                await self.compute_and_decode(stream)
-                result = self.recognizer.get_result(stream)
-                message = {
-                    "text": result,
-                    "segment": segment,
-                }
-                if self.recognizer.is_endpoint(stream):
-                    self.recognizer.reset(stream)
-                    segment += 1
-                await socket.send(json.dumps(message))
-
-        tail_padding = np.zeros(int(self.sample_rate * 0.3)).astype(np.float32)
-        stream.accept_waveform(sample_rate=self.sample_rate, waveform=tail_padding)
-        stream.input_finished()
-        while self.recognizer.is_ready(stream):
-            await self.compute_and_decode(stream)
-
-        result = self.recognizer.get_result(stream)
-
-        message = {
-            "text": result,
-            "segment": segment,
-        }
-        await socket.send(json.dumps(message))
-```
-
-11\) Server connection.
-
-Launch the WebSocket server.
-
-```python
-    async def run(self, port: int):
-        tasks = []
-        for i in range(self.nn_pool_size):
-            tasks.append(asyncio.create_task(self.stream_consumer_task()))
-
-        if self.certificate:
-            logging.info(f"Using certificate: {self.certificate}")
-            ssl_context = ssl.SSLContext(ssl.PROTOCOL_TLS_SERVER)
-            ssl_context.load_cert_chain(self.certificate)
-        else:
-            ssl_context = None
-            logging.info("No certificate provided")
-
-        async with websockets.serve(
-            self.handle_connection,
-            host="",
-            port=port,
-            max_size=self.max_message_size,
-            max_queue=self.max_queue_size,
-            process_request=self.process_request,
-            ssl=ssl_context,
-        ):
-            ip_list = ["localhost"]
-            if ssl_context:
-                ip_list += ["0.0.0.0", "127.0.0.1"]
-                ip_list.append(socket.gethostbyname(socket.gethostname()))
-            proto = "http://" if ssl_context is None else "https://"
-            s = "Please visit one of the following addresses:\n\n"
-            for p in ip_list:
-                s += "  " + proto + p + f":{port}" "\n"
-
-            if not ssl_context:
-                s += "\nSince you are not providing a certificate, you cannot "
-                s += "use your microphone from within the browser using "
-                s += "public IP addresses. Only localhost can be used."
-                s += "You also cannot use 0.0.0.0 or 127.0.0.1"
-
-            logging.info(s)
-
-            await asyncio.Future()  # run forever
-
-        await asyncio.gather(*tasks)  # not reachable
-```
-
-12\) `def main()`
-
-Parse parameters.
-
-```python
-    args = get_args()
-    logging.info(vars(args))
-```
-
-Validate parameters.
-
-```python
-    check_args(args)
-```
-
-Create the recognizer.
-
-```python
-    recognizer = create_recognizer(args)
-```
-
-Create the server.
-
-```
-    port = args.port
-    nn_pool_size = args.nn_pool_size
-    max_batch_size = args.max_batch_size
-    max_wait_ms = args.max_wait_ms
-    max_message_size = args.max_message_size
-    max_queue_size = args.max_queue_size
-    max_active_connections = args.max_active_connections
-    certificate = args.certificate
-    doc_root = args.doc_root
-
-    if certificate and not Path(certificate).is_file():
-        raise ValueError(f"{certificate} does not exist")
-
-    if not Path(doc_root).is_dir():
-        raise ValueError(f"Directory {doc_root} does not exist")
-
-    server = StreamingServer(
-        recognizer=recognizer,
-        nn_pool_size=nn_pool_size,
-        max_batch_size=max_batch_size,
-        max_wait_ms=max_wait_ms,
-        max_message_size=max_message_size,
-        max_queue_size=max_queue_size,
-        max_active_connections=max_active_connections,
-        certificate=certificate,
-        doc_root=doc_root,
-    )
-```
-
-Run the server.
-
-```python
-	asyncio.run(server.run(port))
-```
-
-Create the offline real-time ASR client instance:
-
-1\) Instantiate the client.
-
-```python
-asr = speech.OfflineRealTimeASR()
-```
-
-2\) Perform speech recognition.
-
-Call ` asr.asr()` to recognize the recorded audio file at **./resources/audio/test_recording.wav**. The resulting text is printed to the terminal.
-
-```python
-print(asr.asr('./resources/audio/test_recording.wav'))
-```
-
-
-
-### 10.5.3 Offline Large AI Model for Voice Control
-
-#### 10.5.3.1 Overview
-
-When the program starts, the voice device announces **I’m ready**. Say the wake word **Hello Hiwonder** to activate the voice device, which responds with **I’m here**. After activation, the robot can be controlled via voice commands to perform corresponding actions, such as **Move forward for one second, then turn left for one second, and finally move backward for one second**. The device will then announce the AI-generated response and execute the requested actions.
-
-#### 10.5.3.2 Preparation
-
-* **Version Confirmation**
-
-Reference Tutorial: [10.5.1 Preparation](#anther10.5.1).
-
-#### 10.5.3.3 Operation Steps
-
-> [!NOTE]
->
-> **Command input is case-sensitive and space-sensitive.**
-
-1. Open the command line terminal from the left side of the system interface. <img src="../_static/media/chapter_23/section_1/media/image37.png" class="common_img" style="display:inline;vertical-align:middle;"/> In the terminal window, enter the following command and press **Enter** to stop the auto-start service.
-
-2. Enter the command to disable the auto-start service of the app.
-
-```bash
-sudo systemctl stop start_app_node.service
-```
-
-3. Enter the following command and press **Enter** to launch the voice control feature.
-
-```bash
-ros2 launch large_models_examples llm_control_move.launch.py
-```
-
-4. When the terminal displays the output shown below and announces **I’m ready**, the voice device has completed initialization. At this point, say the wake word **Hello Hiwonder**.
-
-<img src="../_static/media/chapter_23/section_1/media/image154.png" style="width:800px" class="common_img" />
-
-5. When the terminal displays the corresponding output shown in the figure and the device responds with **I’m here**, it indicates successful activation. The system will begin recording voice commands.
-
-<img src="../_static/media/chapter_23/section_1/media/image156.png" style="width:900px" class="common_img" />
-
-6. When the terminal displays the next output as the reference image, it shows the recognized speech transcribed by the voice device.
-
-<img src="../_static/media/chapter_23/section_1/media/image155.png" style="width:800px" class="common_img" />
-
-7. Upon successful recognition by the speech recognition service of a cloud-based large speech model, the parsed command will be displayed under the **publish_asr_result** output in the terminal.
-
-<img src="../_static/media/chapter_23/section_1/media/image155.png" style="width:800px" class="common_img" />
-
-
-> [!NOTE]
->
-> **The response is automatically generated by the large model. Only the semantic accuracy of the reply is guaranteed, while the wording and formatting may vary.**
-
-
-8. When the terminal shows the output shown in the figure indicating the end of one interaction cycle, the system is ready for the next round. To initiate another interaction, repeat step 4 by speaking the wake words again.
-
-<img src="../_static/media/chapter_23/section_1/media/image158.png" style="width:1200px" class="common_img" />
-
-9. To exit the feature, press **Ctrl+C** in the terminal. If the feature does not shut down immediately, press **Ctrl+C** multiple times. If it still fails to exit, open a new terminal window and run the following command to clear the ROS node.
-
-```bash
-~/.stop_ros.sh
-```
-
-#### 10.5.3.4 Project Outcome
-
-Once the feature is started, voice commands can be issued to the robot, for example: **Move forward for one second, then turn left for one second, and finally move backward for one second**. The robot will then move forward for one second, turn left for one second, and finally move backward for one second.
-
-#### 10.5.3.5 Program Analysis
-
-* **Launch File Analysis**
-
-File Path:
-
-**/home/ubuntu/ros2_ws/src/large_models_examples/large_models_examples/llm_control_move.launch.py**
-
-1\) Import library files.
-
-```python
-import os
-from ament_index_python.packages import get_package_share_directory
-
-from launch_ros.actions import Node
-from launch.substitutions import LaunchConfiguration
-from launch import LaunchDescription, LaunchService
-from launch.launch_description_sources import PythonLaunchDescriptionSource
-from launch.actions import IncludeLaunchDescription, DeclareLaunchArgument, OpaqueFunction
-```
-
-`os`: Used for handling file paths and operating system-related functions.
-
-`ament_index_python.packages.get_package_share_directory`: Retrieves the share directory path of ROS 2 package.
-
-`launch_ros.actions.Node`: Used to define ROS 2 nodes.
-
-`launch.substitutions.LaunchConfiguration`: Retrieves parameter values defined in the Launch file.
-
-`LaunchDescription,LaunchService`: Used to define and start the Launch file.
-
-`launch.launch_description_sources.PythonLaunchDescriptionSource`: Enables the inclusion of other Launch files.
-
-`launch.actions.IncludeLaunchDescription、DeclareLaunchArgument、OpaqueFunction`: Used to define actions and arguments within the Launch file.
-
-2\) Define `launch_setup` Function
-
-Declare launch parameters:
-
-`mode`: Mode parameter, default value `1`.
-
-`camera_topic`: Camera topic, default `depth_cam/rgb0/image_raw`.
-
-`asr_mode` is read from the environment variable ` ASR_MODE`, defaulting to `online` and converted to lowercase.
-
-`interruption`: Interruption toggle, default ` False`.
-
-```python
-    mode = LaunchConfiguration('mode', default=1)
-    mode_arg = DeclareLaunchArgument('mode', default_value=mode)
-    camera_topic = LaunchConfiguration('camera_topic', default='depth_cam/rgb0/image_raw')
-    camera_topic_arg = DeclareLaunchArgument('camera_topic', default_value=camera_topic)
-
-    asr_mode = os.environ.get("ASR_MODE", "online").lower()
-
-
-    interruption = LaunchConfiguration('interruption', default=False)
-    interruption_arg = DeclareLaunchArgument('interruption', default_value=interruption)
-```
-
-Obtain package paths:
-
-Retrieve paths for `controller` and `large_models` packages.
-
-```python
-    controller_package_path = get_package_share_directory('controller')
-    large_models_package_path = get_package_share_directory('large_models')
-```
-
-Include launch.py files using `IncludeLaunchDescription`.
-
-`controller_launch`: Chassis controller launch file.
-
-`vocal_detect_launch` is the launch file for voice detection, with the `mode` parameter passed in.
-
-`agent_process_launch` is the launch file for agent processing, with the `camera_topic` parameter passed in.
-
-`tts_node_launch` is the launch file for the TTS node.
-
-```python
-    controller_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
-            os.path.join(controller_package_path, 'launch/controller.launch.py')),
-    )
-
-    vocal_detect_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
-            os.path.join(get_package_share_directory('large_models'), 'launch/vocal_detect.launch.py')),
-        launch_arguments={'mode': mode,}.items(),
-    )
-
-    agent_process_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
-            os.path.join(get_package_share_directory('large_models'), 'launch/agent_process.launch.py')),
-        launch_arguments={'camera_topic': camera_topic}.items(),
-    )
-
-    tts_node_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
-            os.path.join(get_package_share_directory('large_models'), 'launch/tts_node.launch.py')),
-    )
-```
-
-Delayed launch configuration:
-
-In `offline` mode, `vocal_detect_launch` and `agent_process_launch` are delayed by 10 seconds, while in `online` mode they are delayed by 1 second, and `tts_node_launch` starts immediately.
-
-```python
-    time_interval = 10.0 if asr_mode == 'offline' else 1.0
-    large_models_launch = GroupAction(
-     actions=[
-        tts_node_launch,
-        TimerAction(
-                period=time_interval, actions=[
-                vocal_detect_launch,
-            ],
-         ),
-        TimerAction(period=time_interval, actions=[
-            agent_process_launch,
-            ],
-         ),
-      ]
-    )
-```
-
-Conditional node selection:
-
-`online` mode: start the `llm_control_move` node.  
-`offline` mode: start the `llm_control_move_offline` node.
-
-```python
-    if asr_mode == 'online':
-        llm_control_move_node = Node(
-            package='large_models_examples',
-            executable='llm_control_move',
-            output='screen',
-            parameters=[{
-                'interruption': interruption,
-            }],
-        )
-    else:
-        llm_control_move_node = Node(
-            package='large_models_examples',
-            executable='llm_control_move_offline',
-            output='screen',
-            parameters=[{
-                'interruption': interruption,
-            }],
-        )
-```
-
-3\) Define `generate_launch_description` Function
-
-This function generates the Launch description and adds the `launch_setup` function to it using `OpaqueFunction`.
-
-```python
-def generate_launch_description():
-    return LaunchDescription([
-        OpaqueFunction(function = launch_setup)
-    ])
-```
-
-4\) Main Program Entry
-
-```python
-if __name__ == '__main__':
-    # Create a LaunchDescription object
-    ld = generate_launch_description()
-
-    ls = LaunchService()
-    ls.include_launch_description(ld)
-    ls.run()
-```
-
-`ld = generate_launch_description()` generates the Launch description object.
-
-`ls = LaunchService()` creates a Launch service object.
-
-`ls.include_launch_description(ld)` adds the Launch description to the Launch service.
-
-`ls.run()` starts the Launch service and executes all defined Launch actions.
-
-* **Python File Analysis**
-
-File Path:
-
-**ros2_ws/src/large_models_examples/large_models_examples/llm_control_move_offline.py**
-
-1\) Prompt template.
-
-```python
-PROMPT = '''
-##Role Task
-You are an intelligent robot car responsible for parsing user movement instructions and extracting actions and parameters.
-
-##Action Function Library
-- "move(direction, distance, duration)"
-- direction (Direction): 'forward', 'backward', 'turn_left', 'turn_right', 'shift_left', 'shift_right', 'stop'
-- distance (Distance, in meters): A number. If the user does not specify distance, it is set to 0.
-- duration (Time, in seconds): A number. If the user does not specify time, it is set to 0.
-
-##Requirements
-1. Parse the user’s intent and generate an action list containing one or more move function calls.
-2. **Strictly follow**: If the user command includes **time** (e.g., "move forward for 3 seconds"), the **distance parameter must be 0**, and the duration will be the corresponding time.
-3. **Strictly follow**: If the user command includes **distance** (e.g., "move forward 1 meter"), the **duration parameter must be 0**, and the distance will be the corresponding distance.
-4. Directly output the JSON result without analysis.
-5. Format: {"action": ["move('forward', 1, 0)"], "response": "Alright, moving forward 1 meter"}
-6. After each action, a stop action must be included to stop the robot: "move('forward', 1, 0)"
-
-##Example Task
-Input: Move forward for 2 seconds, then turn left for 1 second.
-Output: {"action": ["move('forward', 0, 2)", "move('turn_left', 0, 1)", "move('stop', 0, 1)"], "response": "Got it, executing!"}
-Input: Move forward 1 meter.
-Output: {"action": ["move('forward', 1, 0)", "move('stop', 0, 1)"], "response": "Alright, let's go!"}
-'''
-
-```
-
-2\) Variable Initialization
-
-Initializes member variables.
-
-`self.action`: list of actions.
-
-`self.llm_result`: result returned by the LLM.
-
-`self.running`: running flag.
-
-`self.interrupt`: interrupt flag.
-
-`self.action_finish`: action completed flag.
-
-`self.play_audio_finish`: audio playback completed flag.
-
-`interruption`: whether interruption is enabled.
-
-`self.interruption`: value of the `interruption` parameter.
-
-`self.asr_mode`: current system voice mode.
-
-```python
-    def __init__(self, name):
-        rclpy.init()
-        super().__init__(name)
-        
-        self.action = []
-        self.llm_result = ''
-        self.running = True
-        self.interrupt = False
-        self.action_finish = False
-        self.play_audio_finish = False
-        
-        self.declare_parameter('interruption', False)  
-        self.interruption = self.get_parameter('interruption').value  
-        self.declare_parameter('offline', 'false')
-        self.asr_mode = os.environ.get("ASR_MODE", "online").lower()
-```
-
-A reentrant callback group is created to allow callbacks to call other callbacks.
-
-```python
-        timer_cb_group = ReentrantCallbackGroup()
-```
-
-ROS2 communication:
-
-Publishers include `self.tts_text_pub`, which publishes TTS text, and `self.mecanum_pub`, which publishes chassis control.
-
-Subscribers include `agent_process/result` which receives LLM results, `vocal_detect/wakeup` which receives wake signals, and `tts_node/play_finish` which receives the playback completion status.
-
-Service Clients include `self.set_model_client` for setting the model, `self.awake_client` for setting the wake state, `self.set_mode_client` for setting the mode, and `self.set_prompt_clien` for setting the prompt.
-
-```python
-        self.tts_text_pub = self.create_publisher(String, 'tts_node/tts_text', 1)
-        self.create_subscription(String, 'agent_process/result', self.llm_result_callback, 1)
-        self.create_subscription(Bool, 'vocal_detect/wakeup', self.wakeup_callback, 1, callback_group=timer_cb_group)
-        self.create_subscription(Bool, 'tts_node/play_finish', self.play_audio_finish_callback, 1, callback_group=timer_cb_group)
-        self.set_model_client = self.create_client(SetModel, 'agent_process/set_model')
-        self.set_model_client.wait_for_service()
-
-        self.awake_client = self.create_client(SetBool, 'vocal_detect/enable_wakeup')
-        # self.awake_client.wait_for_service()
-        self.set_mode_client = self.create_client(SetInt32, 'vocal_detect/set_mode')
-        # self.set_mode_client.wait_for_service()
-        self.set_prompt_client = self.create_client(SetString, 'agent_process/set_prompt')
-        self.set_prompt_client.wait_for_service()
-        self.mecanum_pub = self.create_publisher(Twist, '/controller/cmd_vel', 1)
-```
-
-Create timer:
-
-A timer is created to repeatedly call a callback function through the callback group.
-
-```python
-        self.timer = self.create_timer(0.0, self.init_process, callback_group=timer_cb_group)
-```
-
-3\) `def wakeup_callback(self, msg)` Wakeup Callback Method
-
-The interrupt flag is set when an LLM result is available.
-
-```python
-    def wakeup_callback(self, msg):
-        if self.llm_result:
-            self.get_logger().info('wakeup interrupt')
-            self.interrupt = msg.data
-```
-
-4\) `def llm_result_callback(self, msg)` LLM Result Callback Method
-
-Stores the result returned by the LLM.
-
-```python
-	def llm_result_callback(self, msg):
-        self.llm_result = msg.data
-```
-
-5\) `def play_audio_finish_callback(self, msg)` Audio Playback Completion Callback Method
-
-Enables the wake function and sets the completion flag after audio playback finishes.
-
-```python
-    def play_audio_finish_callback(self, msg):
-        msg = SetBool.Request()
-        msg.data = True
-        self.send_request(self.awake_client, msg)
-        # msg = SetInt32.Request()
-        # msg.data = 1
-        # self.send_request(self.set_mode_client, msg)
-        self.play_audio_finish = msg.data
-```
-
-6\) `def parse_action(self, action_str)` Action Parsing Method
-
-Extracts parameters from the `move()` function using regular expressions, parses direction, distance, and duration, and returns the parsed result. Returns None, 0, 0 if parsing fails.
-
-```python
-    def parse_action(self, action_str):
-            """
-        Helper function to parse strings in the format "move('direction', distance, duration)".
-        Uses regular expressions to extract parameters for more robust handling.
-        """
-            # Match the content inside move(...)
-            match = re.search(r"move\((.*)\)", action_str)
-            if not match:
-                return None, 0, 0
-
-            # Extract the parameter string, e.g., "'forward', 5, 0"
-            params_str = match.group(1)
-            
-            # Split parameters
-            params = [p.strip() for p in params_str.split(',')]
-            
-            # Extract and convert types
-            direction = params[0].strip("'\"") # Remove quotes from the string parameter
-            distance = float(params[1])
-            duration = float(params[2])
-            
-            return direction, distance, duration
-```
-
-7\) `def process(self)`
-
-Define speeds.
-
-```python
-        DEFAULT_LINEAR_SPEED = 0.2  # m/s
-        DEFAULT_ANGULAR_SPEED = 1.0 # rad/s 
-```
-
-Loop through and execute the action sequence.
-
-        while self.running:
-            if self.llm_result:
-                msg = String()
-
-If no corresponding action is returned, only respond without performing any action.
-
-```
-                else:
-                    response = self.llm_result
-                    msg.data = response
-                    self.tts_text_pub.publish(msg)
-```
-
-If actions are returned, extract and process them, checking the LLM result.
-
-```python
-                if 'action' in self.llm_result:
-                    result = eval(self.llm_result[self.llm_result.find('{'):self.llm_result.find('}') + 1])
-```
-
-Parse the JSON to extract `action` and `response`.
-
-```python
-                    self.get_logger().info(str(result))
-                    action_list = []
-                    if 'action' in result:
-                        action_list = result['action']
-                    if 'response' in result:
-                        response = result['response']
-```
-
-Publish the TTS response.
-
-```python
-                    msg.data = response
-                    self.tts_text_pub.publish(msg)
-```
-
-Execute the action sequence by parsing each action string.
-
-```python
-                    for action_str in action_list:
-                        direction, distance, duration = self.parse_action(action_str)
-                        
-                        if direction is None:
-                            continue # Parsing failed, skip this action
-
-                        twist_msg = Twist()
-                        final_duration = 0
-```
-
-Set speed based on direction.
-
-```python
-                        if direction == 'forward':
-                            twist_msg.linear.x = DEFAULT_LINEAR_SPEED
-                        elif direction == 'backward':
-                            twist_msg.linear.x = -DEFAULT_LINEAR_SPEED
-                        elif direction == 'shift_left':
-                            twist_msg.linear.y = DEFAULT_LINEAR_SPEED
-                        elif direction == 'shift_right':
-                            twist_msg.linear.y = -DEFAULT_LINEAR_SPEED
-                        elif direction == 'turn_left':
-                            twist_msg.angular.z = DEFAULT_ANGULAR_SPEED
-                        elif direction == 'turn_right':
-                            twist_msg.angular.z = -DEFAULT_ANGULAR_SPEED
-```
-
-Calculate the duration by prioritizing distance. If no distance is provided, use the specified duration by default.
-
-```python
-                        if distance > 0:
-                            # Prefer using distance to calculate duration
-                            final_duration = distance / (DEFAULT_LINEAR_SPEED if 'turn' not in direction else DEFAULT_ANGULAR_SPEED)
-                        else:
-                            # Otherwise use the specified duration
-                            final_duration = duration
-```
-
-Publish velocity command and wait.
-
-```python
-                        if final_duration > 0:
-                            self.get_logger().info(f"Action: {direction}, Publishing velocity, Duration: {final_duration:.2f}s")
-                            self.mecanum_pub.publish(twist_msg)
-                            time.sleep(final_duration)
-```
-
-Check interrupt flag. After all actions are completed, publish stop command.
-
-```python
-                        if self.interrupt:
-                            # self.get_logger().info("Action sequence interrupted.")
-                            self.interrupt = False
-                            break # Exit the for loop
-                    self.mecanum_pub.publish(Twist())
-```
-
-Handle completion flag and mode switch.
-
-```python
-                self.action_finish = True 
-                self.llm_result = ''
-```
-
-The synchronization mechanism ensures that audio playback and action execution are completed before proceeding. Mode management controls speech detection behavior by setting mode value 2 when interruption is enabled. The state is reset for the next interaction.
-
-```python
-            if self.play_audio_finish and self.action_finish:
-                self.play_audio_finish = False
-                self.action_finish = False
-                if self.interruption:
-                    msg = SetInt32.Request()
-                    msg.data = 2
-                    self.send_request(self.set_mode_client, msg)
-```
-
-8\) Main function `def main()`
-
-Create the node, run with a multithreaded executor, and finally destroy the node.
-
-```python
-def main():
-    node = LLMControlMove('llm_control_move')
-    executor = MultiThreadedExecutor()
-    executor.add_node(node)
-    executor.spin()
-    node.destroy_node()
-```
-
-
-
-### 10.5.4 Offline Large AI Model for Autonomous Line Following
-
-#### 10.5.4.1 Overview
-
-When the program starts, the voice device announces **I’m ready**. Say the wake word **Hello Hiwonder** to activate the voice device, which responds with **I’m here**. Now, the robot can be controlled by voice commands. For example, **Follow the black line and stop when you meet an obstacle.** The terminal will display the recognized speech, while the voice device will announce the response generated after processing. The robot will also detect the black line captured by the camera. When the robot encounters an obstacle ahead, it will stop.
-
-#### 10.5.4.2 Preparation
-
-Reference Tutorial: [10.5.1 Preparation](#anther10.5.1).
-
-#### 10.5.4.3 Operation Steps
-
-> [!NOTE]
->
-> **Command input is case-sensitive and space-sensitive.**
-
-1. Open the command line terminal from the left side of the system interface. <img src="../_static/media/chapter_23/section_1/media/image37.png" class="common_img" style="display:inline;vertical-align:middle;"/> In the terminal window, enter the following command and press **Enter** to stop the auto-start service.
-
-2. Enter the command to disable the auto-start service of the app.
-
-   ```bash
-   sudo systemctl stop start_app_node.service
-   ```
-
-3. Enter the following command and press **Enter** to launch the autonomous line following feature.
-
-   ```bash
-   ros2 launch large_models_examples llm_visual_patrol.launch.py
-   ```
-
-4. When the terminal displays the output shown below and announces **I’m ready**, the voice device has completed initialization. At this point, say the wake word **Hello Hiwonder**.
-
-   <img src="../_static/media/chapter_23/section_1/media/image159.png" style="width:1000px" class="common_img" />
-
-5. When the terminal displays the corresponding output shown in the figure and the device responds with **I’m here**, it indicates successful activation. The system will begin recording voice commands.
-
-   <img src="../_static/media/chapter_23/section_1/media/image162.png" style="width:1000px" class="common_img" />
-
-6. When the terminal prints the output shown below, it indicates that the voice device has transcribed the spoken command. In this example, the command spoken is **Follow the black line and stop when you encounter an obstacle**.
-
-   <img src="../_static/media/chapter_23/section_1/media/image160.png" style="width:800px" class="common_img" />
-
-7. Upon successful recognition by the speech recognition service of a cloud-based large speech model, the parsed command will be displayed under the **publish_asr_result** output in the terminal.
-
-   <img src="../_static/media/chapter_23/section_1/media/image160.png" style="width:800px" class="common_img" />
-
-> [!NOTE]
->
-> **The response is automatically generated by the large model. Only the semantic accuracy of the reply is guaranteed, while the wording and formatting may vary.**
-
-8. To exit the feature, press **Ctrl+C** in the terminal. If the feature does not shut down immediately, press **Ctrl+C** multiple times. If it still fails to exit, open a new terminal window and run the following command to terminate all active ROS processes and related programs.
-
-```bash
-~/.stop_ros.sh
-```
-
-#### 10.5.4.4 Project Outcome
-
-Once the feature is activated, feel free to give commands in your own words. For instance, **Follow the black line and stop when you encounter an obstacle**. The robot uses its camera to detect and follow the black line, and it will stop when an obstacle is detected in its path. The system is pre-configured to recognize four line colors: red, blue, green, and black.
-
-#### 10.5.4.5 Program Analysis
-
-* **Launch File Analysis**
-
-File Path:
-
-**/home/ubuntu/ros2_ws/src/large_models_examples/large_models_examples/llm_visual_patrol.launch.py**
-
-1\) Import library files.
-
-```python
-import os
-from ament_index_python.packages import get_package_share_directory
-
-from launch_ros.actions import Node
-from launch.substitutions import LaunchConfiguration
-from launch import LaunchDescription, LaunchService
-from launch.launch_description_sources import PythonLaunchDescriptionSource
-from launch.actions import IncludeLaunchDescription, DeclareLaunchArgument, OpaqueFunction
-from launch.actions import GroupAction,TimerAction
-```
-
-`os`: Used for handling file paths and operating system-related functions.
-
-`ament_index_python.packages.get_package_share_directory`: Retrieves the share directory path of ROS 2 package.
-
-`launch_ros.actions.Node`: Used to define ROS 2 nodes.
-
-`launch.substitutions.LaunchConfiguration`: Retrieves parameter values defined in the Launch file.
-
-`LaunchDescription, LaunchService`: Used to define and start the Launch file.
-
-`PythonLaunchDescriptionSource`: Enables the inclusion of other Launch files.
-
-`launch.actions.IncludeLaunchDescription、DeclareLaunchArgument、OpaqueFunction`: Used to define actions and arguments within the Launch file.
-
-`launch.actions.GroupAction、TimerAction`: Action group and delayed startup.
-
-2\) Define the launch_setup Function
-
-Declare launch parameters:
-
-`mode`: Mode parameter, default value `1`.
-
-`camera_topic`: Camera topic, default `depth_cam/rgb0/image_raw`.
-
-`asr_mode` is read from the environment variable ` ASR_MODE`, defaulting to `online` and converted to lowercase.
-
-`interruption`: Interruption toggle, default ` False`.
-
-```python
-    mode = LaunchConfiguration('mode', default=1)
-    mode_arg = DeclareLaunchArgument('mode', default_value=mode)
-    camera_topic = LaunchConfiguration('camera_topic', default='depth_cam/rgb0/image_raw')
-    camera_topic_arg = DeclareLaunchArgument('camera_topic', default_value=camera_topic)
-
-    asr_mode = os.environ.get("ASR_MODE", "online").lower()
-
-
-    interruption = LaunchConfiguration('interruption', default=False)
-    interruption_arg = DeclareLaunchArgument('interruption', default_value=interruption)
-```
-
-Obtain package paths:
-
-Retrieve paths for `app` and `large_models` packages.
-
-```python
-    app_package_path = get_package_share_directory('app')
-    large_models_package_path = get_package_share_directory('large_models')
-```
-
-Include launch.py files using `IncludeLaunchDescription`.
-
-`line_following_node_launch`: Line tracking node.
-
-`vocal_detect_launch` is the launch file for voice detection, with the `mode` parameter passed in.
-
-`agent_process_launch` is the launch file for agent processing, with the `camera_topic` parameter passed in.
-
-`tts_node_launch` is the launch file for the TTS node.
-
-```python
-    line_following_node_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
-            os.path.join(app_package_path, 'launch/line_following_node.launch.py')),
-        launch_arguments={
-            'debug': 'true',
-        }.items(),
-    )
-
-    vocal_detect_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
-            os.path.join(get_package_share_directory('large_models'), 'launch/vocal_detect.launch.py')),
-        launch_arguments={'mode': mode,}.items(),
-    )
-
-    agent_process_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
-            os.path.join(get_package_share_directory('large_models'), 'launch/agent_process.launch.py')),
-        launch_arguments={'camera_topic': camera_topic}.items(),
-    )
-
-    tts_node_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
-            os.path.join(get_package_share_directory('large_models'), 'launch/tts_node.launch.py')),
-    )
-
-```
-
-Delayed launch configuration:
-
-In `offline` mode, `vocal_detect_launch` and `agent_process_launch` are delayed by 10 seconds, while in `online` mode they are delayed by 1 second, and `tts_node_launch` starts immediately.
-
-```python
-    time_interval = 10.0 if asr_mode == 'offline' else 1.0
-    large_models_launch = GroupAction(
-     actions=[
-        tts_node_launch,
-        TimerAction(
-                period=time_interval, actions=[
-                vocal_detect_launch,
-            ],
-         ),
-        TimerAction(period=time_interval, actions=[
-            agent_process_launch,
-            ],
-         ),
-      ]
-    )
-```
-
-Conditional node selection:
-
-Start the `llm_visual_patrol_node` node.
-
-```python
-    llm_visual_patrol_node = Node(
-        package='large_models_examples',
-        executable='llm_visual_patrol',
-        output='screen',
-        parameters=[{
-            'interruption': interruption,
-            }],
-    )
-```
-
-3\) Define `generate_launch_description` Function
-
-This function generates the Launch description and adds the `launch_setup` function to it using `OpaqueFunction`.
-
-```python
-def generate_launch_description():
-    return LaunchDescription([
-        OpaqueFunction(function = launch_setup)
-    ])
-```
-
-4\) Main Program Entry
-
-```python
-if __name__ == '__main__':
-    # Create a LaunchDescription object
-    ld = generate_launch_description()
-
-    ls = LaunchService()
-    ls.include_launch_description(ld)
-    ls.run()
-```
-
-`ld = generate_launch_description()` generates the Launch description object.
-
-`ls = LaunchService()` creates a Launch service object.
-
-`ls.include_launch_description(ld)` adds the Launch description to the Launch service.
-
-`ls.run()` starts the Launch service and executes all defined Launch actions.
-
-* **Python File Analysis**
-
-File Path:
-
-**/home/ubuntu/ros2_ws/src/large_models_examples/large_models_examples/llm_visual_patrol.py**
-
-1\) Prompt template.
-
-```python
-    PROMPT = '''
-**Role
-You are a smart robot that generates corresponding JSON commands based on user input.
-
-**Requirements
-- For every user input, search for matching commands in the action function library and output the corresponding JSON instruction.
-- For each action sequence, craft a witty and creative response (10 to 30 characters) to make interactions delightful.
-- Directly return the JSON result — do not include any explanations or extra text.
-- There are four target colors: red, green, blue, and black.
-- Format:
-{
-  "action": ["xx", "xx"],
-  "response": "xx"
-}
-
-**Special Notes
-The "action" field should contain a list of function names as strings, ordered by execution. If no matching action is found, output an empty list: [].
-The "response" field should provide a concise and charming reply, staying within the word and tone guidelines.
-
-**Action Function Library
-Follow a line of a given color: line_following('black')
-
-**Example
-Input: Follow the black line
-Output:
-{
-  "action": ["line_following('black')"],
-  "response": "Roger that!"
-}
-    '''
-```
-
-2\) Variable Initialization
-
-Initializes member variables.
-
-`self.action`: list of actions.
-
-`self.stop` controls whether to stop the current action, with True indicating that the action should be stopped.
-
-`self.llm_result`: result returned by the LLM.
-
-`self.running`: running flag.
-
-`self.interrupt`: interrupt flag.
-
-`self.action_finish`: action completed flag.
-
-`self.play_audio_finish`: audio playback completed flag.
-
-`interruption`: whether interruption is enabled.
-
-`self.interruption`: value of the `interruption` parameter.
-
-`self.asr_mode`: Reads the value of speech mode `ASR_MODE` from the environment variable, defaulting to `online`.
-
-```python
-    def __init__(self, name):
-        rclpy.init()
-        super().__init__(name)
-        
-        self.action = []
-        self.stop = True
-        self.llm_result = ''
-        # self.llm_result = '{"action": ["line_following(\'black\')"], "response": "ok！"}'
-        self.running = True
-        self.action_finish = False
-        self.play_audio_finish = False
-        
-        self.declare_parameter('interruption', False)  
-        self.interruption = self.get_parameter('interruption').value  
-        
-        self.asr_mode = os.environ.get("ASR_MODE", "online").lower()
-```
-
-A reentrant callback group is created to allow callbacks to call other callbacks.
-
-```python
-        timer_cb_group = ReentrantCallbackGroup()
-```
-
-ROS2 communication:
-
-Publisher: `self.tts_text_pub` publishes TTS text.
-
-Subscribers include `agent_process/result` which receives LLM results, `vocal_detect/wakeup` which receives wake signals, and `tts_node/play_finish` which receives the playback completion status.
-
-Service clients: `self.set_model_client` for setting the model, `self.awake_client` for setting the wake-up, `self.set_mode_client` for setting the mode, `self.set_prompt_clien` for setting the prompt, `self.enter_client` for entering line-following mode, `self.start_client` for starting or stopping the line-following, and `self.set_target_client` for setting the target color.
-
-```python
-        self.tts_text_pub = self.create_publisher(String, 'tts_node/tts_text', 1)
-        self.create_subscription(String, 'agent_process/result', self.llm_result_callback, 1)
-        self.create_subscription(Bool, 'vocal_detect/wakeup', self.wakeup_callback, 1, callback_group=timer_cb_group)
-        self.create_subscription(Bool, 'tts_node/play_finish', self.play_audio_finish_callback, 1, callback_group=timer_cb_group)
-        self.awake_client = self.create_client(SetBool, 'vocal_detect/enable_wakeup')
-        self.awake_client.wait_for_service()
-        self.set_mode_client = self.create_client(SetInt32, 'vocal_detect/set_mode')
-        self.set_mode_client.wait_for_service()
-
-        self.set_model_client = self.create_client(SetModel, 'agent_process/set_model')
-        self.set_model_client.wait_for_service()
-        self.set_prompt_client = self.create_client(SetString, 'agent_process/set_prompt')
-        self.set_prompt_client.wait_for_service()
-        self.enter_client = self.create_client(Trigger, 'line_following/enter')
-        self.enter_client.wait_for_service()
-        self.start_client = self.create_client(SetBool, 'line_following/set_running')
-        self.start_client.wait_for_service()
-        self.set_target_client = self.create_client(SetColor, 'line_following/set_color')
-        self.set_target_client.wait_for_service()
-```
-
-A timer is created to repeatedly call a callback function through the callback group.
-
-```python
-        self.timer = self.create_timer(0.0, self.init_process, callback_group=timer_cb_group)
-```
-
-3\) def init_process(self) Initialization
-
-Cancel the timer.
-
-```python
-        self.timer.cancel()
-```
-
-Configure the LLM model:
-
-Create a `SetModel.Request()` message object.
-
-```python
-        msg = SetModel.Request()
-```
-
-Set the model type to `llm`.
-
-```python
-        msg.model_type = 'llm'
-```
-
-Select the model and configuration based on `self.asr_mode`.
-
-```python
-		if self.asr_mode == 'offline':
-            msg.model = 'qwen3:0.6b'
-            msg.base_url = ollama_host
-        else:
-            msg.model = llm_model
-            msg.api_key = api_key 
-            msg.base_url = base_url
-```
-
-Synchronously call the `agent_process/set_model` service via `self.send_request`.
-
-```python
-        self.send_request(self.set_model_client, msg)
-```
-
-Set the prompt:
-
-Create a `SetString.Request()` message.
-
-```
-        msg = SetString.Request()
-```
-
-Set `msg.data` to the module-level variable `PROMPT`, using the `ASR_LANGUAGE` environment variable to determine whether it is in English or another language.
-
-```python
-        msg.data = PROMPT
-```
-
-Call the `agent_process/set_prompt` service to pass the prompt to the LLM agent.
-
-```python
-		self.send_request(self.set_prompt_client, msg)
-```
-
-Initialize the line-following feature:
-
-Create a temporary client to check if the `line_following/init_finish` service is ready.
-
-```python
-        init_finish = self.create_client(Trigger, 'line_following/init_finish')
-```
-
-Ensure the line-following node is fully initialized.
-
-```python
-        init_finish.wait_for_service()
-```
-
-Call the `line_following/enter` service to enter line-following mode.
-
-```
-        self.send_request(self.enter_client, Trigger.Request())
-```
-
-Play the start audio.
-
-```
-        speech.play_audio(start_audio_path)
-```
-
-Start the main processing thread.
-
-```python
-        threading.Thread(target=self.process, daemon=True).start()
-```
-
-Create the initialization completion service. Output logging information.
-
-```python
-        self.create_service(Empty, '~/init_finish', self.get_node_state)
-```
-
-
-
-```python
-        self.get_logger().info('\033[1;32m%s\033[0m' % 'start')
-        self.get_logger().info('\033[1;32m%s\033[0m' % PROMPT)
-```
-
-4\) def wakeup_callback(self, msg) Wakeup Callback Method
-
-Wakeup interrupt handling: when receiving a wakeup signal, interrupt the current action and re-enter line-following mode.
-
-```python
-    def wakeup_callback(self, msg):
-        if msg.data and self.llm_result:
-            self.get_logger().info('wakeup interrupt')
-            self.send_request(self.enter_client, Trigger.Request())
-            self.stop = True
-        elif msg.data and not self.stop:
-            self.get_logger().info('wakeup interrupt')
-            self.send_request(self.enter_client, Trigger.Request())
-            self.stop = True
-```
-
-5\) `def llm_result_callback(self, msg)` LLM Result Callback Method
-
-Stores the result returned by the LLM.
-
-```python
-	def llm_result_callback(self, msg):
-        self.llm_result = msg.data
-```
-
-6\) def llm_result_callback(self, msg) LLM Result Callback Method
-
-Enables the wake function and sets the completion flag after audio playback finishes.
-
-```python
-    def play_audio_finish_callback(self, msg):
-        self.play_audio_finish = msg.data
-```
-
-7\) def process(self) Main Processing Loop Method
-
-Run continuously until `self.running` is set to `false`.
-
-```python
-        while self.running:
-```
-
-Check if there is an LLM result.
-
-```python
-            if self.llm_result:
-```
-
-Create a TTS message object.
-
-```python
-                msg = String()
-```
-
-If the string does not contain `action`, only respond via voice.
-
-```
-                else:
-                    msg.data = self.llm_result
-```
-
-If an action is present, extract and process it.
-
-```python
-                if 'action' in self.llm_result:
-```
-
-Parse the JSON result.
-
-```python
-                    result = eval(self.llm_result[self.llm_result.find('{'):self.llm_result.find('}')+1])
-```
-
-Check if `result` contains `action`.
-
-```python
-                    if 'action' in result:
-```
-
-Get the action list, define a regular expression to match the format `line_following('color')`.
-
-```python
-                        text = result['action']
-                        # Use a regular expression to extract all strings inside parentheses
-                        pattern = r"line_following\('([^']+)'\)"
-                        # Use re.search to find matches
-```
-
-Iterate over the action list:
-
-Perform regex matching for each action string.
-
-```python
-                        for i in text:
-                            match = re.search(pattern, i)
-```
-
-Extract the color parameter and log the result.
-
-```python
-                            # Extract the result
-                            if match:
-                                # Get the parameter part, which is the content inside parentheses  
-                                color = match.group(1)
-                                self.get_logger().info(str(color))           
-```
-
-Set the target color.
-
-```python
-                                color_msg = SetColor.Request()
-                                color_msg.data = color
-                                self.send_request(self.set_target_client, color_msg)
-```
-
-Start line-following.
-
-```python
-                                start_msg = SetBool.Request()
-                                start_msg.data = True 
-                                self.send_request(self.start_client, start_msg)
-```
-
-Response text processing.
-
-```python
-                    if 'response' in result:
-                        msg.data = result['response']
-```
-
-Publish the TTS response and reset the state.
-
-```python
-                self.tts_text_pub.publish(msg)
-                self.action_finish = True
-                self.llm_result = ''
-```
-
-Idle wait.
-
-```python
-            else:
-                time.sleep(0.01)
-```
-
-Wakeup mechanism recovery.
-
-```python
-            if self.play_audio_finish and self.action_finish:
-                self.play_audio_finish = False
-                self.action_finish = False
-                msg = SetBool.Request()
-                msg.data = True
-                self.send_request(self.awake_client, msg)
-                if self.interruption:
-                    msg = SetInt32.Request()
-                    msg.data = 2
-                    self.send_request(self.set_mode_client, msg)
-                self.stop = False
-```
-
-Loop end and cleanup.
-
-```python
-        rclpy.shutdown()
-```
-
-8\) Main function `def main()`
-
-Create the node, run with a multithreaded executor, and finally destroy the node.
-
-```python
-def main():
-    node = LLMControlMove('llm_line_following')
-    executor = MultiThreadedExecutor()
-    executor.add_node(node)
-    executor.spin()
-    node.destroy_node()
-```
-
-
-
-### 10.5.5 Offline Large AI Model for Color Tracking
-
-#### 10.5.5.1 Overview
-
-When the program starts, the voice device announces **I’m ready**. Say the wake word **Hello Hiwonder** to activate the voice device, which responds with **I’m here**. Then you can use voice commands to control robot such as **Follow the red object**. The terminal will display the recognized command, and the voice device will respond with a generated reply after processing. The robot will then autonomously identify the red object captured by its camera and begin tracking it.
-
-#### 10.5.5.2 Preparation
-
-Reference Tutorial: [10.5.1 Preparation](#anther10.5.1).
-
-#### 10.5.5.3 Operation Steps
-
-> [!NOTE]
->
-> **Command input is case-sensitive and space-sensitive.**
-
-1. Open the command line terminal from the left side of the system interface. <img src="../_static/media/chapter_23/section_1/media/image37.png" class="common_img" style="display:inline;vertical-align:middle;"/> In the terminal window, enter the following command and press **Enter** to stop the auto-start service.
-
-2. Enter the command to disable the auto-start service of the app.
-
-   ```bash
-   sudo systemctl stop start_app_node.service
-   ```
-
-3. Enter the following command and press **Enter** to launch the color tracking feature.
-
-   ```bash
-   ros2 launch large_models_examples llm_color_track.launch.py
-   ```
-
-4. When the terminal displays the output shown below and announces **I’m ready**, the voice device has completed initialization. At this point, say the wake word **Hello Hiwonder**.
-
-   <img src="../_static/media/chapter_23/section_1/media/image163.png" style="width:1000px" class="common_img" />
-
-5. After the program has loaded successfully, the camera feed will appear on screen.
-
-6. When the terminal displays the corresponding output shown in the figure and the device responds with **I’m here**, it indicates successful activation. The system will begin recording voice commands.
-
-   <img src="../_static/media/chapter_23/section_1/media/image164.png" style="width:1000px" class="common_img" />
-
-7. When the terminal prints the output shown below, it indicates that the voice device has transcribed the spoken command. In this example, the command spoken is **Follow the red object**.
-
-   <img src="../_static/media/chapter_23/section_1/media/image165.png" style="width:900px" class="common_img" />
-
-8. Upon successful recognition by the speech recognition service of a cloud-based large speech model, the parsed command will be displayed under the **publish_asr_result** output in the terminal.
-
-   <img src="../_static/media/chapter_23/section_1/media/image165.png" style="width:900px" class="common_img" />
-
-> [!NOTE]
->
-> **The response is automatically generated by the large model. Only the semantic accuracy of the reply is guaranteed, while the wording and formatting may vary.**
-
-9. Then, the robot will detect the red object in its camera feed and begin tracking it in real time.
-
-10. To exit the feature, press **Ctrl+C** in the terminal. If the feature does not shut down immediately, press **Ctrl+C** multiple times. If it still fails to exit, open a new terminal window and run the following command to terminate all active ROS processes and related programs.
-
-```bash
-~/.stop_ros.sh
-```
-
-#### 10.5.5.4 Project Outcome
-
-Once the feature is activated, feel free to give commands in your own words. For instance, **Follow the red object**. The robot will use the camera feed to identify and track the red object. Similarly, commands like “Follow the blue object” or “Follow the green object” can be used to instruct the robot to track objects of the specified colors.
-
-#### 10.5.5.5 Program Analysis
-
-* **Launch File Analysis**
-
-File Path:
-
-**/home/ubuntu/ros2_ws/src/large_models_examples/large_models_examples/llm_color_track.launch.py**
-
-1\) Import library files.
-
-```python
-import os
-from ament_index_python.packages import get_package_share_directory
-
-from launch_ros.actions import Node
-from launch.substitutions import LaunchConfiguration
-from launch import LaunchDescription, LaunchService
-from launch.launch_description_sources import PythonLaunchDescriptionSource
-from launch.actions import IncludeLaunchDescription, DeclareLaunchArgument, OpaqueFunction
-from launch.actions import GroupAction,TimerAction
-```
-
-`os`: Used for handling file paths and operating system-related functions.
-
-`ament_index_python.packages.get_package_share_directory`: Retrieves the share directory path of ROS 2 package.
-
-`launch_ros.actions.Node`: Used to define ROS 2 nodes.
-
-`launch.substitutions.LaunchConfiguration`: Retrieves parameter values defined in the Launch file.
-
-`LaunchDescription, LaunchService`: Used to define and start the Launch file.
-
-`PythonLaunchDescriptionSource`: Enables the inclusion of other Launch files.
-
-`launch.actions.IncludeLaunchDescription、DeclareLaunchArgument、OpaqueFunction`: Used to define actions and arguments within the Launch file.
-
-`launch.actions.GroupAction、TimerAction`: Action group and delayed startup.
-
-2\) Define `launch_setup` Function
-
-Declare launch parameters:
-
-`mode`: Mode parameter, default value `1`.
-
-`camera_topic`: Camera topic, default `depth_cam/rgb0/image_raw`.
-
-`asr_mode` is read from the environment variable ` ASR_MODE`, defaulting to `online` and converted to lowercase.
-
-`interruption`: Interruption toggle, default ` False`.
-
-```python
-    mode = LaunchConfiguration('mode', default=1)
-    mode_arg = DeclareLaunchArgument('mode', default_value=mode)
-    camera_topic = LaunchConfiguration('camera_topic', default='depth_cam/rgb0/image_raw')
-    camera_topic_arg = DeclareLaunchArgument('camera_topic', default_value=camera_topic)
-
-    asr_mode = os.environ.get("ASR_MODE", "online").lower()
-
-
-    interruption = LaunchConfiguration('interruption', default=False)
-    interruption_arg = DeclareLaunchArgument('interruption', default_value=interruption)
-```
-
-Obtain package paths:
-
-Retrieve paths for `app` and `large_models` packages.
-
-```python
-    app_package_path = get_package_share_directory('app')
-    large_models_package_path = get_package_share_directory('large_models')
-```
-
-Include launch.py files using `IncludeLaunchDescription`.
-
-`object_tracking_node_launch`: Color-tracking node.
-
-`vocal_detect_launch` is the launch file for voice detection, with the `mode` parameter passed in.
-
-`agent_process_launch` is the launch file for agent processing, with the `camera_topic` parameter passed in.
-
-`tts_node_launch` is the launch file for the TTS node.
-
-```python
-    object_tracking_node_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
-            os.path.join(app_package_path, 'launch/object_tracking_node.launch.py')),
-        launch_arguments={
-            'debug': 'true',
-        }.items(),
-    )
-
-    vocal_detect_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
-            os.path.join(get_package_share_directory('large_models'), 'launch/vocal_detect.launch.py')),
-        launch_arguments={'mode': mode,}.items(),
-    )
-
-    agent_process_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
-            os.path.join(get_package_share_directory('large_models'), 'launch/agent_process.launch.py')),
-        launch_arguments={'camera_topic': camera_topic}.items(),
-    )
-
-    tts_node_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
-            os.path.join(get_package_share_directory('large_models'), 'launch/tts_node.launch.py')),
-    )
-
-```
-
-Delayed launch configuration:
-
-In `offline` mode, `vocal_detect_launch` and `agent_process_launch` are delayed by 10 seconds, while in `online` mode they are delayed by 1 second, and `tts_node_launch` starts immediately.
-
-```python
-    time_interval = 10.0 if asr_mode == 'offline' else 1.0
-    large_models_launch = GroupAction(
-     actions=[
-        tts_node_launch,
-        TimerAction(
-                period=time_interval, actions=[
-                vocal_detect_launch,
-            ],
-         ),
-        TimerAction(period=time_interval, actions=[
-            agent_process_launch,
-            ],
-         ),
-      ]
-    )
-```
-
-Conditional node selection:
-
-Start the `llm_color_track_node` node.
-
-```python
-    llm_color_track_node = Node(
-        package='large_models_examples',
-        executable='llm_color_track',
-        output='screen',
-        parameters=[
-            {
-                'interruption': interruption,
-            }],
-    )
-```
-
-3\) Define `generate_launch_description` Function
-
-This function generates the Launch description and adds the `launch_setup` function to it using `OpaqueFunction`.
-
-```python
-def generate_launch_description():
-    return LaunchDescription([
-        OpaqueFunction(function = launch_setup)
-    ])
-```
-
-4\) Main Program Entry
-
-```python
-if __name__ == '__main__':
-    # Create a LaunchDescription object
-    ld = generate_launch_description()
-
-    ls = LaunchService()
-    ls.include_launch_description(ld)
-    ls.run()
-```
-
-`ld = generate_launch_description()` generates the Launch description object.
-
-`ls = LaunchService()` creates a Launch service object.
-
-`ls.include_launch_description(ld)` adds the Launch description to the Launch service.
-
-`ls.run()` starts the Launch service and executes all defined Launch actions.
-
-* **Python File Analysis**
-
-File Path:
-
-**/home/ubuntu/ros2_ws/src/large_models_examples/large_models_examples/llm_color_track.py**
-
-1\) Prompt template.
-
-```python
-    PROMPT = '''
-**Role
-You are an intelligent companion robot. Your job is to generate corresponding JSON commands based on the user’s input.
-
-**Requirements
-- For every user input, search the action function library for matching commands and return the corresponding JSON instruction.
-- Craft a witty, ever-changing, and concise response (between 10 to 30 characters) for each action sequence to make interactions lively and fun.
-- Output only the JSON result — do not include explanations or any extra text.
-- Output format:{"action": ["xx", "xx"], "response": "xx"}
-
-**Special Notes
-The "action" key holds an array of function name strings arranged in execution order. If no match is found, return an empty array [].
-The "response" key must contain a cleverly worded, short reply (10–30 characters), adhering to the tone and length guidelines above.
-
-**Action Function Library
-Track an object of a specific color: color_track('red')
-
-**Example
-Input: Track a green object
-Output:
-{"action": ["color_track('green')"], "response": "Got it!"}
-    '''
-```
-
-2\) Variable Initialization
-
-Initializes member variables.
-
-`self.action`: list of actions.
-
-`self.stop` controls whether to stop the current action, with True indicating that the action should be stopped.
-
-`self.llm_result`: result returned by the LLM.
-
-`self.running`: running flag.
-
-`self.interrupt`: interrupt flag.
-
-`self.action_finish`: action completed flag.
-
-`self.play_audio_finish`: audio playback completed flag.
-
-`interruption`: whether interruption is enabled.
-
-`self.interruption`: value of the `interruption` parameter.
-
-`self.asr_mode`: Reads the value of speech mode `ASR_MODE` from the environment variable, defaulting to `online`.
-
-```python
-    def __init__(self, name):
-        rclpy.init()
-        super().__init__(name)
-        
-        self.action = []
-        self.stop = True
-        self.llm_result = ''
-        # self.llm_result = '{"action": ["line_following(\'black\')"], "response": "ok！"}'
-        self.running = True
-        self.action_finish = False
-        self.play_audio_finish = False
-        
-        self.declare_parameter('interruption', False)  
-        self.interruption = self.get_parameter('interruption').value  
-        
-        self.asr_mode = os.environ.get("ASR_MODE", "online").lower()
-```
-
-A reentrant callback group is created to allow callbacks to call other callbacks.
-
-```python
-        timer_cb_group = ReentrantCallbackGroup()
-```
-
-ROS2 communication:
-
-Publisher: `self.tts_text_pub` publishes TTS text.
-
-Subscribers include `agent_process/result` which receives LLM results, `vocal_detect/wakeup` which receives wake signals, and `tts_node/play_finish` which receives the playback completion status.
-
-Service clients: `self.set_model_client` for setting the model, `self.awake_client` for setting the wake-up, `self.set_mode_client` for setting the mode, `self.set_prompt_clien` for setting the prompt, `self.enter_client` for entering color tracking mode, `self.start_client` for starting or stopping the mode, and `self.set_target_client` for setting the target color.
-
-```python
-        self.tts_text_pub = self.create_publisher(String, 'tts_node/tts_text', 1)
-        self.create_subscription(String, 'agent_process/result', self.llm_result_callback, 1)
-        self.create_subscription(Bool, 'vocal_detect/wakeup', self.wakeup_callback, 1, callback_group=timer_cb_group)
-        self.create_subscription(Bool, 'tts_node/play_finish', self.play_audio_finish_callback, 1, callback_group=timer_cb_group)
-        self.awake_client = self.create_client(SetBool, 'vocal_detect/enable_wakeup')
-        # self.awake_client.wait_for_service()
-        self.set_mode_client = self.create_client(SetInt32, 'vocal_detect/set_mode')
-        # self.set_mode_client.wait_for_service()
-
-        self.set_model_client = self.create_client(SetModel, 'agent_process/set_model')
-        self.set_model_client.wait_for_service()
-        self.set_prompt_client = self.create_client(SetString, 'agent_process/set_prompt')
-        self.set_prompt_client.wait_for_service()
-        self.enter_client = self.create_client(Trigger, 'object_tracking/enter')
-        self.enter_client.wait_for_service()
-        self.start_client = self.create_client(SetBool, 'object_tracking/set_running')
-        self.start_client.wait_for_service()
-        self.set_target_client = self.create_client(SetColor, 'object_tracking/set_color')
-        self.set_target_client.wait_for_service()
-```
-
-A timer is created to repeatedly call a callback function through the callback group.
-
-```python
-        self.timer = self.create_timer(0.0, self.init_process, callback_group=timer_cb_group)
-```
-
-3\) `def init_process(self)` Initialization Configuration
-
-Cancel the timer.
-
-```python
-        self.timer.cancel()
-```
-
-Configure the LLM model:
-
-Create a `SetModel.Request()` message object.
-
-```python
-        msg = SetModel.Request()
-```
-
-Set the model type to `llm`.
-
-```python
-        msg.model_type = 'llm'
-```
-
-Select the model and configuration based on `self.asr_mode`.
-
-```python
-		if self.asr_mode == 'offline':
-            msg.model = 'qwen3:0.6b'
-            msg.base_url = ollama_host
-        else:
-            msg.model = llm_model
-            msg.api_key = api_key 
-            msg.base_url = base_url
-```
-
-Synchronously call the `agent_process/set_model` service via `self.send_request`.
-
-```python
-        self.send_request(self.set_model_client, msg)
-```
-
-Set the prompt:
-
-Create a `SetString.Request()` message.
-
-```
-        msg = SetString.Request()
-```
-
-Set `msg.data` to the module-level variable `PROMPT`, using the `ASR_LANGUAGE` environment variable to determine whether it is in English or another language.
-
-```python
-        msg.data = PROMPT
-```
-
-Call the `agent_process/set_prompt` service to pass the prompt to the LLM agent.
-
-```python
-		self.send_request(self.set_prompt_client, msg)
-```
-
-Initialize the line-following feature:
-
-Create a temporary client to check if the `object_tracking/init_finish` service is ready.
-
-```python
-        init_finish = self.create_client(Trigger, 'object_tracking/init_finish')
-```
-
-Ensure the color tracking node is fully initialized.
-
-```python
-        init_finish.wait_for_service()
-```
-
-Call the `object_tracking/enter` service to enter line-following mode.
-
-```python
-        self.send_request(self.enter_client, Trigger.Request())
-```
-
-Play the start audio.
-
-```python
-        speech.play_audio(start_audio_path)
-```
-
-Start the main processing thread.
-
-```python
-        threading.Thread(target=self.process, daemon=True).start()
-```
-
-Create the initialization completion service.
-
-```python
-        self.create_service(Empty, '~/init_finish', self.get_node_state)
-```
-
-Output logging information.
-
-```python
-        self.get_logger().info('\033[1;32m%s\033[0m' % 'start')
-        self.get_logger().info('\033[1;32m%s\033[0m' % PROMPT)
-```
-
-4\) `def wakeup_callback(self, msg)` Wakeup Callback Method
-
-Wakeup interrupt handling: when receiving a wakeup signal, interrupt the current action and re-enter line-following mode.
-
-```python
-    def wakeup_callback(self, msg):
-        if msg.data and self.llm_result:
-            self.get_logger().info('wakeup interrupt')
-            self.send_request(self.enter_client, Trigger.Request())
-            self.stop = True
-        elif msg.data and not self.stop:
-            self.get_logger().info('wakeup interrupt')
-            self.send_request(self.enter_client, Trigger.Request())
-            self.stop = True
-```
-
-5\) `def llm_result_callback(self, msg)` LLM Result Callback Method
-
-Stores the result returned by the LLM.
-
-```python
-	def llm_result_callback(self, msg):
-        self.llm_result = msg.data
-```
-
-6\) `def play_audio_finish_callback(self, msg)` Audio Playback Completion Callback Method
-
-Enables the wake function and sets the completion flag after audio playback finishes.
-
-```python
-    def play_audio_finish_callback(self, msg):
-        self.play_audio_finish = msg.data
-```
-
-7\) `def process(self)` Main Processing Loop
-
-Run continuously until `self.running` is set to `false`.
-
-```python
-        while self.running:
-```
-
-Check if there is an LLM result.
-
-```python
-            if self.llm_result:
-```
-
-Create a TTS message object.
-
-```python
-                msg = String()
-```
-
-If the string does not contain `action`, only respond via voice.
-
-```
-                else:
-                    msg.data = self.llm_result
-```
-
-If an action is present, extract and process it.
-
-```python
-                if 'action' in self.llm_result:
-```
-
-Parse the JSON result.
-
-```python
-                    result = eval(self.llm_result[self.llm_result.find('{'):self.llm_result.find('}')+1])
-```
-
-Check if `result` contains `action`.
-
-```python
-                    if 'action' in result:
-```
-
-Get the action list, define a regular expression to match the format `line_following('color')`.
-
-```python
-                        text = result['action']
-                        # Use a regular expression to extract all strings inside parentheses
-                        pattern = r"line_following\('([^']+)'\)"
-                        # Use re.search to find matches
-```
-
-Iterate over the action list:
-
-Perform regex matching for each action string.
-
-```python
-                        for i in text:
-                            match = re.search(pattern, i)
-```
-
-Extract the color parameter and log the result.
-
-```python
-                            # Extract the result  
-                            if match:
-                                # Get the parameter part, which is the content inside parentheses
-                                color = match.group(1)
-                                self.get_logger().info(str(color))           
-```
-
-Set the target color.
-
-```python
-                                color_msg = SetColor.Request()
-                                color_msg.data = color
-                                self.send_request(self.set_target_client, color_msg)
-```
-
-Start color tracking.
-
-```python
-                                start_msg = SetBool.Request()
-                                start_msg.data = True 
-                                self.send_request(self.start_client, start_msg)
-```
-
-Response text processing.
-
-```python
-                    if 'response' in result:
-                        msg.data = result['response']
-```
-
-Publish the TTS response and reset the state.
-
-```python
-                self.tts_text_pub.publish(msg)
-                self.action_finish = True
-                self.llm_result = ''
-```
-
-Idle wait.
-
-```python
-            else:
-                time.sleep(0.01)
-```
-
-Wakeup mechanism recovery.
-
-```python
-            if self.play_audio_finish and self.action_finish:
-                self.play_audio_finish = False
-                self.action_finish = False
-                msg = SetBool.Request()
-                msg.data = True
-                self.send_request(self.awake_client, msg)
-                if self.interruption:
-                    msg = SetInt32.Request()
-                    msg.data = 2
-                    self.send_request(self.set_mode_client, msg)
-                self.stop = False
-```
-
-Loop end and cleanup.
-
-```python
-        rclpy.shutdown()
-```
-
-8\) Main function `def main()`
-
-Create the node, run with a multithreaded executor, and finally destroy the node.
-
-```python
-def main():
-    node = LLMControlMove('llm_color_track')
-    executor = MultiThreadedExecutor()
-    executor.add_node(node)
-    executor.spin()
-    node.destroy_node()
-```
-

@@ -201,14 +201,14 @@ This section provides a brief analysis of the robot model code and component mod
 
 #### 5.1.2.2 Access the Robot Model Code
 
-1. Start the robot and connect it to the remote control software NoMachine. For connection instructions, please refer to the section [1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Start the robot and connect it to the remote control software VNC. For connection instructions, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_5\section_1/media/image23.png"  class="common_img" style="display:inline;vertical-align:middle;" /> in the system desktop to open a new command-line window.
 
 3. Stop the app auto-start service by entering the following command and press **Enter**:
    
    ```bash
-   sudo systemctl stop start_app_node.service
+   ~/.stop_ros.sh
    ```
 
 4. Enter the command to navigate to the robot simulation model folder.
@@ -345,14 +345,14 @@ each incoming frame of data is processed immediately and then returned.
 
 #### 5.1.4.2 Mapping Steps
 
-1. Start the robot and connect it to the remote control software NoMachine. For connection instructions, please refer to the section [1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Start the robot and connect it to the remote control software VNC. For connection instructions, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_5\section_1/media/image23.png"  class="common_img" style="display:inline;vertical-align:middle;" /> in the system desktop to open a new command-line window.
 
 3. Enter the command to disable the app auto-start service.
 
 ```bash
-sudo systemctl stop start_app_node.service
+~/.stop_ros.sh
 ```
 
 4. Entering the following command to start mapping.
@@ -361,7 +361,7 @@ sudo systemctl stop start_app_node.service
 ros2 launch slam slam.launch.py
 ```
 
-5. Right-click the system command-line terminal icon and select **New Window** to open a new command-line terminal.
+5. Click the system command-line terminal icon to open a new terminal window.
 
 <img src="../_static/media/chapter_5\section_1/media/image31.png"  class="common_img" />
 
@@ -373,7 +373,7 @@ ros2 launch slam rviz_slam.launch.py
 
 <img src="../_static/media/chapter_5\section_1/media/image33.png" style="width:600px" class="common_img" />
 
-7. Right-click the system command-line terminal icon and select **New Window** to open another command-line terminal.
+7. Click the system command-line terminal icon to open a new terminal window.
 
 <img src="../_static/media/chapter_5\section_1/media/image31.png"  class="common_img" />
 
@@ -398,14 +398,14 @@ If the prompt shown below appears, the keyboard control service has started succ
 
 #### 5.1.4.3 Save Map
 
-1. Right-click the system command-line terminal icon and select **New Window** to open a new command-line terminal.
+1. Click the system command-line terminal icon to open a new terminal window.
    
    <img src="../_static/media/chapter_5\section_1/media/image31.png"  class="common_img" />
    
 2. Enter the command to save the map and press **Enter**:
 
 ```bash
-cd ~/ros2_ws/src/slam/maps && ros2 run nav2_map_server map_saver_cli -f "map_01" --ros-args -p map_subscribe_transient_local:=true**
+cd ~/ros2_ws/src/slam/maps && ros2 run nav2_map_server map_saver_cli -f "map_01" --ros-args -p map_subscribe_transient_local:=true
 ```
 
 <img src="../_static/media/chapter_5\section_1/media/image36.png" style="width:600px" class="common_img" />
@@ -428,7 +428,7 @@ If the prompt shown above appears, the map has been saved successfully.
 
 To achieve more accurate mapping results, optimize the odometer. The odometer is required for robot mapping, and it depends on the IMU.
 
-The robot is preloaded with calibrated IMU data, which allows it to perform mapping and navigation normally. However, the IMU can still be recalibrated to achieve higher precision. For IMU calibration methods and procedures, refer to the section [2.1.1 IMU Calibration](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/2_Chassis_Motion_Control_Course.html#imu-calibration) of **2\. Chassis Motion Control Course**.
+The robot is preloaded with calibrated IMU data, which allows it to perform mapping and navigation normally. However, the IMU can still be recalibrated to achieve higher precision. For IMU calibration methods and procedures, refer to the section [2.1.1 IMU Calibration]() of **2\. Chassis Motion Control Course**.
 
 #### 5.1.4.6 Parameter Description
 
@@ -539,12 +539,12 @@ During operation, the RTAB-VSLAM algorithm first uses short-term memory data to 
 
 #### 5.1.5.3 3D Mapping Steps
 
-1. Start the robot and connect it to the remote control software NoMachine. For connection instructions, please refer to the section [1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Start the robot and connect it to the remote control software VNC. For connection instructions, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_5\section_1/media/image23.png"  class="common_img" style="display:inline;vertical-align:middle;" /> in the system desktop to open a ROS2 command-line window. Enter the command to disable the app auto-start service.
 
 ```bash
-sudo systemctl stop start_app_node.service
+~/.stop_ros.sh
 ```
 
 3. Entering the following command to start mapping.
@@ -553,7 +553,7 @@ sudo systemctl stop start_app_node.service
 ros2 launch slam rtabmap_slam.launch.py
 ```
 
-4. Press **Ctrl + Shift + E** to open a new command-line terminal, then enter the command to start the RVIZ tool for displaying the mapping process.
+4. Press the Ctrl+Shift+E key combination to open a new command-line terminal, then enter the command to launch RViz and display the mapping result.
 
 ```bash
 ros2 launch slam rviz_rtabmap.launch.py
@@ -561,7 +561,7 @@ ros2 launch slam rviz_rtabmap.launch.py
 
 <img src="../_static/media/chapter_5\section_1/media/image46.png" style="width:600px" class="common_img" />
 
-5. Press **Ctrl + Shift + O** to open another command-line terminal, then enter the command to start the keyboard control node and press Enter.
+5. Press **Ctrl+Shift+O** to open another command-line terminal, then enter the command to start the keyboard control node and press **Enter**.
 
 ```bash
 ros2 launch peripherals teleop_key_control.launch.py
@@ -594,7 +594,7 @@ After completing the mapping, press **Ctrl + C** in each command-line terminal w
 
 #### 5.1.5.5 Exit Mapping
 
-1. Right-click the system command-line terminal icon and select **New Window** to open a new command-line terminal.
+1. Click the system command-line terminal icon to open a new terminal window.
    
    <img src="../_static/media/chapter_5\section_1/media/image31.png"  class="common_img" />
    
@@ -754,6 +754,10 @@ Inflation Layer: Expands obstacles from the obstacle map outward to prevent the 
 
 * **Package Installation**
 
+> [!NOTE]
+>
+> * **The navigation package has already been pre-installed on this robot at the factory, so there is no need for the user to install it again. The following content is for reference only.**
+
 The navigation system uses navigation goals, localization data, and map information as inputs to generate control commands for the robot. First, the robot’s current position must be determined, followed by its target destination.
 
 There are two methods to install the navigation packages. The first method is direct installation via apt-get, using the following command:
@@ -780,9 +784,7 @@ The second method is to download the package source code and compile it manually
 
 Navigation package wiki: https://wiki.ros.org/Robots/Nav2
 
-> [!NOTE]
->
-> **The robot comes with the navigation package preinstalled; no additional installation is required.**
+
 
 ### 5.2.2 Adaptive Monte Carlo Localization(AMCL)
 
@@ -832,7 +834,7 @@ Therefore, it is recommended to set the initial pose using the 2D Pose Estimate 
 
 #### 5.2.2.4 Costmap
 
-Whether it’s a 2D or 3D SLAM map generated by Lidar or depth cameras, it cannot be directly used for navigation. The map must be converted into a costmap for practical navigation. ROS costmaps typically use a grid format. In a grid map, each cell occupies one byte (8 bits), with values ranging from 0 to 255. For navigation purposes, we only need three values for each cell:  
+Whether it’s a 2D or 3D SLAM map generated by Lidar or depth cameras, it cannot be directly used for navigation. The map must be converted into a costmap for practical navigation. ROS costmaps typically use a grid format. In a grid map, each cell occupies one byte (8 bits), with values ranging from 0 to 255. For navigation purposes, only three values are needed for each cell:  
 Occupied: The space is occupied (obstacle detected).  
 Free: The space is free (no obstacle).  
 Unknown: The space is unknown.
@@ -927,9 +929,9 @@ The formula for the A* algorithm is: F = G + H Where G is the cost of moving fro
 
 <img src="../_static/media/chapter_6/section_1/media/image19.png"  class="common_img" />
 
-For an introduction and usage of the A* algorithm, refer to the video tutorial or visit the wiki at the following link: http://wiki.ros.org/global planner
+For an introduction and usage of the A* algorithm, refer to the video tutorial or visit the wiki at the following link: http://wiki.ros.org/global_planner.
 
-Also visit the redblobgames website: https://www.redblobgames.com/pathfinding/a-star/introduction.html#graphs
+Also visit the redblobgames website: https://www.redblobgames.com/pathfinding/a-star/introduction.html#graphs.
 
 ### 5.2.3 Local Path Planning
 
@@ -1109,12 +1111,12 @@ These links provide valuable resources for users to explore the TEB algorithm an
 
 ### 5.2.4 Single/Multi-Point Navigation and Obstacle Avoidance
 
-1. Start the robot and connect it to the remote control software NoMachine. For connection instructions, please refer to the section [1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Start the robot and connect it to the remote control software VNC. For connection instructions, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_6/section_1/media/image29.png"  class="common_img" style="display:inline;vertical-align:middle;" /> in the system desktop to open a command-line window. Enter the command to disable the app auto-start service.
 
 ```bash
-sudo systemctl stop start_app_node.service
+~/.stop_ros.sh
 ```
 
 3. Entering the following command and press Enter to start the navigation service.
@@ -1191,9 +1193,9 @@ The setting method involves left-clicking to set a target point, then dragging t
 
 #### 5.2.4.3 Exit Navigation
 
-1. Right-click on the system command terminal icon, then click **New Window** to open a new command terminal.
+1. Click the system command-line terminal icon to open a new terminal window.
 
-   <img src="../_static/media/chapter_6/section_1/media/image48.png"  class="common_img" />
+   <img src="../_static/media/chapter_5\section_1/media/image31.png" style="width:600px" class="common_img" />
 
 2. Next, enter the following command and press Enter to execute the program for all ROS nodes in the current system environment. If it does not close successfully, try a few more times.
 
@@ -1302,12 +1304,12 @@ For an introduction to the RTAB-VSLAM algorithm and its principles, refer to the
 
 #### 5.2.5.2 Operating Steps
 
-1. Start the robot and connect it to the remote control software NoMachine. For connection instructions, please refer to the section [1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Start the robot and connect it to the remote control software VNC. For connection instructions, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_6/section_1/media/image29.png"  class="common_img"  style="display:inline;vertical-align:middle;"  /> in the system desktop to open a command-line window. Enter the command to disable the app auto-start service.
 
 ```bash
-sudo systemctl stop start_app_node.service
+~/.stop_ros.sh
 ```
 
 3. Entering the following command and press Enter to start the navigation service.

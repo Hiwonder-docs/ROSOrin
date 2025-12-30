@@ -22,14 +22,14 @@ The figure above shows the positive directions of the IMU’s x, y, and z axes. 
 >
 > **The input command should be case sensitive, and the keywords can be complemented by the Tab key.**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7 Development Environment Setup](https://wiki.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#development-environment-setup) in the user manual.
+1. Power on the robot and connect it via the VNC remote control software. For detailed information, please refer to the section [1.7 Development Environment Setup]() in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_2/section_1/media/image3.png"  class="common_img" style="display:inline;vertical-align:middle;" /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app auto-start service.
 
 ```bash
-sudo systemctl stop start_app_node.service
+~/.stop_ros.sh
 ```
 
 4. Next, enter the command and press **Enter** to start the chassis control node:
@@ -110,14 +110,14 @@ When the robot shows noticeable deviation in turning points or turning angles du
 
 <img src="../_static/media/chapter_2/section_1/media/image24.png" style="width:600px"  class="common_img" />
 
-2. Power on the robot and connect to it using the remote connection tool by following the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+2. Power on the robot and connect to it using the remote connection tool by following the section [1.7.2 AP Mode Connection Steps]() in the user manual.
 
 3. Click the terminal icon <img src="../_static/media/chapter_2/section_1/media/image3.png"  class="common_img" style="display:inline;vertical-align:middle;"/> on the system desktop.
 
 4. Enter the following command and press **Enter** to stop the app auto-start service.
 
 ```bash
-sudo systemctl stop start_app_node.service
+~/.stop_ros.sh
 ```
 
 5. Before starting the calibration, navigate to the calibration configuration file directory and open the configuration file.
@@ -128,7 +128,7 @@ cd ~/ros2_ws/src/driver/controller/config && vim calibrate_params.yaml
 
 6. Set the angular velocity parameter to 1.0 before proceeding with the calibration.
 
-<img src="../_static/media/chapter_2/section_1/media/image26.png"  class="common_img" />
+<img src="../_static/media/chapter_2/section_1/media/image26.png" style="width:600px" class="common_img" />
 
 7. After editing, press **ESC**, type `:wq`, and press **Enter** to save and exit.
 
@@ -182,13 +182,17 @@ cd ~/ros2_ws/src/driver/controller/config && vim calibrate_params.yaml
 
 Press the key **i** to enter edit mode and modify the value of **angular_correctqion_factor** to the calibrated value of **odom_angule_scale_correction**.
 
-<img src="../_static/media/chapter_2/section_1/media/image31.png"  class="common_img" />
+<img src="../_static/media/chapter_2/section_1/media/image31.png" style="width:600px" class="common_img" />
 
 > [!NOTE]
 >
 > **This section uses the Mecanum chassis as an example for calibration. The Ackermann chassis does not require angular velocity calibration.**
 
-12. After editing, press **ESC**, type `:wq`, and press **Enter** to save and exit.
+12. After editing, press **ESC**, enter the following command, and press **Enter** to save and exit.
+
+```bash
+:wq
+```
 
 ### 2.1.3 Linear Velocity Calibration
 
@@ -200,14 +204,14 @@ Press the key **i** to enter edit mode and modify the value of **angular_correct
 
 <img src="../_static/media/chapter_2/section_1/media/image32.png" style="width:600px"  class="common_img" />
 
-2. Power on the robot and connect to it using the remote connection tool by following the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+2. Power on the robot and connect to it using the remote connection tool by following the section [1.7.2 AP Mode Connection Steps]() in the user manual.
 
 3. Click the terminal icon <img src="../_static/media/chapter_2/section_1/media/image3.png"  class="common_img" style="display:inline;vertical-align:middle;"/> in the system desktop to open a command-line window.
 
 4. Enter the following command and press Enter to stop the app auto-start service.
 
 ```bash
-sudo systemctl stop start_app_node.service
+~/.stop_ros.sh
 ```
 
 5. Before starting the calibration, navigate to the calibration configuration file directory and open the configuration file.
@@ -218,7 +222,7 @@ cd ~/ros2_ws/src/driver/controller/config && vim calibrate_params.yaml
 
 6. Change the linear velocity parameter **linear_correction_factor** to 1.0 before proceeding with the calibration.
 
-<img src="../_static/media/chapter_2/section_1/media/image33.png"  class="common_img" />
+<img src="../_static/media/chapter_2/section_1/media/image33.png" style="width:600px" class="common_img" />
 
 7. After editing, press **ESC**, type `:wq`, and press **Enter** to save and exit.
 
@@ -312,14 +316,14 @@ The IMU data is published on the topic /imu, and the odometry data is published 
 >
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Power on the robot and connect it via the VNC remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_2/section_1/media/image3.png"  class="common_img" style="display:inline;vertical-align:middle;"/> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app auto-start service.
 
 ```bash
-sudo systemctl stop start_app_node.service
+~/.stop_ros.sh
 ```
 
 4. Next, enter the command and press **Enter** to start the chassis control node:
@@ -370,14 +374,14 @@ The message content shows the data collected from the three axes of the IMU.
 >
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Power on the robot and connect it via the VNC remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps]() in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_2/section_1/media/image3.png"  class="common_img" style="display:inline;vertical-align:middle;"/> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to stop the app auto-start service.
 
 ```bash
-sudo systemctl stop start_app_node.service
+~/.stop_ros.sh
 ```
 
 4. Enter the command and press **Enter** to start publishing odometry data:
@@ -432,14 +436,14 @@ The program subscribes to the `/controller/cmd_vel` topic to get the set linear 
 >
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it to the remote control software NoMachine. For instructions on setting up the remote desktop connection, refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Power on the robot and connect it to the remote control software VNC. For instructions on setting up the remote desktop connection, refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_2/section_1/media/image3.png"  class="common_img" style="display:inline;vertical-align:middle;"/> in the system desktop to open a command-line window.
 
 3. Enter the command to stop the app service and press **Enter**:
 
 ```bash
-sudo systemctl stop start_app_node.service
+~/.stop_ros.sh
 ```
 
 4. Enter the command to start the motion control service:
@@ -498,10 +502,6 @@ After pressing **Enter**, the robot will move forward at a speed of 0.3 m/s.
 After starting the feature, the robot will move forward at the previously set speed of 0.3 m/s.
 
 #### 2.1.5.5 Program Analysis
-
-There are three files: `controller.launch` as the launch file, `calibrate_params.yaml` as the configuration file, and `odom_publisher.py` as the program file.
-
-When starting, the launch file is executed first. It loads the YAML configuration file and passes the parameters to the ROS nodes. The nodes then read these parameters, initialize themselves, and communicate with other nodes to coordinate the robot’s behavior.
 
 * **launch File**
 

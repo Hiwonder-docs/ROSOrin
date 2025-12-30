@@ -53,6 +53,7 @@ myst_enable_extensions = [
     "dollarmath",
 ]
 
+
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 html_css_files = ['style.css']
@@ -60,7 +61,7 @@ html_js_files = ['custom.js']
 html_theme_options = {
     'version_selector': True,
     'versioning': True,
-    'current_version_name': 'Advanced',
+    'current_version_name': 'Jetson-Nano-Version',
     'style_nav_header_background': '#F29401',
     'display_version': True,
     'style_external_links': True,

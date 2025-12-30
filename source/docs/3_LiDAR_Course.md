@@ -36,23 +36,21 @@ The platform uses the MS200 LiDAR by default, which connects to the intelligent 
 
 <img src="../_static/media/chapter_4\section_1/media/image3.png" style="width:300px" class="common_img" />
 
-2. Power on the robot and connect it using a remote desktop tool. For detailed connection instructions, refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+2. Power on the robot and connect it using a remote desktop tool. For detailed connection instructions, refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
 
-<img src="../_static/media/chapter_4\section_1/media/image4.png" style="width:600px" class="common_img" />
+<img src="../_static/media/chapter_4\section_1/media/image24.png" style="width:600px" class="common_img" />
 
 3. After the connection is complete, double-click the <img src="../_static/media/chapter_4\section_1/media/image5.png"   class="common_img" /> **Tool** icon on the desktop.
 
-<img src="../_static/media/chapter_4\section_1/media/image6.png" style="width:600px" class="common_img" />
+4. Click the dropdown button on the LiDAR tab, select the LiDAR model that matches your robot, such as **MS200**, then click **Save**.
 
-4. Click the dropdown button on the LiDAR tab, select the LiDAR model that matches your robot, such as **G4**, then click **Save** and **Apply**.
+<img src="../_static/media/chapter_4\section_1/media/image25.png" style="width:600px" class="common_img" />
 
-<img src="../_static/media/chapter_4\section_1/media/image7.png" style="width:600px" class="common_img" />
-
-5. A popup, as shown below, will appear. The robot’s auto-start service will restart, and the LiDAR model will be set according to the selected option.
+5. A dialog window appears as shown below, and the robot LiDAR model is configured based on the selected option.
 
 <img src="../_static/media/chapter_4\section_1/media/image8.png" style="width:600px" class="common_img" />
 
-6. After the reboot is complete, click **Quit**.
+6. Then, click **Apply**. After the reboot is complete, click **Quit**.
 
 <img src="../_static/media/chapter_4\section_1/media/image9.png" style="width:600px" class="common_img" />
 
@@ -92,19 +90,19 @@ The robot will detect the distance between objects directly in front and its bod
 
 There are two ways to enable this feature. The first is through the mobile app, and the second is by using commands after connecting to the system remotely.
 
-For instructions on using the mobile app, refer to the section [1.5 App Installation and Connection](https://wiki.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#app-installation-and-connection) in the user manual to view the related course.
+For instructions on using the mobile app, refer to the section [1.5 App Installation and Connection]() in the user manual to view the related course.
 
-1. Start the robot and connect it to the remote control software NoMachine. For connection instructions, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Start the robot and connect it to the remote control software VNC. For connection instructions, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_4\section_1/media/image15.png"  class="common_img" style="display:inline;vertical-align:middle;"/> in the system desktop to open a command-line window.
 
 3. Stop the app auto-start service by entering the following command and pressing **Enter**:
    
    ```bash
-   sudo systemctl stop start_app_node.service
+   ~/.stop_ros.sh
    ```
 
-4. Enter the following command and press **Enter** to start the robot’s auto-start program:
+4. Enter the following command and press **Enter** to start the robot’s LiDAR program:
    
    ```bash
    ros2 launch app LiDAR_node.launch.py debug:=true
@@ -127,7 +125,7 @@ ros2 service call /LiDAR_app/set_running interfaces/srv/SetInt64 "{data: 1}"
 7. To stop the current function, enter the command in the current terminal and press Enter.
 
 ```bash
-ros2 service call /LiDAR_app/set_running interfaces/srv/SetInt64 "{data: 0}"
+ros2 service call /lidar_app/set_running interfaces/srv/SetInt64 "{data: 0}"
 ```
 
 8. To exit the feature completely, press **Ctrl+C** in the terminal used in steps 4 or 5.
@@ -141,14 +139,14 @@ The robot detects the distance to objects directly in front of it. If an object 
 
 There are two ways to enable this feature. The first is through the mobile app, and the second is by using commands after connecting to the system remotely.
 
-For instructions on using the mobile app, refer to the section [1.5 App Installation and Connection](https://wiki.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#app-installation-and-connection) in the user manual to view the related course.
+For instructions on using the mobile app, refer to the section [1.5 App Installation and Connection]() in the user manual to view the related course.
 
-1. Start the robot and connect it to the remote control software NoMachine. For connection instructions, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Start the robot and connect it to the remote control software VNC. For connection instructions, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
 2. Click the terminal icon <img src="../_static/media/chapter_4\section_1/media/image15.png"  class="common_img" style="display:inline;vertical-align:middle;" /> in the system desktop to open a command-line window.
 3. Stop the app auto-start service by entering the following command and pressing **Enter**:
 
 ```bash
-sudo systemctl stop start_app_node.service
+~/.stop_ros.sh
 ```
 
 4. Enter the command and press **Enter** to start the local services for the app features and chassis control.
@@ -165,7 +163,7 @@ ros2 service call /LiDAR_app/enter std_srvs/srv/Trigger {}
 
 <img src="../_static/media/chapter_4\section_1/media/image18.png"  class="common_img" />
 
-6. Then enter the command in the current command line terminal  and press **Enter** to enable the LiDAR obstacle avoidance feature:
+6. Then enter the command in the current command line terminal  and press **Enter** to enable the LiDAR following feature:
 
 ```bash
 ros2 service call /LiDAR_app/set_running interfaces/srv/SetInt64 "{data: 2}"
@@ -188,18 +186,18 @@ The robot detects the distance to objects directly in front of it. If an object 
 
 There are two ways to enable this feature. The first is through the mobile app, and the second is by using commands after connecting to the system remotely.
 
-For instructions on using the mobile app, refer to the section [1.5 App Installation and Connection](https://wiki.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#app-installation-and-connection) in the user manual to view the related course.
+For instructions on using the mobile app, refer to the section [1.5 App Installation and Connection]() in the user manual to view the related course.
 
 This feature is only available for robots with a mecanum wheel chassis.
 
-1. Start the robot and connect it to the remote control software NoMachine. For connection instructions, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Start the robot and connect it to the remote control software VNC. For connection instructions, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_4\section_1/media/image15.png"  class="common_img" style="display:inline;vertical-align:middle;" /> in the system desktop to open a command-line window.
 
 3. Stop the app auto-start service by entering the following command and pressing **Enter**:
 
 ```bash
-sudo systemctl stop start_app_node.service
+~/.stop_ros.sh
 ```
 
 4. Enter the command and press **Enter** to start the local services for the app features and chassis control.
@@ -216,7 +214,7 @@ ros2 service call /LiDAR_app/enter std_srvs/srv/Trigger {}
 
 <img src="../_static/media/chapter_4\section_1/media/image18.png"  class="common_img" />
 
-6. Then enter the command in the current command line terminal  and press **Enter** to enable the LiDAR obstacle avoidance feature:
+6. Then enter the command in the current command line terminal  and press **Enter** to enable the LiDAR guarding feature:
 
 ```bash
 ros2 service call /LiDAR_app/set_running interfaces/srv/SetInt64 "{data: 3}"

@@ -10,11 +10,11 @@
 
 A virtual machine is software that allows one operating system to run another operating system inside it. Here, VMware Workstation is used as an example. The installation steps are as follows:
 
-1. Extract the virtual machine software package located in [Resources\\1. Virtual Machine Software](https://drive.google.com/drive/folders/1ODl7h-N3V2CQDkQYIEab9wWVIiFLh5s6) in the same folder as this document.
+1. Extract the virtual machine software package located in [Resources\\1. Virtual Machine Software]() in the same folder as this document.
 
 2. Locate the extracted folder and double-click the virtual machine executable file with the **.exe** extension.
 
-<img class="common_img" src="../_static/media/chapter_21/section_1/media/image1.png"  />
+<img class="common_img" src="../_static/media/chapter_21/section_1/media/image1.png" style="width:600px" />
 
 3. Follow the on-screen instructions to complete the installation.
 
@@ -60,7 +60,7 @@ A virtual machine is software that allows one operating system to run another op
 
 <img class="common_img" src="../_static/media/chapter_21/section_1/media/image14.png"  />
 
-2. Navigate to the required virtual machine file in the directory [1. Virtual Machine Software \& Image File \\ Resources  \\ 2. Virtual Machine Image](https://drive.google.com/drive/folders/1Yj9FBDfFfi_EwW_wGAOYGZpTvnxQg_R4), and open it.
+2. Navigate to the required virtual machine file in the directory [1. Virtual Machine Software \& Image File \\ Resources  \\ 2. Virtual Machine Image](), and open it.
 
 <img class="common_img" src="../_static/media/chapter_21/section_1/media/image15.png"  />
 
@@ -76,7 +76,7 @@ A virtual machine is software that allows one operating system to run another op
 
 1. Locate the virtual machine that was imported and click **Edit virtual machine settings**.
 
-<img class="common_img" src="../_static/media/chapter_21/section_1/media/image18.png" />
+<img class="common_img" src="../_static/media/chapter_21/section_1/media/image18.png"  />
 
 2. Click on **Network Adapter** and select **Bridged**.
 
@@ -104,7 +104,7 @@ The virtual machine interface is as follows:
 
 2. Click the Home folder <img src="../_static/media/chapter_21/section_2/media/image3.png" style="width:80px" /> on the desktop to enter the directory.
 
-3. Locate the compressed **simulations** file and the `.typerc` file in the directory [1. Virtual Machine Software \& Image File \\ Resources \\ 3. Feature Package](https://drive.google.com/drive/folders/1Nzjf8nOu-2i4XADzt-H-fw7evwOaY1Mp). Drag the compressed file into the **Home** directory of the virtual machine.
+3. Locate the compressed `simulations` file and the `.typerc` file in the directory [1. Virtual Machine Software \& Image File \\ Resources \\ 3. Feature Package](). Drag the compressed file into the **Home** directory of the virtual machine.
 
 4. Right-click in the Home directory and select **Open in terminal** to open the terminal.
 
@@ -195,6 +195,8 @@ For instance, when describing the two legs of a humanoid robot, the URDF model w
 ```bash
 sudo apt update
 ```
+
+<img class="common_img" src="../_static/media/chapter_21/section_3/media/image1.png" />
 
 2. Run the following command and press **Enter** to install the URDF dependencies:
 
@@ -417,11 +419,13 @@ To understand the URDF model, refer to section [9.3.1 Overview and Basics of URD
 cd ~/ros2_ws/src/rosorin_description/urdf/
 ```
 
-3. Enter the command to view the robot simulation model files.
+3. Enter the command to open the robot simulation model files.
 
 ```bash
 ls
 ```
+
+4. The robot simulation model files:
 
 <img class="common_img" src="../_static/media/chapter_21/section_3/media/image30.png" />
 
@@ -581,7 +585,7 @@ This file describes the IMU simulation model, including its name, offset setting
 >
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-If you want to perform mapping in an ideal environment but cannot build it in the real world, you can instead create the desired scene in Gazebo and carry out mapping simulation there.
+When mapping is required in an ideal environment that cannot be replicated in the real world, the desired scenario can be created in Gazebo for mapping simulation.
 
 1) On the virtual machine, click the desktop icon <img class="common_img" src="../_static/media/chapter_21/section_4/media/image2.png"  style="display:inline;vertical-align:middle;" /> to open a terminal.
 
@@ -590,6 +594,8 @@ If you want to perform mapping in an ideal environment but cannot build it in th
 ```
 ros2 launch robot_gazebo room_worlds.launch.py
 ```
+
+<img class="common_img" src="../_static/media/chapter_21/section_4/media/image16.png"  />
 
 <img class="common_img" src="../_static/media/chapter_21/section_4/media/image17.png" style="width:700px" />
 
@@ -678,9 +684,9 @@ The software menu bar contains three tools: 2D Pose Estimate, 2D Nav Goal, and P
 
 <img class="common_img" src="../_static/media/chapter_21/section_4/media/image28.png"  />
 
-2D Pose Estimate: Used to set the robot’s initial position.  
-2D Nav Goal: Used to set a single target point for the robot.  
-Publish Point: Used to set multiple target points for the robot.
+**2D Pose Estimate**: Used to set the robot’s initial position.  
+**2D Nav Goal**: Used to set a single target point for the robot.  
+**Publish Point**: Used to set multiple target points for the robot.
 
 1\. Click the **2D Nav Goal** tool in the software menu, then click a location on the map to set it as the target point. By pressing and dragging the mouse, the robot’s orientation upon reaching the target point can also be specified. The robot will automatically generate a path and move to the target point.
 

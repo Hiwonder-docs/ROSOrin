@@ -17,14 +17,14 @@
 The system uses the English wake-up phrase **Hello Hiwonder** by default. To use a different wake-up phrase or command, follow the steps below.
 
 1) For robots with the WonderEcho Pro:  
-Make sure the corresponding language firmware is flashed first. Refer to the tutorial [02 Firmware Flashing](https://drive.google.com/file/d/1XtuwoW_uThCRtbv3N6VAJxLYsg6ay4ZC/view?usp=sharing) under the folder [Voice Control Basic Lesson](https://drive.google.com/drive/folders/1fkwPu-bMrJMNwK8cjsaG5n_buIFx0WhU) for detailed instructions.
+Make sure the corresponding language firmware is flashed first. Refer to the tutorial [02 Firmware Flashing]() under the folder [Voice Control Basic Lesson]() for detailed instructions.
 
-<img src="../_static/media/chapter_13/section_1/media/image73.png" style="width:400px" class="common_img"  />
+<img src="../_static/media/chapter_13/section_1/media/image73.png" style="width:300px" class="common_img"  />
 
-<img src="../_static/media/chapter_13/section_1/media/image74.png" style="width:400px" class="common_img"  />
+<img src="../_static/media/chapter_13/section_1/media/image74.png" style="width:300px" class="common_img"  />
 
 2) For robots using the 6-Microphone Array:  
-Set the recognition language via the desktop configuration tool. Double-click the Tool icon <img src="../_static/media/chapter_13/section_1/media/image75.png"  class="common_img" style="display:inline;vertical-align:middle;" /> on the system desktop.
+Set the recognition language via the desktop configuration tool. Double-click the Tool icon <img src="../_static/media/chapter_13/section_1/media/image75.png"  class="common_img" style="display:inline;vertical-align:middle;width:50px" /> on the system desktop.
 
 3) In the Tool interface, switch the language, then click **Save** → **Apply** → **Quit**. The default language is **English**.
 
@@ -78,19 +78,21 @@ Since offline speech recognition is used in this section, an offline speech reso
 > [!NOTE]
 >
 > **Locate the extracted files according to the chosen download path.**
-   
-   Open the folder named **Linux_aitalk_exp1227_01997b6c**. The version ID, such as **1227_01997b6c**, may vary depending on the official release. Navigate to the **bin/msc/res/asr** directory and locate the **common.jet** file. Drag this file onto the desktop of the robot’s system image.
+
+   Open the folder named **Linux_aitalk_exp1227_01997b6c**. The version ID, such as **1227_01997b6c**, may vary depending on the official release. Navigate to the **bin/msc/res/asr** directory and locate the **common.jet** file. Use the SSH remote connection tool MobaXterm to drag files onto the image desktop, placing them in **/home/pi/docker/tmp**.
 
 <img src="../_static/media/chapter_13\section_1/media/image10.png" style="width:600px" class="common_img"  />
 
 <img src="../_static/media/chapter_13\section_1/media/image11.png" style="width:600px" class="common_img"  />
+
+For detailed instructions on connecting with the SSH remote tool, refer to Section [1.7.2 AP Mode Connection Steps]().
 
 2. Click the terminal icon <img src="../_static/media/chapter_13\section_1/media/image12.png" class="common_img"  style="display:inline;vertical-align:middle;" /> in the system desktop to open a command-line window.
 
 3. Run the following command to replace the **common.jet** file:
 
 ```bash
-cp /home/ubuntu/Desktop/common.jet /home/ubuntu/ros2_ws/src/xf_mic_asr_offline/config/msc/res/asr/
+cp /home/ubuntu/share/tmp/common.jet /home/ubuntu/ros2_ws/src/xf_mic_asr_offline/config/msc/res/asr/
 ```
 
 4. Run the following command to modify the APPID:
@@ -132,12 +134,12 @@ Follow the **Preparation** section below to complete the setup for this feature,
 >
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Power on the robot and connect it via the VNC remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
 2. Click the terminal icon <img src="../_static/media/chapter_13\section_1/media/image18.png" class="common_img"  style="display:inline;vertical-align:middle;" /> in the system desktop to open a command-line window.
 3. Enter the command to disable the app auto-start service.
 
 ```bash
-sudo systemctl stop start_app_node.service
+~/.stop_ros.sh
 ```
 
 4. Enter the following command and press **Enter** to launch the voice-controlled feature.
@@ -146,7 +148,7 @@ sudo systemctl stop start_app_node.service
 ros2 launch xf_mic_asr_offline voice_control_move.launch.py
 ```
 
-5. After the program has successfully loaded, first say the wake word **Hello Hiwonder** and wait for the speaker to respond with “**I’m here**” before issuing the next voice command. For example, say “**Move forward**”. Once the robot recognizes the command, the speaker will respond “**Copy that, starting to move forward**”, and the robot will execute the corresponding action.
+5. After the program has successfully loaded, first say the wake word **Hello Hiwonder** and wait for the speaker to respond with “**I’m here**” before issuing the next voice command. For example, say **Move forward**. Once the robot recognizes the command, the speaker will respond **Copy that, starting to move forward**, and the robot will execute the corresponding action.
 
 The command phrases and their corresponding actions are as follows:
 
@@ -448,7 +450,7 @@ The default Wake Word is **Hello Hiwonder**. It can be changed by modifying the 
 >
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the NoMachine remote control software.
+1. Power on the robot and connect it via the VNC remote control software.
 2. Click the terminal icon <img src="../_static/media/chapter_13\section_1/media/image18.png" class="common_img"  style="display:inline;vertical-align:middle;" /> in the system desktop to open a command-line window.
 3. Enter the following command and press **Enter**：
 
@@ -505,9 +507,9 @@ Follow the **Preparation** section below to complete the setup for this feature,
 > 
 > * **Ensure that no objects with similar or identical colors to the target block appear in the background, as this may cause interference during recognition.**
 > 
-> * **If the color detection is inaccurate, the color thresholds can be adjusted. For more details, refer to the tutorials in file [6. ROS+OpenCV Course](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/6_ROS%2BOpenCV_Course.html#ros-opencv-course).**
+> * **If the color detection is inaccurate, the color thresholds can be adjusted. For more details, refer to the tutorials in file [6. ROS+OpenCV Course]().**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Power on the robot and connect it via the VNC remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
 
 2. The system uses the English wake word **Hello Hiwonder** by default. Refer to Section [8.2 Switching Wake Words](#anther8.2) in this document for instructions on changing the language or flashing the command phrases.
 
@@ -516,7 +518,7 @@ Follow the **Preparation** section below to complete the setup for this feature,
 4. Enter the command to disable the app auto-start service.
 
 ```bash
-sudo systemctl stop start_app_node.service
+~/.stop_ros.sh
 ```
 
 5. Enter the following command and press **Enter** to launch the voice-controlled feature.
@@ -525,9 +527,9 @@ sudo systemctl stop start_app_node.service
 ros2 launch xf_mic_asr_offline voice_control_color_detect.launch.py
 ```
 
-6. After the program starts, say the wake word **Hello Hiwonder**, then say “**start color recognition**” to begin the color detection process. The robot will identify the color and announce its name. For example, place a red block within the camera’s field of view. When the red object is detected, the robot will announce “Red.”
+6. After the program starts, say the wake word **Hello Hiwonder**, then say **Start color recognition** to begin the color detection process. The robot will identify the color and announce its name. For example, place a red block within the camera’s field of view. When the red object is detected, the robot will announce **Red**.
 
-To stop color recognition, say the wake word **Hello Hiwonder**, then say “**stop color recognition**.”
+To stop color recognition, say the wake word **Hello Hiwonder**, then say **Stop color recognition**.
 
 > [!NOTE]
 > 
@@ -826,7 +828,7 @@ Follow the **Preparation** section below to complete the setup for this feature,
 
 3. The system uses the English wake word **Hello Hiwonder** by default. If using a WonderEcho Pro as a voice module, the voice interaction command phrases must be flashed. Refer to Section [8.2 Switching Wake Words](#anther8.2) for instructions on changing the language or flashing the command phrases.
 
-4. Before starting this feature, a map must be prepared in advance. Refer to the file [5. Mapping \& Navigation Course](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/5_Mapping_%26_Navigation_Course.html#mapping-navigation-course) for guidance.
+4. Before starting this feature, a map must be prepared in advance. Refer to the file [5. Mapping \& Navigation Course]() for guidance.
 
 5. It is recommended to place the robot on an open platform, ensuring at least a 3-meter radius around the robot is free for safe movement.
 
@@ -838,12 +840,12 @@ Follow the **Preparation** section below to complete the setup for this feature,
 >
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the NoMachine remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
+1. Power on the robot and connect it via the VNC remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
 2. Click the terminal icon <img src="../_static/media/chapter_13\section_1/media/image18.png" class="common_img"  style="display:inline;vertical-align:middle;"/> in the system desktop to open a command-line window.
 3. Enter the command to disable the app auto-start service.
 
 ```bash
-sudo systemctl stop start_app_node.service
+~/.stop_ros.sh
 ```
 
 4. Enter the following command and press **Enter** to launch the voice-controlled feature.
@@ -1111,14 +1113,14 @@ The default position of Point A is at the top-right corner of the robot’s star
 > 
 > * **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the NoMachine remote control software.
+1. Power on the robot and connect it via the VNC remote control software.
 
 2. Click the terminal icon <img src="../_static/media/chapter_13\section_1/media/image18.png" class="common_img"  style="display:inline;vertical-align:middle;"/> in the system desktop to open a command-line window.
 
 3. Enter the command to disable the app auto-start service.
 
 ```bash
-sudo systemctl stop start_app_node.service
+~/.stop_ros.sh
 ```
 
 4. Open the program file by entering the following command.

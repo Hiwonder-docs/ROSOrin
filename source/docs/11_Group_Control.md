@@ -6,7 +6,7 @@
 
 1) Prepare at least two robots.
 
-2) Refer to the section [1.7 Development Environment Setup](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#development-environment-setup) in the user manual for instructions on downloading and installing the remote connection tool, NoMachine.
+2) Refer to the section [1.7 Development Environment Setup]() in the user manual for instructions on downloading and installing the remote connection tool, VNC.
 
 ### 11.1.2 Working Principle
 
@@ -70,7 +70,7 @@ vim wifi_conf.py
 
 Set the follower robot's network mode to **2** for LAN mode. **HW-123** and **hiwonder** are the Wi-Fi name and password configured for the leader robot network.
 
-5. Once the changes are complete, press the **Esc** key to exit the edit mode. Then input the command to save and exit.
+5. Once the changes are complete, press the **Esc** key to exit the edit mode. Then, input the command to save and exit.
 
 ```bash
 :wq
@@ -94,7 +94,7 @@ sudo reboot
 
 * **For Leader Robot**
 
-1) Select one ROSOrin as the leader robot and power it on. Then, remotely connect to the desktop via NoMachine.
+1) Select one ROSOrin as the leader robot and power it on. Then, remotely connect to the desktop via VNC.
 
 2) Click the terminal icon <img class="common_img" src="../_static/media/chapter_20/section_1/media/image7.png"  style="display:inline;vertical-align:middle;"/> in the system desktop to open a command-line window.
 
@@ -116,7 +116,7 @@ vim /home/ubuntu/ros2_ws/.typerc
 
 <img class="common_img" src="../_static/media/chapter_20/section_1/media/image10.png"  />
 
-7. Once the changes are complete, press the **Esc** key to exit the edit mode. Then input the command to save and exit.
+7. Once the changes are complete, press the **Esc** key to exit the edit mode. Then, input the command to save and exit.
 
 ```bash
 :wq
@@ -130,7 +130,7 @@ source ~/.zshrc
 
 * **For Follower Robot**
 
-1) First, connect to the Wi-Fi network created by the leader robot on the app. Once connected, search for the follower robot. The vehicle icon will appear in the app, and by long-pressing the screen, the follower robot’s IP address will be displayed. Refer to the section [1.5.2.2 LAN Mode Connection (Optional)](https://docs.hiwonder.com/projects/ROSOrin/en/latest/docs/1_ROSOrin_User_Manual.html#lan-mode-connection-optional)  in the user manual for guidance to use this IP address.
+1) First, connect to the Wi-Fi network created by the leader robot on the app. Once connected, search for the follower robot. The vehicle icon will appear in the app, and by long-pressing the screen, the follower robot’s IP address will be displayed. Refer to the section [1.5.2.2 LAN Mode Connection (Optional)]()  in the user manual for guidance to use this IP address.
 
 2) Click the terminal icon <img class="common_img" src="../_static/media/chapter_20/section_1/media/image7.png" style="display:inline;vertical-align:middle;" /> on the system desktop to open a command-line window.
 
@@ -150,7 +150,7 @@ vim /home/ubuntu/ros2_ws/.typerc
 
 <img class="common_img" src="../_static/media/chapter_20/section_1/media/image12.png"  />
 
-6. Once the changes are complete, press the **Esc** key to exit the edit mode. Then input the command to save and exit.
+6. Once the changes are complete, press the **Esc** key to exit the edit mode. Then, input the command to save and exit.
 
 ```bash
 :wq
