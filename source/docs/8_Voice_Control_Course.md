@@ -17,7 +17,7 @@
 The system uses the English wake-up phrase **Hello Hiwonder** by default. To use a different wake-up phrase or command, follow the steps below.
 
 1) For robots with the WonderEcho Pro:  
-Make sure the corresponding language firmware is flashed first. Refer to the tutorial [02 Firmware Flashing]() under the folder [Voice Control Basic Lesson]() for detailed instructions.
+Make sure the corresponding language firmware is flashed first. Refer to the tutorial [02 Firmware Flashing](https://drive.google.com/drive/folders/1kTab4OLYNq0SUJ0CIh5KIjT7_VKHSeiM) under the folder [Voice Control Basic Lesson](https://drive.google.com/drive/folders/1c_EIBycw3WdO4SX6yrR9QE8jeCTP0jmG) for detailed instructions.
 
 <img src="../_static/media/chapter_13/section_1/media/image73.png" style="width:300px" class="common_img"  />
 
@@ -85,7 +85,7 @@ Since offline speech recognition is used in this section, an offline speech reso
 
 <img src="../_static/media/chapter_13\section_1/media/image11.png" style="width:600px" class="common_img"  />
 
-For detailed instructions on connecting with the SSH remote tool, refer to Section [1.7.2 AP Mode Connection Steps]().
+For detailed instructions on connecting with the SSH remote tool, refer to Section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/raspberry-pi-version/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps).
 
 2. Click the terminal icon <img src="../_static/media/chapter_13\section_1/media/image12.png" class="common_img"  style="display:inline;vertical-align:middle;" /> in the system desktop to open a command-line window.
 
@@ -134,7 +134,7 @@ Follow the **Preparation** section below to complete the setup for this feature,
 >
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the VNC remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Power on the robot and connect it via the VNC remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/raspberry-pi-version/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 2. Click the terminal icon <img src="../_static/media/chapter_13\section_1/media/image18.png" class="common_img"  style="display:inline;vertical-align:middle;" /> in the system desktop to open a command-line window.
 3. Enter the command to disable the app auto-start service.
 
@@ -507,9 +507,9 @@ Follow the **Preparation** section below to complete the setup for this feature,
 > 
 > * **Ensure that no objects with similar or identical colors to the target block appear in the background, as this may cause interference during recognition.**
 > 
-> * **If the color detection is inaccurate, the color thresholds can be adjusted. For more details, refer to the tutorials in file [6. ROS+OpenCV Course]().**
+> * **If the color detection is inaccurate, the color thresholds can be adjusted. For more details, refer to the tutorials in file [6. ROS+OpenCV Course](https://wiki.hiwonder.com/projects/ROSOrin/en/raspberry-pi-version/docs/6_ROS%2BOpenCV_Course.html#ros-opencv-course).**
 
-1. Power on the robot and connect it via the VNC remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Power on the robot and connect it via the VNC remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/raspberry-pi-version/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. The system uses the English wake word **Hello Hiwonder** by default. Refer to Section [8.2 Switching Wake Words](#anther8.2) in this document for instructions on changing the language or flashing the command phrases.
 
@@ -828,7 +828,7 @@ Follow the **Preparation** section below to complete the setup for this feature,
 
 3. The system uses the English wake word **Hello Hiwonder** by default. If using a WonderEcho Pro as a voice module, the voice interaction command phrases must be flashed. Refer to Section [8.2 Switching Wake Words](#anther8.2) for instructions on changing the language or flashing the command phrases.
 
-4. Before starting this feature, a map must be prepared in advance. Refer to the file [5. Mapping \& Navigation Course]() for guidance.
+4. Before starting this feature, a map must be prepared in advance. Refer to the file [5. Mapping \& Navigation Course](https://wiki.hiwonder.com/projects/ROSOrin/en/raspberry-pi-version/docs/5_Mapping_%26_Navigation_Course.html#mapping-navigation-course) for guidance.
 
 5. It is recommended to place the robot on an open platform, ensuring at least a 3-meter radius around the robot is free for safe movement.
 
@@ -840,7 +840,7 @@ Follow the **Preparation** section below to complete the setup for this feature,
 >
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the VNC remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Power on the robot and connect it via the VNC remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/raspberry-pi-version/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 2. Click the terminal icon <img src="../_static/media/chapter_13\section_1/media/image18.png" class="common_img"  style="display:inline;vertical-align:middle;"/> in the system desktop to open a command-line window.
 3. Enter the command to disable the app auto-start service.
 

@@ -201,7 +201,7 @@ This section provides a brief analysis of the robot model code and component mod
 
 #### 5.1.2.2 Access the Robot Model Code
 
-1. Start the robot and connect it to the remote control software VNC. For connection instructions, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Start the robot and connect it to the remote control software VNC. For connection instructions, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/raspberry-pi-version/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_5\section_1/media/image23.png"  class="common_img" style="display:inline;vertical-align:middle;" /> in the system desktop to open a new command-line window.
 
@@ -345,7 +345,7 @@ each incoming frame of data is processed immediately and then returned.
 
 #### 5.1.4.2 Mapping Steps
 
-1. Start the robot and connect it to the remote control software VNC. For connection instructions, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Start the robot and connect it to the remote control software VNC. For connection instructions, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/raspberry-pi-version/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_5\section_1/media/image23.png"  class="common_img" style="display:inline;vertical-align:middle;" /> in the system desktop to open a new command-line window.
 
@@ -428,7 +428,7 @@ If the prompt shown above appears, the map has been saved successfully.
 
 To achieve more accurate mapping results, optimize the odometer. The odometer is required for robot mapping, and it depends on the IMU.
 
-The robot is preloaded with calibrated IMU data, which allows it to perform mapping and navigation normally. However, the IMU can still be recalibrated to achieve higher precision. For IMU calibration methods and procedures, refer to the section [2.1.1 IMU Calibration]() of **2\. Chassis Motion Control Course**.
+The robot is preloaded with calibrated IMU data, which allows it to perform mapping and navigation normally. However, the IMU can still be recalibrated to achieve higher precision. For IMU calibration methods and procedures, refer to the section [2.1.1 IMU Calibration](https://wiki.hiwonder.com/projects/ROSOrin/en/raspberry-pi-version/docs/2_Chassis_Motion_Control_Course.html#imu-calibration) of **2\. Chassis Motion Control Course**.
 
 #### 5.1.4.6 Parameter Description
 
@@ -539,7 +539,7 @@ During operation, the RTAB-VSLAM algorithm first uses short-term memory data to 
 
 #### 5.1.5.3 3D Mapping Steps
 
-1. Start the robot and connect it to the remote control software VNC. For connection instructions, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Start the robot and connect it to the remote control software VNC. For connection instructions, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/raspberry-pi-version/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_5\section_1/media/image23.png"  class="common_img" style="display:inline;vertical-align:middle;" /> in the system desktop to open a ROS2 command-line window. Enter the command to disable the app auto-start service.
 
@@ -1111,7 +1111,7 @@ These links provide valuable resources for users to explore the TEB algorithm an
 
 ### 5.2.4 Single/Multi-Point Navigation and Obstacle Avoidance
 
-1. Start the robot and connect it to the remote control software VNC. For connection instructions, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Start the robot and connect it to the remote control software VNC. For connection instructions, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/raspberry-pi-version/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_6/section_1/media/image29.png"  class="common_img" style="display:inline;vertical-align:middle;" /> in the system desktop to open a command-line window. Enter the command to disable the app auto-start service.
 
@@ -1304,7 +1304,7 @@ For an introduction to the RTAB-VSLAM algorithm and its principles, refer to the
 
 #### 5.2.5.2 Operating Steps
 
-1. Start the robot and connect it to the remote control software VNC. For connection instructions, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Start the robot and connect it to the remote control software VNC. For connection instructions, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/raspberry-pi-version/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_6/section_1/media/image29.png"  class="common_img"  style="display:inline;vertical-align:middle;"  /> in the system desktop to open a command-line window. Enter the command to disable the app auto-start service.
 

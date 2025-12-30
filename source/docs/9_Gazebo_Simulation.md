@@ -10,7 +10,7 @@
 
 A virtual machine is software that allows one operating system to run another operating system inside it. Here, VMware Workstation is used as an example. The installation steps are as follows:
 
-1. Extract the virtual machine software package located in [Resources\\1. Virtual Machine Software]() in the same folder as this document.
+1. Extract the virtual machine software package located in [Resources\\1. Virtual Machine Software](https://drive.google.com/drive/folders/1Lj9gqdd9iADHETArapFVkmRlodSNvtaH) in the same folder as this document.
 
 2. Locate the extracted folder and double-click the virtual machine executable file with the **.exe** extension.
 
@@ -60,7 +60,7 @@ A virtual machine is software that allows one operating system to run another op
 
 <img class="common_img" src="../_static/media/chapter_21/section_1/media/image14.png"  />
 
-2. Navigate to the required virtual machine file in the directory [1. Virtual Machine Software \& Image File \\ Resources  \\ 2. Virtual Machine Image](), and open it.
+2. Navigate to the required virtual machine file in the directory [1. Virtual Machine Software \& Image File \\ Resources  \\ 2. Virtual Machine Image](https://drive.google.com/drive/folders/1TmLmOA3jcoCk02fGHmuQ08isWOflR4e5), and open it.
 
 <img class="common_img" src="../_static/media/chapter_21/section_1/media/image15.png"  />
 
@@ -104,7 +104,7 @@ The virtual machine interface is as follows:
 
 2. Click the Home folder <img src="../_static/media/chapter_21/section_2/media/image3.png" style="width:80px" /> on the desktop to enter the directory.
 
-3. Locate the compressed `simulations` file and the `.typerc` file in the directory [1. Virtual Machine Software \& Image File \\ Resources \\ 3. Feature Package](). Drag the compressed file into the **Home** directory of the virtual machine.
+3. Locate the compressed `simulations` file and the `.typerc` file in the directory [1. Virtual Machine Software \& Image File \\ Resources \\ 3. Feature Package](https://drive.google.com/drive/folders/16HXgYh8EZSbSsEyTe0MKQbvsGv-M9bsD). Drag the compressed file into the **Home** directory of the virtual machine.
 
 4. Right-click in the Home directory and select **Open in terminal** to open the terminal.
 

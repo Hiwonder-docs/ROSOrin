@@ -22,7 +22,7 @@ The figure above shows the positive directions of the IMU’s x, y, and z axes. 
 >
 > **The input command should be case sensitive, and the keywords can be complemented by the Tab key.**
 
-1. Power on the robot and connect it via the VNC remote control software. For detailed information, please refer to the section [1.7 Development Environment Setup]() in the user manual.
+1. Power on the robot and connect it via the VNC remote control software. For detailed information, please refer to the section [1.7 Development Environment Setup](https://wiki.hiwonder.com/projects/ROSOrin/en/raspberry-pi-version/docs/1_ROSOrin_User_Manual.html#development-environment-setup) in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_2/section_1/media/image3.png"  class="common_img" style="display:inline;vertical-align:middle;" /> in the system desktop to open a command-line window.
 
@@ -110,7 +110,7 @@ When the robot shows noticeable deviation in turning points or turning angles du
 
 <img src="../_static/media/chapter_2/section_1/media/image24.png" style="width:600px"  class="common_img" />
 
-2. Power on the robot and connect to it using the remote connection tool by following the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+2. Power on the robot and connect to it using the remote connection tool by following the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/raspberry-pi-version/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 3. Click the terminal icon <img src="../_static/media/chapter_2/section_1/media/image3.png"  class="common_img" style="display:inline;vertical-align:middle;"/> on the system desktop.
 
@@ -204,7 +204,7 @@ Press the key **i** to enter edit mode and modify the value of **angular_correct
 
 <img src="../_static/media/chapter_2/section_1/media/image32.png" style="width:600px"  class="common_img" />
 
-2. Power on the robot and connect to it using the remote connection tool by following the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+2. Power on the robot and connect to it using the remote connection tool by following the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/raspberry-pi-version/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 3. Click the terminal icon <img src="../_static/media/chapter_2/section_1/media/image3.png"  class="common_img" style="display:inline;vertical-align:middle;"/> in the system desktop to open a command-line window.
 
@@ -316,7 +316,7 @@ The IMU data is published on the topic /imu, and the odometry data is published 
 >
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the VNC remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Power on the robot and connect it via the VNC remote control software. For detailed information, please refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/raspberry-pi-version/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_2/section_1/media/image3.png"  class="common_img" style="display:inline;vertical-align:middle;"/> in the system desktop to open a command-line window.
 
@@ -374,7 +374,7 @@ The message content shows the data collected from the three axes of the IMU.
 >
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it via the VNC remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Power on the robot and connect it via the VNC remote control software. For detailed information on connecting to a remote desktop, please refer to section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/raspberry-pi-version/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_2/section_1/media/image3.png"  class="common_img" style="display:inline;vertical-align:middle;"/> in the system desktop to open a command-line window.
 
@@ -436,7 +436,7 @@ The program subscribes to the `/controller/cmd_vel` topic to get the set linear 
 >
 > **Commands must be entered with correct capitalization. The Tab key can be used to auto-complete keywords.**
 
-1. Power on the robot and connect it to the remote control software VNC. For instructions on setting up the remote desktop connection, refer to the section [1.7.2 AP Mode Connection Steps]() in the user manual.
+1. Power on the robot and connect it to the remote control software VNC. For instructions on setting up the remote desktop connection, refer to the section [1.7.2 AP Mode Connection Steps](https://wiki.hiwonder.com/projects/ROSOrin/en/raspberry-pi-version/docs/1_ROSOrin_User_Manual.html#ap-mode-connection-steps) in the user manual.
 
 2. Click the terminal icon <img src="../_static/media/chapter_2/section_1/media/image3.png"  class="common_img" style="display:inline;vertical-align:middle;"/> in the system desktop to open a command-line window.
 

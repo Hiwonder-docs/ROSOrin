@@ -3406,7 +3406,7 @@ Refer to the section [10.3.1 Large Model API Key Setup](#anther10.3.1) to set up
 
 * **Navigation Map Construction**
 
-Before enabling this feature, a map must be created in advance. Please refer to [5.1 Mapping Tutorial]() for detailed instructions on how to build the map.
+Before enabling this feature, a map must be created in advance. Please refer to [5.1 Mapping Tutorial](https://wiki.hiwonder.com/projects/ROSOrin/en/raspberry-pi-version/docs/5_Mapping_%26_Navigation_Course.html#mapping-tutorial) for detailed instructions on how to build the map.
 
 #### 10.3.4.3 Operation Steps
 
