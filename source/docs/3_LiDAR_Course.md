@@ -40,7 +40,7 @@ The platform uses the MS200 LiDAR by default, which connects to the intelligent 
 
 <img src="../_static/media/chapter_4\section_1/media/image24.png" style="width:600px" class="common_img" />
 
-3. After the connection is complete, double-click the <img src="../_static/media/chapter_4\section_1/media/image5.png"   class="common_img" /> **Tool** icon on the desktop.
+3. After the connection is complete, double-click the <img src="../_static/media/chapter_4\section_1/media/image5.png" /> **Tool** icon on the desktop.
 
 4. Click the dropdown button on the LiDAR tab, select the LiDAR model that matches your robot, such as **MS200**, then click **Save**.
 

@@ -2886,7 +2886,7 @@ In this example, the demonstration uses traffic signs as target objects.
 
 1. Power on the robot and connect it to a remote control tool like VNC.
 
-2. Click the terminal icon <img src="../_static/media/chapter_10/section_1/media/image30.png"  class="common_img" /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_10/section_1/media/image30.png" /> in the system desktop to open a command-line window.
 
 3. Stop the app auto-start service by entering the following command:
 
@@ -2971,7 +2971,7 @@ Below is a table of common shortcut keys:
 
 <img src="../_static/media/chapter_10/section_1/media/image50.png" style="width:600px" class="common_img" />
 
-4. Then click the **Change Save Dir** button <img src="../_static/media/chapter_10/section_1/media/image51.png"  class="common_img" /> and select the annotation save folder, which is the **Annotations** directory located under the same path as the image collection.
+4. Then click the **Change Save Dir** button <img src="../_static/media/chapter_10/section_1/media/image51.png"  /> and select the annotation save folder, which is the **Annotations** directory located under the same path as the image collection.
 
 5. Click **Open** to return to the annotation interface.
 
@@ -3069,7 +3069,7 @@ After the model format conversion is complete, proceed to the model training sta
 
 1. Power on the robot and connect it to a remote control tool like VNC.
 
-2. Click the terminal icon <img src="../_static/media/chapter_10/section_1/media/image30.png"  class="common_img" /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_10/section_1/media/image30.png" /> in the system desktop to open a command-line window.
 
 3. Enter the following command and press **Enter** to go to the specific directory.
 
@@ -3128,7 +3128,7 @@ In the following instructions, screenshots may show different robot hostnames, a
 
 1. Power on the robot and connect it to a remote control tool like VNC.
 
-2. Click the terminal icon <img src="../_static/media/chapter_10/section_1/media/image30.png"  class="common_img" /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_10/section_1/media/image30.png"  /> in the system desktop to open a command-line window.
 
 3. Execute the following command to stop the app auto-start service:
 
@@ -3186,7 +3186,7 @@ The **save number** in the top-left corner of the tool interface shows the ID of
 
 1. Power on the robot and connect it to a remote control tool like VNC.
 
-2. Click the terminal icon <img src="../_static/media/chapter_10/section_1/media/image30.png"  class="common_img" /> in the system desktop to open a command-line window.
+2. Click the terminal icon <img src="../_static/media/chapter_10/section_1/media/image30.png"  /> in the system desktop to open a command-line window.
 
 3. Execute the following command to stop the app service:
 
@@ -3230,7 +3230,7 @@ Move the mouse to the desired location and hold the left mouse button to draw a 
 
 #### 7.3.6.5 Generating Related Files
 
-1. Click the terminal icon <img src="../_static/media/chapter_10/section_1/media/image30.png"  class="common_img" /> in the system desktop to open a command-line window.
+1. Click the terminal icon <img src="../_static/media/chapter_10/section_1/media/image30.png"  /> in the system desktop to open a command-line window.
 
 2. Enter the following command to open the file for editing:
 
@@ -3262,7 +3262,7 @@ The output paths depend on the actual storage location of the folders in your ro
 
 #### 7.3.6.6 Training Process
 
-1. Click the terminal icon <img src="../_static/media/chapter_10/section_1/media/image30.png"  class="common_img" /> in the system desktop to open a command-line window.
+1. Click the terminal icon <img src="../_static/media/chapter_10/section_1/media/image30.png"  /> in the system desktop to open a command-line window.
 
 2. Then enter the command to navigate to the specific directory.
 
