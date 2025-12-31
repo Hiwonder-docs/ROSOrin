@@ -11,8 +11,7 @@
 - Flash Loader Demonstrator：[en.flasher-stm32.zip](https://drive.google.com/drive/folders/1fb_0wgD1xniUp0elcvq9bA09t3ZQ8wWI)
 - VirtualBox：[VirtualBox-7.0.10-158379-Win .exe](https://drive.google.com/drive/folders/13wCmPZX0GAk8mWc9YIPhI7ARDBRD3rL-)
 - VMware：[VMware Workstation Pro 17.5.1.zip](https://drive.google.com/drive/folders/1JjnEmdLHDQAQ_MFIpkpuOvzbTSWsvB6v)
--  App Mapping and Navigation Installation Packages：[Only the Android version is supported..txt](https://drive.google.com/drive/folders/1Z4VPnEeeXRvYvscgUZvYmfyMkPd8Akcp)
-
+-  App Mapping and Navigation Installation Packages：[Make a Map & map_nav](https://drive.google.com/drive/folders/1Z4VPnEeeXRvYvscgUZvYmfyMkPd8Akcp)
 
 
 
