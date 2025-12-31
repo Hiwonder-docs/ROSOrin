@@ -6,4 +6,4 @@ Please click [Aurora930 Pro](https://wiki.hiwonder.com/projects/Aurora930-Pro/en
 
 ## 4.2  Monocular Camera -USB
 
-Please click [Monocular Camera -USB]() to get the Monocular Camera -USB basics course.
+Please click [Monocular Camera -USB](https://drive.google.com/drive/folders/1dIG3iqGu9qvjHaaJ70ZTRKdbfzQ3o5kT?usp=sharing) to get the Monocular Camera -USB basics course.
