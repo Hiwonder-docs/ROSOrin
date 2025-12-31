@@ -14,7 +14,7 @@ ROSOrin Raspberry Pi 5 Version
    docs/1_ROSOrin_User_Manual.md
    docs/2_Chassis_Motion_Control_Course.md
    docs/3_LiDAR_Course.md
-   docs/4.camera_basic_lesson.md
+   docs/4_Camera_Basic_Lesson.md
    docs/5_Mapping_&_Navigation_Course.md
    docs/6_ROS+OpenCV_Course.md
    docs/7_ROS+Machine_Learning_Course.md
