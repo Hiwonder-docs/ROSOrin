@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 ===========
-ROSOrin Jetson Nano Version
+ROSOrin Raspberry Pi 5 Version
 ===========
 
 .. toctree::
