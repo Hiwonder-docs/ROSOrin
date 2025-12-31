@@ -23,6 +23,7 @@ ROSOrin Jetson Nano
    docs/10_ROS1_Group_Control.md
    docs/11_ROS2_Chassis_Motion_Control_Course.md
    docs/12_ROS2_LiDAR_Course.md
+   docs/13_Camera_Basic_Lesson.md
    docs/14_ROS2_Mapping_&_Navigation_Course.md
    docs/15_ROS2_ROS+OpenCV_Course.md
    docs/16_ROS2_ROS+Machine_Learning_Course.md
