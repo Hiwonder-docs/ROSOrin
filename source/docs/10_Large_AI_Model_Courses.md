@@ -4002,7 +4002,7 @@ Once the feature is activated, voice commands can be issued to the robot, enabli
 
 File Path:
 
-**/home/ubuntu/ros2_ws/src/large_models_examples/large_models_examples/llm_control_move.launch.py**
+**/home/ubuntu/ros2_ws/src/large_models_examples/large_models_examples/function_calling/llm_control_progress.launch.py**
 
 1\) Import library files.
 
@@ -4232,7 +4232,7 @@ if __name__ == '__main__':
 
 File Path:
 
-**ros2_ws/src/large_models_examples/large_models_examples/llm_control_move_offline.py**
+**/home/ubuntu/ros2_ws/src/large_models_examples/large_models_examples/function_calling/llm_control.py**
 
 1\) `tools` list
 
