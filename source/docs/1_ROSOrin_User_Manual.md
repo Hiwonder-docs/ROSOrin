@@ -2396,7 +2396,7 @@ The STM32 controller serves as the robot’s underlying motion control unit. It 
 
 The STM32 controller supports ISP updates via the USB serial interface and can also be updated or debugged through the SWD interface. As the robot’s low-level driver board, the STM32 is responsible for motor PID control, encoder and IMU data acquisition, RGB control, and supports multiple control methods, including PS2 wireless controller, app via Bluetooth, and RC transmitter. It communicates with the ROS-based chassis driver node via serial interface, receiving target velocity vectors from the ROS core and sending back real-time speed calculated from odometry, IMU data, and battery voltage information. To better support these functions, the STM32 runs software built on the FreeRTOS embedded operating system.
 
-The STM32 source code for the STM32 controller can be found in the folder [3. Source Code / STM32](https://drive.google.com/drive/folders/1p0jbaTP2Rz_vNw9noJqti7kszAbOuTUw). For a detailed explanation of the implementation principles and code analysis, refer to [4. Hardware Materials \\ 1 STM32 Controller Resources](https://drive.google.com/drive/folders/1iwbRvNJl7AVSGvrAtW_tkIPJzw2ef7kN).
+The STM32 source code for the STM32 controller can be found in the folder [3. Source Code / STM32](https://drive.google.com/drive/folders/1p0jbaTP2Rz_vNw9noJqti7kszAbOuTUw). For a detailed explanation of the implementation principles and code analysis, refer to [4. Hardware Materials \\ 1 STM32 Controller Resources](https://drive.google.com/drive/folders/1ITrr0a_EAi3al5hOrIHmCNFlZunjZ0LM?usp=sharing).
 
 ### 1.13.2 Control Process
 
@@ -2522,7 +2522,7 @@ Once complete, a confirmation message will appear in the sidebar as shown in the
 
 > [!NOTE]
 >
-> **The STM32 controller comes preloaded with the factory program for communication with the Jetson Nano controller and associated sensor modules. This program can be reflashed using the [RosRobotControllerM4.hex](https://drive.google.com/drive/folders/1p0jbaTP2Rz_vNw9noJqti7kszAbOuTUw) file.**
+> **The STM32 controller comes preloaded with the factory program for communication with the Jetson Nano controller and associated sensor modules. This program can be reflashed using the [RosRobotControllerM4.hex](https://drive.google.com/drive/folders/1Tv_p8UivuweyRRbqFKGUDKg1OQ-9QI7N?usp=sharing) file.**
 
 
 
