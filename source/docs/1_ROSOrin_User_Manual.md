@@ -20,6 +20,10 @@ The included components of the ROSOrin robot are listed in the table below.
 
 ## 1.2 Accessories Installation and Startup Preparation
 
+> [!NOTE]
+>
+> **For a clearer, dynamic walkthrough of the assembly process, [check out the YouTube video tutorial here](https://www.youtube.com/playlist?list=PLFbzd0m6AcmIWUb_wmFL8-18nDtCQFOfy).**
+
 ### 1.2.1 Camera Installation
 
 <img src="../_static/media/chapter_1\section_1/media/image219.png"   class="common_img" />
